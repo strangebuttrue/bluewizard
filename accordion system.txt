@@ -1,21 +1,3 @@
-LET'S CATALOG THE TONALITY SYSTEMS
-
-
-** 6TEM
-
-strips: 
-SIX PITCHES - main tonality sequence
-
-
-** 6TEM2
-
-strips:
-62m.vcss
-
-spreadsheet:
-62m spreadsheet.ods
-
-
 ** ACCORDION SYSTEM
 
 patch:
