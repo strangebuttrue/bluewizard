@@ -1,3 +1,3 @@
-matt lavallee made these files. open them in VCV Rack.
+by matt lavallee for VCV Rack.
 
 strangebuttrue@gmail.com
