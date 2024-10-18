@@ -1,0 +1,201 @@
+{
+  "modules": [
+    {
+      "id": 5250168521871698,
+      "plugin": "DHE-Modules",
+      "model": "Func",
+      "version": "2.0.3",
+      "params": [
+        {
+          "value": 0.24216872453689575,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 2.0,
+          "id": 2
+        },
+        {
+          "value": 2.0,
+          "id": 3
+        }
+      ],
+      "leftModuleId": 4846390469132449,
+      "rightModuleId": 551441148305439,
+      "data": {
+        "preset_version": 0
+      },
+      "pos": [
+        196,
+        5
+      ]
+    },
+    {
+      "id": 551441148305439,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-PolyMult",
+      "version": "2.1.41",
+      "params": [
+        {
+          "value": 8.0,
+          "id": 0
+        }
+      ],
+      "leftModuleId": 5250168521871698,
+      "rightModuleId": 1202482536107465,
+      "data": {
+        "skin": "dark"
+      },
+      "pos": [
+        199,
+        5
+      ]
+    },
+    {
+      "id": 1202482536107465,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-PolyOff8",
+      "version": "2.1.41",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 1.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 1.0,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        },
+        {
+          "value": 1.0,
+          "id": 5
+        },
+        {
+          "value": 0.0,
+          "id": 6
+        },
+        {
+          "value": 1.0,
+          "id": 7
+        },
+        {
+          "value": 0.0,
+          "id": 8
+        },
+        {
+          "value": 1.0,
+          "id": 9
+        },
+        {
+          "value": 0.0,
+          "id": 10
+        },
+        {
+          "value": 1.0,
+          "id": 11
+        },
+        {
+          "value": 0.0,
+          "id": 12
+        },
+        {
+          "value": 1.0,
+          "id": 13
+        },
+        {
+          "value": 0.0,
+          "id": 14
+        },
+        {
+          "value": 1.0,
+          "id": 15
+        },
+        {
+          "value": 1.0,
+          "id": 16
+        }
+      ],
+      "leftModuleId": 551441148305439,
+      "rightModuleId": 6822124878364218,
+      "data": {
+        "skin": "lowcontrast",
+        "range_offset": 0.0,
+        "range_scale": 10.0,
+        "offset_first": false
+      },
+      "pos": [
+        202,
+        5
+      ]
+    },
+    {
+      "id": 6822124878364218,
+      "plugin": "GrandeModular",
+      "model": "Split8",
+      "version": "2.7.1",
+      "params": [],
+      "leftModuleId": 1202482536107465,
+      "pos": [
+        210,
+        5
+      ]
+    },
+    {
+      "id": 4846390469132449,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "rightModuleId": 5250168521871698,
+      "data": {
+        "text": "KNOBPROGATOR",
+        "fg": "#ff1313",
+        "bg": "#000000"
+      },
+      "pos": [
+        194,
+        5
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 4610348793648135,
+      "outputModuleId": 551441148305439,
+      "outputId": 3,
+      "inputModuleId": 1202482536107465,
+      "inputId": 8,
+      "color": "#8b4ade"
+    },
+    {
+      "id": 8281159583503665,
+      "outputModuleId": 1202482536107465,
+      "outputId": 0,
+      "inputModuleId": 6822124878364218,
+      "inputId": 0,
+      "color": "#4bf2ed"
+    },
+    {
+      "id": 6833141200806853,
+      "outputModuleId": 5250168521871698,
+      "outputId": 0,
+      "inputModuleId": 551441148305439,
+      "inputId": 1,
+      "color": "#8b4ade"
+    }
+  ]
+}

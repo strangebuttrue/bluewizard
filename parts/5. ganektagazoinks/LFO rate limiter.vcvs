@@ -1,0 +1,343 @@
+{
+  "modules": [
+    {
+      "id": 6456792817208497,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-LLFO",
+      "version": "2.0.40",
+      "params": [
+        {
+          "value": -1.7385498285293579,
+          "id": 0
+        },
+        {
+          "value": 1.0,
+          "id": 1
+        },
+        {
+          "value": 1.0,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 0.69999998807907104,
+          "id": 4
+        }
+      ],
+      "leftModuleId": 5355980285871285,
+      "rightModuleId": 6882280562768291,
+      "data": {
+        "offset_scale": 1.0,
+        "output_sampling": 0.0,
+        "pulse_width": -0.85106378793716431,
+        "smoothing": 0.0,
+        "reset_on_wave_change": false
+      },
+      "pos": [
+        103,
+        4
+      ]
+    },
+    {
+      "id": 859556658354018,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-Cmp",
+      "version": "2.0.40",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 0.14000000059604645,
+          "id": 2
+        },
+        {
+          "value": 0.10000000149011612,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        }
+      ],
+      "leftModuleId": 3007201182452109,
+      "rightModuleId": 8399045978586909,
+      "data": {},
+      "pos": [
+        118,
+        4
+      ]
+    },
+    {
+      "id": 589057631021340,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-LLFO",
+      "version": "2.0.40",
+      "params": [
+        {
+          "value": -0.34457829594612122,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 4.0,
+          "id": 2
+        },
+        {
+          "value": 1.0,
+          "id": 3
+        },
+        {
+          "value": 1.0,
+          "id": 4
+        }
+      ],
+      "leftModuleId": 6882280562768291,
+      "rightModuleId": 8344740339203269,
+      "data": {
+        "offset_scale": 1.0,
+        "output_sampling": 0.0,
+        "pulse_width": -0.85106378793716431,
+        "smoothing": 0.0,
+        "reset_on_wave_change": false
+      },
+      "pos": [
+        108,
+        4
+      ]
+    },
+    {
+      "id": 5715972884862855,
+      "plugin": "Fundamental",
+      "model": "VCA-1",
+      "version": "2.2.1",
+      "params": [
+        {
+          "value": 1.0,
+          "id": 0
+        },
+        {
+          "value": 1.0,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 8344740339203269,
+      "rightModuleId": 3007201182452109,
+      "pos": [
+        113,
+        4
+      ]
+    },
+    {
+      "id": 8399045978586909,
+      "plugin": "Fundamental",
+      "model": "VCA-1",
+      "version": "2.2.1",
+      "params": [
+        {
+          "value": 1.0,
+          "id": 0
+        },
+        {
+          "value": 1.0,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 859556658354018,
+      "rightModuleId": 5655685281932067,
+      "pos": [
+        124,
+        4
+      ]
+    },
+    {
+      "id": 6387032891998951,
+      "plugin": "Fundamental",
+      "model": "VCA-1",
+      "version": "2.2.1",
+      "params": [
+        {
+          "value": 1.0,
+          "id": 0
+        },
+        {
+          "value": 1.0,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 5655685281932067,
+      "rightModuleId": 5490104678428408,
+      "pos": [
+        129,
+        4
+      ]
+    },
+    {
+      "id": 6882280562768291,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 6456792817208497,
+      "rightModuleId": 589057631021340,
+      "data": {
+        "text": "Modulator",
+        "fg": "#29b2ef",
+        "bg": "#00000000"
+      },
+      "pos": [
+        106,
+        4
+      ]
+    },
+    {
+      "id": 5655685281932067,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 8399045978586909,
+      "rightModuleId": 6387032891998951,
+      "data": {
+        "text": "CMP gate",
+        "fg": "#29b2ef",
+        "bg": "#00000000"
+      },
+      "pos": [
+        127,
+        4
+      ]
+    },
+    {
+      "id": 3007201182452109,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 5715972884862855,
+      "rightModuleId": 859556658354018,
+      "data": {
+        "text": "LFO",
+        "fg": "#29b2ef",
+        "bg": "#00000000"
+      },
+      "pos": [
+        116,
+        4
+      ]
+    },
+    {
+      "id": 5490104678428408,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 6387032891998951,
+      "data": {
+        "text": "display",
+        "fg": "#29b2ef",
+        "bg": "#00000000"
+      },
+      "pos": [
+        132,
+        4
+      ]
+    },
+    {
+      "id": 8344740339203269,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 589057631021340,
+      "rightModuleId": 5715972884862855,
+      "data": {
+        "text": "Carrier",
+        "fg": "#29b2ef",
+        "bg": "#00000000"
+      },
+      "pos": [
+        111,
+        4
+      ]
+    },
+    {
+      "id": 5355980285871285,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "rightModuleId": 6456792817208497,
+      "data": {
+        "text": "LFO rate limiter",
+        "fg": "#29b2ef",
+        "bg": "#00000000"
+      },
+      "pos": [
+        101,
+        4
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 3215909591146499,
+      "outputModuleId": 589057631021340,
+      "outputId": 0,
+      "inputModuleId": 5715972884862855,
+      "inputId": 0,
+      "color": "#4bf2ed"
+    },
+    {
+      "id": 415520298618966,
+      "outputModuleId": 859556658354018,
+      "outputId": 2,
+      "inputModuleId": 8399045978586909,
+      "inputId": 0,
+      "color": "#ffb437"
+    },
+    {
+      "id": 1589283854187709,
+      "outputModuleId": 589057631021340,
+      "outputId": 0,
+      "inputModuleId": 8399045978586909,
+      "inputId": 1,
+      "color": "#4bf2ed"
+    },
+    {
+      "id": 8036203992422800,
+      "outputModuleId": 8399045978586909,
+      "outputId": 0,
+      "inputModuleId": 6387032891998951,
+      "inputId": 0,
+      "color": "#00b56e"
+    },
+    {
+      "id": 2403169836513334,
+      "outputModuleId": 6456792817208497,
+      "outputId": 0,
+      "inputModuleId": 859556658354018,
+      "inputId": 0,
+      "color": "#f3374b"
+    },
+    {
+      "id": 1083151375649269,
+      "outputModuleId": 6456792817208497,
+      "outputId": 0,
+      "inputModuleId": 589057631021340,
+      "inputId": 0,
+      "color": "#8b4ade"
+    }
+  ]
+}

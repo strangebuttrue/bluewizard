@@ -1,0 +1,259 @@
+{
+  "modules": [
+    {
+      "id": 4417421527021987,
+      "plugin": "SubmarineFree",
+      "model": "A0-101",
+      "version": "2.0.4",
+      "params": [
+        {
+          "value": 14.0,
+          "id": 0
+        },
+        {
+          "value": -100.0,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 4936092607783767,
+      "rightModuleId": 1770343682748015,
+      "pos": [
+        93,
+        6
+      ]
+    },
+    {
+      "id": 7081518361258895,
+      "plugin": "SubmarineFree",
+      "model": "A0-101",
+      "version": "2.0.4",
+      "params": [
+        {
+          "value": 7.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 7843543757538571,
+      "rightModuleId": 2058282433318087,
+      "pos": [
+        99,
+        6
+      ]
+    },
+    {
+      "id": 4146275425371587,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 8322783148513849,
+      "rightModuleId": 7280639555928514,
+      "data": {
+        "text": "pitch in",
+        "fg": "#29b2ef",
+        "bg": "#000000"
+      },
+      "pos": [
+        86,
+        6
+      ]
+    },
+    {
+      "id": 8322783148513849,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-Mult",
+      "version": "2.1.41",
+      "params": [],
+      "leftModuleId": 3017078806833419,
+      "rightModuleId": 4146275425371587,
+      "data": {},
+      "pos": [
+        83,
+        6
+      ]
+    },
+    {
+      "id": 2058282433318087,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 7081518361258895,
+      "data": {
+        "text": "pitch out",
+        "fg": "#29b2ef",
+        "bg": "#000000"
+      },
+      "pos": [
+        101,
+        6
+      ]
+    },
+    {
+      "id": 3017078806833419,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "rightModuleId": 8322783148513849,
+      "data": {
+        "text": "XENORANGER",
+        "fg": "#ff1313",
+        "bg": "#000000"
+      },
+      "pos": [
+        81,
+        6
+      ]
+    },
+    {
+      "id": 7280639555928514,
+      "plugin": "DHE-Modules",
+      "model": "Func",
+      "version": "2.0.3",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 2.0,
+          "id": 2
+        },
+        {
+          "value": 2.0,
+          "id": 3
+        }
+      ],
+      "leftModuleId": 4146275425371587,
+      "rightModuleId": 4936092607783767,
+      "data": {
+        "preset_version": 0
+      },
+      "pos": [
+        88,
+        6
+      ]
+    },
+    {
+      "id": 1770343682748015,
+      "plugin": "SubmarineFree",
+      "model": "A0-101",
+      "version": "2.0.4",
+      "params": [
+        {
+          "value": 4.0,
+          "id": 0
+        },
+        {
+          "value": 100.0,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 4417421527021987,
+      "rightModuleId": 7843543757538571,
+      "pos": [
+        95,
+        6
+      ]
+    },
+    {
+      "id": 7843543757538571,
+      "plugin": "SubmarineFree",
+      "model": "A0-101",
+      "version": "2.0.4",
+      "params": [
+        {
+          "value": 39.0,
+          "id": 0
+        },
+        {
+          "value": 100.0,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 1770343682748015,
+      "rightModuleId": 7081518361258895,
+      "pos": [
+        97,
+        6
+      ]
+    },
+    {
+      "id": 4936092607783767,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 7280639555928514,
+      "rightModuleId": 4417421527021987,
+      "data": {
+        "text": "offset",
+        "fg": "#29b2ef",
+        "bg": "#000000"
+      },
+      "pos": [
+        91,
+        6
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 408638492817786,
+      "outputModuleId": 1770343682748015,
+      "outputId": 0,
+      "inputModuleId": 7843543757538571,
+      "inputId": 0,
+      "color": "#8b4ade"
+    },
+    {
+      "id": 3602733884106584,
+      "outputModuleId": 7843543757538571,
+      "outputId": 0,
+      "inputModuleId": 7081518361258895,
+      "inputId": 0,
+      "color": "#ffb437"
+    },
+    {
+      "id": 3197645796043802,
+      "outputModuleId": 4417421527021987,
+      "outputId": 0,
+      "inputModuleId": 7081518361258895,
+      "inputId": 1,
+      "color": "#00b56e"
+    },
+    {
+      "id": 582468664726265,
+      "outputModuleId": 4417421527021987,
+      "outputId": 0,
+      "inputModuleId": 1770343682748015,
+      "inputId": 1,
+      "color": "#f3374b"
+    },
+    {
+      "id": 1159946968150134,
+      "outputModuleId": 7280639555928514,
+      "outputId": 0,
+      "inputModuleId": 4417421527021987,
+      "inputId": 0,
+      "color": "#ffb437"
+    },
+    {
+      "id": 2836549863452438,
+      "outputModuleId": 8322783148513849,
+      "outputId": 0,
+      "inputModuleId": 1770343682748015,
+      "inputId": 0,
+      "color": "#3695ef"
+    }
+  ]
+}

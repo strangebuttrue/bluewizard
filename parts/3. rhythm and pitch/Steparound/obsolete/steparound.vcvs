@@ -1,0 +1,224 @@
+{
+  "modules": [
+    {
+      "id": 1426930284123178,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-Offset",
+      "version": "2.1.41",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.31622999906539917,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 7912973431924726,
+      "data": {
+        "disableOutputLimit": false,
+        "offset_first": false
+      },
+      "pos": [
+        -21,
+        4
+      ]
+    },
+    {
+      "id": 7912973431924726,
+      "plugin": "Fundamental",
+      "model": "Scope",
+      "version": "2.3.1",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": -2.2658889293670654,
+          "id": 4
+        },
+        {
+          "value": 0.0,
+          "id": 5
+        },
+        {
+          "value": 5.0602355003356934,
+          "id": 6
+        },
+        {
+          "value": 1.0,
+          "id": 7
+        }
+      ],
+      "leftModuleId": 896599967676683,
+      "rightModuleId": 1426930284123178,
+      "pos": [
+        -34,
+        4
+      ]
+    },
+    {
+      "id": 8030962703137345,
+      "plugin": "DHE-Modules",
+      "model": "Func",
+      "version": "2.0.3",
+      "params": [
+        {
+          "value": 0.67108273506164551,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 2.0,
+          "id": 2
+        },
+        {
+          "value": 2.0,
+          "id": 3
+        }
+      ],
+      "leftModuleId": 5203947886636776,
+      "rightModuleId": 4671061252791460,
+      "data": {
+        "preset_version": 0
+      },
+      "pos": [
+        -44,
+        4
+      ]
+    },
+    {
+      "id": 4671061252791460,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 8030962703137345,
+      "rightModuleId": 2015661666564046,
+      "data": {
+        "text": "stepsize",
+        "fg": "#29b2ef",
+        "bg": "#000000"
+      },
+      "pos": [
+        -41,
+        4
+      ]
+    },
+    {
+      "id": 5203947886636776,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "rightModuleId": 8030962703137345,
+      "data": {
+        "text": "STEPAROUND",
+        "fg": "#ff1313",
+        "bg": "#000000"
+      },
+      "pos": [
+        -46,
+        4
+      ]
+    },
+    {
+      "id": 896599967676683,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 2015661666564046,
+      "rightModuleId": 7912973431924726,
+      "data": {
+        "text": "INC trigger in",
+        "fg": "#29b2ef",
+        "bg": "#000000"
+      },
+      "pos": [
+        -36,
+        4
+      ]
+    },
+    {
+      "id": 2015661666564046,
+      "plugin": "PdArray",
+      "model": "Ministep",
+      "version": "2.0.6",
+      "params": [],
+      "leftModuleId": 4671061252791460,
+      "rightModuleId": 896599967676683,
+      "data": {
+        "nSteps": 7,
+        "offsetByHalfStep": false,
+        "stepScaleMode": 1,
+        "outputScaleMode": 0,
+        "currentStep": [
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "pos": [
+        -39,
+        4
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 2922589246716105,
+      "outputModuleId": 2015661666564046,
+      "outputId": 0,
+      "inputModuleId": 7912973431924726,
+      "inputId": 0,
+      "color": "#8b4ade"
+    },
+    {
+      "id": 6861646930583598,
+      "outputModuleId": 8030962703137345,
+      "outputId": 0,
+      "inputModuleId": 2015661666564046,
+      "inputId": 3,
+      "color": "#ffb437"
+    },
+    {
+      "id": 5930168137115902,
+      "outputModuleId": 2015661666564046,
+      "outputId": 0,
+      "inputModuleId": 1426930284123178,
+      "inputId": 2,
+      "color": "#8b4ade"
+    }
+  ]
+}

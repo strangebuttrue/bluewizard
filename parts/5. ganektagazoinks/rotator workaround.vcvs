@@ -1,0 +1,170 @@
+{
+  "modules": [
+    {
+      "id": 3564490248017696,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-LLFO",
+      "version": "2.0.39",
+      "params": [
+        {
+          "value": -3.6465001106262207,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 1.0,
+          "id": 2
+        },
+        {
+          "value": 0.69999998807907104,
+          "id": 3
+        },
+        {
+          "value": 0.75,
+          "id": 4
+        }
+      ],
+      "leftModuleId": 4455783200122930,
+      "rightModuleId": 5301952274345957,
+      "data": {
+        "output_sampling": 0.0,
+        "pulse_width": -0.85106378793716431,
+        "smoothing": 0.0,
+        "reset_on_wave_change": false
+      },
+      "pos": [
+        -56,
+        0
+      ]
+    },
+    {
+      "id": 802003087271205,
+      "plugin": "Fundamental",
+      "model": "Merge",
+      "version": "2.0.3",
+      "params": [],
+      "leftModuleId": 5301952274345957,
+      "data": {
+        "channels": -1
+      },
+      "pos": [
+        -41,
+        0
+      ]
+    },
+    {
+      "id": 4455783200122930,
+      "plugin": "Core",
+      "model": "Notes",
+      "version": "2.0.4",
+      "params": [],
+      "rightModuleId": 3564490248017696,
+      "data": {
+        "text": "ROTATOR WORK\"AROUND\"\n====================\n\nget it? around? this is how to fix Hetrick's Rotator, the best, flawed solution to rotating signals across polyphonic channels. how it works: \n\ncrossed wires before the MERGE put the channels in the right order\n\nLFO offset and scale are carefully tuned - you can use another CV signal; make sure its amplitude is about 75%, and its center is about 3.5V. then you will get nice evenly distributed rotation "
+      },
+      "pos": [
+        -72,
+        0
+      ]
+    },
+    {
+      "id": 5301952274345957,
+      "plugin": "HetrickCV",
+      "model": "Rotator",
+      "version": "2.0.0",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 7.0,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 3564490248017696,
+      "rightModuleId": 802003087271205,
+      "pos": [
+        -53,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 1685816924962212,
+      "outputModuleId": 3564490248017696,
+      "outputId": 0,
+      "inputModuleId": 5301952274345957,
+      "inputId": 8,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 1065248792125267,
+      "outputModuleId": 5301952274345957,
+      "outputId": 0,
+      "inputModuleId": 802003087271205,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 8973432758619051,
+      "outputModuleId": 5301952274345957,
+      "outputId": 1,
+      "inputModuleId": 802003087271205,
+      "inputId": 7,
+      "color": "#0986ad"
+    },
+    {
+      "id": 3182517417622959,
+      "outputModuleId": 5301952274345957,
+      "outputId": 2,
+      "inputModuleId": 802003087271205,
+      "inputId": 6,
+      "color": "#c91847"
+    },
+    {
+      "id": 6298669709667824,
+      "outputModuleId": 5301952274345957,
+      "outputId": 3,
+      "inputModuleId": 802003087271205,
+      "inputId": 5,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 2240555494606737,
+      "outputModuleId": 5301952274345957,
+      "outputId": 5,
+      "inputModuleId": 802003087271205,
+      "inputId": 3,
+      "color": "#0986ad"
+    },
+    {
+      "id": 7262018991764954,
+      "outputModuleId": 5301952274345957,
+      "outputId": 6,
+      "inputModuleId": 802003087271205,
+      "inputId": 2,
+      "color": "#c91847"
+    },
+    {
+      "id": 5048656479265567,
+      "outputModuleId": 5301952274345957,
+      "outputId": 7,
+      "inputModuleId": 802003087271205,
+      "inputId": 1,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 6133284395633524,
+      "outputModuleId": 5301952274345957,
+      "outputId": 4,
+      "inputModuleId": 802003087271205,
+      "inputId": 4,
+      "color": "#c9b70e"
+    }
+  ]
+}

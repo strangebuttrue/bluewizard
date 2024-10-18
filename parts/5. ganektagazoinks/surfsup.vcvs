@@ -1,0 +1,401 @@
+{
+  "modules": [
+    {
+      "id": 5016382569541142,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-LLFO",
+      "version": "2.0.39",
+      "params": [
+        {
+          "value": 0.92048519849777222,
+          "id": 0
+        },
+        {
+          "value": 1.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 1.0,
+          "id": 3
+        },
+        {
+          "value": 1.0,
+          "id": 4
+        }
+      ],
+      "leftModuleId": 4591687224085998,
+      "rightModuleId": 7358285692652041,
+      "data": {
+        "output_sampling": 0.0,
+        "pulse_width": -0.85106378793716431,
+        "smoothing": 0.0,
+        "reset_on_wave_change": false
+      },
+      "pos": [
+        42,
+        0
+      ]
+    },
+    {
+      "id": 6355452521231100,
+      "plugin": "Stoermelder-P1",
+      "model": "CVMapMicro",
+      "version": "2.0.aa525d0",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 1.0,
+          "id": 2
+        }
+      ],
+      "leftModuleId": 7358285692652041,
+      "rightModuleId": 8004145870754873,
+      "data": {
+        "textScrolling": true,
+        "mappingIndicatorHidden": false,
+        "maps": [
+          {
+            "moduleId": 6413437477793753,
+            "paramId": 2
+          }
+        ],
+        "lockParameterChanges": true,
+        "bipolarInput": false,
+        "panelTheme": 0,
+        "invertedOutput": false
+      },
+      "pos": [
+        48,
+        0
+      ]
+    },
+    {
+      "id": 7890753810564404,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-LLFO",
+      "version": "2.0.39",
+      "params": [
+        {
+          "value": 4.1939778327941895,
+          "id": 0
+        },
+        {
+          "value": 1.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 1.0,
+          "id": 3
+        },
+        {
+          "value": 0.41642877459526062,
+          "id": 4
+        }
+      ],
+      "leftModuleId": 7736533598842821,
+      "rightModuleId": 5598704295448496,
+      "data": {
+        "output_sampling": 0.0,
+        "pulse_width": -0.85106378793716431,
+        "smoothing": 0.0,
+        "reset_on_wave_change": false
+      },
+      "pos": [
+        34,
+        0
+      ]
+    },
+    {
+      "id": 7358285692652041,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-Offset",
+      "version": "2.0.39",
+      "params": [
+        {
+          "value": 1.0,
+          "id": 0
+        },
+        {
+          "value": -0.1414213627576828,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 5016382569541142,
+      "rightModuleId": 6355452521231100,
+      "data": {
+        "disableOutputLimit": false,
+        "offset_first": false
+      },
+      "pos": [
+        45,
+        0
+      ]
+    },
+    {
+      "id": 5598704295448496,
+      "plugin": "Stoermelder-P1",
+      "model": "CVMapMicro",
+      "version": "2.0.aa525d0",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 1.0,
+          "id": 2
+        }
+      ],
+      "leftModuleId": 7890753810564404,
+      "rightModuleId": 4591687224085998,
+      "data": {
+        "textScrolling": true,
+        "mappingIndicatorHidden": false,
+        "maps": [
+          {
+            "moduleId": 6413437477793753,
+            "paramId": 1
+          }
+        ],
+        "lockParameterChanges": true,
+        "bipolarInput": false,
+        "panelTheme": 0,
+        "invertedOutput": false
+      },
+      "pos": [
+        37,
+        0
+      ]
+    },
+    {
+      "id": 4591687224085998,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.3",
+      "params": [],
+      "leftModuleId": 5598704295448496,
+      "rightModuleId": 5016382569541142,
+      "data": {
+        "text": "map to PG CENTER",
+        "fg": "#29b2ef",
+        "bg": "#00000000"
+      },
+      "pos": [
+        40,
+        0
+      ]
+    },
+    {
+      "id": 8004145870754873,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.3",
+      "params": [],
+      "leftModuleId": 6355452521231100,
+      "rightModuleId": 6413437477793753,
+      "data": {
+        "text": "map to PG spread",
+        "fg": "#29b2ef",
+        "bg": "#00000000"
+      },
+      "pos": [
+        51,
+        0
+      ]
+    },
+    {
+      "id": 8298868353046631,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.3",
+      "params": [],
+      "leftModuleId": 7317326668451757,
+      "rightModuleId": 5431495469185575,
+      "data": {
+        "text": "OUT poly or split",
+        "fg": "#29b2ef",
+        "bg": "#00000000"
+      },
+      "pos": [
+        62,
+        0
+      ]
+    },
+    {
+      "id": 5431495469185575,
+      "plugin": "Fundamental",
+      "model": "Scope",
+      "version": "2.0.3",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 0.88793730735778809,
+          "id": 4
+        },
+        {
+          "value": 0.0,
+          "id": 5
+        },
+        {
+          "value": 0.0,
+          "id": 6
+        },
+        {
+          "value": 1.0,
+          "id": 7
+        }
+      ],
+      "leftModuleId": 8298868353046631,
+      "pos": [
+        64,
+        0
+      ]
+    },
+    {
+      "id": 7736533598842821,
+      "plugin": "Core",
+      "model": "Notes",
+      "version": "2.0.4",
+      "params": [],
+      "rightModuleId": 7890753810564404,
+      "data": {
+        "text": "SURF'S UP\n=========\n\nscan a phase-modulated length-modulated wave in sixteen alluring positions\n\nspin: \nfirst LLFO frequency, scale\nsecond LLFO frequency\nOFFSET scale, maybe offset\nGOLY PENERATOR algorithm\n\n\nDifferent algorithms behave Really Differently and can require totally different inputs\n\ntry using subsets of the 16 channels - every other, third, fourth, etc "
+      },
+      "pos": [
+        18,
+        0
+      ]
+    },
+    {
+      "id": 7317326668451757,
+      "plugin": "Fundamental",
+      "model": "Split",
+      "version": "2.0.3",
+      "params": [],
+      "leftModuleId": 6413437477793753,
+      "rightModuleId": 8298868353046631,
+      "pos": [
+        57,
+        0
+      ]
+    },
+    {
+      "id": 6413437477793753,
+      "plugin": "computerscare",
+      "model": "computerscare-goly-penerator",
+      "version": "2.0.1",
+      "params": [
+        {
+          "value": 3.0,
+          "id": 0
+        },
+        {
+          "value": 0.35113620758056641,
+          "id": 1
+        },
+        {
+          "value": 1.7525062561035156,
+          "id": 2
+        },
+        {
+          "value": 10.0,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        },
+        {
+          "value": 16.0,
+          "id": 5
+        },
+        {
+          "value": 5.9579997062683105,
+          "id": 6
+        }
+      ],
+      "leftModuleId": 8004145870754873,
+      "rightModuleId": 7317326668451757,
+      "pos": [
+        53,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 327267948616684,
+      "outputModuleId": 7890753810564404,
+      "outputId": 0,
+      "inputModuleId": 5598704295448496,
+      "inputId": 2,
+      "color": "#c91847"
+    },
+    {
+      "id": 972572525738987,
+      "outputModuleId": 6413437477793753,
+      "outputId": 0,
+      "inputModuleId": 7317326668451757,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 1785991320283620,
+      "outputModuleId": 6413437477793753,
+      "outputId": 0,
+      "inputModuleId": 5431495469185575,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 6505920011461536,
+      "outputModuleId": 5016382569541142,
+      "outputId": 0,
+      "inputModuleId": 7358285692652041,
+      "inputId": 2,
+      "color": "#c91847"
+    },
+    {
+      "id": 5599204736041521,
+      "outputModuleId": 7358285692652041,
+      "outputId": 0,
+      "inputModuleId": 6355452521231100,
+      "inputId": 2,
+      "color": "#c9b70e"
+    }
+  ]
+}

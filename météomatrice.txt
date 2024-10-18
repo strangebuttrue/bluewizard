@@ -1,0 +1,103 @@
+
+..................................................................
+ __  __ _//_ ____ _//_ _____ __  __   __  ____ ____ ____ ___ ____ 
+(  \/  ( ___(_  _( ___(  _  (  \/  ) /__\(_  _(  _ (_  _/ __( ___)
+ )    ( )__)  )(  )__) )(_)( )    ( /(__)\ )(  )   /_)(( (__ )__) 
+(_/\/\_(____)(__)(____(_____(_/\/\_(__)(__(__)(_)\_(____\___(____)
+
+.......................................................mdl 2/16/22
+
+
+
+	Forgot "controlling the weather" - let the weather work for you! 
+	
+	La ("The") Météomatrice will help. She/It's a kind of dictionary of "modulators" - information  mostly derived from the weather (say, whether it's windy out, and just how windy)* - and "modulations" - changes in all different kinds of of musical or sonic material.
+	
+	Think of it as kind of like a cookbook and a telephone book, stapled together. Suppose you'd like to talk to the wind. You can look up a recipe for the wind's voice, and "prepare" it like you would a canard à la presse. To hear, even as you see, the pale light of dawn's mysterious and reluctant apparition from the dark abyss of night could be as simple as ham and eggs. 
+	
+	Hot diggety! Get started right away - peruse the index! 
+	
+.................................................................
+
+	
+Weather voltages:
+
+	1. Temperature 0-100F
+	2. Precipitation? %
+	3. Cloud cover %
+	4. Humidity
+	5. Wind speed
+	6. Air pressure
+
+
+Decimal clock periods:
+
+	1. 1 Day
+	2. 144 minutes
+	3. 14.4 minutes
+	4. 86.4s / 0.69444 BPM
+	5. 8.64s / 6.9444 BPM
+	6. 0.864s / 69.444 BPM / 1.15741 Hz
+	7. 0.0864s / 11.5741Hz
+
+
+Components:
+
+	1. PYTHVOLVORAS 
+	2. RMC-2 (Rational Melody Computer) 
+	3. DEFACTORY 
+	4. COLODIGRAPH
+	5. COMMONALITOR
+	
+
+Parameters by component:
+	
+	I. PYTHVOLVORAS (harmony computer & quantizer)
+
+	1. Tonality CV (1,2)
+	2. Tonality crossfade
+	3. Key changer trigger
+	4. Key changer pulse width (modulation trend)
+	5. Key changer VCA (modulation amount)
+	
+	
+	II. RMC-2 (integrated rhythm/pitch generator)
+	
+	1. Scan volts (0-10v)
+	2. Pitch offset
+	3. Pitch scale
+	
+	
+	III. DEFACTORY (rhythm device)
+	
+	1. Pulse in
+	2. Start sequence
+	3. Restart at EOC on/off
+	4. New factors at EOC on/off
+	5. New factors trigger
+
+
+	IV. COLODIGRAPH (melody or other CV generator)
+	
+	1. Rhythm
+	2. Resample trigger
+	3. Noise filter cutoff
+	4. Playback speed
+	5. Playback speed (octave)
+	6. Pitch offset
+	7. Pitch scale
+	
+	V. COMMONALITOR (CV conditioner / voltage combiner)
+	
+	1. Oscillator frequency (1-3)
+	2. Static voltage (ch.4)
+	3. Output offset (1-4)
+	4. Output scale (1-4)
+	
+	
+
+
+
+
+
+

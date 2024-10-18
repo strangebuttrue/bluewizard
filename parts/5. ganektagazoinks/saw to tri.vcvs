@@ -1,0 +1,140 @@
+{
+  "modules": [
+    {
+      "id": 6771294311410076,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "rightModuleId": 1986539944562825,
+      "data": {
+        "text": "Saw 2 Triangle",
+        "fg": "#ff1313",
+        "bg": "#000000"
+      },
+      "pos": [
+        151,
+        0
+      ]
+    },
+    {
+      "id": 6950025951421165,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-Offset",
+      "version": "2.0.40",
+      "params": [
+        {
+          "value": 1.0,
+          "id": 0
+        },
+        {
+          "value": -0.44721359014511108,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 7308776118548650,
+      "rightModuleId": 8141290356293982,
+      "data": {
+        "disableOutputLimit": false,
+        "offset_first": false
+      },
+      "pos": [
+        166,
+        0
+      ]
+    },
+    {
+      "id": 1986539944562825,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-Mult",
+      "version": "2.0.40",
+      "params": [],
+      "leftModuleId": 6771294311410076,
+      "rightModuleId": 5560557029942074,
+      "data": {},
+      "pos": [
+        153,
+        0
+      ]
+    },
+    {
+      "id": 7308776118548650,
+      "plugin": "CountModula",
+      "model": "Rectifier",
+      "version": "2.1.0",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 5.0,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 5560557029942074,
+      "rightModuleId": 6950025951421165,
+      "data": {
+        "moduleVersion": 1,
+        "theme": 0
+      },
+      "pos": [
+        158,
+        0
+      ]
+    },
+    {
+      "id": 5560557029942074,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 1986539944562825,
+      "rightModuleId": 7308776118548650,
+      "data": {
+        "text": "IN: saw lfo, 0-10v",
+        "fg": "#29b2ef",
+        "bg": "#000000"
+      },
+      "pos": [
+        156,
+        0
+      ]
+    },
+    {
+      "id": 8141290356293982,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 6950025951421165,
+      "data": {
+        "text": "OUT: tri lfo, 0-10v",
+        "fg": "#29b2ef",
+        "bg": "#000000"
+      },
+      "pos": [
+        169,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 6382185866552763,
+      "outputModuleId": 7308776118548650,
+      "outputId": 0,
+      "inputModuleId": 6950025951421165,
+      "inputId": 2,
+      "color": "#00b56e"
+    },
+    {
+      "id": 1681020444508974,
+      "outputModuleId": 1986539944562825,
+      "outputId": 0,
+      "inputModuleId": 7308776118548650,
+      "inputId": 0,
+      "color": "#3695ef"
+    }
+  ]
+}
