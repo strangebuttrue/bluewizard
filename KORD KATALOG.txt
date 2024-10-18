@@ -1,0 +1,103 @@
+LET'S CATALOG THE TONALITY SYSTEMS
+
+
+** 6TEM
+
+strips: 
+SIX PITCHES - main tonality sequence
+
+
+** 6TEM2
+
+strips:
+62m.vcss
+
+spreadsheet:
+62m spreadsheet.ods
+
+
+** ACCORDION SYSTEM
+
+patch:
+accordion system DEMO.vcv
+
+strips:
+accordion system DEMO.vcvss
+accordion bass DEMO.vcss
+
+spreadsheet:
+accordion.ods
+
+The accordion system is a two-dimensional harmony system inspired by (but NOT the same as) the Stradella bass buttonboard of an accordion. It's a matrix of 180 Major-7 and Minor-7 chords arranged on two axes we can call "Key" and "Harmony". Each axis is scanned by sending 0-10 volts to the appropriate input. 
+
+The Key axis of this matrix is a regular circle-of-fourths sequence (C,F,Bb,Eb,...G), but the other axis (Harmony) is more interesting. I'll explain:
+
+7th chords contain four pitches. This means that a given pitch - let's say C natural - appears in four 7th chords of a given type. For instance, C appears in four Major-7 chords:
+
+C Maj7 (C,E,G,B)
+Ab Maj7 (Ab,C,Eb,G)
+F Maj7 (F,A,C,E)
+Db Maj7 (Db,F,Ab,C)
+
+And four Minor-7 chords:
+
+C Min7 (C,Eb,G,Bb)
+A Min7 (A,C,E,G)
+F Min7 (F,Ab,C,Eb)
+D Min7 (D,F,A,C)
+
+Looking over this list of chords we see that while they all contain C-natural, C is playing a different role in each. The C in a Db Major-7 chord is tense and unresolved; it's the leading tone, and sounds dissonant when played against the root, Db. On the other hand, the C in a C Major-7 is the tonic, the center of its own little harmonic universe. 
+
+
+These eight chords can be arranged in an order that is not exactly, but sort of, "most dissonant relative to C-natural" to "least dissonant relative to C-natural". As I reckon, that order looks like this:
+
+Db Maj7 (Db,F,Ab,C)
+Ab Maj7 (Ab,C,Eb,G)
+F Min7 (F,Ab,C,Eb)
+C Min7 (C,Eb,G,Bb)
+D Min7 (D,F,A,C)
+A Min7 (A,C,E,G)
+F Maj7 (F,A,C,E)
+C Maj7 (C,E,G,B)
+
+If we then mirror this eight chord sequence around the C Maj7, we get this fifteen-chord sequence:
+
+Db Maj7
+Ab Maj7
+F Min7
+C Min7
+D Min7
+A Min7
+F Maj7
+C Maj7
+F Maj7
+A Min7
+D Min7
+C Min7
+F Min7
+Ab Maj7
+Db Maj7
+
+This sequence is the Harmony axis of the Accordion System's matrix. Increment the Key axis by 0.8333 volts (one-twelfth of 10v) and you are now selecting from a similar table of chords, transposed by a fourth, each containing the pitch F-natural:
+
+Gb Maj7
+Db Maj7
+Bb Min7
+F Min7
+G Min7
+D Min7
+Bb Maj7
+F Maj7
+Bb Maj7
+D Min7
+G Min7
+F Min7
+Bb Min7
+Db Maj7
+Gb Maj7
+
+Raise the Key voltage a little higher and the Harmony voltage will now scan this same series transposed another fourth to a set of chords all containing Bb. Et cetera. 
+
+
+
+
