@@ -1,0 +1,26 @@
+EPHEMEROS
+stacked thirds array scanner
+
+KNOLY POBS turns out 14 voltages - stacked alternating major and minor thirds. APPEND selects a polyphonic array of contiguous channels from this input. Output to a COERCE and you have instant  octave-agnostic chord structures. The sequence of pitches, all in the nearest 5-limit tuning:
+
+C Eb G Bb D F  A
+C E  G B  D F# A
+
+The FUNC on the left selects how many channels APPEND outputs. Set it to 0 and out comes one pitch. Crank it to ten and uh oh that's a lot of different pitches.
+
+The right FUNC scans the selection around the array. At 0 we start at the C occupying channel 1 of the input. Turn it up and we begin at the Eb in channel 2, the following G, etc.
+
+SO: Selecting an array of three pitches will return a triad of some kind. Four pitches comprise a seventh chord. Here's the 14 triads you can get:
+
+Cm - EbM - Gm - BbM - Dm - FM    - Am
+CM - Em  - GM - Bm  - DM - F#dim - Adim 
+
+Useful: Channel 1 of APPEND's output array will always be the root of these triads, channel 2 the third, et cetera - so it's easy to get roots for a bass, or indeed any subset of chord tones.
+
+APPEND will wrap the array channel selection around, so the higher settings produce interesting harmonic effects - D7b9, F#dim7, and Am7b5 are all available.
+
+What chords are these? The first seven all are derived from a G minor scale. From the A minor to the F# diminished they spell a G major scale. The Am7b5 at the end is a spicy artifact, useful in a ii-V-i cadence in G minor. So, while C (0v) is in the 0th posiion of the pitch array, it's best to think of this tool as producing a variety of G tonalities, particularly if you're fond of a plaigal cadence now and then. Pitches *not appearing* anywhere in the array are the minor second (Ab) and tritone (C#/Db).
+
+But of course you don't have to settle for one key. The rightmonst FUNC transposes the whole output around. So to select chords from a C tonality, turn this knob to -0.585, or 0.415. Et cetera. So automate it and get chords, get modal interchange, get upper structure triads, etc etc etc
+
+ml 10/20/24
