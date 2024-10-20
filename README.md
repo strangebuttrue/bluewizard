@@ -1,6 +1,6 @@
 the blue wizard's grimoire
 
-patches and parts for VCV Rack
+patches and selections for VCV Rack
 by matt lavallee
 
 strangebuttrue@gmail.com
