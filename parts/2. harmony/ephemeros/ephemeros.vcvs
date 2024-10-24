@@ -1,209 +1,26 @@
 {
   "modules": [
     {
-      "id": 5688969720928802,
+      "id": 3005676302740220,
       "plugin": "StochasticTelegraph",
       "model": "Fermata",
       "version": "2.0.17",
       "params": [],
-      "rightModuleId": 1969424078629732,
+      "rightModuleId": 1442894800493645,
       "data": {
         "text": "EPHEMEROS\nstacked thirds array scanner\n\nKNOLY POBS turns out 14 voltages - stacked alternating major and minor thirds. APPEND selects a polyphonic array of contiguous channels from this input. Output to a COERCE and you have instant  octave-agnostic chord structures. The sequence of pitches, all in the nearest 5-limit tuning:\n\nC Eb G Bb D F  A\nC E  G B  D F# A\n\nThe FUNC on the left selects how many channels APPEND outputs. Set it to 0 and out comes one pitch. Crank it to ten and uh oh that's a lot of different pitches.\n\nThe right FUNC scans the selection around the array. At 0 we start at the C occupying channel 1 of the input. Turn it up and we begin at the Eb in channel 2, the following G, etc.\n\nSO: Selecting an array of three pitches will return a triad of some kind. Four pitches comprise a seventh chord. Here's the 14 triads you can get:\n\nCm - EbM - Gm - BbM - Dm - FM    - Am\nCM - Em  - GM - Bm  - DM - F#dim - Adim \n\nUseful: Channel 1 of APPEND's output array will always be the root of these triads, channel 2 the third, et cetera - so it's easy to get roots for a bass, or indeed any subset of chord tones.\n\nAPPEND will wrap the array channel selection around, so the higher settings produce interesting harmonic effects - D7b9, F#dim7, and Am7b5 are all available.\n\nWhat chords are these? The first six all are derived from a G minor scale. From the A minor to the F# diminished they spell a G major scale. The Am7b5 at the end is a spicy artifact, useful in a ii-V-i cadence in G minor. So, while C (0v) is in the 0th posiion of the pitch array, it's best to think of this tool as producing a variety of G tonalities, particularly if you're fond of a plaigal cadence now and then. Pitches *not appearing* anywhere in the array are the minor second (Ab) and tritone (C#/Db).\n\nBut of course you don't have to settle for one key. The rightmost FUNC transposes the whole output around. So to select chords from a C tonality, turn this knob to -0.585, or 0.415. Et cetera. So automate it and get chords, get modal interchange, get upper structure triads, etc etc etc\n\nml 10/20/24",
-        "width": 7,
+        "width": 6,
         "screen_colors": 281200098803712,
         "font_choice": "fonts/RobotoMono-Bold.ttf",
         "title_text": "EPHEMEROS"
       },
       "pos": [
-        64,
-        4
+        -13,
+        1
       ]
     },
     {
-      "id": 7326945292288859,
-      "plugin": "DHE-Modules",
-      "model": "Func",
-      "version": "2.0.3",
-      "params": [
-        {
-          "value": 0.0012048193020746112,
-          "id": 0
-        },
-        {
-          "value": 0.0,
-          "id": 1
-        },
-        {
-          "value": 2.0,
-          "id": 2
-        },
-        {
-          "value": 2.0,
-          "id": 3
-        }
-      ],
-      "leftModuleId": 789354072796392,
-      "rightModuleId": 4482822260793450,
-      "data": {
-        "preset_version": 0
-      },
-      "pos": [
-        78,
-        4
-      ]
-    },
-    {
-      "id": 789354072796392,
-      "plugin": "DHE-Modules",
-      "model": "Func",
-      "version": "2.0.3",
-      "params": [
-        {
-          "value": 0.16867464780807495,
-          "id": 0
-        },
-        {
-          "value": 0.0,
-          "id": 1
-        },
-        {
-          "value": 2.0,
-          "id": 2
-        },
-        {
-          "value": 2.0,
-          "id": 3
-        }
-      ],
-      "leftModuleId": 1969424078629732,
-      "rightModuleId": 7326945292288859,
-      "data": {
-        "preset_version": 0
-      },
-      "pos": [
-        75,
-        4
-      ]
-    },
-    {
-      "id": 728715021608533,
-      "plugin": "computerscare",
-      "model": "computerscare-debug",
-      "version": "2.1.11",
-      "params": [
-        {
-          "value": 0.0,
-          "id": 0
-        },
-        {
-          "value": 0.0,
-          "id": 1
-        },
-        {
-          "value": 0.0,
-          "id": 2
-        },
-        {
-          "value": 0.0,
-          "id": 3
-        },
-        {
-          "value": 2.0,
-          "id": 4
-        },
-        {
-          "value": 1.0,
-          "id": 5
-        }
-      ],
-      "leftModuleId": 4482822260793450,
-      "rightModuleId": 5857556670828601,
-      "data": {
-        "outputRange": 0,
-        "lines": [
-          0.0,
-          0.24500000476837158,
-          0.58499997854232788,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ]
-      },
-      "pos": [
-        87,
-        4
-      ]
-    },
-    {
-      "id": 4482822260793450,
-      "plugin": "TMT",
-      "model": "Append",
-      "version": "2.1.10",
-      "params": [],
-      "leftModuleId": 7326945292288859,
-      "rightModuleId": 728715021608533,
-      "pos": [
-        81,
-        4
-      ]
-    },
-    {
-      "id": 5857556670828601,
-      "plugin": "DHE-Modules",
-      "model": "Func",
-      "version": "2.0.3",
-      "params": [
-        {
-          "value": 0.5,
-          "id": 0
-        },
-        {
-          "value": 0.0,
-          "id": 1
-        },
-        {
-          "value": 1.0,
-          "id": 2
-        },
-        {
-          "value": 2.0,
-          "id": 3
-        }
-      ],
-      "leftModuleId": 728715021608533,
-      "rightModuleId": 764256459429283,
-      "data": {
-        "preset_version": 0
-      },
-      "pos": [
-        93,
-        4
-      ]
-    },
-    {
-      "id": 2776515878068093,
-      "plugin": "ML_modules",
-      "model": "Sum8",
-      "version": "2.0.2",
-      "params": [],
-      "leftModuleId": 764256459429283,
-      "pos": [
-        99,
-        4
-      ]
-    },
-    {
-      "id": 764256459429283,
+      "id": 887966030276254,
       "plugin": "Bogaudio",
       "model": "Bogaudio-PolyMult",
       "version": "2.4.45",
@@ -213,16 +30,16 @@
           "id": 0
         }
       ],
-      "leftModuleId": 5857556670828601,
-      "rightModuleId": 2776515878068093,
+      "leftModuleId": 6953623463354997,
+      "rightModuleId": 3365721566714042,
       "data": {},
       "pos": [
-        96,
-        4
+        12,
+        1
       ]
     },
     {
-      "id": 1969424078629732,
+      "id": 1442894800493645,
       "plugin": "computerscare",
       "model": "computerscare-knolypobs",
       "version": "2.1.11",
@@ -368,68 +185,259 @@
           "id": 34
         }
       ],
-      "leftModuleId": 5688969720928802,
-      "rightModuleId": 789354072796392,
+      "leftModuleId": 3005676302740220,
+      "rightModuleId": 8492515941749260,
       "pos": [
-        71,
-        4
+        -7,
+        1
+      ]
+    },
+    {
+      "id": 6354309390463118,
+      "plugin": "computerscare",
+      "model": "computerscare-debug",
+      "version": "2.1.11",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 2.0,
+          "id": 4
+        },
+        {
+          "value": 1.0,
+          "id": 5
+        }
+      ],
+      "leftModuleId": 3365721566714042,
+      "data": {
+        "outputRange": 0,
+        "lines": [
+          0.0,
+          0.24500000476837158,
+          0.58499997854232788,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "pos": [
+        18,
+        1
+      ]
+    },
+    {
+      "id": 8492515941749260,
+      "plugin": "DHE-Modules",
+      "model": "Func",
+      "version": "2.0.3",
+      "params": [
+        {
+          "value": 0.17228913307189941,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 2.0,
+          "id": 2
+        },
+        {
+          "value": 2.0,
+          "id": 3
+        }
+      ],
+      "leftModuleId": 1442894800493645,
+      "rightModuleId": 411466003724794,
+      "data": {
+        "preset_version": 0
+      },
+      "pos": [
+        -3,
+        1
+      ]
+    },
+    {
+      "id": 411466003724794,
+      "plugin": "DHE-Modules",
+      "model": "Func",
+      "version": "2.0.3",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 2.0,
+          "id": 2
+        },
+        {
+          "value": 2.0,
+          "id": 3
+        }
+      ],
+      "leftModuleId": 8492515941749260,
+      "rightModuleId": 699082962526045,
+      "data": {
+        "preset_version": 0
+      },
+      "pos": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": 699082962526045,
+      "plugin": "TMT",
+      "model": "Append",
+      "version": "2.1.10",
+      "params": [],
+      "leftModuleId": 411466003724794,
+      "rightModuleId": 6953623463354997,
+      "pos": [
+        3,
+        1
+      ]
+    },
+    {
+      "id": 6953623463354997,
+      "plugin": "DHE-Modules",
+      "model": "Func",
+      "version": "2.0.3",
+      "params": [
+        {
+          "value": 0.5,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 1.0,
+          "id": 2
+        },
+        {
+          "value": 2.0,
+          "id": 3
+        }
+      ],
+      "leftModuleId": 699082962526045,
+      "rightModuleId": 887966030276254,
+      "data": {
+        "preset_version": 0
+      },
+      "pos": [
+        9,
+        1
+      ]
+    },
+    {
+      "id": 3365721566714042,
+      "plugin": "ML_modules",
+      "model": "Sum8",
+      "version": "2.0.2",
+      "params": [],
+      "leftModuleId": 887966030276254,
+      "rightModuleId": 6354309390463118,
+      "pos": [
+        15,
+        1
       ]
     }
   ],
   "cables": [
     {
-      "id": 4143866188664125,
-      "outputModuleId": 4482822260793450,
+      "id": 7461736759024209,
+      "outputModuleId": 8492515941749260,
       "outputId": 0,
-      "inputModuleId": 728715021608533,
+      "inputModuleId": 887966030276254,
       "inputId": 0,
-      "color": "#26619e"
-    },
-    {
-      "id": 5259322937722564,
-      "outputModuleId": 789354072796392,
-      "outputId": 0,
-      "inputModuleId": 4482822260793450,
-      "inputId": 16,
       "color": "#ff8b37"
     },
     {
-      "id": 4165630435291387,
-      "outputModuleId": 7326945292288859,
+      "id": 5205464716910660,
+      "outputModuleId": 6953623463354997,
       "outputId": 0,
-      "inputModuleId": 4482822260793450,
-      "inputId": 17,
-      "color": "#63b546"
-    },
-    {
-      "id": 3506689929842591,
-      "outputModuleId": 764256459429283,
-      "outputId": 0,
-      "inputModuleId": 2776515878068093,
-      "inputId": 3,
-      "color": "#f3374b"
-    },
-    {
-      "id": 4800468435016345,
-      "outputModuleId": 4482822260793450,
-      "outputId": 0,
-      "inputModuleId": 2776515878068093,
-      "inputId": 7,
-      "color": "#f3374b"
-    },
-    {
-      "id": 8736951118559996,
-      "outputModuleId": 5857556670828601,
-      "outputId": 0,
-      "inputModuleId": 764256459429283,
+      "inputModuleId": 887966030276254,
       "inputId": 1,
       "color": "#ff8b37"
     },
     {
-      "id": 762731082416467,
-      "outputModuleId": 1969424078629732,
+      "id": 6238067080241323,
+      "outputModuleId": 887966030276254,
       "outputId": 0,
-      "inputModuleId": 4482822260793450,
+      "inputModuleId": 3365721566714042,
+      "inputId": 3,
+      "color": "#f3374b"
+    },
+    {
+      "id": 1531079295716276,
+      "outputModuleId": 699082962526045,
+      "outputId": 0,
+      "inputModuleId": 3365721566714042,
+      "inputId": 7,
+      "color": "#f3374b"
+    },
+    {
+      "id": 462121163043705,
+      "outputModuleId": 1442894800493645,
+      "outputId": 0,
+      "inputModuleId": 699082962526045,
+      "inputId": 0,
+      "color": "#f3374b"
+    },
+    {
+      "id": 2931318971040030,
+      "outputModuleId": 8492515941749260,
+      "outputId": 0,
+      "inputModuleId": 699082962526045,
+      "inputId": 16,
+      "color": "#ff8b37"
+    },
+    {
+      "id": 3323165779233459,
+      "outputModuleId": 411466003724794,
+      "outputId": 0,
+      "inputModuleId": 699082962526045,
+      "inputId": 17,
+      "color": "#63b546"
+    },
+    {
+      "id": 7719069617442896,
+      "outputModuleId": 3365721566714042,
+      "outputId": 0,
+      "inputModuleId": 6354309390463118,
       "inputId": 0,
       "color": "#f3374b"
     }
