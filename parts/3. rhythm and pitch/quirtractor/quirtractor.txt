@@ -1,0 +1,26 @@
+QUIRTRACTOR
+===========
+
+This is your basic steparound-style S&H pair except equipped with a feedback circuit, so that the CV out also controls the sawtooth oscillator rate. All kinds of patterns appear and disappear. It works great.
+
+
+
+L-R:
+
+LLFO #1 produces pulses
+
+PULSE DIVIDER divides these pulses and sends trigger to S&H 1
+
+S&H #1 samples output of LLFO #2 and passes it to VCA #2 for attenuation
+
+VCA #1 displays the present voltage from S&H #1
+
+VCA #2 attenuates voltage from S&H #1 for return to LLFO #2 v/oct input 
+
+LLFO #2 makes sawtooth waves for sampling, and modulates itself (with some chaperoning)
+
+S&H #2 samples LLFO #2's sawtooth for output as CV
+
+VCA #3 shows us what's coming out the nozzle
+
+MULT out puts triggers and CV, 0-10v
