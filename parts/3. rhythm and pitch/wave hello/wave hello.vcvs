@@ -1,0 +1,540 @@
+{
+  "modules": [
+    {
+      "id": 4347747518637697,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-Mult",
+      "version": "2.1.41",
+      "params": [],
+      "leftModuleId": 1723019410189072,
+      "rightModuleId": 6935849490845458,
+      "data": {},
+      "pos": [
+        71,
+        8
+      ]
+    },
+    {
+      "id": 7781976044468975,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-XFade",
+      "version": "2.1.41",
+      "params": [
+        {
+          "value": 1.0,
+          "id": 0
+        },
+        {
+          "value": 0.5,
+          "id": 1
+        },
+        {
+          "value": 1.0,
+          "id": 2
+        }
+      ],
+      "leftModuleId": 5702346875555722,
+      "rightModuleId": 6374999697045730,
+      "data": {},
+      "pos": [
+        47,
+        8
+      ]
+    },
+    {
+      "id": 8830080149943933,
+      "plugin": "NYSTHI",
+      "model": "SlopeDetector",
+      "version": "2.0.15",
+      "params": [
+        {
+          "value": 0.36746713519096375,
+          "id": 0
+        }
+      ],
+      "leftModuleId": 999713319712331,
+      "rightModuleId": 1723019410189072,
+      "data": {},
+      "pos": [
+        66,
+        8
+      ]
+    },
+    {
+      "id": 6374999697045730,
+      "plugin": "DHE-Modules",
+      "model": "Func",
+      "version": "2.0.3",
+      "params": [
+        {
+          "value": 0.51249998807907104,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 3.0,
+          "id": 2
+        },
+        {
+          "value": 2.0,
+          "id": 3
+        }
+      ],
+      "leftModuleId": 7781976044468975,
+      "rightModuleId": 3139271277806343,
+      "data": {
+        "preset_version": 0
+      },
+      "pos": [
+        50,
+        8
+      ]
+    },
+    {
+      "id": 999713319712331,
+      "plugin": "SubmarineFree",
+      "model": "A0-101",
+      "version": "2.0.4",
+      "params": [
+        {
+          "value": 37.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 5354332392125591,
+      "rightModuleId": 8830080149943933,
+      "pos": [
+        64,
+        8
+      ]
+    },
+    {
+      "id": 5354332392125591,
+      "plugin": "SubmarineFree",
+      "model": "A0-101",
+      "version": "2.0.4",
+      "params": [
+        {
+          "value": 7.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 6545018904200711,
+      "rightModuleId": 999713319712331,
+      "pos": [
+        62,
+        8
+      ]
+    },
+    {
+      "id": 3139271277806343,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 6374999697045730,
+      "rightModuleId": 2049925828347860,
+      "data": {
+        "text": "quantize step",
+        "fg": "#29b2ef",
+        "bg": "#000000"
+      },
+      "pos": [
+        53,
+        8
+      ]
+    },
+    {
+      "id": 1723019410189072,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 8830080149943933,
+      "rightModuleId": 4347747518637697,
+      "data": {
+        "text": "trigger doer",
+        "fg": "#29b2ef",
+        "bg": "#000000"
+      },
+      "pos": [
+        69,
+        8
+      ]
+    },
+    {
+      "id": 6545018904200711,
+      "plugin": "SubmarineFree",
+      "model": "A0-101",
+      "version": "2.0.4",
+      "params": [
+        {
+          "value": 37.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 173190180722751,
+      "rightModuleId": 5354332392125591,
+      "pos": [
+        60,
+        8
+      ]
+    },
+    {
+      "id": 316409072404604,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "rightModuleId": 4457606292435365,
+      "data": {
+        "text": "WAVE HELLO",
+        "fg": "#ff1313",
+        "bg": "#000000"
+      },
+      "pos": [
+        22,
+        8
+      ]
+    },
+    {
+      "id": 173190180722751,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 2049925828347860,
+      "rightModuleId": 6545018904200711,
+      "data": {
+        "text": "range limit (modulo)",
+        "fg": "#29b2ef",
+        "bg": "#000000"
+      },
+      "pos": [
+        58,
+        8
+      ]
+    },
+    {
+      "id": 2049925828347860,
+      "plugin": "DHE-Modules",
+      "model": "Func",
+      "version": "2.0.3",
+      "params": [
+        {
+          "value": 0.64999997615814209,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 3.0,
+          "id": 2
+        },
+        {
+          "value": 2.0,
+          "id": 3
+        }
+      ],
+      "leftModuleId": 3139271277806343,
+      "rightModuleId": 173190180722751,
+      "data": {
+        "preset_version": 0
+      },
+      "pos": [
+        55,
+        8
+      ]
+    },
+    {
+      "id": 9000732676939325,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 4457606292435365,
+      "rightModuleId": 5620170277181698,
+      "data": {
+        "text": "osc 1,2 in",
+        "fg": "#29b2ef",
+        "bg": "#000000"
+      },
+      "pos": [
+        37,
+        8
+      ]
+    },
+    {
+      "id": 6935849490845458,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 4347747518637697,
+      "data": {
+        "text": "1.trigger 2.pitch",
+        "fg": "#29b2ef",
+        "bg": "#000000"
+      },
+      "pos": [
+        74,
+        8
+      ]
+    },
+    {
+      "id": 5620170277181698,
+      "plugin": "DHE-Modules",
+      "model": "Func",
+      "version": "2.0.3",
+      "params": [
+        {
+          "value": 0.5,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 1.0,
+          "id": 2
+        },
+        {
+          "value": 2.0,
+          "id": 3
+        }
+      ],
+      "leftModuleId": 9000732676939325,
+      "rightModuleId": 6226360936215699,
+      "data": {
+        "preset_version": 0
+      },
+      "pos": [
+        39,
+        8
+      ]
+    },
+    {
+      "id": 5702346875555722,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-Slew",
+      "version": "2.1.41",
+      "params": [
+        {
+          "value": 0.54772257804870605,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 0.54772257804870605,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 1.0,
+          "id": 4
+        }
+      ],
+      "leftModuleId": 6226360936215699,
+      "rightModuleId": 7781976044468975,
+      "data": {},
+      "pos": [
+        44,
+        8
+      ]
+    },
+    {
+      "id": 4457606292435365,
+      "plugin": "Fundamental",
+      "model": "Scope",
+      "version": "2.3.1",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": -1.5849624872207642,
+          "id": 4
+        },
+        {
+          "value": 0.0,
+          "id": 5
+        },
+        {
+          "value": 0.0,
+          "id": 6
+        },
+        {
+          "value": 1.0,
+          "id": 7
+        }
+      ],
+      "leftModuleId": 316409072404604,
+      "rightModuleId": 9000732676939325,
+      "pos": [
+        24,
+        8
+      ]
+    },
+    {
+      "id": 6226360936215699,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 5620170277181698,
+      "rightModuleId": 5702346875555722,
+      "data": {
+        "text": "XXXFADE",
+        "fg": "#29b2ef",
+        "bg": "#000000"
+      },
+      "pos": [
+        42,
+        8
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 6123212202828791,
+      "outputModuleId": 6374999697045730,
+      "outputId": 0,
+      "inputModuleId": 6545018904200711,
+      "inputId": 1,
+      "color": "#4bf2ed"
+    },
+    {
+      "id": 8971597895292610,
+      "outputModuleId": 6545018904200711,
+      "outputId": 0,
+      "inputModuleId": 5354332392125591,
+      "inputId": 1,
+      "color": "#ffb437"
+    },
+    {
+      "id": 3323483595809450,
+      "outputModuleId": 5354332392125591,
+      "outputId": 0,
+      "inputModuleId": 999713319712331,
+      "inputId": 0,
+      "color": "#3695ef"
+    },
+    {
+      "id": 8376301724719312,
+      "outputModuleId": 2049925828347860,
+      "outputId": 0,
+      "inputModuleId": 999713319712331,
+      "inputId": 1,
+      "color": "#3695ef"
+    },
+    {
+      "id": 8630134321363553,
+      "outputModuleId": 999713319712331,
+      "outputId": 0,
+      "inputModuleId": 4347747518637697,
+      "inputId": 1,
+      "color": "#00b56e"
+    },
+    {
+      "id": 3078429206907277,
+      "outputModuleId": 5354332392125591,
+      "outputId": 0,
+      "inputModuleId": 8830080149943933,
+      "inputId": 0,
+      "color": "#4bf2ed"
+    },
+    {
+      "id": 8252991958339434,
+      "outputModuleId": 7781976044468975,
+      "outputId": 0,
+      "inputModuleId": 6545018904200711,
+      "inputId": 0,
+      "color": "#f3374b"
+    },
+    {
+      "id": 4224352463249535,
+      "outputModuleId": 7781976044468975,
+      "outputId": 0,
+      "inputModuleId": 5354332392125591,
+      "inputId": 0,
+      "color": "#f3374b"
+    },
+    {
+      "id": 8252705246744607,
+      "outputModuleId": 5620170277181698,
+      "outputId": 0,
+      "inputModuleId": 5702346875555722,
+      "inputId": 2,
+      "color": "#4bf2ed"
+    },
+    {
+      "id": 3581823565364095,
+      "outputModuleId": 5702346875555722,
+      "outputId": 0,
+      "inputModuleId": 7781976044468975,
+      "inputId": 0,
+      "color": "#ffb437"
+    },
+    {
+      "id": 7352165288431772,
+      "outputModuleId": 8830080149943933,
+      "outputId": 0,
+      "inputModuleId": 4347747518637697,
+      "inputId": 0,
+      "color": "#00b56e"
+    },
+    {
+      "id": 4879083440876498,
+      "outputModuleId": 4457606292435365,
+      "outputId": 0,
+      "inputModuleId": 7781976044468975,
+      "inputId": 1,
+      "color": "#f3374b"
+    },
+    {
+      "id": 8603182238629982,
+      "outputModuleId": 4457606292435365,
+      "outputId": 1,
+      "inputModuleId": 7781976044468975,
+      "inputId": 2,
+      "color": "#ffb437"
+    }
+  ]
+}

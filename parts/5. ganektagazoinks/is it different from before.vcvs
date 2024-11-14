@@ -1,0 +1,263 @@
+{
+  "modules": [
+    {
+      "id": 791807480181311,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-Cmp",
+      "version": "2.4.45",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 0.001999999862164259,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        }
+      ],
+      "leftModuleId": 312399489019122,
+      "rightModuleId": 6506316269964559,
+      "data": {},
+      "pos": [
+        130,
+        2
+      ]
+    },
+    {
+      "id": 6506316269964559,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-CVD",
+      "version": "2.4.45",
+      "params": [
+        {
+          "value": 0.044999998062849045,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 1.0,
+          "id": 2
+        }
+      ],
+      "leftModuleId": 791807480181311,
+      "rightModuleId": 6431462553622343,
+      "data": {},
+      "pos": [
+        136,
+        2
+      ]
+    },
+    {
+      "id": 2580927117235268,
+      "plugin": "StochasticTelegraph",
+      "model": "Fermata",
+      "version": "2.0.13",
+      "params": [],
+      "rightModuleId": 8682153391867389,
+      "data": {
+        "text": "IS IT DIFFERENT FROM BEFORE?\n----------------------------\n\nThe strip that asks the question, \"Is it different from before?\"\n\nenter CV (like say a pitch) and a trigger/gate; if the CV has changed since the last trigger, the trigger passes; if not, it doesn't\n\nIf you're using a quantizer, this goes AFTER it. Also some quantizers (QUANTUM, QUANT) have this function built in, at least sort of\n\nCV in doesn't have to be pitch! use your iMaGiNaTiOn\n\nnote: i'm pretty sure this works",
+        "width": 3,
+        "screen_colors": 281200098803712,
+        "font_choice": "fonts/RobotoSlab-Regular.ttf",
+        "title_text": "IS IT DIFFERENT FROM BEFORE?"
+      },
+      "pos": [
+        118,
+        2
+      ]
+    },
+    {
+      "id": 677868879856929,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 1743236376039962,
+      "data": {
+        "text": "1.CV OUT 2.trigger OUT",
+        "fg": "#29b2ef",
+        "bg": "#000000"
+      },
+      "pos": [
+        145,
+        2
+      ]
+    },
+    {
+      "id": 312399489019122,
+      "plugin": "ML_modules",
+      "model": "ShiftRegister",
+      "version": "2.0.2",
+      "params": [],
+      "leftModuleId": 3232520836247834,
+      "rightModuleId": 791807480181311,
+      "pos": [
+        126,
+        2
+      ]
+    },
+    {
+      "id": 3232520836247834,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 8682153391867389,
+      "rightModuleId": 312399489019122,
+      "data": {
+        "text": "1.CV IN 2.trigger IN",
+        "fg": "#29b2ef",
+        "bg": "#000000"
+      },
+      "pos": [
+        124,
+        2
+      ]
+    },
+    {
+      "id": 6431462553622343,
+      "plugin": "Fundamental",
+      "model": "VCA-1",
+      "version": "2.6.0",
+      "params": [
+        {
+          "value": 1.0,
+          "id": 0
+        },
+        {
+          "value": 1.0,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 6506316269964559,
+      "rightModuleId": 1743236376039962,
+      "pos": [
+        139,
+        2
+      ]
+    },
+    {
+      "id": 1743236376039962,
+      "plugin": "Stoermelder-P1",
+      "model": "StripBay4",
+      "version": "2.0.beta3",
+      "params": [],
+      "leftModuleId": 6431462553622343,
+      "rightModuleId": 677868879856929,
+      "data": {
+        "panelTheme": 0,
+        "conId": ""
+      },
+      "pos": [
+        142,
+        2
+      ]
+    },
+    {
+      "id": 8682153391867389,
+      "plugin": "Stoermelder-P1",
+      "model": "StripBay4",
+      "version": "2.0.beta3",
+      "params": [],
+      "leftModuleId": 2580927117235268,
+      "rightModuleId": 3232520836247834,
+      "data": {
+        "panelTheme": 0,
+        "conId": ""
+      },
+      "pos": [
+        121,
+        2
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 2684607868192242,
+      "outputModuleId": 791807480181311,
+      "outputId": 3,
+      "inputModuleId": 6431462553622343,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 2533647137391410,
+      "outputModuleId": 6431462553622343,
+      "outputId": 0,
+      "inputModuleId": 1743236376039962,
+      "inputId": 1,
+      "color": "#c91847"
+    },
+    {
+      "id": 5458410853113852,
+      "outputModuleId": 312399489019122,
+      "outputId": 0,
+      "inputModuleId": 791807480181311,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 7239683421181369,
+      "outputModuleId": 312399489019122,
+      "outputId": 1,
+      "inputModuleId": 791807480181311,
+      "inputId": 1,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 6523725303550471,
+      "outputModuleId": 8682153391867389,
+      "outputId": 0,
+      "inputModuleId": 312399489019122,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 8402850152511799,
+      "outputModuleId": 8682153391867389,
+      "outputId": 0,
+      "inputModuleId": 1743236376039962,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 436261409495292,
+      "outputModuleId": 8682153391867389,
+      "outputId": 1,
+      "inputModuleId": 312399489019122,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "id": 2462212624142857,
+      "outputModuleId": 8682153391867389,
+      "outputId": 1,
+      "inputModuleId": 6506316269964559,
+      "inputId": 2,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 2335360894887100,
+      "outputModuleId": 6506316269964559,
+      "outputId": 0,
+      "inputModuleId": 6431462553622343,
+      "inputId": 1,
+      "color": "#0c8e15"
+    }
+  ]
+}

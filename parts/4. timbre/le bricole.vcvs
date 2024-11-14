@@ -1,0 +1,134 @@
+{
+  "modules": [
+    {
+      "id": 6803311705334303,
+      "plugin": "dbRackModules",
+      "model": "BWF",
+      "version": "2.1.4",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.071084119379520416,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 8890401193651129,
+      "pos": [
+        627,
+        8
+      ]
+    },
+    {
+      "id": 8890401193651129,
+      "plugin": "DHE-Modules",
+      "model": "Func",
+      "version": "2.0.3",
+      "params": [
+        {
+          "value": 0.57108414173126221,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 1.0,
+          "id": 2
+        },
+        {
+          "value": 2.0,
+          "id": 3
+        }
+      ],
+      "leftModuleId": 6617994035979464,
+      "rightModuleId": 6803311705334303,
+      "data": {
+        "preset_version": 0
+      },
+      "pos": [
+        624,
+        8
+      ]
+    },
+    {
+      "id": 6617994035979464,
+      "plugin": "DHE-Modules",
+      "model": "Func",
+      "version": "2.0.3",
+      "params": [
+        {
+          "value": 0.5,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 1.0,
+          "id": 2
+        },
+        {
+          "value": 2.0,
+          "id": 3
+        }
+      ],
+      "leftModuleId": 7510862413731560,
+      "rightModuleId": 8890401193651129,
+      "data": {
+        "preset_version": 0
+      },
+      "pos": [
+        621,
+        8
+      ]
+    },
+    {
+      "id": 7510862413731560,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "rightModuleId": 6617994035979464,
+      "data": {
+        "text": "le bricol",
+        "fg": "#ff1313",
+        "bg": "#000000"
+      },
+      "pos": [
+        619,
+        8
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 7012721913037711,
+      "outputModuleId": 8890401193651129,
+      "outputId": 0,
+      "inputModuleId": 6803311705334303,
+      "inputId": 2,
+      "color": "#ffb437"
+    },
+    {
+      "id": 7494449104724896,
+      "outputModuleId": 6617994035979464,
+      "outputId": 0,
+      "inputModuleId": 8890401193651129,
+      "inputId": 0,
+      "color": "#00b56e"
+    },
+    {
+      "id": 6671843640183777,
+      "outputModuleId": 6617994035979464,
+      "outputId": 0,
+      "inputModuleId": 6803311705334303,
+      "inputId": 1,
+      "color": "#3695ef"
+    }
+  ]
+}

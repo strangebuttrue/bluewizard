@@ -1,0 +1,255 @@
+{
+  "modules": [
+    {
+      "id": 2424727462116728,
+      "plugin": "Venom",
+      "model": "HQ",
+      "version": "2.1.4",
+      "params": [
+        {
+          "value": 0.67469942569732666,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        }
+      ],
+      "leftModuleId": 8729947407537316,
+      "rightModuleId": 7256850083474446,
+      "data": {
+        "range": 8,
+        "currentTheme": 0
+      },
+      "pos": [
+        -80,
+        0
+      ]
+    },
+    {
+      "id": 1772562787540491,
+      "plugin": "DHE-Modules",
+      "model": "Func",
+      "version": "2.0.3",
+      "params": [
+        {
+          "value": 0.5,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 1.0,
+          "id": 2
+        },
+        {
+          "value": 2.0,
+          "id": 3
+        }
+      ],
+      "leftModuleId": 6089763075764060,
+      "rightModuleId": 8729947407537316,
+      "data": {
+        "preset_version": 0
+      },
+      "pos": [
+        -84,
+        0
+      ]
+    },
+    {
+      "id": 1463910947223362,
+      "plugin": "Venom",
+      "model": "HQ",
+      "version": "2.1.4",
+      "params": [
+        {
+          "value": 0.45301470160484314,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        }
+      ],
+      "leftModuleId": 4688633386999616,
+      "rightModuleId": 3824219455994302,
+      "data": {
+        "range": 8,
+        "currentTheme": 0
+      },
+      "pos": [
+        -73,
+        0
+      ]
+    },
+    {
+      "id": 8729947407537316,
+      "plugin": "SubmarineFree",
+      "model": "BP-101",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 1772562787540491,
+      "rightModuleId": 2424727462116728,
+      "pos": [
+        -81,
+        0
+      ]
+    },
+    {
+      "id": 6089763075764060,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "rightModuleId": 1772562787540491,
+      "data": {
+        "text": "RB7 - (for STEPAROUND)",
+        "fg": "#ff1313",
+        "bg": "#000000"
+      },
+      "pos": [
+        -86,
+        0
+      ]
+    },
+    {
+      "id": 4688633386999616,
+      "plugin": "SubmarineFree",
+      "model": "BP-101",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 7256850083474446,
+      "rightModuleId": 1463910947223362,
+      "pos": [
+        -74,
+        0
+      ]
+    },
+    {
+      "id": 3824219455994302,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-LLFO",
+      "version": "2.3.43",
+      "params": [
+        {
+          "value": -1.0313625335693359,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 5.0,
+          "id": 2
+        },
+        {
+          "value": 1.0,
+          "id": 3
+        },
+        {
+          "value": 1.0,
+          "id": 4
+        }
+      ],
+      "leftModuleId": 1463910947223362,
+      "data": {
+        "offset_scale": 1.0,
+        "output_sampling": 0.0,
+        "pulse_width": -0.85106378793716431,
+        "smoothing": 0.0,
+        "reset_on_wave_change": false
+      },
+      "pos": [
+        -70,
+        0
+      ]
+    },
+    {
+      "id": 7256850083474446,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-LLFO",
+      "version": "2.3.43",
+      "params": [
+        {
+          "value": -1.0313625335693359,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 5.0,
+          "id": 2
+        },
+        {
+          "value": 1.0,
+          "id": 3
+        },
+        {
+          "value": 1.0,
+          "id": 4
+        }
+      ],
+      "leftModuleId": 2424727462116728,
+      "rightModuleId": 4688633386999616,
+      "data": {
+        "offset_scale": 1.0,
+        "output_sampling": 0.0,
+        "pulse_width": -0.85106378793716431,
+        "smoothing": 0.0,
+        "reset_on_wave_change": false
+      },
+      "pos": [
+        -77,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 3136838137659169,
+      "outputModuleId": 1772562787540491,
+      "outputId": 0,
+      "inputModuleId": 2424727462116728,
+      "inputId": 1,
+      "color": "#8b4ade"
+    },
+    {
+      "id": 5234729653355312,
+      "outputModuleId": 1772562787540491,
+      "outputId": 0,
+      "inputModuleId": 1463910947223362,
+      "inputId": 1,
+      "color": "#8b4ade"
+    },
+    {
+      "id": 1971945371637126,
+      "outputModuleId": 1463910947223362,
+      "outputId": 0,
+      "inputModuleId": 3824219455994302,
+      "inputId": 0,
+      "color": "#f3374b"
+    },
+    {
+      "id": 915291753455177,
+      "outputModuleId": 2424727462116728,
+      "outputId": 0,
+      "inputModuleId": 7256850083474446,
+      "inputId": 0,
+      "color": "#ffb437"
+    }
+  ]
+}

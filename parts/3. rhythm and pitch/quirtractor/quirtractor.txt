@@ -7,11 +7,11 @@ This is your basic steparound-style S&H pair except equipped with a feedback cir
 
 L-R:
 
-LLFO #1 produces pulses
+LLFO #1 produces pulses for PULSE DIVIDER and MULT #2
 
-PULSE DIVIDER divides these pulses and sends trigger to S&H 1
+PULSE DIVIDER divides these pulses and sends trigger to S&H 1 - and also to MULT #1
 
-S&H #1 samples output of LLFO #2 and passes it to VCA #2 for attenuation
+S&H #1 samples output of LLFO #2 and passes it to VCA #2 for attenuation - and also to MULT #1
 
 VCA #1 displays the present voltage from S&H #1
 
@@ -19,8 +19,6 @@ VCA #2 attenuates voltage from S&H #1 for return to LLFO #2 v/oct input
 
 LLFO #2 makes sawtooth waves for sampling, and modulates itself (with some chaperoning)
 
-S&H #2 samples LLFO #2's sawtooth for output as CV
+S&H #2 samples LLFO #2's sawtooth to MULT #2 and VCA #3
 
-VCA #3 shows us what's coming out the nozzle
-
-MULT out puts triggers and CV, 0-10v
+MULT outputs triggers and CV, 0-10v

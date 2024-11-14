@@ -1,0 +1,205 @@
+{
+  "modules": [
+    {
+      "id": 5815156201397231,
+      "plugin": "Fundamental",
+      "model": "VCA-1",
+      "version": "2.1.0",
+      "params": [
+        {
+          "value": 0.88899999856948853,
+          "id": 0
+        },
+        {
+          "value": 1.0,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 469708166592779,
+      "rightModuleId": 4444340745914699,
+      "pos": [
+        138,
+        2
+      ]
+    },
+    {
+      "id": 4444340745914699,
+      "plugin": "LittleUtils",
+      "model": "TeleportOut",
+      "version": "2.0.0",
+      "params": [],
+      "leftModuleId": 5815156201397231,
+      "rightModuleId": 876573532374738,
+      "data": {
+        "label": "AWAR"
+      },
+      "pos": [
+        141,
+        2
+      ]
+    },
+    {
+      "id": 876573532374738,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-EightOne",
+      "version": "2.0.39",
+      "params": [
+        {
+          "value": 8.0,
+          "id": 0
+        },
+        {
+          "value": 1.0,
+          "id": 1
+        },
+        {
+          "value": 2.0,
+          "id": 2
+        }
+      ],
+      "leftModuleId": 4444340745914699,
+      "rightModuleId": 7828107836072631,
+      "data": {
+        "poly_input": 8,
+        "select_on_clock": false,
+        "triggered_select": false,
+        "reverse_on_negative_clock": false,
+        "wrap_select_at_steps": false
+      },
+      "pos": [
+        144,
+        2
+      ]
+    },
+    {
+      "id": 469708166592779,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-LLFO",
+      "version": "2.0.39",
+      "params": [
+        {
+          "value": -3.5052928924560547,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 0.53734499216079712,
+          "id": 4
+        }
+      ],
+      "rightModuleId": 5815156201397231,
+      "data": {
+        "output_sampling": 0.0,
+        "pulse_width": -0.85106378793716431,
+        "smoothing": 0.0,
+        "reset_on_wave_change": false
+      },
+      "pos": [
+        135,
+        2
+      ]
+    },
+    {
+      "id": 7828107836072631,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 876573532374738,
+      "data": {
+        "text": "scale aware cv converter",
+        "fg": "#29b2ef",
+        "bg": "#00000000"
+      },
+      "pos": [
+        150,
+        2
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 1235391252756957,
+      "outputModuleId": 5815156201397231,
+      "outputId": 0,
+      "inputModuleId": 876573532374738,
+      "inputId": 10,
+      "color": "#8b4ade"
+    },
+    {
+      "id": 156525240298822,
+      "outputModuleId": 4444340745914699,
+      "outputId": 0,
+      "inputModuleId": 876573532374738,
+      "inputId": 0,
+      "color": "#00b56e"
+    },
+    {
+      "id": 1158509986057940,
+      "outputModuleId": 4444340745914699,
+      "outputId": 1,
+      "inputModuleId": 876573532374738,
+      "inputId": 1,
+      "color": "#3695ef"
+    },
+    {
+      "id": 4707603813569661,
+      "outputModuleId": 4444340745914699,
+      "outputId": 2,
+      "inputModuleId": 876573532374738,
+      "inputId": 2,
+      "color": "#8b4ade"
+    },
+    {
+      "id": 4362232262429286,
+      "outputModuleId": 4444340745914699,
+      "outputId": 3,
+      "inputModuleId": 876573532374738,
+      "inputId": 3,
+      "color": "#f3374b"
+    },
+    {
+      "id": 557891286843685,
+      "outputModuleId": 4444340745914699,
+      "outputId": 4,
+      "inputModuleId": 876573532374738,
+      "inputId": 4,
+      "color": "#ffb437"
+    },
+    {
+      "id": 8926678806081431,
+      "outputModuleId": 4444340745914699,
+      "outputId": 5,
+      "inputModuleId": 876573532374738,
+      "inputId": 5,
+      "color": "#00b56e"
+    },
+    {
+      "id": 1154931267535452,
+      "outputModuleId": 4444340745914699,
+      "outputId": 6,
+      "inputModuleId": 876573532374738,
+      "inputId": 6,
+      "color": "#3695ef"
+    },
+    {
+      "id": 5431053006219702,
+      "outputModuleId": 469708166592779,
+      "outputId": 0,
+      "inputModuleId": 5815156201397231,
+      "inputId": 1,
+      "color": "#3695ef"
+    }
+  ]
+}

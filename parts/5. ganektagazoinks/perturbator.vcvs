@@ -1,0 +1,258 @@
+{
+  "modules": [
+    {
+      "id": 1215473309537053,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-XFade",
+      "version": "2.0.39",
+      "params": [
+        {
+          "value": -1.0,
+          "id": 0
+        },
+        {
+          "value": 0.5,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        }
+      ],
+      "leftModuleId": 8430051497206093,
+      "rightModuleId": 6077381033872716,
+      "data": {},
+      "pos": [
+        -28,
+        0
+      ]
+    },
+    {
+      "id": 1392199778849604,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-DADSRH",
+      "version": "2.0.39",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.28500005602836609,
+          "id": 1
+        },
+        {
+          "value": 0.37922996282577515,
+          "id": 2
+        },
+        {
+          "value": 0.020999999716877937,
+          "id": 3
+        },
+        {
+          "value": 0.31023001670837402,
+          "id": 4
+        },
+        {
+          "value": 0.44721001386642456,
+          "id": 5
+        },
+        {
+          "value": 1.0,
+          "id": 6
+        },
+        {
+          "value": 3.0,
+          "id": 7
+        },
+        {
+          "value": 2.0,
+          "id": 8
+        },
+        {
+          "value": 0.0,
+          "id": 9
+        },
+        {
+          "value": 0.0,
+          "id": 10
+        },
+        {
+          "value": 1.0,
+          "id": 11
+        },
+        {
+          "value": 1.0,
+          "id": 12
+        },
+        {
+          "value": 1.0,
+          "id": 13
+        }
+      ],
+      "leftModuleId": 3416177147252780,
+      "rightModuleId": 8430051497206093,
+      "data": {
+        "triggerOnLoad": true,
+        "shouldTriggerOnLoad": false
+      },
+      "pos": [
+        -41,
+        0
+      ]
+    },
+    {
+      "id": 6077381033872716,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.3",
+      "params": [],
+      "leftModuleId": 1215473309537053,
+      "data": {
+        "text": "mix = 1 perturbed signal",
+        "fg": "#29b2ef",
+        "bg": "#00000000"
+      },
+      "pos": [
+        -25,
+        0
+      ]
+    },
+    {
+      "id": 8430051497206093,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-Offset",
+      "version": "2.0.39",
+      "params": [
+        {
+          "value": -0.5,
+          "id": 0
+        },
+        {
+          "value": 0.24494898319244385,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 1392199778849604,
+      "rightModuleId": 1215473309537053,
+      "data": {
+        "disableOutputLimit": false,
+        "offset_first": false
+      },
+      "pos": [
+        -31,
+        0
+      ]
+    },
+    {
+      "id": 453129281211778,
+      "plugin": "Core",
+      "model": "Notes",
+      "version": "2.0.4",
+      "params": [],
+      "rightModuleId": 4331363296011375,
+      "data": {
+        "text": "PERTURBATOR (per-TUR-buh-TOR)\n-----------------------------\n\nUpon trigger, an envelope crossfades voltage 1 into voltage 2 and back again. If voltage 1 is a low-frequency oscillation and voltage 2 a higher one, this will look a little like an oscillation  \"perturbed\" and regaining its course\n"
+      },
+      "pos": [
+        -64,
+        0
+      ]
+    },
+    {
+      "id": 3416177147252780,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.3",
+      "params": [],
+      "leftModuleId": 2404815026416155,
+      "rightModuleId": 1392199778849604,
+      "data": {
+        "text": "IN 1.course 2.shake 2.perturbation",
+        "fg": "#29b2ef",
+        "bg": "#00000000"
+      },
+      "pos": [
+        -43,
+        0
+      ]
+    },
+    {
+      "id": 2404815026416155,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.3",
+      "params": [],
+      "leftModuleId": 4331363296011375,
+      "rightModuleId": 3416177147252780,
+      "data": {
+        "text": "3.trigger",
+        "fg": "#29b2ef",
+        "bg": "#00000000"
+      },
+      "pos": [
+        -45,
+        0
+      ]
+    },
+    {
+      "id": 4331363296011375,
+      "plugin": "Stoermelder-P1",
+      "model": "StripBay4",
+      "version": "2.0.aa525d0",
+      "params": [],
+      "leftModuleId": 453129281211778,
+      "rightModuleId": 2404815026416155,
+      "data": {
+        "panelTheme": 0,
+        "conId": ""
+      },
+      "pos": [
+        -48,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 1464602999510928,
+      "outputModuleId": 1392199778849604,
+      "outputId": 0,
+      "inputModuleId": 8430051497206093,
+      "inputId": 2,
+      "color": "#0986ad"
+    },
+    {
+      "id": 5586966508795451,
+      "outputModuleId": 8430051497206093,
+      "outputId": 0,
+      "inputModuleId": 1215473309537053,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 6613796830709159,
+      "outputModuleId": 4331363296011375,
+      "outputId": 0,
+      "inputModuleId": 1215473309537053,
+      "inputId": 2,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 5651067319392376,
+      "outputModuleId": 4331363296011375,
+      "outputId": 2,
+      "inputModuleId": 1392199778849604,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 6245372660580084,
+      "outputModuleId": 4331363296011375,
+      "outputId": 1,
+      "inputModuleId": 1215473309537053,
+      "inputId": 1,
+      "color": "#c91847"
+    }
+  ]
+}

@@ -1,45 +1,151 @@
 {
   "modules": [
     {
-      "id": 3005676302740220,
+      "id": 2010909764191202,
       "plugin": "StochasticTelegraph",
       "model": "Fermata",
       "version": "2.0.17",
       "params": [],
-      "rightModuleId": 1442894800493645,
+      "rightModuleId": 716138102431596,
       "data": {
-        "text": "EPHEMEROS\nstacked thirds array scanner\n\nKNOLY POBS turns out 14 voltages - stacked alternating major and minor thirds. APPEND selects a polyphonic array of contiguous channels from this input. Output to a COERCE and you have instant  octave-agnostic chord structures. The sequence of pitches, all in the nearest 5-limit tuning:\n\nC Eb G Bb D F  A\nC E  G B  D F# A\n\nThe FUNC on the left selects how many channels APPEND outputs. Set it to 0 and out comes one pitch. Crank it to ten and uh oh that's a lot of different pitches.\n\nThe right FUNC scans the selection around the array. At 0 we start at the C occupying channel 1 of the input. Turn it up and we begin at the Eb in channel 2, the following G, etc.\n\nSO: Selecting an array of three pitches will return a triad of some kind. Four pitches comprise a seventh chord. Here's the 14 triads you can get:\n\nCm - EbM - Gm - BbM - Dm - FM    - Am\nCM - Em  - GM - Bm  - DM - F#dim - Adim \n\nUseful: Channel 1 of APPEND's output array will always be the root of these triads, channel 2 the third, et cetera - so it's easy to get roots for a bass, or indeed any subset of chord tones.\n\nAPPEND will wrap the array channel selection around, so the higher settings produce interesting harmonic effects - D7b9, F#dim7, and Am7b5 are all available.\n\nWhat chords are these? The first six all are derived from a G minor scale. From the A minor to the F# diminished they spell a G major scale. The Am7b5 at the end is a spicy artifact, useful in a ii-V-i cadence in G minor. So, while C (0v) is in the 0th posiion of the pitch array, it's best to think of this tool as producing a variety of G tonalities, particularly if you're fond of a plaigal cadence now and then. Pitches *not appearing* anywhere in the array are the minor second (Ab) and tritone (C#/Db).\n\nBut of course you don't have to settle for one key. The rightmost FUNC transposes the whole output around. So to select chords from a C tonality, turn this knob to -0.585, or 0.415. Et cetera. So automate it and get chords, get modal interchange, get upper structure triads, etc etc etc\n\nml 10/20/24",
+        "text": "EPHEMEROS\nstacked thirds array scanner\n\nKNOLY POBS turns out 14 voltages - stacked alternating major and minor thirds. APPEND selects a polyphonic array of contiguous channels from this input. Output to a COERCE and you have instant  octave-agnostic chord structures. The sequence of pitches, all in the nearest 5-limit tuning:\n\nC Eb G Bb D F  A\nC E  G B  D F# A\n\nThe FUNC on the left selects how many channels APPEND outputs. Set it to 0 and out comes one pitch. Crank it to ten and uh oh that's a lot of different pitches.\n\nThe right FUNC scans the selection around the array. At 0 we start at the C occupying channel 1 of the input. Turn it up and we begin at the Eb in channel 2, the following G, etc.\n\nSO: Selecting an array of three pitches will return a triad of some kind. Four pitches comprise a seventh chord. Here's the 14 triads you can get:\n\nCm - EbM - Gm - BbM - Dm - FM    - Am\nCM - Em  - GM - Bm  - DM - F#dim - Adim \n\nUseful: Channel 1 of APPEND's output array will always be the root of these triads, channel 2 the third, et cetera - so it's easy to get roots for a bass, or indeed any subset of chord tones.\n\nAPPEND will wrap the array channel selection around, so the higher settings produce interesting harmonic effects - D7b9, F#dim7, and Am7b5 are all available.\n\nWhat chords are these? The first seven all are derived from a G minor scale. From the A minor to the F# diminished they spell a G major scale. The Am7b5 at the end is a spicy artifact, useful in a ii-V-i cadence in G minor. So, while C (0v) is in the 0th posiion of the pitch array, it's best to think of this tool as producing a variety of G tonalities, particularly if you're fond of a plaigal cadence now and then. Pitches *not appearing* anywhere in the array are the minor second (Ab) and tritone (C#/Db).\n\nBut of course you don't have to settle for one key. The rightmonst FUNC transposes the whole output around. So to select chords from a C tonality, turn this knob to -0.585, or 0.415. Et cetera. So automate it and get chords, get modal interchange, get upper structure triads, etc etc etc\n\nml 10/20/24",
         "width": 6,
         "screen_colors": 281200098803712,
         "font_choice": "fonts/RobotoMono-Bold.ttf",
         "title_text": "EPHEMEROS"
       },
       "pos": [
-        -13,
+        42,
         1
       ]
     },
     {
-      "id": 887966030276254,
-      "plugin": "Bogaudio",
-      "model": "Bogaudio-PolyMult",
-      "version": "2.4.45",
+      "id": 1053065475043838,
+      "plugin": "DHE-Modules",
+      "model": "Func",
+      "version": "2.0.3",
       "params": [
         {
-          "value": 14.0,
+          "value": 0.16867464780807495,
           "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 2.0,
+          "id": 2
+        },
+        {
+          "value": 2.0,
+          "id": 3
         }
       ],
-      "leftModuleId": 6953623463354997,
-      "rightModuleId": 3365721566714042,
-      "data": {},
+      "leftModuleId": 716138102431596,
+      "rightModuleId": 1304640529654567,
+      "data": {
+        "preset_version": 0
+      },
       "pos": [
-        12,
+        52,
         1
       ]
     },
     {
-      "id": 1442894800493645,
+      "id": 1304640529654567,
+      "plugin": "DHE-Modules",
+      "model": "Func",
+      "version": "2.0.3",
+      "params": [
+        {
+          "value": 0.0012048193020746112,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 2.0,
+          "id": 2
+        },
+        {
+          "value": 2.0,
+          "id": 3
+        }
+      ],
+      "leftModuleId": 1053065475043838,
+      "rightModuleId": 2474442652334553,
+      "data": {
+        "preset_version": 0
+      },
+      "pos": [
+        55,
+        1
+      ]
+    },
+    {
+      "id": 5531542736450213,
+      "plugin": "computerscare",
+      "model": "computerscare-debug",
+      "version": "2.1.11",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 2.0,
+          "id": 4
+        },
+        {
+          "value": 1.0,
+          "id": 5
+        }
+      ],
+      "leftModuleId": 2474442652334553,
+      "rightModuleId": 852293293076521,
+      "data": {
+        "outputRange": 0,
+        "lines": [
+          0.0,
+          0.24500000476837158,
+          0.58499997854232788,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "pos": [
+        64,
+        1
+      ]
+    },
+    {
+      "id": 716138102431596,
       "plugin": "computerscare",
       "model": "computerscare-knolypobs",
       "version": "2.1.11",
@@ -185,152 +291,40 @@
           "id": 34
         }
       ],
-      "leftModuleId": 3005676302740220,
-      "rightModuleId": 8492515941749260,
+      "leftModuleId": 2010909764191202,
+      "rightModuleId": 1053065475043838,
       "pos": [
-        -7,
+        48,
         1
       ]
     },
     {
-      "id": 6354309390463118,
-      "plugin": "computerscare",
-      "model": "computerscare-debug",
-      "version": "2.1.11",
-      "params": [
-        {
-          "value": 0.0,
-          "id": 0
-        },
-        {
-          "value": 0.0,
-          "id": 1
-        },
-        {
-          "value": 0.0,
-          "id": 2
-        },
-        {
-          "value": 0.0,
-          "id": 3
-        },
-        {
-          "value": 2.0,
-          "id": 4
-        },
-        {
-          "value": 1.0,
-          "id": 5
-        }
-      ],
-      "leftModuleId": 3365721566714042,
-      "data": {
-        "outputRange": 0,
-        "lines": [
-          0.0,
-          0.24500000476837158,
-          0.58499997854232788,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ]
-      },
-      "pos": [
-        18,
-        1
-      ]
-    },
-    {
-      "id": 8492515941749260,
-      "plugin": "DHE-Modules",
-      "model": "Func",
-      "version": "2.0.3",
-      "params": [
-        {
-          "value": 0.17228913307189941,
-          "id": 0
-        },
-        {
-          "value": 0.0,
-          "id": 1
-        },
-        {
-          "value": 2.0,
-          "id": 2
-        },
-        {
-          "value": 2.0,
-          "id": 3
-        }
-      ],
-      "leftModuleId": 1442894800493645,
-      "rightModuleId": 411466003724794,
-      "data": {
-        "preset_version": 0
-      },
-      "pos": [
-        -3,
-        1
-      ]
-    },
-    {
-      "id": 411466003724794,
-      "plugin": "DHE-Modules",
-      "model": "Func",
-      "version": "2.0.3",
-      "params": [
-        {
-          "value": 0.0,
-          "id": 0
-        },
-        {
-          "value": 0.0,
-          "id": 1
-        },
-        {
-          "value": 2.0,
-          "id": 2
-        },
-        {
-          "value": 2.0,
-          "id": 3
-        }
-      ],
-      "leftModuleId": 8492515941749260,
-      "rightModuleId": 699082962526045,
-      "data": {
-        "preset_version": 0
-      },
-      "pos": [
-        0,
-        1
-      ]
-    },
-    {
-      "id": 699082962526045,
+      "id": 2474442652334553,
       "plugin": "TMT",
       "model": "Append",
       "version": "2.1.10",
       "params": [],
-      "leftModuleId": 411466003724794,
-      "rightModuleId": 6953623463354997,
+      "leftModuleId": 1304640529654567,
+      "rightModuleId": 5531542736450213,
       "pos": [
-        3,
+        58,
         1
       ]
     },
     {
-      "id": 6953623463354997,
+      "id": 1010529067197850,
+      "plugin": "ML_modules",
+      "model": "Sum8",
+      "version": "2.0.2",
+      "params": [],
+      "leftModuleId": 8721021608178605,
+      "pos": [
+        76,
+        1
+      ]
+    },
+    {
+      "id": 852293293076521,
       "plugin": "DHE-Modules",
       "model": "Func",
       "version": "2.0.3",
@@ -352,92 +346,90 @@
           "id": 3
         }
       ],
-      "leftModuleId": 699082962526045,
-      "rightModuleId": 887966030276254,
+      "leftModuleId": 5531542736450213,
+      "rightModuleId": 8721021608178605,
       "data": {
         "preset_version": 0
       },
       "pos": [
-        9,
+        70,
         1
       ]
     },
     {
-      "id": 3365721566714042,
-      "plugin": "ML_modules",
-      "model": "Sum8",
-      "version": "2.0.2",
-      "params": [],
-      "leftModuleId": 887966030276254,
-      "rightModuleId": 6354309390463118,
+      "id": 8721021608178605,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-PolyMult",
+      "version": "2.4.45",
+      "params": [
+        {
+          "value": 14.0,
+          "id": 0
+        }
+      ],
+      "leftModuleId": 852293293076521,
+      "rightModuleId": 1010529067197850,
+      "data": {},
       "pos": [
-        15,
+        73,
         1
       ]
     }
   ],
   "cables": [
     {
-      "id": 7461736759024209,
-      "outputModuleId": 8492515941749260,
+      "id": 733519038993729,
+      "outputModuleId": 2474442652334553,
       "outputId": 0,
-      "inputModuleId": 887966030276254,
+      "inputModuleId": 5531542736450213,
       "inputId": 0,
-      "color": "#ff8b37"
+      "color": "#26619e"
     },
     {
-      "id": 5205464716910660,
-      "outputModuleId": 6953623463354997,
+      "id": 6102758998389134,
+      "outputModuleId": 1053065475043838,
       "outputId": 0,
-      "inputModuleId": 887966030276254,
-      "inputId": 1,
-      "color": "#ff8b37"
-    },
-    {
-      "id": 6238067080241323,
-      "outputModuleId": 887966030276254,
-      "outputId": 0,
-      "inputModuleId": 3365721566714042,
-      "inputId": 3,
-      "color": "#f3374b"
-    },
-    {
-      "id": 1531079295716276,
-      "outputModuleId": 699082962526045,
-      "outputId": 0,
-      "inputModuleId": 3365721566714042,
-      "inputId": 7,
-      "color": "#f3374b"
-    },
-    {
-      "id": 462121163043705,
-      "outputModuleId": 1442894800493645,
-      "outputId": 0,
-      "inputModuleId": 699082962526045,
-      "inputId": 0,
-      "color": "#f3374b"
-    },
-    {
-      "id": 2931318971040030,
-      "outputModuleId": 8492515941749260,
-      "outputId": 0,
-      "inputModuleId": 699082962526045,
+      "inputModuleId": 2474442652334553,
       "inputId": 16,
       "color": "#ff8b37"
     },
     {
-      "id": 3323165779233459,
-      "outputModuleId": 411466003724794,
+      "id": 1938074187512821,
+      "outputModuleId": 1304640529654567,
       "outputId": 0,
-      "inputModuleId": 699082962526045,
+      "inputModuleId": 2474442652334553,
       "inputId": 17,
       "color": "#63b546"
     },
     {
-      "id": 7719069617442896,
-      "outputModuleId": 3365721566714042,
+      "id": 7235060944193091,
+      "outputModuleId": 8721021608178605,
       "outputId": 0,
-      "inputModuleId": 6354309390463118,
+      "inputModuleId": 1010529067197850,
+      "inputId": 3,
+      "color": "#f3374b"
+    },
+    {
+      "id": 5198036276017028,
+      "outputModuleId": 2474442652334553,
+      "outputId": 0,
+      "inputModuleId": 1010529067197850,
+      "inputId": 7,
+      "color": "#f3374b"
+    },
+    {
+      "id": 7903279230865577,
+      "outputModuleId": 852293293076521,
+      "outputId": 0,
+      "inputModuleId": 8721021608178605,
+      "inputId": 1,
+      "color": "#ff8b37"
+    },
+    {
+      "id": 4974916894722815,
+      "outputModuleId": 716138102431596,
+      "outputId": 0,
+      "inputModuleId": 2474442652334553,
       "inputId": 0,
       "color": "#f3374b"
     }

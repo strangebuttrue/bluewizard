@@ -1,0 +1,368 @@
+{
+  "modules": [
+    {
+      "id": 927220984990973,
+      "plugin": "Fundamental",
+      "model": "VCA-1",
+      "version": "2.6.0",
+      "params": [
+        {
+          "value": 1.0,
+          "id": 0
+        },
+        {
+          "value": 1.0,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 345527137755460,
+      "rightModuleId": 3020245817612191,
+      "automId": 18,
+      "pos": [
+        28,
+        0
+      ]
+    },
+    {
+      "id": 1702904692933917,
+      "plugin": "Fundamental",
+      "model": "VCA-1",
+      "version": "2.6.0",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 1.0,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 2790988332364376,
+      "rightModuleId": 452515258932488,
+      "automId": 20,
+      "pos": [
+        9,
+        0
+      ]
+    },
+    {
+      "id": 2790988332364376,
+      "plugin": "Fundamental",
+      "model": "VCA-1",
+      "version": "2.6.0",
+      "params": [
+        {
+          "value": 1.0,
+          "id": 0
+        },
+        {
+          "value": 1.0,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 3096550463515218,
+      "rightModuleId": 1702904692933917,
+      "automId": 22,
+      "pos": [
+        6,
+        0
+      ]
+    },
+    {
+      "id": 1178670119290218,
+      "plugin": "StochasticTelegraph",
+      "model": "Fermata",
+      "version": "2.0.17",
+      "params": [],
+      "rightModuleId": 7268194060857151,
+      "data": {
+        "text": "QUIRTRACTOR\n.....for Live\n=============\n\nThis is your basic steparound-style S&H pair except equipped with a feedback circuit, so that the CV out also controls the sawtooth oscillator rate. All kinds of patterns appear and disappear. \n\nL-R:\n\nLLFO #1 produces pulses\n\nPULSE DIVIDER divides these pulses and sends trigger to S&H 1\n\nS&H #1 samples output of LLFO #2 and passes it to VCA #2 for attenuation\n\nVCA #1 displays the present voltage from S&H #1\n\nVCA #2 attenuates voltage from S&H #1 for return to LLFO #2 v/oct input \n\nLLFO #2 makes sawtooth waves for sampling, and modulates itself (with some chaperoning)\n\nS&H #2 samples LLFO #2's sawtooth for output as CV\n\nVCA #3 shows us what's coming out the nozzle\n\nMULT out puts triggers and CV, 0-10v",
+        "width": 4,
+        "screen_colors": 281200098803712,
+        "font_choice": "res/fonts/ShareTechMono-Regular.ttf",
+        "title_text": "QUIRTRACTOR for live"
+      },
+      "pos": [
+        -22,
+        0
+      ]
+    },
+    {
+      "id": 4196584535479403,
+      "plugin": "CountModula",
+      "model": "VCPulseDivider",
+      "version": "2.5.0",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 1.0,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 7268194060857151,
+      "rightModuleId": 3096550463515218,
+      "automId": 4,
+      "data": {
+        "moduleVersion": 1,
+        "theme": 5
+      },
+      "pos": [
+        -6,
+        0
+      ]
+    },
+    {
+      "id": 345527137755460,
+      "plugin": "CountModula",
+      "model": "SampleAndHold",
+      "version": "2.5.0",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        }
+      ],
+      "leftModuleId": 452515258932488,
+      "rightModuleId": 927220984990973,
+      "automId": 6,
+      "data": {
+        "moduleVersion": 3,
+        "theme": 5
+      },
+      "pos": [
+        24,
+        0
+      ]
+    },
+    {
+      "id": 3096550463515218,
+      "plugin": "CountModula",
+      "model": "SampleAndHold",
+      "version": "2.5.0",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        }
+      ],
+      "leftModuleId": 4196584535479403,
+      "rightModuleId": 2790988332364376,
+      "automId": 7,
+      "data": {
+        "moduleVersion": 3,
+        "theme": 5
+      },
+      "pos": [
+        2,
+        0
+      ]
+    },
+    {
+      "id": 3020245817612191,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-Mult",
+      "version": "2.4.45",
+      "params": [],
+      "leftModuleId": 927220984990973,
+      "data": {},
+      "pos": [
+        31,
+        0
+      ]
+    },
+    {
+      "id": 452515258932488,
+      "plugin": "HetrickCV",
+      "model": "PhasorDivMult",
+      "version": "2.4.1",
+      "params": [
+        {
+          "value": 1.0,
+          "id": 0
+        },
+        {
+          "value": 1.0,
+          "id": 1
+        },
+        {
+          "value": 1.0,
+          "id": 2
+        },
+        {
+          "value": 1.0,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        },
+        {
+          "value": 0.0,
+          "id": 5
+        },
+        {
+          "value": 0.0,
+          "id": 6
+        }
+      ],
+      "leftModuleId": 1702904692933917,
+      "rightModuleId": 345527137755460,
+      "automId": 31,
+      "data": {
+        "mode": 0
+      },
+      "pos": [
+        12,
+        0
+      ]
+    },
+    {
+      "id": 7268194060857151,
+      "plugin": "HetrickCV",
+      "model": "PhasorDivMult",
+      "version": "2.4.1",
+      "params": [
+        {
+          "value": 1.0,
+          "id": 0
+        },
+        {
+          "value": 1.0,
+          "id": 1
+        },
+        {
+          "value": 6.0,
+          "id": 2
+        },
+        {
+          "value": 1.0,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        },
+        {
+          "value": 0.0,
+          "id": 5
+        },
+        {
+          "value": 0.0,
+          "id": 6
+        }
+      ],
+      "leftModuleId": 1178670119290218,
+      "rightModuleId": 4196584535479403,
+      "automId": 24,
+      "data": {
+        "mode": 0
+      },
+      "pos": [
+        -18,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 1883964595388385,
+      "outputModuleId": 345527137755460,
+      "outputId": 0,
+      "inputModuleId": 927220984990973,
+      "inputId": 0,
+      "color": "#ff8b37"
+    },
+    {
+      "id": 6154171788738796,
+      "outputModuleId": 345527137755460,
+      "outputId": 0,
+      "inputModuleId": 3020245817612191,
+      "inputId": 1,
+      "color": "#26619e"
+    },
+    {
+      "id": 5443143323456349,
+      "outputModuleId": 4196584535479403,
+      "outputId": 0,
+      "inputModuleId": 3096550463515218,
+      "inputId": 1,
+      "color": "#ff8b37"
+    },
+    {
+      "id": 1344899035780406,
+      "outputModuleId": 345527137755460,
+      "outputId": 0,
+      "inputModuleId": 3096550463515218,
+      "inputId": 0,
+      "color": "#b012d4"
+    },
+    {
+      "id": 7265127586615165,
+      "outputModuleId": 3096550463515218,
+      "outputId": 0,
+      "inputModuleId": 2790988332364376,
+      "inputId": 0,
+      "color": "#f3374b"
+    },
+    {
+      "id": 2237233063221114,
+      "outputModuleId": 3096550463515218,
+      "outputId": 0,
+      "inputModuleId": 1702904692933917,
+      "inputId": 1,
+      "color": "#ff8b37"
+    },
+    {
+      "id": 2731099725464101,
+      "outputModuleId": 7268194060857151,
+      "outputId": 0,
+      "inputModuleId": 452515258932488,
+      "inputId": 0,
+      "color": "#63b546"
+    },
+    {
+      "id": 7876611053918225,
+      "outputModuleId": 7268194060857151,
+      "outputId": 1,
+      "inputModuleId": 3020245817612191,
+      "inputId": 0,
+      "color": "#ff8b37"
+    },
+    {
+      "id": 4211948729123235,
+      "outputModuleId": 7268194060857151,
+      "outputId": 1,
+      "inputModuleId": 4196584535479403,
+      "inputId": 1,
+      "color": "#f3374b"
+    },
+    {
+      "id": 7740662731276640,
+      "outputModuleId": 7268194060857151,
+      "outputId": 1,
+      "inputModuleId": 345527137755460,
+      "inputId": 1,
+      "color": "#26619e"
+    },
+    {
+      "id": 6002686146981126,
+      "outputModuleId": 1702904692933917,
+      "outputId": 0,
+      "inputModuleId": 452515258932488,
+      "inputId": 4,
+      "color": "#26619e"
+    },
+    {
+      "id": 5262783792715712,
+      "outputModuleId": 452515258932488,
+      "outputId": 0,
+      "inputModuleId": 345527137755460,
+      "inputId": 0,
+      "color": "#ff8b37"
+    }
+  ]
+}

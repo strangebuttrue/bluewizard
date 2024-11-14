@@ -1,0 +1,60 @@
+Hello Sam -
+
+Thanks for asking for these files. It's useful to me to share and explain the work I do in Rack - I should do it more! I warn you that the explanation below contains a lot of music theory jargon - it's a machine that makes harmony, so I can't explain it without these terms.
+
+----
+
+Please find enclosed some Rack files:
+
+lambdoma me.vcv and lambdoma ray.vcv are Rack patches illustrating two uses of the Asymmetric Pythagorean Lambdoma (APL);
+
+APL.vcvs, a Rack "selection" - a small one, just the 02NAGOL array reader and a knob;
+
+and lambdomarray.csv, the spreadsheet that contains the data that 02NAGOL scans through.
+
+---
+
+Here is how to use it:
+
+02NAGOL is a module that loads and reads a spreadsheet. Its 20 outputs correspond to 20 columns of data. A voltage at the CV ADDR input chooses what row of the spreadsheet is read: enter 0 volts and 02NAGOL reads the values from the first line of the spreadsheet; enter 10 volts and it reads the last line.
+
+The spreadsheet I made is a table of voltages representing pitches. They are arranged, on both axes, in a series of alternating major and minor thirds, derived from simple ratios of 3:1 and 5:1. 
+
+If you load up my .csv and pass 0 volts to the CV ADDR input of 02NAGOL, the first seven outputs will read pitches that are (more or less):
+
+F - A - C - E - G - B - D
+
+These of course form a C major scale, but they are ordered so that the first three pitches form an F major triad, the first four a F major seventh chord, the first five an F major seventh with added ninth, and so on. 
+
+Now increase the voltage to 0.026 volts. The pitches shift one position, and now the first seven outputs read:
+
+A - C - E - G - B - D - F#
+
+These are the seven pitches of a G major scale, but ordered differently: The first three pitches form an A minor triad, the first four an A minor seventh chord, the first five an A minor seventh with added ninth, et cetera. 
+
+Increase the voltage another 0.025 volts to 0.051. The pitches shift positions again:
+
+C - E - G - B - D - F# - A
+
+This again spells a G major scale, but in a different order - it's the order of the first set, at 0.0 volts, transposed a fifth. By adding 1/40th of a volt, we have changed key. 
+
+You will notice that this set of pitches (0.051V) and the prior set of pitches (0.026) both contain a pitch I'm calling "A" - but these are different pitches. The A in the second set is slightly higher in pitch, because it is derived not from an equal temperament tuning, but from iteration of whole-number ratios. This is why there are 400 positions in the array: They represent 400 equally spaced divisions of an octave, which you will notice is a lot more than 12.
+
+In both dimensions, the pattern of alternating major and minor thirds continues. So at 0 volts, the 20 02NAGOL outputs return pitches that are approximately...
+
+F - A - C - E - G - B - D - F# - A - C# - E - G# - B - D# - F# - A# - C# - E#/F - Ab - C
+
+It's the same if you only read one output, but increase the voltage in increments of 0.025 volts (that's 10 volts divided by 400). "Up and down" and "left and right" in the array are the same sequence - if you have a look at the .csv spreadsheet you'll see what I mean.
+
+I use this to produce sets of related pitches, and transpose them to different keys and tonalities. This can be used to produce chord progressions. 
+
+For instance: Pass 0.101 volts to 02NAGOL and read the first three outputs. These voltages will correspond with the pitches G, B, and D, which form a G major triad. Then pass 0.051 volts to 02NAGOL - now you have C, E, G. Now give it 0.151  - the pitches are D, F# A. Congratulations! You have produced a I - IV - V chord progression, and achieved Western Tonal Harmony. Next send it 0.076 volts. Oh my, it's a deceptive cadence to the minor VI. 
+
+----
+
+The two enclosed patches demonstrate two different ways to scan the array. There is a lot more to discover, and I only invented it the day before yesterday, so I am still figuring out how to use it.
+
+THANK YOU FOR WRITING! I am grateful for the opportunity to share and explain this work! Please write back if you have any questions! Have an excellent weekend!
+
+Matt Lavallee 
+

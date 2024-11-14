@@ -1,0 +1,290 @@
+{
+  "modules": [
+    {
+      "id": 8808003872593104,
+      "plugin": "NYSTHI",
+      "model": "ScaleOffset",
+      "version": "2.0.10",
+      "params": [
+        {
+          "value": -5.0,
+          "id": 0
+        },
+        {
+          "value": 1.0,
+          "id": 1
+        },
+        {
+          "value": 50.0,
+          "id": 2
+        },
+        {
+          "value": 1.0,
+          "id": 3
+        }
+      ],
+      "leftModuleId": 4298582835471812,
+      "rightModuleId": 788640461737778,
+      "data": {
+        "m_snapped": false
+      },
+      "pos": [
+        -48,
+        0
+      ]
+    },
+    {
+      "id": 1845446802892063,
+      "plugin": "Fundamental",
+      "model": "Scope",
+      "version": "2.0.3",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 1.2993531227111816,
+          "id": 4
+        },
+        {
+          "value": 1.0,
+          "id": 5
+        },
+        {
+          "value": 0.0,
+          "id": 6
+        },
+        {
+          "value": 0.0,
+          "id": 7
+        }
+      ],
+      "leftModuleId": 788640461737778,
+      "pos": [
+        -37,
+        0
+      ]
+    },
+    {
+      "id": 782022044352765,
+      "plugin": "Core",
+      "model": "Notes",
+      "version": "2.0.4",
+      "params": [],
+      "rightModuleId": 3708001199871653,
+      "data": {
+        "text": "STAYTHOSCOPE\n============\n\nAn Advanced Concept in oscilloscopy. Incoming signals are massaged to cause the SCOPE display to reciprocally compensate its offset value. Result: The SCOPE remains focused on the present. Input a pair of LFOs (not synced) to see what this means!"
+      },
+      "pos": [
+        -78,
+        0
+      ]
+    },
+    {
+      "id": 8972597778151657,
+      "plugin": "NYSTHI",
+      "model": "ScaleOffset",
+      "version": "2.0.10",
+      "params": [
+        {
+          "value": -5.0,
+          "id": 0
+        },
+        {
+          "value": 1.0,
+          "id": 1
+        },
+        {
+          "value": 50.0,
+          "id": 2
+        },
+        {
+          "value": 1.0,
+          "id": 3
+        }
+      ],
+      "leftModuleId": 3708001199871653,
+      "rightModuleId": 4298582835471812,
+      "data": {
+        "m_snapped": false
+      },
+      "pos": [
+        -59,
+        0
+      ]
+    },
+    {
+      "id": 788640461737778,
+      "plugin": "Stoermelder-P1",
+      "model": "CVMapMicro",
+      "version": "2.0.aa525d0",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 1.0,
+          "id": 2
+        }
+      ],
+      "leftModuleId": 8808003872593104,
+      "rightModuleId": 1845446802892063,
+      "data": {
+        "textScrolling": true,
+        "mappingIndicatorHidden": false,
+        "maps": [
+          {
+            "moduleId": 1845446802892063,
+            "paramId": 3
+          }
+        ],
+        "lockParameterChanges": true,
+        "bipolarInput": false,
+        "panelTheme": 0,
+        "invertedOutput": false
+      },
+      "pos": [
+        -40,
+        0
+      ]
+    },
+    {
+      "id": 4298582835471812,
+      "plugin": "Stoermelder-P1",
+      "model": "CVMapMicro",
+      "version": "2.0.aa525d0",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 1.0,
+          "id": 2
+        }
+      ],
+      "leftModuleId": 8972597778151657,
+      "rightModuleId": 8808003872593104,
+      "data": {
+        "textScrolling": true,
+        "mappingIndicatorHidden": false,
+        "maps": [
+          {
+            "moduleId": 1845446802892063,
+            "paramId": 1
+          }
+        ],
+        "lockParameterChanges": true,
+        "bipolarInput": false,
+        "panelTheme": 0,
+        "invertedOutput": false
+      },
+      "pos": [
+        -51,
+        0
+      ]
+    },
+    {
+      "id": 3708001199871653,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-Mult",
+      "version": "2.0.39",
+      "params": [],
+      "leftModuleId": 782022044352765,
+      "rightModuleId": 8972597778151657,
+      "data": {},
+      "pos": [
+        -62,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 5061211116186100,
+      "outputModuleId": 8808003872593104,
+      "outputId": 0,
+      "inputModuleId": 8808003872593104,
+      "inputId": 2,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 520069581110371,
+      "outputModuleId": 8808003872593104,
+      "outputId": 1,
+      "inputModuleId": 788640461737778,
+      "inputId": 2,
+      "color": "#c91847"
+    },
+    {
+      "id": 7972409118050683,
+      "outputModuleId": 8972597778151657,
+      "outputId": 0,
+      "inputModuleId": 8972597778151657,
+      "inputId": 2,
+      "color": "#0986ad"
+    },
+    {
+      "id": 6922494933020612,
+      "outputModuleId": 8972597778151657,
+      "outputId": 1,
+      "inputModuleId": 4298582835471812,
+      "inputId": 2,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 4379751126249527,
+      "outputModuleId": 3708001199871653,
+      "outputId": 0,
+      "inputModuleId": 8972597778151657,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 7522558694053875,
+      "outputModuleId": 3708001199871653,
+      "outputId": 2,
+      "inputModuleId": 1845446802892063,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 4931884510170618,
+      "outputModuleId": 3708001199871653,
+      "outputId": 3,
+      "inputModuleId": 8808003872593104,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 2484402821593059,
+      "outputModuleId": 3708001199871653,
+      "outputId": 5,
+      "inputModuleId": 1845446802892063,
+      "inputId": 1,
+      "color": "#0986ad"
+    }
+  ]
+}

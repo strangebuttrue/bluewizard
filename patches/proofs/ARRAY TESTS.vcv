@@ -1,0 +1,1336 @@
+{
+  "version": "1.1.6",
+  "modules": [
+    {
+      "id": 1940,
+      "plugin": "NYSTHI",
+      "version": "1.0.17",
+      "model": "BZ-MAPPER",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 1941,
+      "data": {
+        "m_cv_mode": 1.0,
+        "m_mode": 4.0,
+        "zoom_level": 1.0,
+        "m_points": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.100000001,
+          0.100000001,
+          0.5,
+          0.5,
+          0.25,
+          0.25,
+          0.166659996,
+          0.166659996,
+          0.125,
+          0.125,
+          0.100000001,
+          0.100000001,
+          0.200000003,
+          0.200000003,
+          1.0,
+          1.0,
+          0.5,
+          0.5,
+          0.333330005,
+          0.333330005,
+          0.25,
+          0.25,
+          0.200000003,
+          0.200000003,
+          0.300000012,
+          0.300000012,
+          0.0,
+          0.0,
+          0.75,
+          0.75,
+          0.5,
+          0.5,
+          0.375,
+          0.375,
+          0.300000012,
+          0.300000012,
+          0.400000006,
+          0.400000006,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          0.666660011,
+          0.666660011,
+          0.5,
+          0.5,
+          0.400000006,
+          0.400000006,
+          0.5,
+          0.5,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.833333015,
+          0.833333015,
+          0.625,
+          0.625,
+          0.5,
+          0.5,
+          0.600000024,
+          0.600000024,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          0.75,
+          0.75,
+          0.600000024,
+          0.600000024,
+          0.699999988,
+          0.699999988,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.875,
+          0.875,
+          0.699999988,
+          0.699999988,
+          0.800000012,
+          0.800000012,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          0.800000012,
+          0.800000012,
+          0.899999976,
+          0.899999976,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.899999976,
+          0.899999976,
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "pos": [
+        28,
+        3
+      ]
+    },
+    {
+      "id": 1941,
+      "plugin": "NYSTHI",
+      "version": "1.0.17",
+      "model": "TIMEX",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        }
+      ],
+      "rightModuleId": 1940,
+      "data": {
+        "m_timer1_hours": 0.0,
+        "m_timer1_minutes": 0.0,
+        "m_timer1_seconds": 0.0,
+        "m_timer2_hours": 6.89952572e-7,
+        "m_timer2_minutes": 4.28864695e-8,
+        "m_timer2_seconds": 1.6410624e-7,
+        "m_timer1_armed": true,
+        "m_timer2_armed": true,
+        "m_target_ticks1_upper": 1,
+        "m_target_ticks2_upper": 1,
+        "m_tick1_armed": true,
+        "m_tick2_armed": true
+      },
+      "pos": [
+        20,
+        3
+      ]
+    },
+    {
+      "id": 1942,
+      "plugin": "FrozenWasteland",
+      "version": "1.21.3",
+      "model": "SeriouslySlowLFO",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 1.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.87591207
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": 1.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 1945,
+      "rightModuleId": 1944,
+      "data": {
+        "timeBase": 2
+      },
+      "pos": [
+        16,
+        4
+      ]
+    },
+    {
+      "id": 1943,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "Notes",
+      "params": [],
+      "text": "TIMEX + BZ-MAPPER - 0.6%\n\nadvantages: cheap, smooth, bezier curve control\n\ndisadvantages: limit of 6 nodes",
+      "pos": [
+        0,
+        3
+      ]
+    },
+    {
+      "id": 1944,
+      "plugin": "NYSTHI",
+      "version": "1.0.17",
+      "model": "BZ-MAPPER",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 1942,
+      "data": {
+        "m_cv_mode": 1.0,
+        "m_mode": 4.0,
+        "zoom_level": 1.0,
+        "m_points": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.100000001,
+          0.100000001,
+          0.5,
+          0.5,
+          0.25,
+          0.25,
+          0.166659996,
+          0.166659996,
+          0.125,
+          0.125,
+          0.100000001,
+          0.100000001,
+          0.200000003,
+          0.200000003,
+          1.0,
+          1.0,
+          0.5,
+          0.5,
+          0.333330005,
+          0.333330005,
+          0.25,
+          0.25,
+          0.200000003,
+          0.200000003,
+          0.300000012,
+          0.300000012,
+          0.0,
+          0.0,
+          0.75,
+          0.75,
+          0.5,
+          0.5,
+          0.375,
+          0.375,
+          0.300000012,
+          0.300000012,
+          0.400000006,
+          0.400000006,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          0.666660011,
+          0.666660011,
+          0.5,
+          0.5,
+          0.400000006,
+          0.400000006,
+          0.5,
+          0.5,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.833333015,
+          0.833333015,
+          0.625,
+          0.625,
+          0.5,
+          0.5,
+          0.600000024,
+          0.600000024,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          0.75,
+          0.75,
+          0.600000024,
+          0.600000024,
+          0.699999988,
+          0.699999988,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.875,
+          0.875,
+          0.699999988,
+          0.699999988,
+          0.800000012,
+          0.800000012,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          0.800000012,
+          0.800000012,
+          0.899999976,
+          0.899999976,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.899999976,
+          0.899999976,
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "pos": [
+        28,
+        4
+      ]
+    },
+    {
+      "id": 1945,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "Notes",
+      "params": [],
+      "rightModuleId": 1942,
+      "text": "SSLFO + BZ-MAPPER - 0.8%\n\nadvantages: smooth, bezier curve control\n\ndisadvantages: limit of 6 nodes, requires manual phase adjustment",
+      "pos": [
+        0,
+        4
+      ]
+    },
+    {
+      "id": 1946,
+      "plugin": "PdArray",
+      "version": "1.0.6",
+      "model": "Array",
+      "params": [
+        {
+          "id": 0,
+          "value": 2.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 1957,
+      "data": {
+        "enableEditing": true,
+        "boundaryMode": 2,
+        "recMode": 0,
+        "lastLoadedPath": "",
+        "arrayData": [
+          0.0,
+          0.111111112,
+          0.222222224,
+          0.333333343,
+          0.444444448,
+          0.555555582,
+          0.666666687,
+          0.777777791,
+          0.888888896,
+          1.0
+        ]
+      },
+      "pos": [
+        28,
+        2
+      ]
+    },
+    {
+      "id": 1949,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "Notes",
+      "params": [],
+      "text": "TIMEX + ~ARRAY - 0.7%\n\nadvantage: can record live if you want. built-in smoother\n\n\ndisadvantage: ~ARRAY smoother overshoots top and bottom values by 1/3 volt, peculiarly. ",
+      "pos": [
+        0,
+        2
+      ]
+    },
+    {
+      "id": 1950,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "Scope",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 6.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        }
+      ],
+      "data": {
+        "lissajous": 0,
+        "external": 0
+      },
+      "pos": [
+        55,
+        3
+      ]
+    },
+    {
+      "id": 1951,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "Scope",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 6.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        }
+      ],
+      "data": {
+        "lissajous": 0,
+        "external": 0
+      },
+      "pos": [
+        55,
+        4
+      ]
+    },
+    {
+      "id": 1953,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "Scope",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 6.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        }
+      ],
+      "data": {
+        "lissajous": 0,
+        "external": 0
+      },
+      "pos": [
+        55,
+        2
+      ]
+    },
+    {
+      "id": 1954,
+      "plugin": "PdArray",
+      "version": "1.0.6",
+      "model": "Array",
+      "params": [
+        {
+          "id": 0,
+          "value": 2.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 1955,
+      "data": {
+        "enableEditing": true,
+        "boundaryMode": 2,
+        "recMode": 0,
+        "lastLoadedPath": "",
+        "arrayData": [
+          0.0,
+          0.111111112,
+          0.222222224,
+          0.333333343,
+          0.444444448,
+          0.555555582,
+          0.666666687,
+          0.777777791,
+          0.888888896,
+          1.0
+        ]
+      },
+      "pos": [
+        28,
+        5
+      ]
+    },
+    {
+      "id": 1955,
+      "plugin": "FrozenWasteland",
+      "version": "1.21.3",
+      "model": "SeriouslySlowLFO",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 1.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.87591207
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": 1.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 1966,
+      "rightModuleId": 1954,
+      "data": {
+        "timeBase": 2
+      },
+      "pos": [
+        16,
+        5
+      ]
+    },
+    {
+      "id": 1956,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "Scope",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 6.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        }
+      ],
+      "data": {
+        "lissajous": 0,
+        "external": 0
+      },
+      "pos": [
+        55,
+        5
+      ]
+    },
+    {
+      "id": 1957,
+      "plugin": "NYSTHI",
+      "version": "1.0.17",
+      "model": "TIMEX",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        }
+      ],
+      "rightModuleId": 1946,
+      "data": {
+        "m_timer1_hours": 0.0,
+        "m_timer1_minutes": 0.0,
+        "m_timer1_seconds": 0.0,
+        "m_timer2_hours": 6.89952572e-7,
+        "m_timer2_minutes": 4.28864695e-8,
+        "m_timer2_seconds": 1.6410624e-7,
+        "m_timer1_armed": true,
+        "m_timer2_armed": true,
+        "m_target_ticks1_upper": 1,
+        "m_target_ticks2_upper": 1,
+        "m_tick1_armed": true,
+        "m_tick2_armed": true
+      },
+      "pos": [
+        20,
+        2
+      ]
+    },
+    {
+      "id": 1958,
+      "plugin": "NYSTHI",
+      "version": "1.0.17",
+      "model": "02NAGOL",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.100000001
+        }
+      ],
+      "leftModuleId": 1959,
+      "data": {
+        "m_original_file_path": "C:\\Users\\stran\\Desktop\\somerville\\RACK\\spreadsheets\\CSV\\cpu tester - big.csv",
+        "m_oneshot": false,
+        "m_time_rate": 1.0
+      },
+      "pos": [
+        28,
+        1
+      ]
+    },
+    {
+      "id": 1959,
+      "plugin": "NYSTHI",
+      "version": "1.0.17",
+      "model": "TIMEX",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        }
+      ],
+      "rightModuleId": 1958,
+      "data": {
+        "m_timer1_hours": 0.0,
+        "m_timer1_minutes": 0.0,
+        "m_timer1_seconds": 0.0,
+        "m_timer2_hours": 6.89952572e-7,
+        "m_timer2_minutes": 4.28864695e-8,
+        "m_timer2_seconds": 1.6410624e-7,
+        "m_timer1_armed": true,
+        "m_timer2_armed": true,
+        "m_target_ticks1_upper": 1,
+        "m_target_ticks2_upper": 1,
+        "m_tick1_armed": true,
+        "m_tick2_armed": true
+      },
+      "pos": [
+        20,
+        1
+      ]
+    },
+    {
+      "id": 1960,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "Scope",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 9.01500034
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        }
+      ],
+      "data": {
+        "lissajous": 0,
+        "external": 0
+      },
+      "pos": [
+        55,
+        1
+      ]
+    },
+    {
+      "id": 1961,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "Notes",
+      "params": [],
+      "text": "TIMEX + 02NAGOL - 1.6% reading 10 rows; sometimes as little as 0.4% reading 790 rows (?!?)\n\n02NAGOL uses more CPU at lower speed for some reason? Doesn't seem to be sensitive to # of columns of data \n\nadvantage: 20 CHANNELS, MANY NODES. Rack 2 version should include triggered buffer reload\n\ndisadvantage: No smoothing (slew it), expensive\n",
+      "pos": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": 1962,
+      "plugin": "FrozenWasteland",
+      "version": "1.21.3",
+      "model": "SeriouslySlowLFO",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 1.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.87591207
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": 1.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 1965,
+      "rightModuleId": 1963,
+      "data": {
+        "timeBase": 2
+      },
+      "pos": [
+        16,
+        0
+      ]
+    },
+    {
+      "id": 1963,
+      "plugin": "NYSTHI",
+      "version": "1.0.17",
+      "model": "02NAGOL",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.100000001
+        }
+      ],
+      "leftModuleId": 1962,
+      "data": {
+        "m_original_file_path": "C:\\Users\\stran\\Desktop\\somerville\\RACK\\spreadsheets\\CSV\\cpu tester - big.csv",
+        "m_oneshot": false,
+        "m_time_rate": 1.0
+      },
+      "pos": [
+        28,
+        0
+      ]
+    },
+    {
+      "id": 1964,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "Scope",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 9.01500034
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        }
+      ],
+      "data": {
+        "lissajous": 0,
+        "external": 0
+      },
+      "pos": [
+        55,
+        0
+      ]
+    },
+    {
+      "id": 1965,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "Notes",
+      "params": [],
+      "rightModuleId": 1962,
+      "text": "SSLFO + 02NAGOL - 1.7% reading 10 rows; sometimes as little as 0.7% reading 790 rows (?!?)  \n\n02NAGOL uses more CPU at lower speed for some reason? Doesn't seem to be sensitive to # of columns of data \n\nadvantage: 20 CHANNELS, MANY NODES. Rack 2 version should include triggered buffer reload\n\ndisadvantage: No smoothing (slew it), expensive, requires manual phase adjustment\n",
+      "pos": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1966,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "Notes",
+      "params": [],
+      "rightModuleId": 1955,
+      "text": "SSLFO + ~ARRAY - 0.8%\n\nadvantage: can record live if you want. built-in smoother\n\n\ndisadvantage: ~ARRAY smoother overshoots top and bottom values by 1/3 volt, peculiarly. requires manual phase adjustment",
+      "pos": [
+        0,
+        5
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 4753,
+      "outputModuleId": 1942,
+      "outputId": 2,
+      "inputModuleId": 1944,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 4756,
+      "outputModuleId": 1940,
+      "outputId": 0,
+      "inputModuleId": 1950,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 4757,
+      "outputModuleId": 1944,
+      "outputId": 0,
+      "inputModuleId": 1951,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 4759,
+      "outputModuleId": 1955,
+      "outputId": 2,
+      "inputModuleId": 1954,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 4760,
+      "outputModuleId": 1954,
+      "outputId": 1,
+      "inputModuleId": 1956,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 4761,
+      "outputModuleId": 1957,
+      "outputId": 0,
+      "inputModuleId": 1946,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 4762,
+      "outputModuleId": 1958,
+      "outputId": 0,
+      "inputModuleId": 1960,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 4764,
+      "outputModuleId": 1958,
+      "outputId": 1,
+      "inputModuleId": 1960,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 4763,
+      "outputModuleId": 1959,
+      "outputId": 0,
+      "inputModuleId": 1958,
+      "inputId": 5,
+      "color": "#c91847"
+    },
+    {
+      "id": 4766,
+      "outputModuleId": 1963,
+      "outputId": 0,
+      "inputModuleId": 1964,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 4758,
+      "outputModuleId": 1946,
+      "outputId": 1,
+      "inputModuleId": 1953,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 4752,
+      "outputModuleId": 1941,
+      "outputId": 0,
+      "inputModuleId": 1940,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 4765,
+      "outputModuleId": 1962,
+      "outputId": 2,
+      "inputModuleId": 1963,
+      "inputId": 5,
+      "color": "#0c8e15"
+    }
+  ]
+}
