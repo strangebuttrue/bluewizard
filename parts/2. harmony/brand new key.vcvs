@@ -1,125 +1,128 @@
 {
   "modules": [
     {
-      "id": 7203050307395450,
+      "id": 6060538554387798,
       "plugin": "Bogaudio",
       "model": "Bogaudio-Mult",
-      "version": "2.3.43",
+      "version": "2.4.45",
       "params": [],
-      "leftModuleId": 3648224991227960,
-      "rightModuleId": 1092370326318693,
+      "leftModuleId": 8532922192693538,
       "data": {},
       "pos": [
-        15,
-        -2
+        -32,
+        1
       ]
     },
     {
-      "id": 8016468776172511,
-      "plugin": "StochasticTelegraph",
-      "model": "Fermata",
-      "version": "2.0.11",
-      "params": [],
-      "rightModuleId": 3648224991227960,
-      "data": {
-        "text": "BRAND NEW KEY - Modulate about the spiral of fifths by triggering this device.\n\nHOW WIDE: Turn the Scale knob. At 0x, modulate by a fifth. At 0.1x, modulate by one or two fifths (equally likely). At 0.07x, usually one, sometimes two. Past that, why fuck around?\n\n\nFLATTER OR SHARPER? You wanna go to a flatter key or a sharper one? Turn the CHANCE knob. Right in the middle they're about equally likely. Left goes flatter (C -> F). Et cetera.\n\nGet your BNK out the SUM. To reset back to C / 0v, initialize the SHIFT REGISTER.\n ",
-        "width": 5,
-        "screen_colors": 281200098803712,
-        "font_choice": "fonts/RobotoMono-Medium.ttf",
-        "title_text": "BRAND NEW KEY"
-      },
-      "pos": [
-        8,
-        -2
-      ]
-    },
-    {
-      "id": 2326100578487317,
-      "plugin": "ML_modules",
-      "model": "Sum8",
-      "version": "2.0.2",
-      "params": [],
-      "leftModuleId": 8557864024500821,
-      "rightModuleId": 2676562407448043,
-      "pos": [
-        29,
-        -2
-      ]
-    },
-    {
-      "id": 2676562407448043,
-      "plugin": "ML_modules",
-      "model": "ShiftRegister",
-      "version": "2.0.2",
-      "params": [],
-      "leftModuleId": 2326100578487317,
-      "rightModuleId": 419331625286845,
-      "pos": [
-        32,
-        -2
-      ]
-    },
-    {
-      "id": 3648224991227960,
+      "id": 409713630103918,
       "plugin": "SubmarineFree",
       "model": "TD-202",
       "version": "2.0.4",
       "params": [],
-      "leftModuleId": 8016468776172511,
-      "rightModuleId": 7203050307395450,
-      "data": {
-        "text": "brand new key",
-        "fg": "#ff1313",
-        "bg": "#000000"
-      },
-      "pos": [
-        13,
-        -2
-      ]
-    },
-    {
-      "id": 1092370326318693,
-      "plugin": "SubmarineFree",
-      "model": "TD-202",
-      "version": "2.0.4",
-      "params": [],
-      "leftModuleId": 7203050307395450,
-      "rightModuleId": 5330813931488261,
+      "leftModuleId": 8180563329360739,
+      "rightModuleId": 7498862345163797,
       "data": {
         "text": "trigger in!@!!!!!",
         "fg": "#29b2ef",
         "bg": "#000000"
       },
       "pos": [
-        18,
-        -2
+        -53,
+        1
       ]
     },
     {
-      "id": 4803242212242990,
-      "plugin": "SubmarineFree",
-      "model": "TD-202",
-      "version": "2.0.4",
+      "id": 6235238772425833,
+      "plugin": "ML_modules",
+      "model": "Sum8",
+      "version": "2.0.2",
       "params": [],
-      "leftModuleId": 419331625286845,
+      "leftModuleId": 2604693094011175,
+      "rightModuleId": 8532922192693538,
+      "pos": [
+        -39,
+        1
+      ]
+    },
+    {
+      "id": 8532922192693538,
+      "plugin": "ML_modules",
+      "model": "ShiftRegister",
+      "version": "2.0.2",
+      "params": [],
+      "leftModuleId": 6235238772425833,
+      "rightModuleId": 6060538554387798,
+      "pos": [
+        -36,
+        1
+      ]
+    },
+    {
+      "id": 6218441967988229,
+      "plugin": "StochasticTelegraph",
+      "model": "Fermata",
+      "version": "2.0.17",
+      "params": [],
+      "rightModuleId": 8180563329360739,
       "data": {
-        "text": "brand new key",
-        "fg": "#29b2ef",
-        "bg": "#000000"
+        "text": "BRAND NEW KEY - Modulate about the spiral of fifths exactly one step at a time by triggering the Input of CHANCES #1.\n\nChance knob #1 determines how often the incoming trigger is passed at all - no trigger, no key change. \n\nChance knob #2 determines whether the key change is in a flatter or sharper direction - left for more often flat, right more often sharp.\n",
+        "width": 4,
+        "screen_colors": 281200098803712,
+        "font_choice": "fonts/RobotoMono-Medium.ttf",
+        "title_text": "BRAND NEW KEY"
       },
       "pos": [
-        39,
-        -2
+        -61,
+        1
       ]
     },
     {
-      "id": 8557864024500821,
-      "plugin": "ML_modules",
-      "model": "SeqSwitch",
-      "version": "2.0.2",
+      "id": 7498862345163797,
+      "plugin": "CountModula",
+      "model": "Chances",
+      "version": "2.5.0",
       "params": [
         {
+          "value": 0.5,
+          "id": 0
+        },
+        {
           "value": 2.0,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 409713630103918,
+      "rightModuleId": 8200064344185264,
+      "data": {
+        "moduleVersion": 1.1000000238418579,
+        "theme": 5
+      },
+      "pos": [
+        -51,
+        1
+      ]
+    },
+    {
+      "id": 2604693094011175,
+      "plugin": "GrandeModular",
+      "model": "SampleDelays",
+      "version": "2.8.0",
+      "params": [],
+      "leftModuleId": 2305835410789687,
+      "rightModuleId": 6235238772425833,
+      "pos": [
+        -41,
+        1
+      ]
+    },
+    {
+      "id": 2305835410789687,
+      "plugin": "DHE-Modules",
+      "model": "Func",
+      "version": "2.0.3",
+      "params": [
+        {
+          "value": 0.44150000810623169,
           "id": 0
         },
         {
@@ -127,144 +130,145 @@
           "id": 1
         },
         {
-          "value": 0.0,
+          "value": 1.0,
           "id": 2
         },
         {
-          "value": 0.0,
+          "value": 2.0,
           "id": 3
-        },
-        {
-          "value": 0.0,
-          "id": 4
-        },
-        {
-          "value": 0.0,
-          "id": 5
-        },
-        {
-          "value": 0.0,
-          "id": 6
-        },
-        {
-          "value": 0.0,
-          "id": 7
-        },
-        {
-          "value": 0.0,
-          "id": 8
         }
       ],
-      "leftModuleId": 5330813931488261,
-      "rightModuleId": 2326100578487317,
+      "leftModuleId": 8200064344185264,
+      "rightModuleId": 2604693094011175,
       "data": {
-        "inputRange": 0
+        "preset_version": 0
       },
       "pos": [
-        21,
-        -2
+        -44,
+        1
       ]
     },
     {
-      "id": 5330813931488261,
-      "plugin": "NYSTHI",
-      "model": "SlimDualFixedVoltageSource",
-      "version": "2.0.15",
-      "params": [],
-      "leftModuleId": 1092370326318693,
-      "rightModuleId": 8557864024500821,
+      "id": 8180563329360739,
+      "plugin": "CountModula",
+      "model": "Chances",
+      "version": "2.5.0",
+      "params": [
+        {
+          "value": 1.0,
+          "id": 0
+        },
+        {
+          "value": 1.0,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 6218441967988229,
+      "rightModuleId": 409713630103918,
       "data": {
-        "m_unipolar": false,
-        "m_abs_value": false,
-        "m_scale_mode": 1,
-        "m_poly_out": 1,
-        "m_ltf0": "0.585",
-        "m_ltf1": "-0.585"
+        "moduleVersion": 1.1000000238418579,
+        "theme": 5
       },
       "pos": [
-        20,
-        -2
+        -57,
+        1
       ]
     },
     {
-      "id": 419331625286845,
-      "plugin": "Bogaudio",
-      "model": "Bogaudio-Mult",
-      "version": "2.3.43",
-      "params": [],
-      "leftModuleId": 2676562407448043,
-      "rightModuleId": 4803242212242990,
-      "data": {},
+      "id": 8200064344185264,
+      "plugin": "Fundamental",
+      "model": "VCA-1",
+      "version": "2.6.1",
+      "params": [
+        {
+          "value": 0.11699999868869781,
+          "id": 0
+        },
+        {
+          "value": 1.0,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 7498862345163797,
+      "rightModuleId": 2305835410789687,
       "pos": [
-        36,
-        -2
+        -47,
+        1
       ]
     }
   ],
   "cables": [
     {
-      "id": 3456725463768048,
-      "outputModuleId": 2326100578487317,
+      "id": 478275745111000,
+      "outputModuleId": 8532922192693538,
       "outputId": 0,
-      "inputModuleId": 2676562407448043,
-      "inputId": 0,
-      "color": "#00b56e"
-    },
-    {
-      "id": 7048638492178629,
-      "outputModuleId": 2676562407448043,
-      "outputId": 0,
-      "inputModuleId": 2326100578487317,
+      "inputModuleId": 6235238772425833,
       "inputId": 1,
       "color": "#00b56e"
     },
     {
-      "id": 6241215236697998,
-      "outputModuleId": 7203050307395450,
-      "outputId": 1,
-      "inputModuleId": 2676562407448043,
-      "inputId": 1,
-      "color": "#3695ef"
-    },
-    {
-      "id": 8365718840307408,
-      "outputModuleId": 5330813931488261,
+      "id": 3142678586401008,
+      "outputModuleId": 8532922192693538,
       "outputId": 0,
-      "inputModuleId": 8557864024500821,
-      "inputId": 0,
-      "color": "#ffb437"
-    },
-    {
-      "id": 4080097548751310,
-      "outputModuleId": 8557864024500821,
-      "outputId": 0,
-      "inputModuleId": 2326100578487317,
-      "inputId": 0,
-      "color": "#f3374b"
-    },
-    {
-      "id": 1622346013651432,
-      "outputModuleId": 7203050307395450,
-      "outputId": 2,
-      "inputModuleId": 8557864024500821,
-      "inputId": 13,
-      "color": "#3695ef"
-    },
-    {
-      "id": 5796587064729830,
-      "outputModuleId": 2676562407448043,
-      "outputId": 0,
-      "inputModuleId": 419331625286845,
+      "inputModuleId": 6060538554387798,
       "inputId": 0,
       "color": "#8b4ade"
     },
     {
-      "id": 4139985059831426,
-      "outputModuleId": 5330813931488261,
+      "id": 2572623140646622,
+      "outputModuleId": 7498862345163797,
       "outputId": 1,
-      "inputModuleId": 8557864024500821,
+      "inputModuleId": 8200064344185264,
       "inputId": 1,
-      "color": "#3695ef"
+      "color": "#26619e"
+    },
+    {
+      "id": 3464442564146886,
+      "outputModuleId": 8200064344185264,
+      "outputId": 0,
+      "inputModuleId": 2305835410789687,
+      "inputId": 0,
+      "color": "#b012d4"
+    },
+    {
+      "id": 6902330308224399,
+      "outputModuleId": 2305835410789687,
+      "outputId": 0,
+      "inputModuleId": 6235238772425833,
+      "inputId": 0,
+      "color": "#f3374b"
+    },
+    {
+      "id": 4415356580099089,
+      "outputModuleId": 6235238772425833,
+      "outputId": 0,
+      "inputModuleId": 8532922192693538,
+      "inputId": 0,
+      "color": "#00b56e"
+    },
+    {
+      "id": 8682200274856709,
+      "outputModuleId": 8180563329360739,
+      "outputId": 1,
+      "inputModuleId": 2604693094011175,
+      "inputId": 0,
+      "color": "#f3374b"
+    },
+    {
+      "id": 6179858836565217,
+      "outputModuleId": 8180563329360739,
+      "outputId": 1,
+      "inputModuleId": 7498862345163797,
+      "inputId": 0,
+      "color": "#f3374b"
+    },
+    {
+      "id": 8136287908828151,
+      "outputModuleId": 2604693094011175,
+      "outputId": 5,
+      "inputModuleId": 8532922192693538,
+      "inputId": 1,
+      "color": "#b012d4"
     }
   ]
 }
