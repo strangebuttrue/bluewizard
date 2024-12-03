@@ -1,6 +1,181 @@
 {
   "modules": [
     {
+      "id": 7466525497006276,
+      "plugin": "StochasticTelegraph",
+      "model": "Fermata",
+      "version": "2.0.17",
+      "params": [],
+      "rightModuleId": 5717222136118936,
+      "data": {
+        "text": "COLODIGRAPH IV\n==============\n\n\nSend in a phasor (whatever speed) and a drift trigger clock (on the fast side for more control). Phasor in passes through a DIV and on to a DRIFTER. This clever fellow scans an array of random walks. Turn up the drift range knob (it's on the OFFSET) to walk the walks. \n\nThere's two of these little DRIFTER rigs, with independent phasor multiply/divide and drift range control. The first of these uses a CMP to produce pulses, with what we sample the second. That's it folks, just elaborate, shifting patters of triggers and voltages (0-10v)\n",
+        "width": 3,
+        "screen_colors": 1095216660480,
+        "font_choice": "fonts/RobotoMono-Bold.ttf",
+        "title_text": "COLODIGRAPH IV"
+      },
+      "pos": [
+        -15,
+        -1
+      ]
+    },
+    {
+      "id": 8260095947463540,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-Mult",
+      "version": "2.4.45",
+      "params": [],
+      "leftModuleId": 5717222136118936,
+      "rightModuleId": 6100683235932375,
+      "data": {},
+      "pos": [
+        -9,
+        -1
+      ]
+    },
+    {
+      "id": 726103593950743,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-Offset",
+      "version": "2.4.45",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.0707106813788414,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 3621239043218093,
+      "rightModuleId": 5540536862178341,
+      "data": {
+        "disableOutputLimit": false,
+        "offset_first": true
+      },
+      "pos": [
+        24,
+        -1
+      ]
+    },
+    {
+      "id": 5493347054593341,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-Mult",
+      "version": "2.4.45",
+      "params": [],
+      "leftModuleId": 8138867198415162,
+      "rightModuleId": 6004396901126380,
+      "data": {},
+      "pos": [
+        50,
+        -1
+      ]
+    },
+    {
+      "id": 6711008288029118,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-Cmp",
+      "version": "2.4.45",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 0.12168668210506439,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        }
+      ],
+      "leftModuleId": 6536756945576058,
+      "rightModuleId": 3621239043218093,
+      "data": {},
+      "pos": [
+        15,
+        -1
+      ]
+    },
+    {
+      "id": 7817107205295559,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-Offset",
+      "version": "2.4.45",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.0707106813788414,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 6100683235932375,
+      "rightModuleId": 8153518345946055,
+      "data": {
+        "disableOutputLimit": false,
+        "offset_first": true
+      },
+      "pos": [
+        -4,
+        -1
+      ]
+    },
+    {
+      "id": 5717222136118936,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-LLFO",
+      "version": "2.4.45",
+      "params": [
+        {
+          "value": 3.2905659675598145,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 5.0,
+          "id": 2
+        },
+        {
+          "value": 1.0,
+          "id": 3
+        },
+        {
+          "value": 1.0,
+          "id": 4
+        }
+      ],
+      "leftModuleId": 7466525497006276,
+      "rightModuleId": 8260095947463540,
+      "data": {
+        "offset_scale": 1.0,
+        "output_sampling": 0.0,
+        "pulse_width": -0.85106378793716431,
+        "smoothing": 0.0,
+        "reset_on_wave_change": false
+      },
+      "pos": [
+        -12,
+        -1
+      ]
+    },
+    {
       "id": 2986809903555839,
       "plugin": "CountModula",
       "model": "SampleAndHold",
@@ -18,79 +193,86 @@
         "theme": 5
       },
       "pos": [
-        64,
-        -2
+        43,
+        -1
       ]
     },
     {
-      "id": 6100683235932375,
+      "id": 3396106803887546,
+      "plugin": "ZZC",
+      "model": "Div",
+      "version": "2.0.2",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        }
+      ],
+      "leftModuleId": 5540536862178341,
+      "rightModuleId": 4050493418751218,
+      "data": {
+        "gateMode": true
+      },
+      "pos": [
+        29,
+        -1
+      ]
+    },
+    {
+      "id": 5357160568027790,
+      "plugin": "ZZC",
+      "model": "Div",
+      "version": "2.0.2",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        }
+      ],
+      "leftModuleId": 8153518345946055,
+      "rightModuleId": 4505427326258932,
+      "data": {
+        "gateMode": true
+      },
+      "pos": [
+        1,
+        -1
+      ]
+    },
+    {
+      "id": 4050493418751218,
       "plugin": "SubmarineFree",
       "model": "TD-202",
       "version": "2.0.4",
       "params": [],
-      "leftModuleId": 8260095947463540,
-      "rightModuleId": 7817107205295559,
+      "leftModuleId": 3396106803887546,
+      "rightModuleId": 2021160572028698,
       "data": {
-        "text": "phasor +/-5, drift trigger",
+        "text": "phasor mult/div",
         "fg": "#29b2ef",
         "bg": "#000000"
       },
       "pos": [
-        15,
-        -2
+        32,
+        -1
       ]
     },
     {
-      "id": 8153518345946055,
+      "id": 4505427326258932,
       "plugin": "SubmarineFree",
       "model": "TD-202",
       "version": "2.0.4",
       "params": [],
-      "leftModuleId": 7817107205295559,
-      "rightModuleId": 5357160568027790,
+      "leftModuleId": 5357160568027790,
+      "rightModuleId": 6536756945576058,
       "data": {
-        "text": "drift range",
+        "text": "phasor mult/div",
         "fg": "#29b2ef",
         "bg": "#000000"
       },
       "pos": [
-        20,
-        -2
-      ]
-    },
-    {
-      "id": 6004396901126380,
-      "plugin": "SubmarineFree",
-      "model": "TD-202",
-      "version": "2.0.4",
-      "params": [],
-      "leftModuleId": 5493347054593341,
-      "data": {
-        "text": "trigger, CV",
-        "fg": "#29b2ef",
-        "bg": "#000000"
-      },
-      "pos": [
-        74,
-        -2
-      ]
-    },
-    {
-      "id": 5540536862178341,
-      "plugin": "SubmarineFree",
-      "model": "TD-202",
-      "version": "2.0.4",
-      "params": [],
-      "leftModuleId": 726103593950743,
-      "rightModuleId": 3396106803887546,
-      "data": {
-        "text": "drift range",
-        "fg": "#29b2ef",
-        "bg": "#000000"
-      },
-      "pos": [
-        48,
-        -2
+        4,
+        -1
       ]
     },
     {
@@ -111,8 +293,8 @@
       "leftModuleId": 6711008288029118,
       "rightModuleId": 726103593950743,
       "pos": [
-        42,
-        -2
+        21,
+        -1
       ]
     },
     {
@@ -133,58 +315,8 @@
       "leftModuleId": 2986809903555839,
       "rightModuleId": 5493347054593341,
       "pos": [
-        68,
-        -2
-      ]
-    },
-    {
-      "id": 2021160572028698,
-      "plugin": "StochasticTelegraph",
-      "model": "Drifter",
-      "version": "2.0.17",
-      "params": [
-        {
-          "value": 1.0,
-          "id": 0
-        },
-        {
-          "value": 0.0,
-          "id": 1
-        },
-        {
-          "value": 0.0,
-          "id": 2
-        },
-        {
-          "value": 0.0,
-          "id": 3
-        },
-        {
-          "value": 0.0,
-          "id": 4
-        },
-        {
-          "value": 9.0,
-          "id": 5
-        },
-        {
-          "value": 0.0,
-          "id": 6
-        },
-        {
-          "value": 0.0,
-          "id": 7
-        }
-      ],
-      "leftModuleId": 4050493418751218,
-      "rightModuleId": 2986809903555839,
-      "data": {
-        "reset_shape": 0,
-        "reset_type": 0
-      },
-      "pos": [
-        55,
-        -2
+        47,
+        -1
       ]
     },
     {
@@ -233,58 +365,72 @@
         "reset_type": 0
       },
       "pos": [
-        27,
-        -2
+        6,
+        -1
       ]
     },
     {
-      "id": 5493347054593341,
-      "plugin": "Bogaudio",
-      "model": "Bogaudio-Mult",
-      "version": "2.4.45",
+      "id": 6100683235932375,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
       "params": [],
-      "leftModuleId": 8138867198415162,
-      "rightModuleId": 6004396901126380,
-      "data": {},
-      "pos": [
-        71,
-        -2
-      ]
-    },
-    {
-      "id": 726103593950743,
-      "plugin": "Bogaudio",
-      "model": "Bogaudio-Offset",
-      "version": "2.4.45",
-      "params": [
-        {
-          "value": 0.0,
-          "id": 0
-        },
-        {
-          "value": 0.0707106813788414,
-          "id": 1
-        }
-      ],
-      "leftModuleId": 3621239043218093,
-      "rightModuleId": 5540536862178341,
+      "leftModuleId": 8260095947463540,
+      "rightModuleId": 7817107205295559,
       "data": {
-        "disableOutputLimit": false,
-        "offset_first": true
+        "text": "phasor +/-5, drift trigger",
+        "fg": "#29b2ef",
+        "bg": "#000000"
       },
       "pos": [
-        45,
-        -2
+        -6,
+        -1
       ]
     },
     {
-      "id": 6711008288029118,
-      "plugin": "Bogaudio",
-      "model": "Bogaudio-Cmp",
-      "version": "2.4.45",
+      "id": 5540536862178341,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 726103593950743,
+      "rightModuleId": 3396106803887546,
+      "data": {
+        "text": "drift range",
+        "fg": "#29b2ef",
+        "bg": "#000000"
+      },
+      "pos": [
+        27,
+        -1
+      ]
+    },
+    {
+      "id": 8153518345946055,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 7817107205295559,
+      "rightModuleId": 5357160568027790,
+      "data": {
+        "text": "drift range",
+        "fg": "#29b2ef",
+        "bg": "#000000"
+      },
+      "pos": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "id": 2021160572028698,
+      "plugin": "StochasticTelegraph",
+      "model": "Drifter",
+      "version": "2.0.17",
       "params": [
         {
-          "value": 0.0,
+          "value": 1.0,
           "id": 0
         },
         {
@@ -296,161 +442,72 @@
           "id": 2
         },
         {
-          "value": 0.12168668210506439,
+          "value": 0.0,
           "id": 3
         },
         {
           "value": 0.0,
           "id": 4
-        }
-      ],
-      "leftModuleId": 6536756945576058,
-      "rightModuleId": 3621239043218093,
-      "data": {},
-      "pos": [
-        36,
-        -2
-      ]
-    },
-    {
-      "id": 7817107205295559,
-      "plugin": "Bogaudio",
-      "model": "Bogaudio-Offset",
-      "version": "2.4.45",
-      "params": [
-        {
-          "value": 0.0,
-          "id": 0
         },
         {
-          "value": 0.0707106813788414,
-          "id": 1
-        }
-      ],
-      "leftModuleId": 6100683235932375,
-      "rightModuleId": 8153518345946055,
-      "data": {
-        "disableOutputLimit": false,
-        "offset_first": true
-      },
-      "pos": [
-        17,
-        -2
-      ]
-    },
-    {
-      "id": 8260095947463540,
-      "plugin": "Bogaudio",
-      "model": "Bogaudio-Mult",
-      "version": "2.4.45",
-      "params": [],
-      "leftModuleId": 7466525497006276,
-      "rightModuleId": 6100683235932375,
-      "data": {},
-      "pos": [
-        12,
-        -2
-      ]
-    },
-    {
-      "id": 4505427326258932,
-      "plugin": "SubmarineFree",
-      "model": "TD-202",
-      "version": "2.0.4",
-      "params": [],
-      "leftModuleId": 5357160568027790,
-      "rightModuleId": 6536756945576058,
-      "data": {
-        "text": "phasor mult/div",
-        "fg": "#29b2ef",
-        "bg": "#000000"
-      },
-      "pos": [
-        25,
-        -2
-      ]
-    },
-    {
-      "id": 5357160568027790,
-      "plugin": "ZZC",
-      "model": "Div",
-      "version": "2.0.2",
-      "params": [
+          "value": 9.0,
+          "id": 5
+        },
         {
           "value": 0.0,
-          "id": 0
+          "id": 6
+        },
+        {
+          "value": 0.0,
+          "id": 7
         }
       ],
-      "leftModuleId": 8153518345946055,
-      "rightModuleId": 4505427326258932,
+      "leftModuleId": 4050493418751218,
+      "rightModuleId": 2986809903555839,
       "data": {
-        "gateMode": true
+        "reset_shape": 0,
+        "reset_type": 0
       },
       "pos": [
-        22,
-        -2
+        34,
+        -1
       ]
     },
     {
-      "id": 4050493418751218,
+      "id": 6004396901126380,
       "plugin": "SubmarineFree",
       "model": "TD-202",
       "version": "2.0.4",
       "params": [],
-      "leftModuleId": 3396106803887546,
-      "rightModuleId": 2021160572028698,
+      "leftModuleId": 5493347054593341,
       "data": {
-        "text": "phasor mult/div",
+        "text": "trigger, CV",
         "fg": "#29b2ef",
         "bg": "#000000"
       },
       "pos": [
         53,
-        -2
-      ]
-    },
-    {
-      "id": 3396106803887546,
-      "plugin": "ZZC",
-      "model": "Div",
-      "version": "2.0.2",
-      "params": [
-        {
-          "value": 0.0,
-          "id": 0
-        }
-      ],
-      "leftModuleId": 5540536862178341,
-      "rightModuleId": 4050493418751218,
-      "data": {
-        "gateMode": true
-      },
-      "pos": [
-        50,
-        -2
-      ]
-    },
-    {
-      "id": 7466525497006276,
-      "plugin": "StochasticTelegraph",
-      "model": "Fermata",
-      "version": "2.0.17",
-      "params": [],
-      "rightModuleId": 8260095947463540,
-      "data": {
-        "text": "COLODIGRAPH IV\n==============\n\n\nSend in a phasor (whatever speed) and a drift trigger clock (on the fast side for more control). Phasor in passes through a DIV and on to a DRIFTER. This clever fellow scans an array of random walks. Turn up the drift range knob (it's on the OFFSET) to walk the walks. \n\nThere's two of these little DRIFTER rigs, with independent phasor multiply/divide and drift range control. The first of these uses a CMP to produce pulses, with what we sample the second. That's it folks, just elaborate, shifting patters of triggers and voltages (0-10v)\n",
-        "width": 3,
-        "screen_colors": 1095216660480,
-        "font_choice": "fonts/RobotoMono-Bold.ttf",
-        "title_text": "COLODIGRAPH IV"
-      },
-      "pos": [
-        9,
-        -2
+        -1
       ]
     }
   ],
   "cables": [
+    {
+      "id": 4729002788487856,
+      "outputModuleId": 8260095947463540,
+      "outputId": 1,
+      "inputModuleId": 3396106803887546,
+      "inputId": 1,
+      "color": "#ffffff"
+    },
+    {
+      "id": 2779400694101712,
+      "outputModuleId": 8260095947463540,
+      "outputId": 2,
+      "inputModuleId": 5357160568027790,
+      "inputId": 1,
+      "color": "#ffffff"
+    },
     {
       "id": 1553933080002807,
       "outputModuleId": 6536756945576058,
@@ -460,28 +517,12 @@
       "color": "#f3374b"
     },
     {
-      "id": 634386835517909,
-      "outputModuleId": 2021160572028698,
+      "id": 4992193196820578,
+      "outputModuleId": 6536756945576058,
       "outputId": 0,
-      "inputModuleId": 2986809903555839,
-      "inputId": 0,
-      "color": "#ff8b37"
-    },
-    {
-      "id": 7904650803409351,
-      "outputModuleId": 2986809903555839,
-      "outputId": 0,
-      "inputModuleId": 5493347054593341,
+      "inputModuleId": 6711008288029118,
       "inputId": 1,
-      "color": "#ff8b37"
-    },
-    {
-      "id": 4301662127722617,
-      "outputModuleId": 2986809903555839,
-      "outputId": 0,
-      "inputModuleId": 8138867198415162,
-      "inputId": 0,
-      "color": "#ff8b37"
+      "color": "#f3374b"
     },
     {
       "id": 4564001515712201,
@@ -490,6 +531,14 @@
       "inputModuleId": 2021160572028698,
       "inputId": 1,
       "color": "#f3374b"
+    },
+    {
+      "id": 5328478919428758,
+      "outputModuleId": 3396106803887546,
+      "outputId": 1,
+      "inputModuleId": 2021160572028698,
+      "inputId": 2,
+      "color": "#ffffff"
     },
     {
       "id": 8063782059472724,
@@ -508,6 +557,14 @@
       "color": "#f3374b"
     },
     {
+      "id": 3002027515183408,
+      "outputModuleId": 5357160568027790,
+      "outputId": 1,
+      "inputModuleId": 6536756945576058,
+      "inputId": 2,
+      "color": "#ffffff"
+    },
+    {
       "id": 2464231082796283,
       "outputModuleId": 7817107205295559,
       "outputId": 0,
@@ -516,20 +573,12 @@
       "color": "#ff8b37"
     },
     {
-      "id": 2779400694101712,
-      "outputModuleId": 8260095947463540,
-      "outputId": 2,
-      "inputModuleId": 5357160568027790,
-      "inputId": 1,
-      "color": "#ffffff"
-    },
-    {
-      "id": 4283872262855701,
-      "outputModuleId": 6711008288029118,
+      "id": 4301662127722617,
+      "outputModuleId": 2986809903555839,
       "outputId": 0,
-      "inputModuleId": 3621239043218093,
+      "inputModuleId": 8138867198415162,
       "inputId": 0,
-      "color": "#f3374b"
+      "color": "#ff8b37"
     },
     {
       "id": 4817612279737956,
@@ -540,6 +589,30 @@
       "color": "#f3374b"
     },
     {
+      "id": 7904650803409351,
+      "outputModuleId": 2986809903555839,
+      "outputId": 0,
+      "inputModuleId": 5493347054593341,
+      "inputId": 1,
+      "color": "#ff8b37"
+    },
+    {
+      "id": 4283872262855701,
+      "outputModuleId": 6711008288029118,
+      "outputId": 0,
+      "inputModuleId": 3621239043218093,
+      "inputId": 0,
+      "color": "#f3374b"
+    },
+    {
+      "id": 634386835517909,
+      "outputModuleId": 2021160572028698,
+      "outputId": 0,
+      "inputModuleId": 2986809903555839,
+      "inputId": 0,
+      "color": "#ff8b37"
+    },
+    {
       "id": 6326758629350886,
       "outputModuleId": 6711008288029118,
       "outputId": 0,
@@ -548,34 +621,10 @@
       "color": "#f3374b"
     },
     {
-      "id": 4729002788487856,
-      "outputModuleId": 8260095947463540,
-      "outputId": 1,
-      "inputModuleId": 3396106803887546,
-      "inputId": 1,
-      "color": "#ffffff"
-    },
-    {
-      "id": 3002027515183408,
-      "outputModuleId": 5357160568027790,
-      "outputId": 1,
-      "inputModuleId": 6536756945576058,
-      "inputId": 2,
-      "color": "#ffffff"
-    },
-    {
-      "id": 5328478919428758,
-      "outputModuleId": 3396106803887546,
-      "outputId": 1,
-      "inputModuleId": 2021160572028698,
-      "inputId": 2,
-      "color": "#ffffff"
-    },
-    {
-      "id": 4992193196820578,
-      "outputModuleId": 6536756945576058,
+      "id": 2430197314806972,
+      "outputModuleId": 5717222136118936,
       "outputId": 0,
-      "inputModuleId": 6711008288029118,
+      "inputModuleId": 8260095947463540,
       "inputId": 1,
       "color": "#f3374b"
     }
