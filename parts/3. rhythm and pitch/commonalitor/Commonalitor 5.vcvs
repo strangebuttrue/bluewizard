@@ -1,0 +1,367 @@
+{
+  "modules": [
+    {
+      "id": 3434553554826721,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-Mult",
+      "version": "2.4.45",
+      "params": [],
+      "leftModuleId": 2193776560709515,
+      "rightModuleId": 3977369099047204,
+      "data": {},
+      "pos": [
+        20,
+        -1
+      ]
+    },
+    {
+      "id": 2193776560709515,
+      "plugin": "Fundamental",
+      "model": "VCA-1",
+      "version": "2.6.1",
+      "params": [
+        {
+          "value": 1.0,
+          "id": 0
+        },
+        {
+          "value": 1.0,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 3169445212652125,
+      "rightModuleId": 3434553554826721,
+      "pos": [
+        17,
+        -1
+      ]
+    },
+    {
+      "id": 3621680565425601,
+      "plugin": "Fundamental",
+      "model": "Sum",
+      "version": "2.6.1",
+      "params": [
+        {
+          "value": 1.0,
+          "id": 0
+        }
+      ],
+      "leftModuleId": 3977369099047204,
+      "rightModuleId": 2096672541975555,
+      "pos": [
+        28,
+        -1
+      ]
+    },
+    {
+      "id": 3977369099047204,
+      "plugin": "Fundamental",
+      "model": "Split",
+      "version": "2.6.1",
+      "params": [],
+      "leftModuleId": 3434553554826721,
+      "rightModuleId": 3621680565425601,
+      "pos": [
+        23,
+        -1
+      ]
+    },
+    {
+      "id": 234507931917498,
+      "plugin": "GrandeModular",
+      "model": "MergeSplit4",
+      "version": "2.8.0",
+      "params": [],
+      "leftModuleId": 6319445804648379,
+      "rightModuleId": 7900204415450224,
+      "data": {
+        "channels_merge": -1
+      },
+      "pos": [
+        45,
+        -1
+      ]
+    },
+    {
+      "id": 6319445804648379,
+      "plugin": "NYSTHI",
+      "model": "ConstAddMult",
+      "version": "2.4.23",
+      "params": [],
+      "leftModuleId": 2096672541975555,
+      "rightModuleId": 234507931917498,
+      "data": {
+        "m_param_values0": 10.0,
+        "m_param_values1": 10.0,
+        "m_param_values2": 10.0,
+        "m_param_values3": 10.0,
+        "m_mono_mode": false
+      },
+      "pos": [
+        38,
+        -1
+      ]
+    },
+    {
+      "id": 2096672541975555,
+      "plugin": "NYSTHI",
+      "model": "ConstAddMult",
+      "version": "2.4.23",
+      "params": [],
+      "leftModuleId": 3621680565425601,
+      "rightModuleId": 6319445804648379,
+      "data": {
+        "m_param_values0": 40.0,
+        "m_param_values1": 40.0,
+        "m_param_values2": 40.0,
+        "m_param_values3": 40.0,
+        "m_mono_mode": false
+      },
+      "pos": [
+        31,
+        -1
+      ]
+    },
+    {
+      "id": 71157081838648,
+      "plugin": "Fundamental",
+      "model": "Merge",
+      "version": "2.6.1",
+      "params": [],
+      "leftModuleId": 5260699162003802,
+      "rightModuleId": 3169445212652125,
+      "data": {
+        "channels": -1
+      },
+      "pos": [
+        10,
+        -1
+      ]
+    },
+    {
+      "id": 3169445212652125,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 71157081838648,
+      "rightModuleId": 2193776560709515,
+      "data": {
+        "text": "VOLTS IN x4 ",
+        "fg": "#ff7dec",
+        "bg": "#000000"
+      },
+      "pos": [
+        15,
+        -1
+      ]
+    },
+    {
+      "id": 7900204415450224,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 234507931917498,
+      "data": {
+        "text": "VOLTS OUT poly or x4 ",
+        "fg": "#ff7dec",
+        "bg": "#000000"
+      },
+      "pos": [
+        47,
+        -1
+      ]
+    },
+    {
+      "id": 5260699162003802,
+      "plugin": "StochasticTelegraph",
+      "model": "Fermata",
+      "version": "2.0.17",
+      "params": [],
+      "rightModuleId": 71157081838648,
+      "data": {
+        "text": "COMMONALITOR\n============\n\nA neat math tool that sums 2-4 signals, then divides each signal by that sum, and then multiplies each signal by 10. \n\n\nKeep all 4 inputs between 0v and 10v and it'll behave: The sum of the four output signals will always be 10v, and each output signal will be influenced by compensating for the other three. \n\nTurns oscillations into interrelated patterns as complex as their contrast with one another. Throw in noise, static voltage, whatever alongside periodic oscillators.\n\nBe prepared to offset/scale the results. The process seems to limit the dynamic range of a signal - though any >0v input can result in a 10v output if the other three inputs reach 0v. Make this more predictable by sending at least one static input >0v.",
+        "width": 4,
+        "screen_colors": 1095216660480,
+        "font_choice": "fonts/RobotoMono-Bold.ttf",
+        "title_text": "Commonalitor 5"
+      },
+      "pos": [
+        6,
+        -1
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 1436603481874708,
+      "outputModuleId": 6319445804648379,
+      "outputId": 8,
+      "inputModuleId": 234507931917498,
+      "inputId": 0,
+      "color": "#ffffff"
+    },
+    {
+      "id": 8451566074577206,
+      "outputModuleId": 6319445804648379,
+      "outputId": 9,
+      "inputModuleId": 234507931917498,
+      "inputId": 1,
+      "color": "#ffffff"
+    },
+    {
+      "id": 4813748859938696,
+      "outputModuleId": 6319445804648379,
+      "outputId": 10,
+      "inputModuleId": 234507931917498,
+      "inputId": 2,
+      "color": "#ffffff"
+    },
+    {
+      "id": 1869800986380683,
+      "outputModuleId": 6319445804648379,
+      "outputId": 11,
+      "inputModuleId": 234507931917498,
+      "inputId": 3,
+      "color": "#ffffff"
+    },
+    {
+      "id": 3316237451504492,
+      "outputModuleId": 234507931917498,
+      "outputId": 0,
+      "inputModuleId": 234507931917498,
+      "inputId": 4,
+      "color": "#ffffff"
+    },
+    {
+      "id": 5487218227847164,
+      "outputModuleId": 71157081838648,
+      "outputId": 0,
+      "inputModuleId": 2193776560709515,
+      "inputId": 0,
+      "color": "#ffffff"
+    },
+    {
+      "id": 1922308303986256,
+      "outputModuleId": 71157081838648,
+      "outputId": 0,
+      "inputModuleId": 3434553554826721,
+      "inputId": 0,
+      "color": "#ffffff"
+    },
+    {
+      "id": 7374956541893892,
+      "outputModuleId": 3977369099047204,
+      "outputId": 0,
+      "inputModuleId": 2096672541975555,
+      "inputId": 0,
+      "color": "#ffffff"
+    },
+    {
+      "id": 1871069268409999,
+      "outputModuleId": 3977369099047204,
+      "outputId": 1,
+      "inputModuleId": 2096672541975555,
+      "inputId": 1,
+      "color": "#ffffff"
+    },
+    {
+      "id": 1700276459135452,
+      "outputModuleId": 3977369099047204,
+      "outputId": 2,
+      "inputModuleId": 2096672541975555,
+      "inputId": 2,
+      "color": "#ffffff"
+    },
+    {
+      "id": 4921290545673169,
+      "outputModuleId": 3977369099047204,
+      "outputId": 3,
+      "inputModuleId": 2096672541975555,
+      "inputId": 3,
+      "color": "#ffffff"
+    },
+    {
+      "id": 1667919643156866,
+      "outputModuleId": 3621680565425601,
+      "outputId": 0,
+      "inputModuleId": 2096672541975555,
+      "inputId": 4,
+      "color": "#ffffff"
+    },
+    {
+      "id": 6465467243474880,
+      "outputModuleId": 3621680565425601,
+      "outputId": 0,
+      "inputModuleId": 2096672541975555,
+      "inputId": 5,
+      "color": "#ffffff"
+    },
+    {
+      "id": 7972792715980545,
+      "outputModuleId": 3621680565425601,
+      "outputId": 0,
+      "inputModuleId": 2096672541975555,
+      "inputId": 6,
+      "color": "#ffffff"
+    },
+    {
+      "id": 7196270099762892,
+      "outputModuleId": 3621680565425601,
+      "outputId": 0,
+      "inputModuleId": 2096672541975555,
+      "inputId": 7,
+      "color": "#ffffff"
+    },
+    {
+      "id": 3156350797355466,
+      "outputModuleId": 2096672541975555,
+      "outputId": 12,
+      "inputModuleId": 6319445804648379,
+      "inputId": 0,
+      "color": "#ffffff"
+    },
+    {
+      "id": 1669716392857476,
+      "outputModuleId": 2096672541975555,
+      "outputId": 13,
+      "inputModuleId": 6319445804648379,
+      "inputId": 1,
+      "color": "#ffffff"
+    },
+    {
+      "id": 5014260266380707,
+      "outputModuleId": 2096672541975555,
+      "outputId": 14,
+      "inputModuleId": 6319445804648379,
+      "inputId": 2,
+      "color": "#ffffff"
+    },
+    {
+      "id": 7564830748279909,
+      "outputModuleId": 2096672541975555,
+      "outputId": 15,
+      "inputModuleId": 6319445804648379,
+      "inputId": 3,
+      "color": "#ffffff"
+    },
+    {
+      "id": 822719412271808,
+      "outputModuleId": 3434553554826721,
+      "outputId": 1,
+      "inputModuleId": 3621680565425601,
+      "inputId": 0,
+      "color": "#ffffff"
+    },
+    {
+      "id": 4314229901919955,
+      "outputModuleId": 3434553554826721,
+      "outputId": 0,
+      "inputModuleId": 3977369099047204,
+      "inputId": 0,
+      "color": "#ffffff"
+    }
+  ]
+}
