@@ -1,43 +1,81 @@
 {
   "modules": [
     {
-      "id": 8808003872593104,
-      "plugin": "NYSTHI",
-      "model": "ScaleOffset",
-      "version": "2.0.10",
-      "params": [
-        {
-          "value": -5.0,
-          "id": 0
-        },
-        {
-          "value": 1.0,
-          "id": 1
-        },
-        {
-          "value": 50.0,
-          "id": 2
-        },
-        {
-          "value": 1.0,
-          "id": 3
-        }
-      ],
-      "leftModuleId": 4298582835471812,
-      "rightModuleId": 788640461737778,
+      "id": 6096004800017016,
+      "plugin": "StochasticTelegraph",
+      "model": "Fermata",
+      "version": "2.0.17",
+      "params": [],
+      "rightModuleId": 2642510443176474,
       "data": {
-        "m_snapped": false
+        "text": "STAYTHOSCOPE\n============\n\nAn Advanced Concept in oscilloscopy. Incoming signals are massaged to cause the SCOPE display to reciprocally compensate its offset value. Result: The SCOPE remains focused on the present. \n\n\nMap the 1st and 2nd UMAP to SCOPE channels 1 and 2 offset, and input a pair of LFOs (not synced) to see what this means!",
+        "width": 3,
+        "screen_colors": 1095216660480,
+        "font_choice": "fonts/RobotoMono-Bold.ttf",
+        "title_text": "STAYTHOSCOPE"
       },
       "pos": [
-        -48,
-        0
+        69,
+        -1
       ]
     },
     {
-      "id": 1845446802892063,
+      "id": 4749576424720446,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-Offset",
+      "version": "2.4.45",
+      "params": [
+        {
+          "value": 0.5,
+          "id": 0
+        },
+        {
+          "value": -0.22360679507255554,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 7438675255457627,
+      "rightModuleId": 4672311756652235,
+      "data": {
+        "disableOutputLimit": false,
+        "offset_first": false
+      },
+      "pos": [
+        81,
+        -1
+      ]
+    },
+    {
+      "id": 6768988730133850,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-Offset",
+      "version": "2.4.45",
+      "params": [
+        {
+          "value": 0.5,
+          "id": 0
+        },
+        {
+          "value": -0.22360679507255554,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 2642510443176474,
+      "rightModuleId": 7438675255457627,
+      "data": {
+        "disableOutputLimit": false,
+        "offset_first": false
+      },
+      "pos": [
+        75,
+        -1
+      ]
+    },
+    {
+      "id": 4428151912218014,
       "plugin": "Fundamental",
       "model": "Scope",
-      "version": "2.0.3",
+      "version": "2.6.1",
       "params": [
         {
           "value": 0.0,
@@ -56,7 +94,7 @@
           "id": 3
         },
         {
-          "value": 1.2993531227111816,
+          "value": 1.9925785064697266,
           "id": 4
         },
         {
@@ -72,65 +110,17 @@
           "id": 7
         }
       ],
-      "leftModuleId": 788640461737778,
+      "leftModuleId": 4672311756652235,
       "pos": [
-        -37,
-        0
+        87,
+        -1
       ]
     },
     {
-      "id": 782022044352765,
-      "plugin": "Core",
-      "model": "Notes",
-      "version": "2.0.4",
-      "params": [],
-      "rightModuleId": 3708001199871653,
-      "data": {
-        "text": "STAYTHOSCOPE\n============\n\nAn Advanced Concept in oscilloscopy. Incoming signals are massaged to cause the SCOPE display to reciprocally compensate its offset value. Result: The SCOPE remains focused on the present. Input a pair of LFOs (not synced) to see what this means!"
-      },
-      "pos": [
-        -78,
-        0
-      ]
-    },
-    {
-      "id": 8972597778151657,
-      "plugin": "NYSTHI",
-      "model": "ScaleOffset",
-      "version": "2.0.10",
-      "params": [
-        {
-          "value": -5.0,
-          "id": 0
-        },
-        {
-          "value": 1.0,
-          "id": 1
-        },
-        {
-          "value": 50.0,
-          "id": 2
-        },
-        {
-          "value": 1.0,
-          "id": 3
-        }
-      ],
-      "leftModuleId": 3708001199871653,
-      "rightModuleId": 4298582835471812,
-      "data": {
-        "m_snapped": false
-      },
-      "pos": [
-        -59,
-        0
-      ]
-    },
-    {
-      "id": 788640461737778,
+      "id": 7438675255457627,
       "plugin": "Stoermelder-P1",
       "model": "CVMapMicro",
-      "version": "2.0.aa525d0",
+      "version": "2.0.beta4",
       "params": [
         {
           "value": 0.0,
@@ -145,146 +135,132 @@
           "id": 2
         }
       ],
-      "leftModuleId": 8808003872593104,
-      "rightModuleId": 1845446802892063,
+      "leftModuleId": 6768988730133850,
+      "rightModuleId": 4749576424720446,
       "data": {
         "textScrolling": true,
         "mappingIndicatorHidden": false,
         "maps": [
           {
-            "moduleId": 1845446802892063,
-            "paramId": 3
-          }
-        ],
-        "lockParameterChanges": true,
-        "bipolarInput": false,
-        "panelTheme": 0,
-        "invertedOutput": false
-      },
-      "pos": [
-        -40,
-        0
-      ]
-    },
-    {
-      "id": 4298582835471812,
-      "plugin": "Stoermelder-P1",
-      "model": "CVMapMicro",
-      "version": "2.0.aa525d0",
-      "params": [
-        {
-          "value": 0.0,
-          "id": 0
-        },
-        {
-          "value": 0.0,
-          "id": 1
-        },
-        {
-          "value": 1.0,
-          "id": 2
-        }
-      ],
-      "leftModuleId": 8972597778151657,
-      "rightModuleId": 8808003872593104,
-      "data": {
-        "textScrolling": true,
-        "mappingIndicatorHidden": false,
-        "maps": [
-          {
-            "moduleId": 1845446802892063,
+            "moduleId": 4428151912218014,
             "paramId": 1
           }
         ],
         "lockParameterChanges": true,
         "bipolarInput": false,
         "panelTheme": 0,
-        "invertedOutput": false
+        "invertedOutput": false,
+        "audioRate": true
       },
       "pos": [
-        -51,
-        0
+        78,
+        -1
       ]
     },
     {
-      "id": 3708001199871653,
+      "id": 2642510443176474,
       "plugin": "Bogaudio",
       "model": "Bogaudio-Mult",
-      "version": "2.0.39",
+      "version": "2.4.45",
       "params": [],
-      "leftModuleId": 782022044352765,
-      "rightModuleId": 8972597778151657,
+      "leftModuleId": 6096004800017016,
+      "rightModuleId": 6768988730133850,
       "data": {},
       "pos": [
-        -62,
-        0
+        72,
+        -1
+      ]
+    },
+    {
+      "id": 4672311756652235,
+      "plugin": "Stoermelder-P1",
+      "model": "CVMapMicro",
+      "version": "2.0.beta4",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 1.0,
+          "id": 2
+        }
+      ],
+      "leftModuleId": 4749576424720446,
+      "rightModuleId": 4428151912218014,
+      "data": {
+        "textScrolling": true,
+        "mappingIndicatorHidden": false,
+        "maps": [
+          {
+            "moduleId": 4428151912218014,
+            "paramId": 3
+          }
+        ],
+        "lockParameterChanges": true,
+        "bipolarInput": false,
+        "panelTheme": 0,
+        "invertedOutput": false,
+        "audioRate": true
+      },
+      "pos": [
+        84,
+        -1
       ]
     }
   ],
   "cables": [
     {
-      "id": 5061211116186100,
-      "outputModuleId": 8808003872593104,
-      "outputId": 0,
-      "inputModuleId": 8808003872593104,
-      "inputId": 2,
-      "color": "#0c8e15"
-    },
-    {
-      "id": 520069581110371,
-      "outputModuleId": 8808003872593104,
-      "outputId": 1,
-      "inputModuleId": 788640461737778,
-      "inputId": 2,
-      "color": "#c91847"
-    },
-    {
-      "id": 7972409118050683,
-      "outputModuleId": 8972597778151657,
-      "outputId": 0,
-      "inputModuleId": 8972597778151657,
-      "inputId": 2,
-      "color": "#0986ad"
-    },
-    {
-      "id": 6922494933020612,
-      "outputModuleId": 8972597778151657,
-      "outputId": 1,
-      "inputModuleId": 4298582835471812,
-      "inputId": 2,
-      "color": "#c9b70e"
-    },
-    {
-      "id": 4379751126249527,
-      "outputModuleId": 3708001199871653,
-      "outputId": 0,
-      "inputModuleId": 8972597778151657,
-      "inputId": 0,
-      "color": "#c91847"
-    },
-    {
-      "id": 7522558694053875,
-      "outputModuleId": 3708001199871653,
+      "id": 7435353842537873,
+      "outputModuleId": 2642510443176474,
       "outputId": 2,
-      "inputModuleId": 1845446802892063,
+      "inputModuleId": 4428151912218014,
       "inputId": 0,
       "color": "#0986ad"
     },
     {
-      "id": 4931884510170618,
-      "outputModuleId": 3708001199871653,
+      "id": 5642571867710753,
+      "outputModuleId": 2642510443176474,
+      "outputId": 5,
+      "inputModuleId": 4428151912218014,
+      "inputId": 1,
+      "color": "#f3374b"
+    },
+    {
+      "id": 6161127196424629,
+      "outputModuleId": 2642510443176474,
+      "outputId": 0,
+      "inputModuleId": 6768988730133850,
+      "inputId": 2,
+      "color": "#c91847"
+    },
+    {
+      "id": 7346824679881776,
+      "outputModuleId": 2642510443176474,
       "outputId": 3,
-      "inputModuleId": 8808003872593104,
-      "inputId": 0,
+      "inputModuleId": 4749576424720446,
+      "inputId": 2,
       "color": "#c9b70e"
     },
     {
-      "id": 2484402821593059,
-      "outputModuleId": 3708001199871653,
-      "outputId": 5,
-      "inputModuleId": 1845446802892063,
-      "inputId": 1,
-      "color": "#0986ad"
+      "id": 7310037951231657,
+      "outputModuleId": 6768988730133850,
+      "outputId": 0,
+      "inputModuleId": 7438675255457627,
+      "inputId": 2,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 8458037586856960,
+      "outputModuleId": 4749576424720446,
+      "outputId": 0,
+      "inputModuleId": 4672311756652235,
+      "inputId": 2,
+      "color": "#c91847"
     }
   ]
 }
