@@ -1,0 +1,203 @@
+{
+  "modules": [
+    {
+      "id": 4669713449537547,
+      "plugin": "NYSTHI",
+      "model": "FixedVoltageSource",
+      "version": "2.4.23",
+      "params": [],
+      "leftModuleId": 2478162432221242,
+      "rightModuleId": 4586200568045975,
+      "data": {
+        "m_unipolar": false,
+        "m_abs_value": false,
+        "m_scale_mode": 1,
+        "m_poly_out": 1,
+        "m_ltf0": "1",
+        "m_ltf1": "1.585",
+        "m_ltf2": "2.322",
+        "m_ltf3": "2.808",
+        "m_ltf4": "3.17",
+        "m_ltf5": "3.46",
+        "m_ltf6": "3.701",
+        "m_ltf7": "3.907",
+        "m_ltf8": "4.088",
+        "m_ltf9": "4.248",
+        "m_ltf10": "4.393",
+        "m_ltf11": "4.524",
+        "m_ltf12": "4.644",
+        "m_ltf13": "4.755",
+        "m_ltf14": "4.858",
+        "m_ltf15": "4.955"
+      },
+      "pos": [
+        -27,
+        0
+      ]
+    },
+    {
+      "id": 2478162432221242,
+      "plugin": "StochasticTelegraph",
+      "model": "Fermata",
+      "version": "2.0.17",
+      "params": [],
+      "rightModuleId": 4669713449537547,
+      "data": {
+        "text": "Harmonic voltages\n\nRatio - Voltage\n\n2  - 1.0\n3  - 1.585\n5  - 2.322\n7  - 2.808\n9  - 3.17\n11 - 3.46\n13 - 3.701\n15 - 3.907\n17 - 4.088\n19 - 4.248\n21 - 4.393\n23 - 4.524\n25 - 4.644\n27 - 4.755\n29 - 4.585\n31 - 4.955\n",
+        "width": 3,
+        "screen_colors": 281200098803712,
+        "font_choice": "fonts/RobotoMono-Regular.ttf",
+        "title_text": "Harmonic voltages"
+      },
+      "pos": [
+        -30,
+        0
+      ]
+    },
+    {
+      "id": 4586200568045975,
+      "plugin": "Fundamental",
+      "model": "Merge",
+      "version": "2.6.1",
+      "params": [],
+      "leftModuleId": 4669713449537547,
+      "data": {
+        "channels": -1
+      },
+      "pos": [
+        -15,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 1778754691714195,
+      "outputModuleId": 4669713449537547,
+      "outputId": 0,
+      "inputModuleId": 4586200568045975,
+      "inputId": 0,
+      "color": "#ff8b37"
+    },
+    {
+      "id": 3469937538766668,
+      "outputModuleId": 4669713449537547,
+      "outputId": 1,
+      "inputModuleId": 4586200568045975,
+      "inputId": 1,
+      "color": "#f3374b"
+    },
+    {
+      "id": 7921198144108450,
+      "outputModuleId": 4669713449537547,
+      "outputId": 2,
+      "inputModuleId": 4586200568045975,
+      "inputId": 2,
+      "color": "#b012d4"
+    },
+    {
+      "id": 577972554840749,
+      "outputModuleId": 4669713449537547,
+      "outputId": 3,
+      "inputModuleId": 4586200568045975,
+      "inputId": 3,
+      "color": "#26619e"
+    },
+    {
+      "id": 271617447007409,
+      "outputModuleId": 4669713449537547,
+      "outputId": 4,
+      "inputModuleId": 4586200568045975,
+      "inputId": 4,
+      "color": "#63b546"
+    },
+    {
+      "id": 6163297558344255,
+      "outputModuleId": 4669713449537547,
+      "outputId": 5,
+      "inputModuleId": 4586200568045975,
+      "inputId": 5,
+      "color": "#ff8b37"
+    },
+    {
+      "id": 4070893279904532,
+      "outputModuleId": 4669713449537547,
+      "outputId": 6,
+      "inputModuleId": 4586200568045975,
+      "inputId": 6,
+      "color": "#f3374b"
+    },
+    {
+      "id": 5305361047058277,
+      "outputModuleId": 4669713449537547,
+      "outputId": 7,
+      "inputModuleId": 4586200568045975,
+      "inputId": 7,
+      "color": "#b012d4"
+    },
+    {
+      "id": 2914700375836075,
+      "outputModuleId": 4669713449537547,
+      "outputId": 8,
+      "inputModuleId": 4586200568045975,
+      "inputId": 8,
+      "color": "#f3374b"
+    },
+    {
+      "id": 711003082918048,
+      "outputModuleId": 4669713449537547,
+      "outputId": 9,
+      "inputModuleId": 4586200568045975,
+      "inputId": 9,
+      "color": "#b012d4"
+    },
+    {
+      "id": 8536273128657276,
+      "outputModuleId": 4669713449537547,
+      "outputId": 10,
+      "inputModuleId": 4586200568045975,
+      "inputId": 10,
+      "color": "#26619e"
+    },
+    {
+      "id": 6168397682287076,
+      "outputModuleId": 4669713449537547,
+      "outputId": 11,
+      "inputModuleId": 4586200568045975,
+      "inputId": 11,
+      "color": "#63b546"
+    },
+    {
+      "id": 5014206068005460,
+      "outputModuleId": 4669713449537547,
+      "outputId": 12,
+      "inputModuleId": 4586200568045975,
+      "inputId": 12,
+      "color": "#ff8b37"
+    },
+    {
+      "id": 78194940042416,
+      "outputModuleId": 4669713449537547,
+      "outputId": 13,
+      "inputModuleId": 4586200568045975,
+      "inputId": 13,
+      "color": "#f3374b"
+    },
+    {
+      "id": 8233574345847478,
+      "outputModuleId": 4669713449537547,
+      "outputId": 14,
+      "inputModuleId": 4586200568045975,
+      "inputId": 14,
+      "color": "#b012d4"
+    },
+    {
+      "id": 8137716937011564,
+      "outputModuleId": 4669713449537547,
+      "outputId": 15,
+      "inputModuleId": 4586200568045975,
+      "inputId": 15,
+      "color": "#26619e"
+    }
+  ]
+}

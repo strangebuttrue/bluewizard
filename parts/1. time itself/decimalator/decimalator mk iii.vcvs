@@ -1,0 +1,214 @@
+{
+  "modules": [
+    {
+      "id": 2059868101891769,
+      "plugin": "NYSTHI",
+      "model": "TIMEX",
+      "version": "2.4.23",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        }
+      ],
+      "leftModuleId": 5437206346939257,
+      "rightModuleId": 1174952450337827,
+      "data": {
+        "m_timer1_hours": 0.0,
+        "m_timer1_minutes": 0.0,
+        "m_timer1_seconds": 0.0,
+        "m_timer2_hours": 0.0,
+        "m_timer2_minutes": 1.5155858993530273,
+        "m_timer2_seconds": 0.0,
+        "m_timer1_armed": true,
+        "m_timer2_armed": true,
+        "m_target_ticks1_upper": 1,
+        "m_target_ticks2_upper": 1,
+        "m_tick1_armed": true,
+        "m_tick2_armed": true
+      },
+      "pos": [
+        -26,
+        0
+      ]
+    },
+    {
+      "id": 6748356266436215,
+      "plugin": "GrandeModular",
+      "model": "Split8",
+      "version": "2.8.0",
+      "params": [],
+      "leftModuleId": 6832681634045854,
+      "pos": [
+        -1,
+        0
+      ]
+    },
+    {
+      "id": 5437206346939257,
+      "plugin": "StochasticTelegraph",
+      "model": "Fermata",
+      "version": "2.0.17",
+      "params": [],
+      "rightModuleId": 2059868101891769,
+      "data": {
+        "text": "DECIMALATOR mk. III\n==================\n\nSawtooths at powers of 10\n\nTIMEX: ICP time, including 1 day\n\nAO-122: \n\n1/10 day (decimal hour), 144m\n1/100 day (decimal while),; 14.4m \n1/1,000 day (decimal minute), 86.4s\n1/10,000 day (decimal moment), 8.64s\n1/100,000 day (decimal second), .864s",
+        "width": 3,
+        "screen_colors": 1095216660480,
+        "font_choice": "fonts/RobotoSlab-Regular.ttf",
+        "title_text": "DECIMALATOR mk. III"
+      },
+      "pos": [
+        -29,
+        0
+      ]
+    },
+    {
+      "id": 1174952450337827,
+      "plugin": "Venom",
+      "model": "Recurse",
+      "version": "2.11.0",
+      "params": [
+        {
+          "value": 7.0,
+          "id": 0
+        },
+        {
+          "value": 1.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        }
+      ],
+      "leftModuleId": 2059868101891769,
+      "rightModuleId": 6832681634045854,
+      "data": {
+        "paramLock0": false,
+        "paramDflt0": 1.0,
+        "paramVal0": 7.0,
+        "paramName0": "Recursion Count",
+        "paramLock1": false,
+        "paramDflt1": 1.0,
+        "paramVal1": 1.0,
+        "paramName1": "Scale",
+        "paramLock2": false,
+        "paramDflt2": 0.0,
+        "paramVal2": 0.0,
+        "paramName2": "Offset",
+        "paramLock3": false,
+        "paramDflt3": 0.0,
+        "paramVal3": 0.0,
+        "paramName3": "Modulation Timing",
+        "inputName0": "Scale",
+        "inputName1": "Offset",
+        "inputName2": "Return",
+        "inputName3": "Signal",
+        "outputName0": "Send",
+        "outputName1": "Signal",
+        "currentTheme": 0,
+        "orderOp": 0
+      },
+      "pos": [
+        -18,
+        0
+      ]
+    },
+    {
+      "id": 6832681634045854,
+      "plugin": "HetrickCV",
+      "model": "PhasorDivMult",
+      "version": "2.5.0",
+      "params": [
+        {
+          "value": 1.0,
+          "id": 0
+        },
+        {
+          "value": 1.0,
+          "id": 1
+        },
+        {
+          "value": 4.3219280242919922,
+          "id": 2
+        },
+        {
+          "value": 1.0,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        },
+        {
+          "value": 0.0,
+          "id": 5
+        },
+        {
+          "value": 0.0,
+          "id": 6
+        }
+      ],
+      "leftModuleId": 1174952450337827,
+      "rightModuleId": 6748356266436215,
+      "data": {
+        "mode": 0
+      },
+      "pos": [
+        -13,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 4094167684946806,
+      "outputModuleId": 2059868101891769,
+      "outputId": 0,
+      "inputModuleId": 1174952450337827,
+      "inputId": 3,
+      "color": "#ffffff"
+    },
+    {
+      "id": 4339914944284841,
+      "outputModuleId": 1174952450337827,
+      "outputId": 0,
+      "inputModuleId": 6832681634045854,
+      "inputId": 0,
+      "color": "#ffffff"
+    },
+    {
+      "id": 5246522546570878,
+      "outputModuleId": 6832681634045854,
+      "outputId": 0,
+      "inputModuleId": 1174952450337827,
+      "inputId": 2,
+      "color": "#ffffff"
+    },
+    {
+      "id": 343886850885260,
+      "outputModuleId": 1174952450337827,
+      "outputId": 0,
+      "inputModuleId": 6748356266436215,
+      "inputId": 0,
+      "color": "#ffffff"
+    }
+  ]
+}
