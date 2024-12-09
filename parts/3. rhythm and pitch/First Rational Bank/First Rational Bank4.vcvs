@@ -1,0 +1,337 @@
+{
+  "modules": [
+    {
+      "id": 801220713232999,
+      "plugin": "Venom",
+      "model": "HQ",
+      "version": "2.11.0",
+      "params": [
+        {
+          "value": 0.5,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 1.0,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 2.0,
+          "id": 4
+        }
+      ],
+      "leftModuleId": 3934616120823081,
+      "rightModuleId": 4822000052427524,
+      "data": {
+        "paramLock0": false,
+        "paramDflt0": 0.5,
+        "paramVal0": 0.5,
+        "paramName0": "Partial",
+        "paramLock1": false,
+        "paramDflt1": 0.0,
+        "paramVal1": 0.0,
+        "paramName1": "Harmonic Series",
+        "paramLock2": false,
+        "paramDflt2": 0.0,
+        "paramVal2": 1.0,
+        "paramName2": "CV",
+        "paramLock3": false,
+        "paramDflt3": 0.0,
+        "paramVal3": 0.0,
+        "paramName3": "Detune amount",
+        "paramLock4": false,
+        "paramDflt4": 2.0,
+        "paramVal4": 2.0,
+        "paramName4": "Detune frequency compensation",
+        "inputName0": "CV",
+        "inputName1": "Root",
+        "inputName2": "V/Oct",
+        "outputName0": "V/Oct",
+        "currentTheme": 0,
+        "range": 11,
+        "monitor": 0
+      },
+      "pos": [
+        525,
+        4
+      ]
+    },
+    {
+      "id": 3934616120823081,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "rightModuleId": 801220713232999,
+      "data": {
+        "text": "FIRST RATIONAL BANK IV",
+        "fg": "#ff1313",
+        "bg": "#000000"
+      },
+      "pos": [
+        523,
+        4
+      ]
+    },
+    {
+      "id": 173901324742495,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-LFO",
+      "version": "2.4.45",
+      "params": [
+        {
+          "value": -4.3532905578613281,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 1.0,
+          "id": 4
+        },
+        {
+          "value": 1.0,
+          "id": 5
+        },
+        {
+          "value": 0.0,
+          "id": 6
+        }
+      ],
+      "leftModuleId": 1493323945439338,
+      "rightModuleId": 1875752916704497,
+      "data": {
+        "offset_scale": 1.0,
+        "offset_cv_to_smoothing": false
+      },
+      "pos": [
+        533,
+        4
+      ]
+    },
+    {
+      "id": 4822000052427524,
+      "plugin": "Venom",
+      "model": "HQ",
+      "version": "2.11.0",
+      "params": [
+        {
+          "value": 0.5,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 1.0,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 2.0,
+          "id": 4
+        }
+      ],
+      "leftModuleId": 801220713232999,
+      "rightModuleId": 1493323945439338,
+      "data": {
+        "paramLock0": false,
+        "paramDflt0": 0.5,
+        "paramVal0": 0.5,
+        "paramName0": "Partial",
+        "paramLock1": false,
+        "paramDflt1": 0.0,
+        "paramVal1": 0.0,
+        "paramName1": "Harmonic Series",
+        "paramLock2": false,
+        "paramDflt2": 0.0,
+        "paramVal2": 1.0,
+        "paramName2": "CV",
+        "paramLock3": false,
+        "paramDflt3": 0.0,
+        "paramVal3": 0.0,
+        "paramName3": "Detune amount",
+        "paramLock4": false,
+        "paramDflt4": 2.0,
+        "paramVal4": 2.0,
+        "paramName4": "Detune frequency compensation",
+        "inputName0": "CV",
+        "inputName1": "Root",
+        "inputName2": "V/Oct",
+        "outputName0": "V/Oct",
+        "currentTheme": 0,
+        "range": 11,
+        "monitor": 0
+      },
+      "pos": [
+        528,
+        4
+      ]
+    },
+    {
+      "id": 3619303606274273,
+      "plugin": "GrandeModular",
+      "model": "Split8",
+      "version": "2.8.0",
+      "params": [],
+      "leftModuleId": 1875752916704497,
+      "rightModuleId": 4366643227420557,
+      "pos": [
+        545,
+        4
+      ]
+    },
+    {
+      "id": 4366643227420557,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-SampleHold",
+      "version": "2.4.45",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        },
+        {
+          "value": 0.0,
+          "id": 5
+        }
+      ],
+      "leftModuleId": 3619303606274273,
+      "data": {
+        "poly_input": 0,
+        "noise_type": 0,
+        "range_offset": 1.0,
+        "range_scale": 5.0,
+        "smoothing_ms": 0.0
+      },
+      "pos": [
+        547,
+        4
+      ]
+    },
+    {
+      "id": 1493323945439338,
+      "plugin": "GrandeModular",
+      "model": "Merge8",
+      "version": "2.8.0",
+      "params": [],
+      "leftModuleId": 4822000052427524,
+      "rightModuleId": 173901324742495,
+      "data": {
+        "channels_merge": -1
+      },
+      "pos": [
+        531,
+        4
+      ]
+    },
+    {
+      "id": 1875752916704497,
+      "plugin": "GrandeModular",
+      "model": "Split8",
+      "version": "2.8.0",
+      "params": [],
+      "leftModuleId": 173901324742495,
+      "rightModuleId": 3619303606274273,
+      "pos": [
+        543,
+        4
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 5580360903766692,
+      "outputModuleId": 173901324742495,
+      "outputId": 2,
+      "inputModuleId": 3619303606274273,
+      "inputId": 0,
+      "color": "#f3374b"
+    },
+    {
+      "id": 7686994194753557,
+      "outputModuleId": 1493323945439338,
+      "outputId": 0,
+      "inputModuleId": 173901324742495,
+      "inputId": 4,
+      "color": "#ff8b37"
+    },
+    {
+      "id": 4185006799981439,
+      "outputModuleId": 801220713232999,
+      "outputId": 0,
+      "inputModuleId": 1493323945439338,
+      "inputId": 0,
+      "color": "#ffffff"
+    },
+    {
+      "id": 6046216799507791,
+      "outputModuleId": 4822000052427524,
+      "outputId": 0,
+      "inputModuleId": 1493323945439338,
+      "inputId": 1,
+      "color": "#ffffff"
+    },
+    {
+      "id": 7334242245499546,
+      "outputModuleId": 3619303606274273,
+      "outputId": 0,
+      "inputModuleId": 4366643227420557,
+      "inputId": 0,
+      "color": "#f3374b"
+    },
+    {
+      "id": 2600216380188468,
+      "outputModuleId": 173901324742495,
+      "outputId": 0,
+      "inputModuleId": 1875752916704497,
+      "inputId": 0,
+      "color": "#ffffff"
+    },
+    {
+      "id": 1240875286614768,
+      "outputModuleId": 1875752916704497,
+      "outputId": 1,
+      "inputModuleId": 4366643227420557,
+      "inputId": 1,
+      "color": "#ffffff"
+    }
+  ]
+}

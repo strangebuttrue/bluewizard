@@ -1,0 +1,255 @@
+{
+  "modules": [
+    {
+      "id": 23497491660119,
+      "plugin": "PdArray",
+      "model": "Ministep",
+      "version": "2.1.1",
+      "params": [],
+      "leftModuleId": 8975694870411591,
+      "rightModuleId": 7098190027395008,
+      "data": {
+        "nSteps": 997,
+        "offsetByHalfStep": false,
+        "stepScaleMode": 1,
+        "outputScaleMode": 0,
+        "currentStep": [
+          878,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "pos": [
+        530,
+        6
+      ]
+    },
+    {
+      "id": 6052291012177902,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "rightModuleId": 7679933252990428,
+      "data": {
+        "text": "STEPAROUND II",
+        "fg": "#ff1313",
+        "bg": "#000000"
+      },
+      "pos": [
+        523,
+        6
+      ]
+    },
+    {
+      "id": 7679933252990428,
+      "plugin": "DHE-Modules",
+      "model": "Func",
+      "version": "2.0.3",
+      "params": [
+        {
+          "value": 0.7120477557182312,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 2.0,
+          "id": 2
+        },
+        {
+          "value": 2.0,
+          "id": 3
+        }
+      ],
+      "leftModuleId": 6052291012177902,
+      "rightModuleId": 8975694870411591,
+      "data": {
+        "preset_version": 0
+      },
+      "pos": [
+        525,
+        6
+      ]
+    },
+    {
+      "id": 8975694870411591,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 7679933252990428,
+      "rightModuleId": 23497491660119,
+      "data": {
+        "text": "stepsize",
+        "fg": "#29b2ef",
+        "bg": "#000000"
+      },
+      "pos": [
+        528,
+        6
+      ]
+    },
+    {
+      "id": 3258217978955469,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 3804362347582660,
+      "data": {
+        "text": "INC trigger in",
+        "fg": "#29b2ef",
+        "bg": "#000000"
+      },
+      "pos": [
+        542,
+        6
+      ]
+    },
+    {
+      "id": 7098190027395008,
+      "plugin": "DHE-Modules",
+      "model": "Func",
+      "version": "2.0.3",
+      "params": [
+        {
+          "value": 0.57590287923812866,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 2.0,
+          "id": 2
+        },
+        {
+          "value": 2.0,
+          "id": 3
+        }
+      ],
+      "leftModuleId": 23497491660119,
+      "rightModuleId": 7309938054520565,
+      "data": {
+        "preset_version": 0
+      },
+      "pos": [
+        533,
+        6
+      ]
+    },
+    {
+      "id": 3804362347582660,
+      "plugin": "Fundamental",
+      "model": "Fade",
+      "version": "2.6.1",
+      "params": [
+        {
+          "value": 0.5,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 7309938054520565,
+      "rightModuleId": 3258217978955469,
+      "data": {
+        "panLaw": 0
+      },
+      "pos": [
+        539,
+        6
+      ]
+    },
+    {
+      "id": 7309938054520565,
+      "plugin": "PdArray",
+      "model": "Ministep",
+      "version": "2.1.1",
+      "params": [],
+      "leftModuleId": 7098190027395008,
+      "rightModuleId": 3804362347582660,
+      "data": {
+        "nSteps": 997,
+        "offsetByHalfStep": false,
+        "stepScaleMode": 1,
+        "outputScaleMode": 0,
+        "currentStep": [
+          356,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "pos": [
+        536,
+        6
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 4639593849056433,
+      "outputModuleId": 7679933252990428,
+      "outputId": 0,
+      "inputModuleId": 23497491660119,
+      "inputId": 3,
+      "color": "#ffb437"
+    },
+    {
+      "id": 84257060977464,
+      "outputModuleId": 7098190027395008,
+      "outputId": 0,
+      "inputModuleId": 7309938054520565,
+      "inputId": 3,
+      "color": "#63b546"
+    },
+    {
+      "id": 6522804823378095,
+      "outputModuleId": 7309938054520565,
+      "outputId": 0,
+      "inputModuleId": 3804362347582660,
+      "inputId": 2,
+      "color": "#ff8b37"
+    },
+    {
+      "id": 4260459233590401,
+      "outputModuleId": 23497491660119,
+      "outputId": 0,
+      "inputModuleId": 3804362347582660,
+      "inputId": 1,
+      "color": "#63b546"
+    }
+  ]
+}
