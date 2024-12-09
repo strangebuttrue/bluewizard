@@ -1,1056 +1,111 @@
 {
   "modules": [
     {
-      "id": 5564821394215223,
-      "plugin": "LittleUtils",
-      "model": "TeleportIn",
-      "version": "2.1.0",
-      "params": [],
-      "leftModuleId": 5402953795811002,
-      "rightModuleId": 650755041211341,
-      "data": {
-        "label": "PTCH"
-      },
-      "pos": [
-        107,
-        -1
-      ]
-    },
-    {
-      "id": 120653961142370,
-      "plugin": "LittleUtils",
-      "model": "TeleportOut",
-      "version": "2.1.0",
-      "params": [],
-      "leftModuleId": 4872179904644180,
-      "rightModuleId": 1149525756055882,
-      "data": {
-        "label": "PTCH"
-      },
-      "pos": [
-        117,
-        -1
-      ]
-    },
-    {
-      "id": 5120878910048944,
-      "plugin": "computerscare",
-      "model": "computerscare-knolypobs",
-      "version": "2.1.11",
-      "params": [
-        {
-          "value": 0.0,
-          "id": 0
-        },
-        {
-          "value": 0.58499997854232788,
-          "id": 1
-        },
-        {
-          "value": 0.24500000476837158,
-          "id": 2
-        },
-        {
-          "value": 0.82999998331069946,
-          "id": 3
-        },
-        {
-          "value": 0.17000000178813934,
-          "id": 4
-        },
-        {
-          "value": 0.41499999165534973,
-          "id": 5
-        },
-        {
-          "value": 0.75499999523162842,
-          "id": 6
-        },
-        {
-          "value": 0.0,
-          "id": 7
-        },
-        {
-          "value": 0.0,
-          "id": 8
-        },
-        {
-          "value": 0.0,
-          "id": 9
-        },
-        {
-          "value": 0.0,
-          "id": 10
-        },
-        {
-          "value": 0.0,
-          "id": 11
-        },
-        {
-          "value": 0.0,
-          "id": 12
-        },
-        {
-          "value": 0.0,
-          "id": 13
-        },
-        {
-          "value": 0.0,
-          "id": 14
-        },
-        {
-          "value": 0.0,
-          "id": 15
-        },
-        {
-          "value": 0.0,
-          "id": 16
-        },
-        {
-          "value": 0.0,
-          "id": 17
-        },
-        {
-          "value": 0.0,
-          "id": 18
-        },
-        {
-          "value": 0.0,
-          "id": 19
-        },
-        {
-          "value": 0.0,
-          "id": 20
-        },
-        {
-          "value": 0.0,
-          "id": 21
-        },
-        {
-          "value": 0.0,
-          "id": 22
-        },
-        {
-          "value": 0.0,
-          "id": 23
-        },
-        {
-          "value": 0.0,
-          "id": 24
-        },
-        {
-          "value": 0.0,
-          "id": 25
-        },
-        {
-          "value": 0.0,
-          "id": 26
-        },
-        {
-          "value": 0.0,
-          "id": 27
-        },
-        {
-          "value": 0.0,
-          "id": 28
-        },
-        {
-          "value": 0.0,
-          "id": 29
-        },
-        {
-          "value": 0.0,
-          "id": 30
-        },
-        {
-          "value": 0.0,
-          "id": 31
-        },
-        {
-          "value": 7.0,
-          "id": 32
-        },
-        {
-          "value": 1.0,
-          "id": 33
-        },
-        {
-          "value": 0.0,
-          "id": 34
-        }
-      ],
-      "leftModuleId": 3398476954508436,
-      "rightModuleId": 245740970492439,
-      "pos": [
-        93,
-        -1
-      ]
-    },
-    {
-      "id": 1982017336753134,
-      "plugin": "computerscare",
-      "model": "computerscare-knolypobs",
-      "version": "2.1.11",
-      "params": [
-        {
-          "value": 0.0,
-          "id": 0
-        },
-        {
-          "value": 0.58499997854232788,
-          "id": 1
-        },
-        {
-          "value": 0.34000000357627869,
-          "id": 2
-        },
-        {
-          "value": 0.92500001192092896,
-          "id": 3
-        },
-        {
-          "value": 0.17000000178813934,
-          "id": 4
-        },
-        {
-          "value": 0.75499999523162842,
-          "id": 5
-        },
-        {
-          "value": 0.50999999046325684,
-          "id": 6
-        },
-        {
-          "value": 0.0,
-          "id": 7
-        },
-        {
-          "value": 0.0,
-          "id": 8
-        },
-        {
-          "value": 0.0,
-          "id": 9
-        },
-        {
-          "value": 0.0,
-          "id": 10
-        },
-        {
-          "value": 0.0,
-          "id": 11
-        },
-        {
-          "value": 0.0,
-          "id": 12
-        },
-        {
-          "value": 0.0,
-          "id": 13
-        },
-        {
-          "value": 0.0,
-          "id": 14
-        },
-        {
-          "value": 0.0,
-          "id": 15
-        },
-        {
-          "value": 0.0,
-          "id": 16
-        },
-        {
-          "value": 0.0,
-          "id": 17
-        },
-        {
-          "value": 0.0,
-          "id": 18
-        },
-        {
-          "value": 0.0,
-          "id": 19
-        },
-        {
-          "value": 0.0,
-          "id": 20
-        },
-        {
-          "value": 0.0,
-          "id": 21
-        },
-        {
-          "value": 0.0,
-          "id": 22
-        },
-        {
-          "value": 0.0,
-          "id": 23
-        },
-        {
-          "value": 0.0,
-          "id": 24
-        },
-        {
-          "value": 0.0,
-          "id": 25
-        },
-        {
-          "value": 0.0,
-          "id": 26
-        },
-        {
-          "value": 0.0,
-          "id": 27
-        },
-        {
-          "value": 0.0,
-          "id": 28
-        },
-        {
-          "value": 0.0,
-          "id": 29
-        },
-        {
-          "value": 0.0,
-          "id": 30
-        },
-        {
-          "value": 0.0,
-          "id": 31
-        },
-        {
-          "value": 7.0,
-          "id": 32
-        },
-        {
-          "value": 1.0,
-          "id": 33
-        },
-        {
-          "value": 0.0,
-          "id": 34
-        }
-      ],
-      "rightModuleId": 7783542891045121,
-      "pos": [
-        88,
-        -2
-      ]
-    },
-    {
-      "id": 1460201555952571,
-      "plugin": "computerscare",
-      "model": "computerscare-knolypobs",
-      "version": "2.1.11",
-      "params": [
-        {
-          "value": 0.0,
-          "id": 0
-        },
-        {
-          "value": 0.58499997854232788,
-          "id": 1
-        },
-        {
-          "value": 0.34000000357627869,
-          "id": 2
-        },
-        {
-          "value": 0.75499999523162842,
-          "id": 3
-        },
-        {
-          "value": 0.17000000178813934,
-          "id": 4
-        },
-        {
-          "value": 0.82999998331069946,
-          "id": 5
-        },
-        {
-          "value": 0.50999999046325684,
-          "id": 6
-        },
-        {
-          "value": 0.0,
-          "id": 7
-        },
-        {
-          "value": 0.0,
-          "id": 8
-        },
-        {
-          "value": 0.0,
-          "id": 9
-        },
-        {
-          "value": 0.0,
-          "id": 10
-        },
-        {
-          "value": 0.0,
-          "id": 11
-        },
-        {
-          "value": 0.0,
-          "id": 12
-        },
-        {
-          "value": 0.0,
-          "id": 13
-        },
-        {
-          "value": 0.0,
-          "id": 14
-        },
-        {
-          "value": 0.0,
-          "id": 15
-        },
-        {
-          "value": 0.0,
-          "id": 16
-        },
-        {
-          "value": 0.0,
-          "id": 17
-        },
-        {
-          "value": 0.0,
-          "id": 18
-        },
-        {
-          "value": 0.0,
-          "id": 19
-        },
-        {
-          "value": 0.0,
-          "id": 20
-        },
-        {
-          "value": 0.0,
-          "id": 21
-        },
-        {
-          "value": 0.0,
-          "id": 22
-        },
-        {
-          "value": 0.0,
-          "id": 23
-        },
-        {
-          "value": 0.0,
-          "id": 24
-        },
-        {
-          "value": 0.0,
-          "id": 25
-        },
-        {
-          "value": 0.0,
-          "id": 26
-        },
-        {
-          "value": 0.0,
-          "id": 27
-        },
-        {
-          "value": 0.0,
-          "id": 28
-        },
-        {
-          "value": 0.0,
-          "id": 29
-        },
-        {
-          "value": 0.0,
-          "id": 30
-        },
-        {
-          "value": 0.0,
-          "id": 31
-        },
-        {
-          "value": 7.0,
-          "id": 32
-        },
-        {
-          "value": 1.0,
-          "id": 33
-        },
-        {
-          "value": 0.0,
-          "id": 34
-        }
-      ],
-      "rightModuleId": 983650458977771,
-      "pos": [
-        102,
-        -2
-      ]
-    },
-    {
-      "id": 3398476954508436,
-      "plugin": "CountModula",
-      "model": "LightStrip",
-      "version": "2.5.0",
-      "params": [],
-      "leftModuleId": 7176302238622992,
-      "rightModuleId": 5120878910048944,
-      "data": {
-        "moduleVersion": 1,
-        "color": [
-          0.1289999783039093,
-          0.66199994087219238,
-          0.080000005662441254
-        ],
-        "narrowMode": false,
-        "theme": 5
-      },
-      "pos": [
-        92,
-        -1
-      ]
-    },
-    {
-      "id": 2099956258337862,
-      "plugin": "computerscare",
-      "model": "computerscare-knolypobs",
-      "version": "2.1.11",
-      "params": [
-        {
-          "value": 0.0,
-          "id": 0
-        },
-        {
-          "value": 0.58499997854232788,
-          "id": 1
-        },
-        {
-          "value": 0.34000000357627869,
-          "id": 2
-        },
-        {
-          "value": 0.82999998331069946,
-          "id": 3
-        },
-        {
-          "value": 0.17000000178813934,
-          "id": 4
-        },
-        {
-          "value": 0.75499999523162842,
-          "id": 5
-        },
-        {
-          "value": 0.50999999046325684,
-          "id": 6
-        },
-        {
-          "value": 0.0,
-          "id": 7
-        },
-        {
-          "value": 0.0,
-          "id": 8
-        },
-        {
-          "value": 0.0,
-          "id": 9
-        },
-        {
-          "value": 0.0,
-          "id": 10
-        },
-        {
-          "value": 0.0,
-          "id": 11
-        },
-        {
-          "value": 0.0,
-          "id": 12
-        },
-        {
-          "value": 0.0,
-          "id": 13
-        },
-        {
-          "value": 0.0,
-          "id": 14
-        },
-        {
-          "value": 0.0,
-          "id": 15
-        },
-        {
-          "value": 0.0,
-          "id": 16
-        },
-        {
-          "value": 0.0,
-          "id": 17
-        },
-        {
-          "value": 0.0,
-          "id": 18
-        },
-        {
-          "value": 0.0,
-          "id": 19
-        },
-        {
-          "value": 0.0,
-          "id": 20
-        },
-        {
-          "value": 0.0,
-          "id": 21
-        },
-        {
-          "value": 0.0,
-          "id": 22
-        },
-        {
-          "value": 0.0,
-          "id": 23
-        },
-        {
-          "value": 0.0,
-          "id": 24
-        },
-        {
-          "value": 0.0,
-          "id": 25
-        },
-        {
-          "value": 0.0,
-          "id": 26
-        },
-        {
-          "value": 0.0,
-          "id": 27
-        },
-        {
-          "value": 0.0,
-          "id": 28
-        },
-        {
-          "value": 0.0,
-          "id": 29
-        },
-        {
-          "value": 0.0,
-          "id": 30
-        },
-        {
-          "value": 0.0,
-          "id": 31
-        },
-        {
-          "value": 7.0,
-          "id": 32
-        },
-        {
-          "value": 1.0,
-          "id": 33
-        },
-        {
-          "value": 0.0,
-          "id": 34
-        }
-      ],
-      "rightModuleId": 3087690809050045,
-      "pos": [
-        109,
-        -2
-      ]
-    },
-    {
-      "id": 542054011993571,
-      "plugin": "computerscare",
-      "model": "computerscare-knolypobs",
-      "version": "2.1.11",
-      "params": [
-        {
-          "value": 0.0,
-          "id": 0
-        },
-        {
-          "value": 0.58499997854232788,
-          "id": 1
-        },
-        {
-          "value": 0.24500000476837158,
-          "id": 2
-        },
-        {
-          "value": 0.82999998331069946,
-          "id": 3
-        },
-        {
-          "value": 0.17000000178813934,
-          "id": 4
-        },
-        {
-          "value": 0.41499999165534973,
-          "id": 5
-        },
-        {
-          "value": 0.75499999523162842,
-          "id": 6
-        },
-        {
-          "value": 0.0,
-          "id": 7
-        },
-        {
-          "value": 0.0,
-          "id": 8
-        },
-        {
-          "value": 0.0,
-          "id": 9
-        },
-        {
-          "value": 0.0,
-          "id": 10
-        },
-        {
-          "value": 0.0,
-          "id": 11
-        },
-        {
-          "value": 0.0,
-          "id": 12
-        },
-        {
-          "value": 0.0,
-          "id": 13
-        },
-        {
-          "value": 0.0,
-          "id": 14
-        },
-        {
-          "value": 0.0,
-          "id": 15
-        },
-        {
-          "value": 0.0,
-          "id": 16
-        },
-        {
-          "value": 0.0,
-          "id": 17
-        },
-        {
-          "value": 0.0,
-          "id": 18
-        },
-        {
-          "value": 0.0,
-          "id": 19
-        },
-        {
-          "value": 0.0,
-          "id": 20
-        },
-        {
-          "value": 0.0,
-          "id": 21
-        },
-        {
-          "value": 0.0,
-          "id": 22
-        },
-        {
-          "value": 0.0,
-          "id": 23
-        },
-        {
-          "value": 0.0,
-          "id": 24
-        },
-        {
-          "value": 0.0,
-          "id": 25
-        },
-        {
-          "value": 0.0,
-          "id": 26
-        },
-        {
-          "value": 0.0,
-          "id": 27
-        },
-        {
-          "value": 0.0,
-          "id": 28
-        },
-        {
-          "value": 0.0,
-          "id": 29
-        },
-        {
-          "value": 0.0,
-          "id": 30
-        },
-        {
-          "value": 0.0,
-          "id": 31
-        },
-        {
-          "value": 7.0,
-          "id": 32
-        },
-        {
-          "value": 1.0,
-          "id": 33
-        },
-        {
-          "value": 0.0,
-          "id": 34
-        }
-      ],
-      "rightModuleId": 7415593514457700,
-      "pos": [
-        95,
-        -2
-      ]
-    },
-    {
-      "id": 7778290107223046,
-      "plugin": "computerscare",
-      "model": "computerscare-knolypobs",
-      "version": "2.1.11",
-      "params": [
-        {
-          "value": 0.0,
-          "id": 0
-        },
-        {
-          "value": 0.58499997854232788,
-          "id": 1
-        },
-        {
-          "value": 0.17000000178813934,
-          "id": 2
-        },
-        {
-          "value": 0.75499999523162842,
-          "id": 3
-        },
-        {
-          "value": 0.34000000357627869,
-          "id": 4
-        },
-        {
-          "value": 0.92500001192092896,
-          "id": 5
-        },
-        {
-          "value": 0.50999999046325684,
-          "id": 6
-        },
-        {
-          "value": 0.0,
-          "id": 7
-        },
-        {
-          "value": 0.0,
-          "id": 8
-        },
-        {
-          "value": 0.0,
-          "id": 9
-        },
-        {
-          "value": 0.0,
-          "id": 10
-        },
-        {
-          "value": 0.0,
-          "id": 11
-        },
-        {
-          "value": 0.0,
-          "id": 12
-        },
-        {
-          "value": 0.0,
-          "id": 13
-        },
-        {
-          "value": 0.0,
-          "id": 14
-        },
-        {
-          "value": 0.0,
-          "id": 15
-        },
-        {
-          "value": 0.0,
-          "id": 16
-        },
-        {
-          "value": 0.0,
-          "id": 17
-        },
-        {
-          "value": 0.0,
-          "id": 18
-        },
-        {
-          "value": 0.0,
-          "id": 19
-        },
-        {
-          "value": 0.0,
-          "id": 20
-        },
-        {
-          "value": 0.0,
-          "id": 21
-        },
-        {
-          "value": 0.0,
-          "id": 22
-        },
-        {
-          "value": 0.0,
-          "id": 23
-        },
-        {
-          "value": 0.0,
-          "id": 24
-        },
-        {
-          "value": 0.0,
-          "id": 25
-        },
-        {
-          "value": 0.0,
-          "id": 26
-        },
-        {
-          "value": 0.0,
-          "id": 27
-        },
-        {
-          "value": 0.0,
-          "id": 28
-        },
-        {
-          "value": 0.0,
-          "id": 29
-        },
-        {
-          "value": 0.0,
-          "id": 30
-        },
-        {
-          "value": 0.0,
-          "id": 31
-        },
-        {
-          "value": 7.0,
-          "id": 32
-        },
-        {
-          "value": 1.0,
-          "id": 33
-        },
-        {
-          "value": 0.0,
-          "id": 34
-        }
-      ],
-      "rightModuleId": 6468643984591993,
-      "pos": [
-        116,
-        -2
-      ]
-    },
-    {
-      "id": 4872179904644180,
-      "plugin": "CountModula",
-      "model": "LightStrip",
-      "version": "2.5.0",
-      "params": [],
-      "leftModuleId": 650755041211341,
-      "rightModuleId": 120653961142370,
-      "data": {
-        "moduleVersion": 1,
-        "color": [
-          0.1289999783039093,
-          0.66199994087219238,
-          0.080000005662441254
-        ],
-        "narrowMode": false,
-        "theme": 5
-      },
-      "pos": [
-        116,
-        -1
-      ]
-    },
-    {
-      "id": 7176302238622992,
-      "plugin": "StochasticTelegraph",
-      "model": "Fermata",
-      "version": "2.0.17",
-      "params": [],
-      "rightModuleId": 3398476954508436,
-      "data": {
-        "text": "EXPLICAT\n\nC - 0.980 - 0.000 - 0.020\nG - 0.565 - 0.585 - 0.605\nD - 0.150 - 0.170 - 0.190\nA - 0.735 - 0.755 - 0.775\nE - 0.320 - 0.340 - 0.360\nB - 0.905 - 0.925 - 0.945\nF#- 0.490 - 0.510 - 0.530\nC#- 0.075 - 0.095 - 0.115\nAb- 0.660 - 0.680 - 0.700\nEb- 0.245 - 0.265 - 0.285\nBb- 0.830 - 0.850 - 0.870\nF - 0.415 - 0.435 - 0.455\n",
-        "width": 4,
-        "screen_colors": 281200098803712,
-        "font_choice": "res/fonts/ShareTechMono-Regular.ttf",
-        "title_text": "EXPLICAT"
-      },
-      "pos": [
-        88,
-        -1
-      ]
-    },
-    {
-      "id": 1149525756055882,
+      "id": 966670982743096,
       "plugin": "SIM",
       "model": "Coerce",
       "version": "2.1.2",
       "params": [],
-      "leftModuleId": 120653961142370,
+      "leftModuleId": 7518918865361767,
       "data": {
         "restrictMethod": 1,
         "roundingMethod": 0
       },
       "pos": [
-        120,
-        -1
+        -63,
+        3
       ]
     },
     {
-      "id": 983650458977771,
+      "id": 7691078470421032,
+      "plugin": "StochasticTelegraph",
+      "model": "Fermata",
+      "version": "2.0.17",
+      "params": [],
+      "rightModuleId": 8521738563635744,
+      "data": {
+        "text": "EXPLICAT\n\nC - 0.980 - 0.000 - 0.020\nG - 0.565 - 0.585 - 0.605\nD - 0.150 - 0.170 - 0.190\nA - 0.735 - 0.755 - 0.775\nE - 0.320 - 0.340 - 0.360\nB - 0.905 - 0.925 - 0.945\nF#- 0.490 - 0.510 - 0.530\nC#- 0.075 - 0.095 - 0.115\nAb- 0.660 - 0.680 - 0.700\nEb- 0.245 - 0.265 - 0.285\nBb- 0.830 - 0.850 - 0.870\nF - 0.415 - 0.435 - 0.455\n\nUse it to sequence some chords. Duplicate the KNOLY POBS, set them up in a sequence with the SWITCH, TELEPORT and quantize with COERCE.\n",
+        "width": 3,
+        "screen_colors": 281200098803712,
+        "font_choice": "res/fonts/ShareTechMono-Regular.ttf",
+        "title_text": "EXPLICAT"
+      },
+      "pos": [
+        -94,
+        3
+      ]
+    },
+    {
+      "id": 5655489581463911,
       "plugin": "SubmarineFree",
       "model": "TD-202",
       "version": "2.0.4",
       "params": [],
-      "leftModuleId": 1460201555952571,
+      "leftModuleId": 970364714963875,
       "data": {
-        "text": "M13      R 3 5 13 9 #11 #11",
+        "text": "5ths  R 5 9 13 3 7 #11",
         "fg": "#29b2ef",
         "bg": "#000000"
       },
       "pos": [
-        106,
-        -2
+        -63,
+        2
       ]
     },
     {
-      "id": 5402953795811002,
+      "id": 237336379939783,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 3020015933338796,
+      "data": {
+        "text": "Dom7  R 5 3 b7 9 13 #11",
+        "fg": "#29b2ef",
+        "bg": "#000000"
+      },
+      "pos": [
+        -70,
+        2
+      ]
+    },
+    {
+      "id": 3090583645568530,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 7177633659141163,
+      "rightModuleId": 3785821605172251,
+      "data": {
+        "text": "m7     R 5 b3 b7 9 11 13 ",
+        "fg": "#29b2ef",
+        "bg": "#000000"
+      },
+      "pos": [
+        -86,
+        3
+      ]
+    },
+    {
+      "id": 7204803394732899,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 6401221952050159,
+      "data": {
+        "text": "m7     R 5 b3 b7 9 11 13 ",
+        "fg": "#29b2ef",
+        "bg": "#000000"
+      },
+      "pos": [
+        -84,
+        2
+      ]
+    },
+    {
+      "id": 3785821605172251,
       "plugin": "ML_modules",
       "model": "SeqSwitch",
       "version": "2.0.2",
@@ -1092,18 +147,18 @@
           "id": 8
         }
       ],
-      "leftModuleId": 245740970492439,
-      "rightModuleId": 5564821394215223,
+      "leftModuleId": 3090583645568530,
+      "rightModuleId": 4787162047379375,
       "data": {
         "inputRange": 0
       },
       "pos": [
-        99,
-        -1
+        -84,
+        3
       ]
     },
     {
-      "id": 650755041211341,
+      "id": 5730248803482005,
       "plugin": "computerscare",
       "model": "computerscare-debug",
       "version": "2.1.11",
@@ -1133,8 +188,8 @@
           "id": 5
         }
       ],
-      "leftModuleId": 5564821394215223,
-      "rightModuleId": 4872179904644180,
+      "leftModuleId": 4787162047379375,
+      "rightModuleId": 5781506495123964,
       "data": {
         "outputRange": 0,
         "lines": [
@@ -1157,127 +212,1072 @@
         ]
       },
       "pos": [
-        110,
-        -1
+        -73,
+        3
       ]
     },
     {
-      "id": 7783542891045121,
+      "id": 6155203674251077,
       "plugin": "SubmarineFree",
       "model": "TD-202",
       "version": "2.0.4",
       "params": [],
-      "leftModuleId": 1982017336753134,
+      "leftModuleId": 1773529309823590,
+      "data": {
+        "text": "M13      R 3 5 13 9 #11 #11",
+        "fg": "#29b2ef",
+        "bg": "#000000"
+      },
+      "pos": [
+        -77,
+        2
+      ]
+    },
+    {
+      "id": 5901376103746000,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 5743819873930760,
       "data": {
         "text": "M7     R 5 3 7 9 13 #11",
         "fg": "#29b2ef",
         "bg": "#000000"
       },
       "pos": [
-        92,
-        -2
+        -91,
+        2
       ]
     },
     {
-      "id": 7415593514457700,
-      "plugin": "SubmarineFree",
-      "model": "TD-202",
-      "version": "2.0.4",
+      "id": 8521738563635744,
+      "plugin": "CountModula",
+      "model": "LightStrip",
+      "version": "2.5.0",
       "params": [],
-      "leftModuleId": 542054011993571,
+      "leftModuleId": 7691078470421032,
+      "rightModuleId": 7177633659141163,
       "data": {
-        "text": "m7     R 5 b3 b7 9 11 13 ",
-        "fg": "#29b2ef",
-        "bg": "#000000"
+        "moduleVersion": 1,
+        "color": [
+          0.1289999783039093,
+          0.66199994087219238,
+          0.080000005662441254
+        ],
+        "narrowMode": false,
+        "theme": 5
       },
       "pos": [
-        99,
-        -2
+        -91,
+        3
       ]
     },
     {
-      "id": 3087690809050045,
-      "plugin": "SubmarineFree",
-      "model": "TD-202",
-      "version": "2.0.4",
-      "params": [],
-      "leftModuleId": 2099956258337862,
-      "data": {
-        "text": "Dom7  R 5 3 b7 9 13 #11",
-        "fg": "#29b2ef",
-        "bg": "#000000"
-      },
+      "id": 6401221952050159,
+      "plugin": "computerscare",
+      "model": "computerscare-knolypobs",
+      "version": "2.1.11",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.58499997854232788,
+          "id": 1
+        },
+        {
+          "value": 0.24500000476837158,
+          "id": 2
+        },
+        {
+          "value": 0.82999998331069946,
+          "id": 3
+        },
+        {
+          "value": 0.17000000178813934,
+          "id": 4
+        },
+        {
+          "value": 0.41499999165534973,
+          "id": 5
+        },
+        {
+          "value": 0.75499999523162842,
+          "id": 6
+        },
+        {
+          "value": 0.0,
+          "id": 7
+        },
+        {
+          "value": 0.0,
+          "id": 8
+        },
+        {
+          "value": 0.0,
+          "id": 9
+        },
+        {
+          "value": 0.0,
+          "id": 10
+        },
+        {
+          "value": 0.0,
+          "id": 11
+        },
+        {
+          "value": 0.0,
+          "id": 12
+        },
+        {
+          "value": 0.0,
+          "id": 13
+        },
+        {
+          "value": 0.0,
+          "id": 14
+        },
+        {
+          "value": 0.0,
+          "id": 15
+        },
+        {
+          "value": 0.0,
+          "id": 16
+        },
+        {
+          "value": 0.0,
+          "id": 17
+        },
+        {
+          "value": 0.0,
+          "id": 18
+        },
+        {
+          "value": 0.0,
+          "id": 19
+        },
+        {
+          "value": 0.0,
+          "id": 20
+        },
+        {
+          "value": 0.0,
+          "id": 21
+        },
+        {
+          "value": 0.0,
+          "id": 22
+        },
+        {
+          "value": 0.0,
+          "id": 23
+        },
+        {
+          "value": 0.0,
+          "id": 24
+        },
+        {
+          "value": 0.0,
+          "id": 25
+        },
+        {
+          "value": 0.0,
+          "id": 26
+        },
+        {
+          "value": 0.0,
+          "id": 27
+        },
+        {
+          "value": 0.0,
+          "id": 28
+        },
+        {
+          "value": 0.0,
+          "id": 29
+        },
+        {
+          "value": 0.0,
+          "id": 30
+        },
+        {
+          "value": 0.0,
+          "id": 31
+        },
+        {
+          "value": 7.0,
+          "id": 32
+        },
+        {
+          "value": 1.0,
+          "id": 33
+        },
+        {
+          "value": 0.0,
+          "id": 34
+        }
+      ],
+      "rightModuleId": 7204803394732899,
       "pos": [
-        113,
-        -2
+        -88,
+        2
       ]
     },
     {
-      "id": 6468643984591993,
-      "plugin": "SubmarineFree",
-      "model": "TD-202",
-      "version": "2.0.4",
-      "params": [],
-      "leftModuleId": 7778290107223046,
-      "data": {
-        "text": "5ths  R 5 9 13 3 7 #11",
-        "fg": "#29b2ef",
-        "bg": "#000000"
-      },
+      "id": 970364714963875,
+      "plugin": "computerscare",
+      "model": "computerscare-knolypobs",
+      "version": "2.1.11",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.58499997854232788,
+          "id": 1
+        },
+        {
+          "value": 0.17000000178813934,
+          "id": 2
+        },
+        {
+          "value": 0.75499999523162842,
+          "id": 3
+        },
+        {
+          "value": 0.34000000357627869,
+          "id": 4
+        },
+        {
+          "value": 0.92500001192092896,
+          "id": 5
+        },
+        {
+          "value": 0.50999999046325684,
+          "id": 6
+        },
+        {
+          "value": 0.0,
+          "id": 7
+        },
+        {
+          "value": 0.0,
+          "id": 8
+        },
+        {
+          "value": 0.0,
+          "id": 9
+        },
+        {
+          "value": 0.0,
+          "id": 10
+        },
+        {
+          "value": 0.0,
+          "id": 11
+        },
+        {
+          "value": 0.0,
+          "id": 12
+        },
+        {
+          "value": 0.0,
+          "id": 13
+        },
+        {
+          "value": 0.0,
+          "id": 14
+        },
+        {
+          "value": 0.0,
+          "id": 15
+        },
+        {
+          "value": 0.0,
+          "id": 16
+        },
+        {
+          "value": 0.0,
+          "id": 17
+        },
+        {
+          "value": 0.0,
+          "id": 18
+        },
+        {
+          "value": 0.0,
+          "id": 19
+        },
+        {
+          "value": 0.0,
+          "id": 20
+        },
+        {
+          "value": 0.0,
+          "id": 21
+        },
+        {
+          "value": 0.0,
+          "id": 22
+        },
+        {
+          "value": 0.0,
+          "id": 23
+        },
+        {
+          "value": 0.0,
+          "id": 24
+        },
+        {
+          "value": 0.0,
+          "id": 25
+        },
+        {
+          "value": 0.0,
+          "id": 26
+        },
+        {
+          "value": 0.0,
+          "id": 27
+        },
+        {
+          "value": 0.0,
+          "id": 28
+        },
+        {
+          "value": 0.0,
+          "id": 29
+        },
+        {
+          "value": 0.0,
+          "id": 30
+        },
+        {
+          "value": 0.0,
+          "id": 31
+        },
+        {
+          "value": 7.0,
+          "id": 32
+        },
+        {
+          "value": 1.0,
+          "id": 33
+        },
+        {
+          "value": 0.0,
+          "id": 34
+        }
+      ],
+      "rightModuleId": 5655489581463911,
       "pos": [
-        120,
-        -2
+        -67,
+        2
       ]
     },
     {
-      "id": 245740970492439,
-      "plugin": "SubmarineFree",
-      "model": "TD-202",
-      "version": "2.0.4",
+      "id": 3020015933338796,
+      "plugin": "computerscare",
+      "model": "computerscare-knolypobs",
+      "version": "2.1.11",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.58499997854232788,
+          "id": 1
+        },
+        {
+          "value": 0.34000000357627869,
+          "id": 2
+        },
+        {
+          "value": 0.82999998331069946,
+          "id": 3
+        },
+        {
+          "value": 0.17000000178813934,
+          "id": 4
+        },
+        {
+          "value": 0.75499999523162842,
+          "id": 5
+        },
+        {
+          "value": 0.50999999046325684,
+          "id": 6
+        },
+        {
+          "value": 0.0,
+          "id": 7
+        },
+        {
+          "value": 0.0,
+          "id": 8
+        },
+        {
+          "value": 0.0,
+          "id": 9
+        },
+        {
+          "value": 0.0,
+          "id": 10
+        },
+        {
+          "value": 0.0,
+          "id": 11
+        },
+        {
+          "value": 0.0,
+          "id": 12
+        },
+        {
+          "value": 0.0,
+          "id": 13
+        },
+        {
+          "value": 0.0,
+          "id": 14
+        },
+        {
+          "value": 0.0,
+          "id": 15
+        },
+        {
+          "value": 0.0,
+          "id": 16
+        },
+        {
+          "value": 0.0,
+          "id": 17
+        },
+        {
+          "value": 0.0,
+          "id": 18
+        },
+        {
+          "value": 0.0,
+          "id": 19
+        },
+        {
+          "value": 0.0,
+          "id": 20
+        },
+        {
+          "value": 0.0,
+          "id": 21
+        },
+        {
+          "value": 0.0,
+          "id": 22
+        },
+        {
+          "value": 0.0,
+          "id": 23
+        },
+        {
+          "value": 0.0,
+          "id": 24
+        },
+        {
+          "value": 0.0,
+          "id": 25
+        },
+        {
+          "value": 0.0,
+          "id": 26
+        },
+        {
+          "value": 0.0,
+          "id": 27
+        },
+        {
+          "value": 0.0,
+          "id": 28
+        },
+        {
+          "value": 0.0,
+          "id": 29
+        },
+        {
+          "value": 0.0,
+          "id": 30
+        },
+        {
+          "value": 0.0,
+          "id": 31
+        },
+        {
+          "value": 7.0,
+          "id": 32
+        },
+        {
+          "value": 1.0,
+          "id": 33
+        },
+        {
+          "value": 0.0,
+          "id": 34
+        }
+      ],
+      "rightModuleId": 237336379939783,
+      "pos": [
+        -74,
+        2
+      ]
+    },
+    {
+      "id": 5743819873930760,
+      "plugin": "computerscare",
+      "model": "computerscare-knolypobs",
+      "version": "2.1.11",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.58499997854232788,
+          "id": 1
+        },
+        {
+          "value": 0.34000000357627869,
+          "id": 2
+        },
+        {
+          "value": 0.92500001192092896,
+          "id": 3
+        },
+        {
+          "value": 0.17000000178813934,
+          "id": 4
+        },
+        {
+          "value": 0.75499999523162842,
+          "id": 5
+        },
+        {
+          "value": 0.50999999046325684,
+          "id": 6
+        },
+        {
+          "value": 0.0,
+          "id": 7
+        },
+        {
+          "value": 0.0,
+          "id": 8
+        },
+        {
+          "value": 0.0,
+          "id": 9
+        },
+        {
+          "value": 0.0,
+          "id": 10
+        },
+        {
+          "value": 0.0,
+          "id": 11
+        },
+        {
+          "value": 0.0,
+          "id": 12
+        },
+        {
+          "value": 0.0,
+          "id": 13
+        },
+        {
+          "value": 0.0,
+          "id": 14
+        },
+        {
+          "value": 0.0,
+          "id": 15
+        },
+        {
+          "value": 0.0,
+          "id": 16
+        },
+        {
+          "value": 0.0,
+          "id": 17
+        },
+        {
+          "value": 0.0,
+          "id": 18
+        },
+        {
+          "value": 0.0,
+          "id": 19
+        },
+        {
+          "value": 0.0,
+          "id": 20
+        },
+        {
+          "value": 0.0,
+          "id": 21
+        },
+        {
+          "value": 0.0,
+          "id": 22
+        },
+        {
+          "value": 0.0,
+          "id": 23
+        },
+        {
+          "value": 0.0,
+          "id": 24
+        },
+        {
+          "value": 0.0,
+          "id": 25
+        },
+        {
+          "value": 0.0,
+          "id": 26
+        },
+        {
+          "value": 0.0,
+          "id": 27
+        },
+        {
+          "value": 0.0,
+          "id": 28
+        },
+        {
+          "value": 0.0,
+          "id": 29
+        },
+        {
+          "value": 0.0,
+          "id": 30
+        },
+        {
+          "value": 0.0,
+          "id": 31
+        },
+        {
+          "value": 7.0,
+          "id": 32
+        },
+        {
+          "value": 1.0,
+          "id": 33
+        },
+        {
+          "value": 0.0,
+          "id": 34
+        }
+      ],
+      "rightModuleId": 5901376103746000,
+      "pos": [
+        -95,
+        2
+      ]
+    },
+    {
+      "id": 7177633659141163,
+      "plugin": "computerscare",
+      "model": "computerscare-knolypobs",
+      "version": "2.1.11",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.58499997854232788,
+          "id": 1
+        },
+        {
+          "value": 0.24500000476837158,
+          "id": 2
+        },
+        {
+          "value": 0.82999998331069946,
+          "id": 3
+        },
+        {
+          "value": 0.17000000178813934,
+          "id": 4
+        },
+        {
+          "value": 0.41499999165534973,
+          "id": 5
+        },
+        {
+          "value": 0.75499999523162842,
+          "id": 6
+        },
+        {
+          "value": 0.0,
+          "id": 7
+        },
+        {
+          "value": 0.0,
+          "id": 8
+        },
+        {
+          "value": 0.0,
+          "id": 9
+        },
+        {
+          "value": 0.0,
+          "id": 10
+        },
+        {
+          "value": 0.0,
+          "id": 11
+        },
+        {
+          "value": 0.0,
+          "id": 12
+        },
+        {
+          "value": 0.0,
+          "id": 13
+        },
+        {
+          "value": 0.0,
+          "id": 14
+        },
+        {
+          "value": 0.0,
+          "id": 15
+        },
+        {
+          "value": 0.0,
+          "id": 16
+        },
+        {
+          "value": 0.0,
+          "id": 17
+        },
+        {
+          "value": 0.0,
+          "id": 18
+        },
+        {
+          "value": 0.0,
+          "id": 19
+        },
+        {
+          "value": 0.0,
+          "id": 20
+        },
+        {
+          "value": 0.0,
+          "id": 21
+        },
+        {
+          "value": 0.0,
+          "id": 22
+        },
+        {
+          "value": 0.0,
+          "id": 23
+        },
+        {
+          "value": 0.0,
+          "id": 24
+        },
+        {
+          "value": 0.0,
+          "id": 25
+        },
+        {
+          "value": 0.0,
+          "id": 26
+        },
+        {
+          "value": 0.0,
+          "id": 27
+        },
+        {
+          "value": 0.0,
+          "id": 28
+        },
+        {
+          "value": 0.0,
+          "id": 29
+        },
+        {
+          "value": 0.0,
+          "id": 30
+        },
+        {
+          "value": 0.0,
+          "id": 31
+        },
+        {
+          "value": 7.0,
+          "id": 32
+        },
+        {
+          "value": 1.0,
+          "id": 33
+        },
+        {
+          "value": 0.0,
+          "id": 34
+        }
+      ],
+      "leftModuleId": 8521738563635744,
+      "rightModuleId": 3090583645568530,
+      "pos": [
+        -90,
+        3
+      ]
+    },
+    {
+      "id": 5781506495123964,
+      "plugin": "CountModula",
+      "model": "LightStrip",
+      "version": "2.5.0",
       "params": [],
-      "leftModuleId": 5120878910048944,
-      "rightModuleId": 5402953795811002,
+      "leftModuleId": 5730248803482005,
+      "rightModuleId": 7518918865361767,
       "data": {
-        "text": "m7     R 5 b3 b7 9 11 13 ",
-        "fg": "#29b2ef",
-        "bg": "#000000"
+        "moduleVersion": 1,
+        "color": [
+          0.1289999783039093,
+          0.66199994087219238,
+          0.080000005662441254
+        ],
+        "narrowMode": false,
+        "theme": 5
       },
       "pos": [
-        97,
-        -1
+        -67,
+        3
+      ]
+    },
+    {
+      "id": 1773529309823590,
+      "plugin": "computerscare",
+      "model": "computerscare-knolypobs",
+      "version": "2.1.11",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.58499997854232788,
+          "id": 1
+        },
+        {
+          "value": 0.34000000357627869,
+          "id": 2
+        },
+        {
+          "value": 0.75499999523162842,
+          "id": 3
+        },
+        {
+          "value": 0.17000000178813934,
+          "id": 4
+        },
+        {
+          "value": 0.82999998331069946,
+          "id": 5
+        },
+        {
+          "value": 0.50999999046325684,
+          "id": 6
+        },
+        {
+          "value": 0.0,
+          "id": 7
+        },
+        {
+          "value": 0.0,
+          "id": 8
+        },
+        {
+          "value": 0.0,
+          "id": 9
+        },
+        {
+          "value": 0.0,
+          "id": 10
+        },
+        {
+          "value": 0.0,
+          "id": 11
+        },
+        {
+          "value": 0.0,
+          "id": 12
+        },
+        {
+          "value": 0.0,
+          "id": 13
+        },
+        {
+          "value": 0.0,
+          "id": 14
+        },
+        {
+          "value": 0.0,
+          "id": 15
+        },
+        {
+          "value": 0.0,
+          "id": 16
+        },
+        {
+          "value": 0.0,
+          "id": 17
+        },
+        {
+          "value": 0.0,
+          "id": 18
+        },
+        {
+          "value": 0.0,
+          "id": 19
+        },
+        {
+          "value": 0.0,
+          "id": 20
+        },
+        {
+          "value": 0.0,
+          "id": 21
+        },
+        {
+          "value": 0.0,
+          "id": 22
+        },
+        {
+          "value": 0.0,
+          "id": 23
+        },
+        {
+          "value": 0.0,
+          "id": 24
+        },
+        {
+          "value": 0.0,
+          "id": 25
+        },
+        {
+          "value": 0.0,
+          "id": 26
+        },
+        {
+          "value": 0.0,
+          "id": 27
+        },
+        {
+          "value": 0.0,
+          "id": 28
+        },
+        {
+          "value": 0.0,
+          "id": 29
+        },
+        {
+          "value": 0.0,
+          "id": 30
+        },
+        {
+          "value": 0.0,
+          "id": 31
+        },
+        {
+          "value": 7.0,
+          "id": 32
+        },
+        {
+          "value": 1.0,
+          "id": 33
+        },
+        {
+          "value": 0.0,
+          "id": 34
+        }
+      ],
+      "rightModuleId": 6155203674251077,
+      "pos": [
+        -81,
+        2
+      ]
+    },
+    {
+      "id": 7518918865361767,
+      "plugin": "LittleUtils",
+      "model": "TeleportOut",
+      "version": "2.1.0",
+      "params": [],
+      "leftModuleId": 5781506495123964,
+      "rightModuleId": 966670982743096,
+      "data": {
+        "label": "PTCH"
+      },
+      "pos": [
+        -66,
+        3
+      ]
+    },
+    {
+      "id": 4787162047379375,
+      "plugin": "LittleUtils",
+      "model": "TeleportIn",
+      "version": "2.1.0",
+      "params": [],
+      "leftModuleId": 3785821605172251,
+      "rightModuleId": 5730248803482005,
+      "data": {
+        "label": "PTCH"
+      },
+      "pos": [
+        -76,
+        3
       ]
     }
   ],
   "cables": [
     {
-      "id": 4559014370708468,
-      "outputModuleId": 5120878910048944,
+      "id": 87576768017195,
+      "outputModuleId": 7177633659141163,
       "outputId": 0,
-      "inputModuleId": 5402953795811002,
+      "inputModuleId": 3785821605172251,
       "inputId": 0,
       "color": "#b012d4"
     },
     {
-      "id": 1181509462993578,
-      "outputModuleId": 5402953795811002,
+      "id": 8880943678932319,
+      "outputModuleId": 3785821605172251,
       "outputId": 0,
-      "inputModuleId": 5564821394215223,
+      "inputModuleId": 4787162047379375,
       "inputId": 3,
       "color": "#63b546"
     },
     {
-      "id": 5648274399974031,
-      "outputModuleId": 5402953795811002,
+      "id": 3344913450787003,
+      "outputModuleId": 3785821605172251,
       "outputId": 0,
-      "inputModuleId": 650755041211341,
+      "inputModuleId": 5730248803482005,
       "inputId": 0,
       "color": "#f3374b"
     },
     {
-      "id": 3675059709706413,
-      "outputModuleId": 120653961142370,
+      "id": 5030872995639971,
+      "outputModuleId": 7518918865361767,
       "outputId": 3,
-      "inputModuleId": 1149525756055882,
+      "inputModuleId": 966670982743096,
       "inputId": 0,
       "color": "#63b546"
     }

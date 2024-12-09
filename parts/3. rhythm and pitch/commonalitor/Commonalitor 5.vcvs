@@ -1,21 +1,7 @@
 {
   "modules": [
     {
-      "id": 3434553554826721,
-      "plugin": "Bogaudio",
-      "model": "Bogaudio-Mult",
-      "version": "2.4.45",
-      "params": [],
-      "leftModuleId": 2193776560709515,
-      "rightModuleId": 3977369099047204,
-      "data": {},
-      "pos": [
-        20,
-        -1
-      ]
-    },
-    {
-      "id": 2193776560709515,
+      "id": 3476099882152149,
       "plugin": "Fundamental",
       "model": "VCA-1",
       "version": "2.6.1",
@@ -29,15 +15,28 @@
           "id": 1
         }
       ],
-      "leftModuleId": 3169445212652125,
-      "rightModuleId": 3434553554826721,
+      "leftModuleId": 8025400391305734,
+      "rightModuleId": 7740792207497786,
       "pos": [
-        17,
-        -1
+        -52,
+        4
       ]
     },
     {
-      "id": 3621680565425601,
+      "id": 5972571345118870,
+      "plugin": "Fundamental",
+      "model": "Split",
+      "version": "2.6.1",
+      "params": [],
+      "leftModuleId": 7740792207497786,
+      "rightModuleId": 2313122598734936,
+      "pos": [
+        -46,
+        4
+      ]
+    },
+    {
+      "id": 2313122598734936,
       "plugin": "Fundamental",
       "model": "Sum",
       "version": "2.6.1",
@@ -47,50 +46,21 @@
           "id": 0
         }
       ],
-      "leftModuleId": 3977369099047204,
-      "rightModuleId": 2096672541975555,
+      "leftModuleId": 5972571345118870,
+      "rightModuleId": 1364817247421015,
       "pos": [
-        28,
-        -1
+        -41,
+        4
       ]
     },
     {
-      "id": 3977369099047204,
-      "plugin": "Fundamental",
-      "model": "Split",
-      "version": "2.6.1",
-      "params": [],
-      "leftModuleId": 3434553554826721,
-      "rightModuleId": 3621680565425601,
-      "pos": [
-        23,
-        -1
-      ]
-    },
-    {
-      "id": 234507931917498,
-      "plugin": "GrandeModular",
-      "model": "MergeSplit4",
-      "version": "2.8.0",
-      "params": [],
-      "leftModuleId": 6319445804648379,
-      "rightModuleId": 7900204415450224,
-      "data": {
-        "channels_merge": -1
-      },
-      "pos": [
-        45,
-        -1
-      ]
-    },
-    {
-      "id": 6319445804648379,
+      "id": 1432915608972380,
       "plugin": "NYSTHI",
       "model": "ConstAddMult",
       "version": "2.4.23",
       "params": [],
-      "leftModuleId": 2096672541975555,
-      "rightModuleId": 234507931917498,
+      "leftModuleId": 1364817247421015,
+      "rightModuleId": 465100784368381,
       "data": {
         "m_param_values0": 10.0,
         "m_param_values1": 10.0,
@@ -99,267 +69,297 @@
         "m_mono_mode": false
       },
       "pos": [
-        38,
-        -1
+        -31,
+        4
       ]
     },
     {
-      "id": 2096672541975555,
+      "id": 1364817247421015,
       "plugin": "NYSTHI",
       "model": "ConstAddMult",
       "version": "2.4.23",
       "params": [],
-      "leftModuleId": 3621680565425601,
-      "rightModuleId": 6319445804648379,
+      "leftModuleId": 2313122598734936,
+      "rightModuleId": 1432915608972380,
       "data": {
-        "m_param_values0": 40.0,
-        "m_param_values1": 40.0,
-        "m_param_values2": 40.0,
-        "m_param_values3": 40.0,
+        "m_param_values0": 0.0,
+        "m_param_values1": 0.0,
+        "m_param_values2": 0.0,
+        "m_param_values3": 0.0,
         "m_mono_mode": false
       },
       "pos": [
-        31,
-        -1
+        -38,
+        4
       ]
     },
     {
-      "id": 71157081838648,
-      "plugin": "Fundamental",
-      "model": "Merge",
-      "version": "2.6.1",
+      "id": 465100784368381,
+      "plugin": "GrandeModular",
+      "model": "MergeSplit4",
+      "version": "2.8.0",
       "params": [],
-      "leftModuleId": 5260699162003802,
-      "rightModuleId": 3169445212652125,
+      "leftModuleId": 1432915608972380,
+      "rightModuleId": 4297556851812925,
       "data": {
-        "channels": -1
+        "channels_merge": -1
       },
       "pos": [
-        10,
-        -1
+        -24,
+        4
       ]
     },
     {
-      "id": 3169445212652125,
+      "id": 8025400391305734,
       "plugin": "SubmarineFree",
       "model": "TD-202",
       "version": "2.0.4",
       "params": [],
-      "leftModuleId": 71157081838648,
-      "rightModuleId": 2193776560709515,
+      "leftModuleId": 279583869135670,
+      "rightModuleId": 3476099882152149,
       "data": {
         "text": "VOLTS IN x4 ",
         "fg": "#ff7dec",
         "bg": "#000000"
       },
       "pos": [
-        15,
-        -1
+        -54,
+        4
       ]
     },
     {
-      "id": 7900204415450224,
+      "id": 279583869135670,
+      "plugin": "Fundamental",
+      "model": "Merge",
+      "version": "2.6.1",
+      "params": [],
+      "leftModuleId": 1509413586616305,
+      "rightModuleId": 8025400391305734,
+      "data": {
+        "channels": -1
+      },
+      "pos": [
+        -59,
+        4
+      ]
+    },
+    {
+      "id": 4297556851812925,
       "plugin": "SubmarineFree",
       "model": "TD-202",
       "version": "2.0.4",
       "params": [],
-      "leftModuleId": 234507931917498,
+      "leftModuleId": 465100784368381,
       "data": {
         "text": "VOLTS OUT poly or x4 ",
         "fg": "#ff7dec",
         "bg": "#000000"
       },
       "pos": [
-        47,
-        -1
+        -22,
+        4
       ]
     },
     {
-      "id": 5260699162003802,
+      "id": 1509413586616305,
       "plugin": "StochasticTelegraph",
       "model": "Fermata",
       "version": "2.0.17",
       "params": [],
-      "rightModuleId": 71157081838648,
+      "rightModuleId": 279583869135670,
       "data": {
-        "text": "COMMONALITOR\n============\n\nA neat math tool that sums 2-4 signals, then divides each signal by that sum, and then multiplies each signal by 10. \n\n\nKeep all 4 inputs between 0v and 10v and it'll behave: The sum of the four output signals will always be 10v, and each output signal will be influenced by compensating for the other three. \n\nTurns oscillations into interrelated patterns as complex as their contrast with one another. Throw in noise, static voltage, whatever alongside periodic oscillators.\n\nBe prepared to offset/scale the results. The process seems to limit the dynamic range of a signal - though any >0v input can result in a 10v output if the other three inputs reach 0v. Make this more predictable by sending at least one static input >0v.",
-        "width": 4,
+        "text": "COMMONALITOR\n============\n\nA neat math tool that sums 2-4 signals, then divides each signal by that sum, and then multiplies each signal by 10. \n\n\nKeep all 4 inputs between 0v and 10v and it'll behave: The sum of the four output signals will always be 10v, and each output signal will be influenced by compensating for the other three. \n\nTurns oscillations into interrelated patterns as complex as their contrast with one another. Throw in noise, static voltage, whatever alongside periodic oscillators.\n\nBe prepared to offset/scale the results. The process seems to limit the dynamic range of a signal - though any >0v input can result in a 10v output if the other three inputs reach 0v. Make this more predictable by sending at least one static input >0v.\n\nTry passing the outputs to a MERGE and into a PHO phase oscillator- overall amplitude of ",
+        "width": 3,
         "screen_colors": 1095216660480,
         "font_choice": "fonts/RobotoMono-Bold.ttf",
         "title_text": "Commonalitor 5"
       },
       "pos": [
-        6,
-        -1
+        -62,
+        4
+      ]
+    },
+    {
+      "id": 7740792207497786,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-Mult",
+      "version": "2.4.45",
+      "params": [],
+      "leftModuleId": 3476099882152149,
+      "rightModuleId": 5972571345118870,
+      "data": {},
+      "pos": [
+        -49,
+        4
       ]
     }
   ],
   "cables": [
     {
-      "id": 1436603481874708,
-      "outputModuleId": 6319445804648379,
+      "id": 5031939701859691,
+      "outputModuleId": 1432915608972380,
       "outputId": 8,
-      "inputModuleId": 234507931917498,
+      "inputModuleId": 465100784368381,
       "inputId": 0,
       "color": "#ffffff"
     },
     {
-      "id": 8451566074577206,
-      "outputModuleId": 6319445804648379,
+      "id": 6772240135145389,
+      "outputModuleId": 1432915608972380,
       "outputId": 9,
-      "inputModuleId": 234507931917498,
+      "inputModuleId": 465100784368381,
       "inputId": 1,
       "color": "#ffffff"
     },
     {
-      "id": 4813748859938696,
-      "outputModuleId": 6319445804648379,
+      "id": 690808564227952,
+      "outputModuleId": 1432915608972380,
       "outputId": 10,
-      "inputModuleId": 234507931917498,
+      "inputModuleId": 465100784368381,
       "inputId": 2,
       "color": "#ffffff"
     },
     {
-      "id": 1869800986380683,
-      "outputModuleId": 6319445804648379,
+      "id": 8041940718766456,
+      "outputModuleId": 1432915608972380,
       "outputId": 11,
-      "inputModuleId": 234507931917498,
+      "inputModuleId": 465100784368381,
       "inputId": 3,
       "color": "#ffffff"
     },
     {
-      "id": 3316237451504492,
-      "outputModuleId": 234507931917498,
+      "id": 3256716843440325,
+      "outputModuleId": 465100784368381,
       "outputId": 0,
-      "inputModuleId": 234507931917498,
+      "inputModuleId": 465100784368381,
       "inputId": 4,
       "color": "#ffffff"
     },
     {
-      "id": 5487218227847164,
-      "outputModuleId": 71157081838648,
+      "id": 3298466558160275,
+      "outputModuleId": 279583869135670,
       "outputId": 0,
-      "inputModuleId": 2193776560709515,
+      "inputModuleId": 3476099882152149,
       "inputId": 0,
       "color": "#ffffff"
     },
     {
-      "id": 1922308303986256,
-      "outputModuleId": 71157081838648,
+      "id": 7895880944661386,
+      "outputModuleId": 279583869135670,
       "outputId": 0,
-      "inputModuleId": 3434553554826721,
+      "inputModuleId": 7740792207497786,
       "inputId": 0,
       "color": "#ffffff"
     },
     {
-      "id": 7374956541893892,
-      "outputModuleId": 3977369099047204,
+      "id": 5736227981058776,
+      "outputModuleId": 5972571345118870,
       "outputId": 0,
-      "inputModuleId": 2096672541975555,
+      "inputModuleId": 1364817247421015,
       "inputId": 0,
       "color": "#ffffff"
     },
     {
-      "id": 1871069268409999,
-      "outputModuleId": 3977369099047204,
+      "id": 8177640748307907,
+      "outputModuleId": 5972571345118870,
       "outputId": 1,
-      "inputModuleId": 2096672541975555,
+      "inputModuleId": 1364817247421015,
       "inputId": 1,
       "color": "#ffffff"
     },
     {
-      "id": 1700276459135452,
-      "outputModuleId": 3977369099047204,
+      "id": 2609379833787228,
+      "outputModuleId": 5972571345118870,
       "outputId": 2,
-      "inputModuleId": 2096672541975555,
+      "inputModuleId": 1364817247421015,
       "inputId": 2,
       "color": "#ffffff"
     },
     {
-      "id": 4921290545673169,
-      "outputModuleId": 3977369099047204,
+      "id": 7892655693566370,
+      "outputModuleId": 5972571345118870,
       "outputId": 3,
-      "inputModuleId": 2096672541975555,
+      "inputModuleId": 1364817247421015,
       "inputId": 3,
       "color": "#ffffff"
     },
     {
-      "id": 1667919643156866,
-      "outputModuleId": 3621680565425601,
+      "id": 7195812602896352,
+      "outputModuleId": 2313122598734936,
       "outputId": 0,
-      "inputModuleId": 2096672541975555,
+      "inputModuleId": 1364817247421015,
       "inputId": 4,
       "color": "#ffffff"
     },
     {
-      "id": 6465467243474880,
-      "outputModuleId": 3621680565425601,
+      "id": 8148068077559685,
+      "outputModuleId": 2313122598734936,
       "outputId": 0,
-      "inputModuleId": 2096672541975555,
+      "inputModuleId": 1364817247421015,
       "inputId": 5,
       "color": "#ffffff"
     },
     {
-      "id": 7972792715980545,
-      "outputModuleId": 3621680565425601,
+      "id": 717151483029982,
+      "outputModuleId": 2313122598734936,
       "outputId": 0,
-      "inputModuleId": 2096672541975555,
+      "inputModuleId": 1364817247421015,
       "inputId": 6,
       "color": "#ffffff"
     },
     {
-      "id": 7196270099762892,
-      "outputModuleId": 3621680565425601,
+      "id": 2968746968848222,
+      "outputModuleId": 2313122598734936,
       "outputId": 0,
-      "inputModuleId": 2096672541975555,
+      "inputModuleId": 1364817247421015,
       "inputId": 7,
       "color": "#ffffff"
     },
     {
-      "id": 3156350797355466,
-      "outputModuleId": 2096672541975555,
+      "id": 5192258056262439,
+      "outputModuleId": 1364817247421015,
       "outputId": 12,
-      "inputModuleId": 6319445804648379,
+      "inputModuleId": 1432915608972380,
       "inputId": 0,
       "color": "#ffffff"
     },
     {
-      "id": 1669716392857476,
-      "outputModuleId": 2096672541975555,
+      "id": 6086901873630711,
+      "outputModuleId": 1364817247421015,
       "outputId": 13,
-      "inputModuleId": 6319445804648379,
+      "inputModuleId": 1432915608972380,
       "inputId": 1,
       "color": "#ffffff"
     },
     {
-      "id": 5014260266380707,
-      "outputModuleId": 2096672541975555,
+      "id": 215460530534856,
+      "outputModuleId": 1364817247421015,
       "outputId": 14,
-      "inputModuleId": 6319445804648379,
+      "inputModuleId": 1432915608972380,
       "inputId": 2,
       "color": "#ffffff"
     },
     {
-      "id": 7564830748279909,
-      "outputModuleId": 2096672541975555,
+      "id": 5688979963501623,
+      "outputModuleId": 1364817247421015,
       "outputId": 15,
-      "inputModuleId": 6319445804648379,
+      "inputModuleId": 1432915608972380,
       "inputId": 3,
       "color": "#ffffff"
     },
     {
-      "id": 822719412271808,
-      "outputModuleId": 3434553554826721,
+      "id": 7772605721545595,
+      "outputModuleId": 7740792207497786,
       "outputId": 1,
-      "inputModuleId": 3621680565425601,
+      "inputModuleId": 2313122598734936,
       "inputId": 0,
       "color": "#ffffff"
     },
     {
-      "id": 4314229901919955,
-      "outputModuleId": 3434553554826721,
+      "id": 2628173569123188,
+      "outputModuleId": 7740792207497786,
       "outputId": 0,
-      "inputModuleId": 3977369099047204,
+      "inputModuleId": 5972571345118870,
       "inputId": 0,
       "color": "#ffffff"
     }

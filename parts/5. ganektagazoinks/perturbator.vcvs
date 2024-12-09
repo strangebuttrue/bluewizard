@@ -1,48 +1,21 @@
 {
   "modules": [
     {
-      "id": 1215473309537053,
-      "plugin": "Bogaudio",
-      "model": "Bogaudio-XFade",
-      "version": "2.0.39",
-      "params": [
-        {
-          "value": -1.0,
-          "id": 0
-        },
-        {
-          "value": 0.5,
-          "id": 1
-        },
-        {
-          "value": 0.0,
-          "id": 2
-        }
-      ],
-      "leftModuleId": 8430051497206093,
-      "rightModuleId": 6077381033872716,
-      "data": {},
-      "pos": [
-        -28,
-        0
-      ]
-    },
-    {
-      "id": 1392199778849604,
+      "id": 6478292864635792,
       "plugin": "Bogaudio",
       "model": "Bogaudio-DADSRH",
-      "version": "2.0.39",
+      "version": "2.4.45",
       "params": [
         {
           "value": 0.0,
           "id": 0
         },
         {
-          "value": 0.28500005602836609,
+          "value": 0.15421684086322784,
           "id": 1
         },
         {
-          "value": 0.37922996282577515,
+          "value": 0.22983157634735107,
           "id": 2
         },
         {
@@ -58,11 +31,11 @@
           "id": 5
         },
         {
-          "value": 1.0,
+          "value": 2.0,
           "id": 6
         },
         {
-          "value": 3.0,
+          "value": 1.0,
           "id": 7
         },
         {
@@ -90,167 +63,196 @@
           "id": 13
         }
       ],
-      "leftModuleId": 3416177147252780,
-      "rightModuleId": 8430051497206093,
+      "leftModuleId": 6139957584080597,
+      "rightModuleId": 2775031282079020,
       "data": {
         "triggerOnLoad": true,
         "shouldTriggerOnLoad": false
       },
       "pos": [
-        -41,
-        0
+        77,
+        -1
       ]
     },
     {
-      "id": 6077381033872716,
+      "id": 5914148088047954,
+      "plugin": "StochasticTelegraph",
+      "model": "Fermata",
+      "version": "2.0.17",
+      "params": [],
+      "rightModuleId": 8202994569753456,
+      "data": {
+        "text": "PERTURBATOR (per-TUR-buh-TOR)\n-----------------------------\n\nUpon trigger, an envelope crossfades voltage 1 into voltage 2 and back again. If voltage 1 is a low-frequency oscillation and voltage 2 a higher one, this will look a little like an oscillation  \"perturbed\" and regaining its course\n",
+        "width": 3,
+        "screen_colors": 1095216660480,
+        "font_choice": "fonts/RobotoMono-Bold.ttf",
+        "title_text": "PERTURBATOR"
+      },
+      "pos": [
+        67,
+        -1
+      ]
+    },
+    {
+      "id": 6802582649196301,
+      "plugin": "Fundamental",
+      "model": "Fade",
+      "version": "2.6.1",
+      "params": [
+        {
+          "value": 0.5,
+          "id": 0
+        },
+        {
+          "value": 1.0,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 2775031282079020,
+      "rightModuleId": 1810954016402861,
+      "data": {
+        "panLaw": 0
+      },
+      "pos": [
+        90,
+        -1
+      ]
+    },
+    {
+      "id": 8202994569753456,
+      "plugin": "Stoermelder-P1",
+      "model": "StripBay4",
+      "version": "2.0.beta4",
+      "params": [],
+      "leftModuleId": 5914148088047954,
+      "rightModuleId": 7927028152725519,
+      "data": {
+        "panelTheme": 0,
+        "conId": ""
+      },
+      "pos": [
+        70,
+        -1
+      ]
+    },
+    {
+      "id": 6139957584080597,
       "plugin": "SubmarineFree",
       "model": "TD-202",
-      "version": "2.0.3",
+      "version": "2.0.4",
       "params": [],
-      "leftModuleId": 1215473309537053,
+      "leftModuleId": 7927028152725519,
+      "rightModuleId": 6478292864635792,
+      "data": {
+        "text": "IN 1.course 2.shake 2.perturbation",
+        "fg": "#29b2ef",
+        "bg": "#000000"
+      },
+      "pos": [
+        75,
+        -1
+      ]
+    },
+    {
+      "id": 7927028152725519,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 8202994569753456,
+      "rightModuleId": 6139957584080597,
+      "data": {
+        "text": "3.trigger",
+        "fg": "#29b2ef",
+        "bg": "#000000"
+      },
+      "pos": [
+        73,
+        -1
+      ]
+    },
+    {
+      "id": 1810954016402861,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 6802582649196301,
       "data": {
         "text": "mix = 1 perturbed signal",
         "fg": "#29b2ef",
-        "bg": "#00000000"
+        "bg": "#000000"
       },
       "pos": [
-        -25,
-        0
+        93,
+        -1
       ]
     },
     {
-      "id": 8430051497206093,
+      "id": 2775031282079020,
       "plugin": "Bogaudio",
       "model": "Bogaudio-Offset",
-      "version": "2.0.39",
+      "version": "2.4.45",
       "params": [
         {
           "value": -0.5,
           "id": 0
         },
         {
-          "value": 0.24494898319244385,
+          "value": 0.22360679507255554,
           "id": 1
         }
       ],
-      "leftModuleId": 1392199778849604,
-      "rightModuleId": 1215473309537053,
+      "leftModuleId": 6478292864635792,
+      "rightModuleId": 6802582649196301,
       "data": {
         "disableOutputLimit": false,
         "offset_first": false
       },
       "pos": [
-        -31,
-        0
-      ]
-    },
-    {
-      "id": 453129281211778,
-      "plugin": "Core",
-      "model": "Notes",
-      "version": "2.0.4",
-      "params": [],
-      "rightModuleId": 4331363296011375,
-      "data": {
-        "text": "PERTURBATOR (per-TUR-buh-TOR)\n-----------------------------\n\nUpon trigger, an envelope crossfades voltage 1 into voltage 2 and back again. If voltage 1 is a low-frequency oscillation and voltage 2 a higher one, this will look a little like an oscillation  \"perturbed\" and regaining its course\n"
-      },
-      "pos": [
-        -64,
-        0
-      ]
-    },
-    {
-      "id": 3416177147252780,
-      "plugin": "SubmarineFree",
-      "model": "TD-202",
-      "version": "2.0.3",
-      "params": [],
-      "leftModuleId": 2404815026416155,
-      "rightModuleId": 1392199778849604,
-      "data": {
-        "text": "IN 1.course 2.shake 2.perturbation",
-        "fg": "#29b2ef",
-        "bg": "#00000000"
-      },
-      "pos": [
-        -43,
-        0
-      ]
-    },
-    {
-      "id": 2404815026416155,
-      "plugin": "SubmarineFree",
-      "model": "TD-202",
-      "version": "2.0.3",
-      "params": [],
-      "leftModuleId": 4331363296011375,
-      "rightModuleId": 3416177147252780,
-      "data": {
-        "text": "3.trigger",
-        "fg": "#29b2ef",
-        "bg": "#00000000"
-      },
-      "pos": [
-        -45,
-        0
-      ]
-    },
-    {
-      "id": 4331363296011375,
-      "plugin": "Stoermelder-P1",
-      "model": "StripBay4",
-      "version": "2.0.aa525d0",
-      "params": [],
-      "leftModuleId": 453129281211778,
-      "rightModuleId": 2404815026416155,
-      "data": {
-        "panelTheme": 0,
-        "conId": ""
-      },
-      "pos": [
-        -48,
-        0
+        87,
+        -1
       ]
     }
   ],
   "cables": [
     {
-      "id": 1464602999510928,
-      "outputModuleId": 1392199778849604,
+      "id": 8092531085391609,
+      "outputModuleId": 6478292864635792,
       "outputId": 0,
-      "inputModuleId": 8430051497206093,
+      "inputModuleId": 2775031282079020,
       "inputId": 2,
       "color": "#0986ad"
     },
     {
-      "id": 5586966508795451,
-      "outputModuleId": 8430051497206093,
-      "outputId": 0,
-      "inputModuleId": 1215473309537053,
-      "inputId": 0,
-      "color": "#c91847"
-    },
-    {
-      "id": 6613796830709159,
-      "outputModuleId": 4331363296011375,
-      "outputId": 0,
-      "inputModuleId": 1215473309537053,
-      "inputId": 2,
-      "color": "#c9b70e"
-    },
-    {
-      "id": 5651067319392376,
-      "outputModuleId": 4331363296011375,
+      "id": 7084170699063406,
+      "outputModuleId": 8202994569753456,
       "outputId": 2,
-      "inputModuleId": 1392199778849604,
+      "inputModuleId": 6478292864635792,
       "inputId": 0,
       "color": "#0c8e15"
     },
     {
-      "id": 6245372660580084,
-      "outputModuleId": 4331363296011375,
+      "id": 7441572696688346,
+      "outputModuleId": 2775031282079020,
+      "outputId": 0,
+      "inputModuleId": 6802582649196301,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 7252294353156173,
+      "outputModuleId": 8202994569753456,
       "outputId": 1,
-      "inputModuleId": 1215473309537053,
+      "inputModuleId": 6802582649196301,
+      "inputId": 2,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 8995853409628576,
+      "outputModuleId": 8202994569753456,
+      "outputId": 0,
+      "inputModuleId": 6802582649196301,
       "inputId": 1,
       "color": "#c91847"
     }
