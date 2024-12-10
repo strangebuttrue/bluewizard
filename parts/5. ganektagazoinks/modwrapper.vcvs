@@ -1,0 +1,94 @@
+{
+  "modules": [
+    {
+      "id": 3973694631846236,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-Mult",
+      "version": "2.4.45",
+      "params": [],
+      "leftModuleId": 3437104046845162,
+      "rightModuleId": 6647243204657134,
+      "data": {},
+      "pos": [
+        63,
+        -1
+      ]
+    },
+    {
+      "id": 3719943015387777,
+      "plugin": "SubmarineFree",
+      "model": "A0-101",
+      "version": "2.0.4",
+      "params": [
+        {
+          "value": 37.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 6647243204657134,
+      "pos": [
+        68,
+        -1
+      ]
+    },
+    {
+      "id": 6647243204657134,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 3973694631846236,
+      "rightModuleId": 3719943015387777,
+      "data": {
+        "text": "CV, modulus",
+        "fg": "#29b2ef",
+        "bg": "#000000"
+      },
+      "pos": [
+        66,
+        -1
+      ]
+    },
+    {
+      "id": 3437104046845162,
+      "plugin": "StochasticTelegraph",
+      "model": "Fermata",
+      "version": "2.0.17",
+      "params": [],
+      "rightModuleId": 3973694631846236,
+      "data": {
+        "text": "MODWRAPPER\n=============\n\nThis is a very simple little construction because I pared it down from an overcomplicated one. It's just an AO-101 doing a modulo operation. I decided not to deprecate this because it's so handy - a very fun thing to do with two LFOs. Try some real slow chaotic oscillations, wrap one around the other. check it out in a scope for clarity",
+        "width": 3,
+        "screen_colors": 1095216660480,
+        "font_choice": "fonts/RobotoMono-Bold.ttf",
+        "title_text": "MODWRAPPER"
+      },
+      "pos": [
+        60,
+        -1
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 7682537081722293,
+      "outputModuleId": 3973694631846236,
+      "outputId": 0,
+      "inputModuleId": 3719943015387777,
+      "inputId": 0,
+      "color": "#ffffff"
+    },
+    {
+      "id": 700668054545678,
+      "outputModuleId": 3973694631846236,
+      "outputId": 5,
+      "inputModuleId": 3719943015387777,
+      "inputId": 1,
+      "color": "#ffffff"
+    }
+  ]
+}
