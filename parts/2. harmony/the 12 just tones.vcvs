@@ -1,0 +1,369 @@
+{
+  "modules": [
+    {
+      "id": 2940103303201232,
+      "plugin": "computerscare",
+      "model": "computerscare-debug",
+      "version": "2.1.11",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 2.0,
+          "id": 4
+        },
+        {
+          "value": 1.0,
+          "id": 5
+        }
+      ],
+      "leftModuleId": 6413915883592902,
+      "automId": 901,
+      "data": {
+        "outputRange": 0,
+        "lines": [
+          0.65999996662139893,
+          0.24500000476837158,
+          0.82999998331069946,
+          0.41499999165534973,
+          0.0,
+          0.58499997854232788,
+          0.17000001668930054,
+          0.75499999523162842,
+          0.34000003337860107,
+          0.92500001192092896,
+          0.50999999046325684,
+          0.094999998807907104,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "pos": [
+        -22,
+        -1
+      ]
+    },
+    {
+      "id": 6874707302965441,
+      "plugin": "computerscare",
+      "model": "computerscare-knolypobs",
+      "version": "2.1.11",
+      "params": [
+        {
+          "value": 0.65999996662139893,
+          "id": 0
+        },
+        {
+          "value": 0.24500000476837158,
+          "id": 1
+        },
+        {
+          "value": 0.82999998331069946,
+          "id": 2
+        },
+        {
+          "value": 0.41499999165534973,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        },
+        {
+          "value": 0.58499997854232788,
+          "id": 5
+        },
+        {
+          "value": 0.17000001668930054,
+          "id": 6
+        },
+        {
+          "value": 0.75499999523162842,
+          "id": 7
+        },
+        {
+          "value": 0.34000003337860107,
+          "id": 8
+        },
+        {
+          "value": 0.92500001192092896,
+          "id": 9
+        },
+        {
+          "value": 0.50999999046325684,
+          "id": 10
+        },
+        {
+          "value": 0.094999998807907104,
+          "id": 11
+        },
+        {
+          "value": 0.0,
+          "id": 12
+        },
+        {
+          "value": 0.0,
+          "id": 13
+        },
+        {
+          "value": 0.0,
+          "id": 14
+        },
+        {
+          "value": 0.0,
+          "id": 15
+        },
+        {
+          "value": 0.0,
+          "id": 16
+        },
+        {
+          "value": 0.0,
+          "id": 17
+        },
+        {
+          "value": 0.0,
+          "id": 18
+        },
+        {
+          "value": 0.0,
+          "id": 19
+        },
+        {
+          "value": 0.0,
+          "id": 20
+        },
+        {
+          "value": 0.0,
+          "id": 21
+        },
+        {
+          "value": 0.0,
+          "id": 22
+        },
+        {
+          "value": 0.0,
+          "id": 23
+        },
+        {
+          "value": 0.0,
+          "id": 24
+        },
+        {
+          "value": 0.0,
+          "id": 25
+        },
+        {
+          "value": 0.0,
+          "id": 26
+        },
+        {
+          "value": 0.0,
+          "id": 27
+        },
+        {
+          "value": 0.0,
+          "id": 28
+        },
+        {
+          "value": 0.0,
+          "id": 29
+        },
+        {
+          "value": 0.0,
+          "id": 30
+        },
+        {
+          "value": 0.0,
+          "id": 31
+        },
+        {
+          "value": 12.0,
+          "id": 32
+        },
+        {
+          "value": 1.0,
+          "id": 33
+        },
+        {
+          "value": 0.0,
+          "id": 34
+        }
+      ],
+      "leftModuleId": 2645747885151761,
+      "rightModuleId": 596358751666517,
+      "automId": 831,
+      "pos": [
+        -37,
+        -1
+      ]
+    },
+    {
+      "id": 3416022273198442,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-PolyMult",
+      "version": "2.4.45",
+      "params": [
+        {
+          "value": 12.0,
+          "id": 0
+        }
+      ],
+      "leftModuleId": 7983750643959552,
+      "rightModuleId": 6413915883592902,
+      "automId": 920,
+      "data": {},
+      "pos": [
+        -28,
+        -1
+      ]
+    },
+    {
+      "id": 2645747885151761,
+      "plugin": "StochasticTelegraph",
+      "model": "Fermata",
+      "version": "2.0.17",
+      "params": [],
+      "rightModuleId": 6874707302965441,
+      "data": {
+        "text": "The 12 Just Tones\n=================\n\nThis device outputs 12 voltages of stacked Pythagorean fifths, from Ab around to C#. Be aware of where this puts your comma, and use FUNC to transpose around by fifths, if you want it someplace else. Run it into a COERCE for nice quantization.\n\nDesigned for use with Ableton, which won't record unquantized pitches, apparently",
+        "width": 3,
+        "screen_colors": 1095216660480,
+        "font_choice": "fonts/RobotoMono-Bold.ttf",
+        "title_text": "The 12 Just Tones"
+      },
+      "pos": [
+        -40,
+        -1
+      ]
+    },
+    {
+      "id": 6413915883592902,
+      "plugin": "ML_modules",
+      "model": "Sum8",
+      "version": "2.0.2",
+      "params": [],
+      "leftModuleId": 3416022273198442,
+      "rightModuleId": 2940103303201232,
+      "pos": [
+        -25,
+        -1
+      ]
+    },
+    {
+      "id": 596358751666517,
+      "plugin": "DHE-Modules",
+      "model": "Func",
+      "version": "2.0.3",
+      "params": [
+        {
+          "value": 0.5,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 3.0,
+          "id": 2
+        },
+        {
+          "value": 2.0,
+          "id": 3
+        }
+      ],
+      "leftModuleId": 6874707302965441,
+      "rightModuleId": 7983750643959552,
+      "automId": 923,
+      "data": {
+        "preset_version": 0
+      },
+      "pos": [
+        -33,
+        -1
+      ]
+    },
+    {
+      "id": 7983750643959552,
+      "plugin": "dbRackSequencer",
+      "model": "CV",
+      "version": "2.4.0",
+      "params": [
+        {
+          "value": 12.0,
+          "id": 0
+        },
+        {
+          "value": 0.58499997854232788,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 596358751666517,
+      "rightModuleId": 3416022273198442,
+      "automId": 921,
+      "pos": [
+        -30,
+        -1
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 7136855779080035,
+      "outputModuleId": 6874707302965441,
+      "outputId": 0,
+      "inputModuleId": 6413915883592902,
+      "inputId": 0,
+      "color": "#63b546"
+    },
+    {
+      "id": 1599297790959099,
+      "outputModuleId": 7983750643959552,
+      "outputId": 0,
+      "inputModuleId": 3416022273198442,
+      "inputId": 1,
+      "color": "#63b546"
+    },
+    {
+      "id": 2086517171644269,
+      "outputModuleId": 3416022273198442,
+      "outputId": 3,
+      "inputModuleId": 6413915883592902,
+      "inputId": 7,
+      "color": "#63b546"
+    },
+    {
+      "id": 3348760115038742,
+      "outputModuleId": 6413915883592902,
+      "outputId": 0,
+      "inputModuleId": 2940103303201232,
+      "inputId": 0,
+      "color": "#63b546"
+    },
+    {
+      "id": 8555427552445427,
+      "outputModuleId": 596358751666517,
+      "outputId": 0,
+      "inputModuleId": 7983750643959552,
+      "inputId": 0,
+      "color": "#b012d4"
+    }
+  ]
+}
