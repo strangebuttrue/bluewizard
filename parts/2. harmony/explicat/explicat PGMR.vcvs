@@ -1,0 +1,363 @@
+{
+  "modules": [
+    {
+      "id": 7353626064327673,
+      "plugin": "GrandeModular",
+      "model": "MergeSplit4",
+      "version": "2.8.0",
+      "params": [],
+      "leftModuleId": 2250204036203075,
+      "rightModuleId": 8969933862086999,
+      "data": {
+        "channels_merge": -1
+      },
+      "pos": [
+        156,
+        4
+      ]
+    },
+    {
+      "id": 8603072237285478,
+      "plugin": "CountModula",
+      "model": "LightStrip",
+      "version": "2.6.0",
+      "params": [],
+      "leftModuleId": 4373386504069298,
+      "rightModuleId": 2250204036203075,
+      "data": {
+        "moduleVersion": 1,
+        "color": [
+          0.1289999783039093,
+          0.66199994087219238,
+          0.080000005662441254
+        ],
+        "narrowMode": false,
+        "theme": 5
+      },
+      "pos": [
+        140,
+        4
+      ]
+    },
+    {
+      "id": 6185192039683127,
+      "plugin": "CountModula",
+      "model": "LightStrip",
+      "version": "2.6.0",
+      "params": [],
+      "leftModuleId": 5290959245924355,
+      "data": {
+        "moduleVersion": 1,
+        "color": [
+          0.1289999783039093,
+          0.66199994087219238,
+          0.080000005662441254
+        ],
+        "narrowMode": false,
+        "theme": 5
+      },
+      "pos": [
+        167,
+        4
+      ]
+    },
+    {
+      "id": 4373386504069298,
+      "plugin": "StochasticTelegraph",
+      "model": "Fermata",
+      "version": "2.0.28",
+      "params": [],
+      "rightModuleId": 8603072237285478,
+      "data": {
+        "text": "EXPLICAT\n\nC - 0.980 - 0.000 - 0.020\nG - 0.565 - 0.585 - 0.605\nD - 0.150 - 0.170 - 0.190\nA - 0.735 - 0.755 - 0.775\nE - 0.320 - 0.340 - 0.360\nB - 0.905 - 0.925 - 0.945\nF#- 0.490 - 0.510 - 0.530\nC#- 0.075 - 0.095 - 0.115\nAb- 0.660 - 0.680 - 0.700\nEb- 0.245 - 0.265 - 0.285\nBb- 0.830 - 0.850 - 0.870\nF - 0.415 - 0.435 - 0.455\n\nUse it to sequence some chords. Duplicate the KNOLY POBS, set them up in a sequence with the SWITCH, TELEPORT and quantize with COERCE.\n\nKNOLY POBS PRESETS:\n\nM13      R  5  3   13  9   7 #11\nM7       R  5  3    7  9  13 #11\nm7       R  5 b3   b7  9  11  13\nDom7     R  5  3   b7  9  13 #11\n5ths     R  5  9   13  3   7 #11",
+        "width": 3,
+        "screen_colors": 281200098803712,
+        "font_choice": "res/fonts/ShareTechMono-Regular.ttf",
+        "visible_lines": 28,
+        "title_text": "EXPLICAT"
+      },
+      "pos": [
+        137,
+        4
+      ]
+    },
+    {
+      "id": 8969933862086999,
+      "plugin": "computerscare",
+      "model": "computerscare-debug",
+      "version": "2.3.11",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 2.0,
+          "id": 4
+        },
+        {
+          "value": 1.0,
+          "id": 5
+        },
+        {
+          "value": 0.0,
+          "id": 6
+        },
+        {
+          "value": 0.0,
+          "id": 7
+        },
+        {
+          "value": 0.0,
+          "id": 8
+        },
+        {
+          "value": 0.0,
+          "id": 9
+        },
+        {
+          "value": 1.0,
+          "id": 10
+        },
+        {
+          "value": 0.0,
+          "id": 11
+        },
+        {
+          "value": 1.0,
+          "id": 12
+        },
+        {
+          "value": 0.0,
+          "id": 13
+        }
+      ],
+      "leftModuleId": 7353626064327673,
+      "rightModuleId": 5290959245924355,
+      "data": {
+        "outputRange": 0,
+        "triggerBlinkers": false,
+        "visualMode": 0,
+        "barMode": 0,
+        "theme": 0,
+        "textOpacity": 1.0,
+        "barsOpacity": 1.0,
+        "textMode": 0,
+        "bipolarColorMode": 0,
+        "lines": [
+          0.58499997854232788,
+          0.82999998331069946,
+          0.75499999523162842,
+          0.41499999165534973,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "pos": [
+        158,
+        4
+      ]
+    },
+    {
+      "id": 2250204036203075,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-Pgmr",
+      "version": "2.6.47",
+      "params": [
+        {
+          "value": 1.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 0.024500001221895218,
+          "id": 3
+        },
+        {
+          "value": 0.082999996840953827,
+          "id": 4
+        },
+        {
+          "value": 0.017000000923871994,
+          "id": 5
+        },
+        {
+          "value": 0.0,
+          "id": 6
+        },
+        {
+          "value": 0.058499999344348907,
+          "id": 7
+        },
+        {
+          "value": 0.082999996840953827,
+          "id": 8
+        },
+        {
+          "value": 0.041499998420476913,
+          "id": 9
+        },
+        {
+          "value": 0.075499996542930603,
+          "id": 10
+        },
+        {
+          "value": 0.0,
+          "id": 11
+        },
+        {
+          "value": 0.017000000923871994,
+          "id": 12
+        },
+        {
+          "value": 0.041499998420476913,
+          "id": 13
+        },
+        {
+          "value": 0.0,
+          "id": 14
+        },
+        {
+          "value": 0.034000001847743988,
+          "id": 15
+        },
+        {
+          "value": 0.0,
+          "id": 16
+        },
+        {
+          "value": 0.075499996542930603,
+          "id": 17
+        },
+        {
+          "value": 0.0,
+          "id": 18
+        },
+        {
+          "value": 0.058499999344348907,
+          "id": 19
+        },
+        {
+          "value": 0.091499999165534973,
+          "id": 20
+        },
+        {
+          "value": 0.0,
+          "id": 21
+        }
+      ],
+      "leftModuleId": 8603072237285478,
+      "rightModuleId": 7353626064327673,
+      "data": {
+        "poly_input": 0,
+        "select_on_clock": false,
+        "triggered_select": false,
+        "reverse_on_negative_clock": false,
+        "wrap_select_at_steps": false,
+        "range_offset": 0.0,
+        "range_scale": 10.0,
+        "SELECT_TRIGGERS": false,
+        "save_last_triggered_to_patch": false
+      },
+      "pos": [
+        141,
+        4
+      ]
+    },
+    {
+      "id": 5290959245924355,
+      "plugin": "LittleUtils",
+      "model": "TeleportIn",
+      "version": "2.1.0",
+      "params": [],
+      "leftModuleId": 8969933862086999,
+      "rightModuleId": 6185192039683127,
+      "data": {
+        "label": "PITC"
+      },
+      "pos": [
+        164,
+        4
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 1067609430515707,
+      "outputModuleId": 7353626064327673,
+      "outputId": 0,
+      "inputModuleId": 5290959245924355,
+      "inputId": 3,
+      "color": "#8efa00"
+    },
+    {
+      "id": 3696569342364527,
+      "outputModuleId": 2250204036203075,
+      "outputId": 0,
+      "inputModuleId": 7353626064327673,
+      "inputId": 0,
+      "color": "#8efa00"
+    },
+    {
+      "id": 6601561733892733,
+      "outputModuleId": 2250204036203075,
+      "outputId": 1,
+      "inputModuleId": 7353626064327673,
+      "inputId": 1,
+      "color": "#63b546"
+    },
+    {
+      "id": 6255452952841125,
+      "outputModuleId": 2250204036203075,
+      "outputId": 3,
+      "inputModuleId": 7353626064327673,
+      "inputId": 2,
+      "color": "#8efa00"
+    },
+    {
+      "id": 5611068322982278,
+      "outputModuleId": 2250204036203075,
+      "outputId": 2,
+      "inputModuleId": 7353626064327673,
+      "inputId": 3,
+      "color": "#8efa00"
+    },
+    {
+      "id": 7560522924793348,
+      "outputModuleId": 7353626064327673,
+      "outputId": 0,
+      "inputModuleId": 8969933862086999,
+      "inputId": 0,
+      "color": "#8efa00"
+    }
+  ]
+}

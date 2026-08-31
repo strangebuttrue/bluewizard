@@ -1,0 +1,3598 @@
+{
+  "modules": [
+    {
+      "id": 6105243713188370,
+      "plugin": "MindMeldModular",
+      "model": "PatchMaster",
+      "version": "2.5.0",
+      "params": [
+        {
+          "value": 0.5039370059967041,
+          "id": 0
+        },
+        {
+          "value": 0.5039370059967041,
+          "id": 1
+        },
+        {
+          "value": 0.5039370059967041,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        },
+        {
+          "value": 0.0,
+          "id": 5
+        },
+        {
+          "value": 0.0,
+          "id": 6
+        },
+        {
+          "value": 0.0,
+          "id": 7
+        }
+      ],
+      "leftModuleId": 4665044756286808,
+      "rightModuleId": 2256427216940132,
+      "data": {
+        "miscSettings": 65793,
+        "miscSettings2": 1,
+        "tileInfos": [
+          178,
+          178,
+          178,
+          201,
+          164,
+          164,
+          51,
+          51,
+          155,
+          155,
+          155,
+          155,
+          155,
+          155,
+          155,
+          155
+        ],
+        "tileNames": [
+          "Controller 1",
+          "Controller 2",
+          "Controller 3",
+          "Controller 4",
+          "Controller 5",
+          "Controller 6",
+          "No name",
+          "No name",
+          "PatchMaster",
+          "No name",
+          "No name",
+          "No name",
+          "No name",
+          "No name",
+          "No name",
+          "No name"
+        ],
+        "maps": [
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          }
+        ],
+        "radioLits": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "tileOrders": [
+          8,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "tileSettings": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "pos": [
+        224,
+        -3
+      ]
+    },
+    {
+      "id": 4665044756286808,
+      "plugin": "MindMeldModular",
+      "model": "PatchMaster",
+      "version": "2.5.0",
+      "params": [
+        {
+          "value": 0.47244095802307129,
+          "id": 0
+        },
+        {
+          "value": 0.5039370059967041,
+          "id": 1
+        },
+        {
+          "value": 0.5039370059967041,
+          "id": 2
+        },
+        {
+          "value": 0.039370078593492508,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        },
+        {
+          "value": 0.0,
+          "id": 5
+        },
+        {
+          "value": 0.0,
+          "id": 6
+        },
+        {
+          "value": 0.0,
+          "id": 7
+        }
+      ],
+      "leftModuleId": 1850498247900311,
+      "rightModuleId": 6105243713188370,
+      "data": {
+        "miscSettings": 65793,
+        "miscSettings2": 1,
+        "tileInfos": [
+          178,
+          178,
+          178,
+          201,
+          164,
+          164,
+          51,
+          51,
+          155,
+          155,
+          155,
+          155,
+          155,
+          155,
+          155,
+          155
+        ],
+        "tileNames": [
+          "Controller 1",
+          "Controller 2",
+          "Controller 3",
+          "Controller 4",
+          "Controller 5",
+          "Controller 6",
+          "No name",
+          "No name",
+          "PatchMaster",
+          "No name",
+          "No name",
+          "No name",
+          "No name",
+          "No name",
+          "No name",
+          "No name"
+        ],
+        "maps": [
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          }
+        ],
+        "radioLits": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "tileOrders": [
+          8,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "tileSettings": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "pos": [
+        220,
+        -3
+      ]
+    },
+    {
+      "id": 299268932281751,
+      "plugin": "MindMeldModular",
+      "model": "PatchMaster",
+      "version": "2.5.0",
+      "params": [
+        {
+          "value": 0.5039370059967041,
+          "id": 0
+        },
+        {
+          "value": 0.5039370059967041,
+          "id": 1
+        },
+        {
+          "value": 0.5039370059967041,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        },
+        {
+          "value": 0.0,
+          "id": 5
+        },
+        {
+          "value": 0.0,
+          "id": 6
+        },
+        {
+          "value": 0.0,
+          "id": 7
+        }
+      ],
+      "leftModuleId": 2256427216940132,
+      "rightModuleId": 1303696556461198,
+      "data": {
+        "miscSettings": 65793,
+        "miscSettings2": 1,
+        "tileInfos": [
+          178,
+          178,
+          178,
+          201,
+          164,
+          164,
+          51,
+          51,
+          155,
+          155,
+          155,
+          155,
+          155,
+          155,
+          155,
+          155
+        ],
+        "tileNames": [
+          "Controller 1",
+          "Controller 2",
+          "Controller 3",
+          "Controller 4",
+          "Controller 5",
+          "Controller 6",
+          "No name",
+          "No name",
+          "PatchMaster",
+          "No name",
+          "No name",
+          "No name",
+          "No name",
+          "No name",
+          "No name",
+          "No name"
+        ],
+        "maps": [
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          }
+        ],
+        "radioLits": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "tileOrders": [
+          8,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "tileSettings": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "pos": [
+        232,
+        -3
+      ]
+    },
+    {
+      "id": 2256427216940132,
+      "plugin": "MindMeldModular",
+      "model": "PatchMaster",
+      "version": "2.5.0",
+      "params": [
+        {
+          "value": 0.5039370059967041,
+          "id": 0
+        },
+        {
+          "value": 0.5039370059967041,
+          "id": 1
+        },
+        {
+          "value": 0.5039370059967041,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        },
+        {
+          "value": 0.0,
+          "id": 5
+        },
+        {
+          "value": 0.0,
+          "id": 6
+        },
+        {
+          "value": 0.0,
+          "id": 7
+        }
+      ],
+      "leftModuleId": 6105243713188370,
+      "rightModuleId": 299268932281751,
+      "data": {
+        "miscSettings": 65793,
+        "miscSettings2": 1,
+        "tileInfos": [
+          178,
+          178,
+          178,
+          201,
+          164,
+          164,
+          51,
+          51,
+          155,
+          155,
+          155,
+          155,
+          155,
+          155,
+          155,
+          155
+        ],
+        "tileNames": [
+          "Controller 1",
+          "Controller 2",
+          "Controller 3",
+          "Controller 4",
+          "Controller 5",
+          "Controller 6",
+          "No name",
+          "No name",
+          "PatchMaster",
+          "No name",
+          "No name",
+          "No name",
+          "No name",
+          "No name",
+          "No name",
+          "No name"
+        ],
+        "maps": [
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          }
+        ],
+        "radioLits": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "tileOrders": [
+          8,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "tileSettings": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "pos": [
+        228,
+        -3
+      ]
+    },
+    {
+      "id": 5593719400840989,
+      "plugin": "MindMeldModular",
+      "model": "PatchMaster",
+      "version": "2.5.0",
+      "params": [
+        {
+          "value": 0.5039370059967041,
+          "id": 0
+        },
+        {
+          "value": 0.5039370059967041,
+          "id": 1
+        },
+        {
+          "value": 0.5039370059967041,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        },
+        {
+          "value": 0.0,
+          "id": 5
+        },
+        {
+          "value": 0.0,
+          "id": 6
+        },
+        {
+          "value": 0.0,
+          "id": 7
+        }
+      ],
+      "leftModuleId": 1303696556461198,
+      "rightModuleId": 6838530655656951,
+      "data": {
+        "miscSettings": 65793,
+        "miscSettings2": 1,
+        "tileInfos": [
+          178,
+          178,
+          178,
+          201,
+          164,
+          164,
+          51,
+          51,
+          155,
+          155,
+          155,
+          155,
+          155,
+          155,
+          155,
+          155
+        ],
+        "tileNames": [
+          "Controller 1",
+          "Controller 2",
+          "Controller 3",
+          "Controller 4",
+          "Controller 5",
+          "Controller 6",
+          "No name",
+          "No name",
+          "PatchMaster",
+          "No name",
+          "No name",
+          "No name",
+          "No name",
+          "No name",
+          "No name",
+          "No name"
+        ],
+        "maps": [
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          }
+        ],
+        "radioLits": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "tileOrders": [
+          8,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "tileSettings": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "pos": [
+        240,
+        -3
+      ]
+    },
+    {
+      "id": 1303696556461198,
+      "plugin": "MindMeldModular",
+      "model": "PatchMaster",
+      "version": "2.5.0",
+      "params": [
+        {
+          "value": 0.5039370059967041,
+          "id": 0
+        },
+        {
+          "value": 0.5039370059967041,
+          "id": 1
+        },
+        {
+          "value": 0.5039370059967041,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        },
+        {
+          "value": 0.0,
+          "id": 5
+        },
+        {
+          "value": 0.0,
+          "id": 6
+        },
+        {
+          "value": 0.0,
+          "id": 7
+        }
+      ],
+      "leftModuleId": 299268932281751,
+      "rightModuleId": 5593719400840989,
+      "data": {
+        "miscSettings": 65793,
+        "miscSettings2": 1,
+        "tileInfos": [
+          178,
+          178,
+          178,
+          201,
+          164,
+          164,
+          51,
+          51,
+          155,
+          155,
+          155,
+          155,
+          155,
+          155,
+          155,
+          155
+        ],
+        "tileNames": [
+          "Controller 1",
+          "Controller 2",
+          "Controller 3",
+          "Controller 4",
+          "Controller 5",
+          "Controller 6",
+          "No name",
+          "No name",
+          "PatchMaster",
+          "No name",
+          "No name",
+          "No name",
+          "No name",
+          "No name",
+          "No name",
+          "No name"
+        ],
+        "maps": [
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          }
+        ],
+        "radioLits": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "tileOrders": [
+          8,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "tileSettings": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "pos": [
+        236,
+        -3
+      ]
+    },
+    {
+      "id": 1850498247900311,
+      "plugin": "Stoermelder-P1",
+      "model": "MidiCat",
+      "version": "2.3.0",
+      "params": [],
+      "rightModuleId": 4665044756286808,
+      "data": {
+        "panelTheme": 0,
+        "textScrolling": true,
+        "mappingIndicatorHidden": false,
+        "mappingIndicatorColor": "#ffff40",
+        "locked": false,
+        "processDivision": 64,
+        "overlayEnabled": true,
+        "clearMapsOnLoad": false,
+        "parameterChangesDirect": false,
+        "maps": [
+          {
+            "cc": 11,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 4665044756286808,
+            "paramId": 0,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          },
+          {
+            "cc": 21,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 4665044756286808,
+            "paramId": 1,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          },
+          {
+            "cc": 30,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 4665044756286808,
+            "paramId": 2,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          },
+          {
+            "cc": 41,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 4665044756286808,
+            "paramId": 3,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          },
+          {
+            "cc": 51,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 4665044756286808,
+            "paramId": 4,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          },
+          {
+            "cc": 61,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 4665044756286808,
+            "paramId": 5,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          },
+          {
+            "cc": 12,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 6105243713188370,
+            "paramId": 0,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          },
+          {
+            "cc": 22,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 6105243713188370,
+            "paramId": 1,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          },
+          {
+            "cc": 32,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 6105243713188370,
+            "paramId": 2,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          },
+          {
+            "cc": 42,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 6105243713188370,
+            "paramId": 3,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          },
+          {
+            "cc": 52,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 6105243713188370,
+            "paramId": 4,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          },
+          {
+            "cc": 62,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 6105243713188370,
+            "paramId": 5,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          },
+          {
+            "cc": 13,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 2256427216940132,
+            "paramId": 0,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          },
+          {
+            "cc": 23,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 2256427216940132,
+            "paramId": 1,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          },
+          {
+            "cc": 33,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 2256427216940132,
+            "paramId": 2,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          },
+          {
+            "cc": 43,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 2256427216940132,
+            "paramId": 3,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          },
+          {
+            "cc": 53,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 2256427216940132,
+            "paramId": 4,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          },
+          {
+            "cc": 63,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 2256427216940132,
+            "paramId": 5,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          },
+          {
+            "cc": 14,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 299268932281751,
+            "paramId": 0,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          },
+          {
+            "cc": 24,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 299268932281751,
+            "paramId": 1,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          },
+          {
+            "cc": 34,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 299268932281751,
+            "paramId": 2,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          },
+          {
+            "cc": 44,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 299268932281751,
+            "paramId": 3,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          },
+          {
+            "cc": 54,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 299268932281751,
+            "paramId": 4,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          },
+          {
+            "cc": 64,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 299268932281751,
+            "paramId": 5,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          },
+          {
+            "cc": 15,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 1303696556461198,
+            "paramId": 0,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          },
+          {
+            "cc": 25,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 1303696556461198,
+            "paramId": 1,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          },
+          {
+            "cc": 35,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 1303696556461198,
+            "paramId": 2,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          },
+          {
+            "cc": 45,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 1303696556461198,
+            "paramId": 3,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          },
+          {
+            "cc": 55,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 1303696556461198,
+            "paramId": 4,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          },
+          {
+            "cc": 65,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 1303696556461198,
+            "paramId": 5,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          },
+          {
+            "cc": 16,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 5593719400840989,
+            "paramId": 0,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          },
+          {
+            "cc": 26,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 5593719400840989,
+            "paramId": 1,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          },
+          {
+            "cc": 36,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 5593719400840989,
+            "paramId": 2,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          },
+          {
+            "cc": 46,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 5593719400840989,
+            "paramId": 3,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          },
+          {
+            "cc": 56,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 5593719400840989,
+            "paramId": 4,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          },
+          {
+            "cc": 66,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 5593719400840989,
+            "paramId": 5,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          },
+          {
+            "cc": 17,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 6838530655656951,
+            "paramId": 0,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          },
+          {
+            "cc": 27,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 6838530655656951,
+            "paramId": 1,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          },
+          {
+            "cc": 37,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 6838530655656951,
+            "paramId": 2,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          },
+          {
+            "cc": 47,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 6838530655656951,
+            "paramId": 3,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          },
+          {
+            "cc": 57,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 6838530655656951,
+            "paramId": 4,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          },
+          {
+            "cc": 67,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 6838530655656951,
+            "paramId": 5,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          },
+          {
+            "cc": 18,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 5648680829840095,
+            "paramId": 0,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          },
+          {
+            "cc": 28,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 5648680829840095,
+            "paramId": 1,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          },
+          {
+            "cc": 38,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 5648680829840095,
+            "paramId": 2,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          },
+          {
+            "cc": 48,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 5648680829840095,
+            "paramId": 3,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          },
+          {
+            "cc": 58,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 5648680829840095,
+            "paramId": 4,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          },
+          {
+            "cc": 68,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 5648680829840095,
+            "paramId": 5,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          },
+          {
+            "cc": 48,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": -1,
+            "paramId": 0,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          },
+          {
+            "cc": -1,
+            "ccMode": 0,
+            "cc14bit": false,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": -1,
+            "paramId": 0,
+            "label": "",
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "curve": 0.0,
+            "clockMode": 0,
+            "clockSource": 0,
+            "lightFirstId": -1,
+            "lightNumColors": 0
+          }
+        ],
+        "midiResendPeriodically": false,
+        "midiIgnoreDevices": false,
+        "midiInput": {
+          "driver": 4,
+          "deviceName": "Launch Control XL 1",
+          "channel": -1
+        },
+        "midiOutput": {
+          "driver": 4,
+          "channel": 0
+        }
+      },
+      "pos": [
+        210,
+        -3
+      ]
+    },
+    {
+      "id": 5648680829840095,
+      "plugin": "MindMeldModular",
+      "model": "PatchMaster",
+      "version": "2.5.0",
+      "params": [
+        {
+          "value": 0.4645669162273407,
+          "id": 0
+        },
+        {
+          "value": 0.5039370059967041,
+          "id": 1
+        },
+        {
+          "value": 0.5039370059967041,
+          "id": 2
+        },
+        {
+          "value": 0.41732284426689148,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        },
+        {
+          "value": 0.0,
+          "id": 5
+        },
+        {
+          "value": 0.0,
+          "id": 6
+        },
+        {
+          "value": 0.0,
+          "id": 7
+        }
+      ],
+      "leftModuleId": 6838530655656951,
+      "data": {
+        "miscSettings": 65793,
+        "miscSettings2": 1,
+        "tileInfos": [
+          178,
+          178,
+          178,
+          201,
+          164,
+          164,
+          51,
+          51,
+          155,
+          155,
+          155,
+          155,
+          155,
+          155,
+          155,
+          155
+        ],
+        "tileNames": [
+          "Controller 1",
+          "Controller 2",
+          "Controller 3",
+          "Controller 4",
+          "Controller 5",
+          "Controller 6",
+          "No name",
+          "No name",
+          "PatchMaster",
+          "No name",
+          "No name",
+          "No name",
+          "No name",
+          "No name",
+          "No name",
+          "No name"
+        ],
+        "maps": [
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          }
+        ],
+        "radioLits": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "tileOrders": [
+          8,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "tileSettings": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "pos": [
+        248,
+        -3
+      ]
+    },
+    {
+      "id": 6838530655656951,
+      "plugin": "MindMeldModular",
+      "model": "PatchMaster",
+      "version": "2.5.0",
+      "params": [
+        {
+          "value": 0.52755904197692871,
+          "id": 0
+        },
+        {
+          "value": 0.5039370059967041,
+          "id": 1
+        },
+        {
+          "value": 0.5039370059967041,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        },
+        {
+          "value": 0.0,
+          "id": 5
+        },
+        {
+          "value": 0.0,
+          "id": 6
+        },
+        {
+          "value": 0.0,
+          "id": 7
+        }
+      ],
+      "leftModuleId": 5593719400840989,
+      "rightModuleId": 5648680829840095,
+      "data": {
+        "miscSettings": 65793,
+        "miscSettings2": 1,
+        "tileInfos": [
+          178,
+          178,
+          178,
+          201,
+          164,
+          164,
+          51,
+          51,
+          155,
+          155,
+          155,
+          155,
+          155,
+          155,
+          155,
+          155
+        ],
+        "tileNames": [
+          "Controller 1",
+          "Controller 2",
+          "Controller 3",
+          "Controller 4",
+          "Controller 5",
+          "Controller 6",
+          "No name",
+          "No name",
+          "PatchMaster",
+          "No name",
+          "No name",
+          "No name",
+          "No name",
+          "No name",
+          "No name",
+          "No name"
+        ],
+        "maps": [
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "rangeMax": 1.0,
+            "rangeMin": 0.0
+          }
+        ],
+        "radioLits": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "tileOrders": [
+          8,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "tileSettings": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "pos": [
+        244,
+        -3
+      ]
+    }
+  ],
+  "cables": []
+}

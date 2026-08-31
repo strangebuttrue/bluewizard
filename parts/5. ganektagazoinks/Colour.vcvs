@@ -1,0 +1,323 @@
+{
+  "modules": [
+    {
+      "id": 4962696392635214,
+      "plugin": "CountModula",
+      "model": "LightStrip",
+      "version": "2.5.0",
+      "params": [],
+      "leftModuleId": 1758981116126689,
+      "rightModuleId": 6980251056279008,
+      "data": {
+        "moduleVersion": 1,
+        "color": [
+          1.0,
+          0.012000000104308128,
+          0.058999974280595779
+        ],
+        "narrowMode": false,
+        "theme": 5
+      },
+      "pos": [
+        -46,
+        -1
+      ]
+    },
+    {
+      "id": 2703170588476494,
+      "plugin": "CountModula",
+      "model": "LightStrip",
+      "version": "2.5.0",
+      "params": [],
+      "leftModuleId": 5460967525043597,
+      "rightModuleId": 3445647436177711,
+      "data": {
+        "moduleVersion": 1,
+        "color": [
+          0.1289999783039093,
+          0.66199994087219238,
+          0.080000005662441254
+        ],
+        "narrowMode": false,
+        "theme": 5
+      },
+      "pos": [
+        -43,
+        -1
+      ]
+    },
+    {
+      "id": 7729685455547713,
+      "plugin": "CountModula",
+      "model": "LightStrip",
+      "version": "2.5.0",
+      "params": [],
+      "leftModuleId": 5342131218564808,
+      "rightModuleId": 1758981116126689,
+      "data": {
+        "moduleVersion": 1,
+        "color": [
+          0.91800022125244141,
+          0.91100001335144043,
+          0.91500025987625122
+        ],
+        "narrowMode": false,
+        "theme": 5
+      },
+      "pos": [
+        -48,
+        -1
+      ]
+    },
+    {
+      "id": 5460967525043597,
+      "plugin": "CountModula",
+      "model": "LightStrip",
+      "version": "2.5.0",
+      "params": [],
+      "leftModuleId": 6980251056279008,
+      "rightModuleId": 2703170588476494,
+      "data": {
+        "moduleVersion": 1,
+        "color": [
+          1.0,
+          0.26700004935264587,
+          0.0
+        ],
+        "narrowMode": false,
+        "theme": 5
+      },
+      "pos": [
+        -44,
+        -1
+      ]
+    },
+    {
+      "id": 1115533091226457,
+      "plugin": "CountModula",
+      "model": "LightStrip",
+      "version": "2.5.0",
+      "params": [],
+      "leftModuleId": 3294171971441191,
+      "rightModuleId": 168829804128547,
+      "data": {
+        "moduleVersion": 1,
+        "color": [
+          0.62000000476837158,
+          0.0,
+          0.89100003242492676
+        ],
+        "narrowMode": false,
+        "theme": 5
+      },
+      "pos": [
+        -39,
+        -1
+      ]
+    },
+    {
+      "id": 6980251056279008,
+      "plugin": "CountModula",
+      "model": "LightStrip",
+      "version": "2.5.0",
+      "params": [],
+      "leftModuleId": 4962696392635214,
+      "rightModuleId": 5460967525043597,
+      "data": {
+        "moduleVersion": 1,
+        "color": [
+          1.0,
+          0.26700004935264587,
+          0.0
+        ],
+        "narrowMode": false,
+        "theme": 5
+      },
+      "pos": [
+        -45,
+        -1
+      ]
+    },
+    {
+      "id": 3769687282056940,
+      "plugin": "CountModula",
+      "model": "LightStrip",
+      "version": "2.5.0",
+      "params": [],
+      "leftModuleId": 3445647436177711,
+      "rightModuleId": 3294171971441191,
+      "data": {
+        "moduleVersion": 1,
+        "color": [
+          0.087999984622001648,
+          0.19799992442131042,
+          0.69699990749359131
+        ],
+        "narrowMode": false,
+        "theme": 5
+      },
+      "pos": [
+        -41,
+        -1
+      ]
+    },
+    {
+      "id": 1758981116126689,
+      "plugin": "CountModula",
+      "model": "LightStrip",
+      "version": "2.5.0",
+      "params": [],
+      "leftModuleId": 7729685455547713,
+      "rightModuleId": 4962696392635214,
+      "data": {
+        "moduleVersion": 1,
+        "color": [
+          1.0,
+          0.012000000104308128,
+          0.058999974280595779
+        ],
+        "narrowMode": false,
+        "theme": 5
+      },
+      "pos": [
+        -47,
+        -1
+      ]
+    },
+    {
+      "id": 3445647436177711,
+      "plugin": "CountModula",
+      "model": "LightStrip",
+      "version": "2.5.0",
+      "params": [],
+      "leftModuleId": 2703170588476494,
+      "rightModuleId": 3769687282056940,
+      "data": {
+        "moduleVersion": 1,
+        "color": [
+          0.1289999783039093,
+          0.66199994087219238,
+          0.080000005662441254
+        ],
+        "narrowMode": false,
+        "theme": 5
+      },
+      "pos": [
+        -42,
+        -1
+      ]
+    },
+    {
+      "id": 2431480431008534,
+      "plugin": "CountModula",
+      "model": "Palette",
+      "version": "2.5.0",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        }
+      ],
+      "leftModuleId": 168829804128547,
+      "automId": 493,
+      "data": {
+        "moduleVersion": 1,
+        "color": 0,
+        "theme": 5
+      },
+      "pos": [
+        -37,
+        -1
+      ]
+    },
+    {
+      "id": 5342131218564808,
+      "plugin": "CountModula",
+      "model": "LightStrip",
+      "version": "2.5.0",
+      "params": [],
+      "leftModuleId": 2478171665771062,
+      "rightModuleId": 7729685455547713,
+      "data": {
+        "moduleVersion": 1,
+        "color": [
+          0.91800022125244141,
+          0.91100001335144043,
+          0.91500025987625122
+        ],
+        "narrowMode": false,
+        "theme": 5
+      },
+      "pos": [
+        -49,
+        -1
+      ]
+    },
+    {
+      "id": 3294171971441191,
+      "plugin": "CountModula",
+      "model": "LightStrip",
+      "version": "2.5.0",
+      "params": [],
+      "leftModuleId": 3769687282056940,
+      "rightModuleId": 1115533091226457,
+      "data": {
+        "moduleVersion": 1,
+        "color": [
+          0.087999984622001648,
+          0.19799992442131042,
+          0.69699990749359131
+        ],
+        "narrowMode": false,
+        "theme": 5
+      },
+      "pos": [
+        -40,
+        -1
+      ]
+    },
+    {
+      "id": 168829804128547,
+      "plugin": "CountModula",
+      "model": "LightStrip",
+      "version": "2.5.0",
+      "params": [],
+      "leftModuleId": 1115533091226457,
+      "rightModuleId": 2431480431008534,
+      "data": {
+        "moduleVersion": 1,
+        "color": [
+          0.62000000476837158,
+          0.0,
+          0.89100003242492676
+        ],
+        "narrowMode": false,
+        "theme": 5
+      },
+      "pos": [
+        -38,
+        -1
+      ]
+    },
+    {
+      "id": 2478171665771062,
+      "plugin": "StochasticTelegraph",
+      "model": "Fermata",
+      "version": "2.0.21",
+      "params": [],
+      "rightModuleId": 5342131218564808,
+      "data": {
+        "text": "COLOUR BARS & CABLES\n\nWhat are the parts of a voice?\n\nMaybe they're...............\n\nWhite - Phasor time\n\nRed -> Trigger / gates / rhythm\n\nOrange -> Pitch select\n\nGreen -> Pitch constraint\n\nBlue -> Timbre\n\nPurble -> Effects",
+        "width": 3,
+        "screen_colors": 281200098803712,
+        "font_choice": "fonts/RobotoSlab-Regular.ttf",
+        "visible_lines": 28
+      },
+      "pos": [
+        -52,
+        -1
+      ]
+    }
+  ],
+  "cables": []
+}
