@@ -1,0 +1,248 @@
+{
+  "modules": [
+    {
+      "id": 2779309258545830,
+      "plugin": "Inklen-CableColourKey",
+      "model": "CableColourKey",
+      "version": "2.0.3",
+      "params": [],
+      "leftModuleId": 6817318225332423,
+      "rightModuleId": 5665083097013499,
+      "data": {
+        "theme": 3
+      },
+      "pos": [
+        188,
+        0
+      ]
+    },
+    {
+      "id": 2814201019726937,
+      "plugin": "CountModula",
+      "model": "LightStrip",
+      "version": "2.6.0",
+      "params": [],
+      "leftModuleId": 7526329519690486,
+      "data": {
+        "moduleVersion": 1,
+        "color": [
+          0.083000056445598602,
+          0.0040000001899898052,
+          0.31600084900856018
+        ],
+        "narrowMode": false,
+        "theme": 5
+      },
+      "pos": [
+        201,
+        0
+      ]
+    },
+    {
+      "id": 5820875643072959,
+      "plugin": "CountModula",
+      "model": "LightStrip",
+      "version": "2.6.0",
+      "params": [],
+      "leftModuleId": 5665083097013499,
+      "rightModuleId": 4767012125258717,
+      "data": {
+        "moduleVersion": 1,
+        "color": [
+          0.78099977970123291,
+          0.34800028800964355,
+          0.0130000039935112
+        ],
+        "narrowMode": false,
+        "theme": 5
+      },
+      "pos": [
+        192,
+        0
+      ]
+    },
+    {
+      "id": 2862363618473325,
+      "plugin": "CountModula",
+      "model": "LightStrip",
+      "version": "2.6.0",
+      "params": [],
+      "leftModuleId": 1101090894329909,
+      "data": {
+        "moduleVersion": 1,
+        "color": [
+          0.3289998471736908,
+          0.13500002026557922,
+          1.0
+        ],
+        "narrowMode": false,
+        "theme": 5
+      },
+      "pos": [
+        195,
+        0
+      ]
+    },
+    {
+      "id": 1101090894329909,
+      "plugin": "CountModula",
+      "model": "LightStrip",
+      "version": "2.6.0",
+      "params": [],
+      "leftModuleId": 4767012125258717,
+      "rightModuleId": 2862363618473325,
+      "data": {
+        "moduleVersion": 1,
+        "color": [
+          0.0,
+          0.20400004088878632,
+          1.0
+        ],
+        "narrowMode": false,
+        "theme": 5
+      },
+      "pos": [
+        194,
+        0
+      ]
+    },
+    {
+      "id": 7526329519690486,
+      "plugin": "CountModula",
+      "model": "LightStrip",
+      "version": "2.6.0",
+      "params": [],
+      "leftModuleId": 2067894812095535,
+      "rightModuleId": 2814201019726937,
+      "data": {
+        "moduleVersion": 1,
+        "color": [
+          0.0040000001899898052,
+          0.0039999987930059433,
+          0.55400049686431885
+        ],
+        "narrowMode": false,
+        "theme": 5
+      },
+      "pos": [
+        200,
+        0
+      ]
+    },
+    {
+      "id": 7878691444393316,
+      "plugin": "CountModula",
+      "model": "LightStrip",
+      "version": "2.6.0",
+      "params": [],
+      "leftModuleId": 2942187336670408,
+      "rightModuleId": 2067894812095535,
+      "data": {
+        "moduleVersion": 1,
+        "color": [
+          0.56100034713745117,
+          0.09400031715631485,
+          0.0
+        ],
+        "narrowMode": false,
+        "theme": 5
+      },
+      "pos": [
+        198,
+        0
+      ]
+    },
+    {
+      "id": 5665083097013499,
+      "plugin": "CountModula",
+      "model": "LightStrip",
+      "version": "2.6.0",
+      "params": [],
+      "leftModuleId": 2779309258545830,
+      "rightModuleId": 5820875643072959,
+      "data": {
+        "moduleVersion": 1,
+        "color": [
+          0.67699998617172241,
+          0.29700088500976563,
+          0.29600065946578979
+        ],
+        "narrowMode": false,
+        "theme": 5
+      },
+      "pos": [
+        191,
+        0
+      ]
+    },
+    {
+      "id": 4767012125258717,
+      "plugin": "CountModula",
+      "model": "LightStrip",
+      "version": "2.6.0",
+      "params": [],
+      "leftModuleId": 5820875643072959,
+      "rightModuleId": 1101090894329909,
+      "data": {
+        "moduleVersion": 1,
+        "color": [
+          0.32500004768371582,
+          0.55700063705444336,
+          0.020000034943223
+        ],
+        "narrowMode": false,
+        "theme": 5
+      },
+      "pos": [
+        193,
+        0
+      ]
+    },
+    {
+      "id": 2067894812095535,
+      "plugin": "CountModula",
+      "model": "LightStrip",
+      "version": "2.6.0",
+      "params": [],
+      "leftModuleId": 7878691444393316,
+      "rightModuleId": 7526329519690486,
+      "data": {
+        "moduleVersion": 1,
+        "color": [
+          0.0,
+          0.11699987947940826,
+          0.0
+        ],
+        "narrowMode": false,
+        "theme": 5
+      },
+      "pos": [
+        199,
+        0
+      ]
+    },
+    {
+      "id": 2942187336670408,
+      "plugin": "CountModula",
+      "model": "LightStrip",
+      "version": "2.6.0",
+      "params": [],
+      "rightModuleId": 7878691444393316,
+      "data": {
+        "moduleVersion": 1,
+        "color": [
+          0.60800027847290039,
+          0.0,
+          0.0
+        ],
+        "narrowMode": false,
+        "theme": 5
+      },
+      "pos": [
+        197,
+        0
+      ]
+    }
+  ],
+  "cables": []
+}
