@@ -7,6 +7,18 @@ Blood, sweat, and tears have all been spilt building tools that would quantize p
 the files:
 
 
+EXPLICAT
+--------
+
+EXPLICAT is as simple as it gets. Send an array of pitches to COERCE and it will quantize another input to whatever array you sent. With octave identity. EXPLICAT 2 includes a KNOLY POBS with lots of useful presets (all in 3-limit tunings) in case you want some presets a SEQUENTIAL SWITCH in case you want to switch. EXPLICAT P replaces both these with a PGMR. Both feature twin TELEPORTs in case you want to throw your pitches.
+
+
+EPHEMEROS
+---------
+
+EPHEMEROS contains an array of 14 pitches, a sequence of alternating minor and major thirds. In the first version these are all the nearest 3-limit tunings; in EPHEMEROS V the major thirds in this sequence are 5:4. This array is then constrained by width and rotation parameters to output just a few pitches at a time. Makes lots of pretty chords and also weird tonalities if you jack the rotation knob
+
+
 THE 12 JUST TONES.vcvs
 ----------------------
 
@@ -17,13 +29,3 @@ BRAND NEW KEY.vcvs
 ------------------
 
 Send a trigger and it maybe raises or lowers the key by a fifth (0.585V). Or maybe not, your call, sort of
-
-
-EPHEMEROS
----------
-
-EPHEMEROS contains an array of 14 pitches, a sequence of alternating minor and major thirds. In the first version these are all the nearest 3-limit tunings; in EPHEMEROS V the major thirds in this sequence are 5:4. This array is then constrained by width and rotation parameters to output just a few pitches at a time. Makes lots of pretty chords and also weird tonalities if you jack the rotation knob
-
-
-
-
