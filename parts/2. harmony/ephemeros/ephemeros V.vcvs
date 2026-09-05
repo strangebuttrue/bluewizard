@@ -1,0 +1,484 @@
+{
+  "modules": [
+    {
+      "id": 6996903682896897,
+      "plugin": "StochasticTelegraph",
+      "model": "Fermata",
+      "version": "2.0.28",
+      "params": [],
+      "rightModuleId": 4475017171362301,
+      "data": {
+        "text": "EPHEMEROS V\n=========\nstacked thirds array scanner\n(5-limit variation)\n\nKNOLY POBS turns out 14 voltages - stacked alternating major and minor thirds APPEND selects a polyphonic array of contiguous channels from this input. Output to a COERCE and you have instant  octave-agnostic chord structures. Each even-numbered channel is 0.585V (3/2) higher than the one before, as are the odd channels - but each even-numbered channel is separated from the next odd channel by 0.322V, a Pythagorean third, (5/4).\n\nC Eb G Bb D F  A\nC E  G B  D F# A\n\nThe FUNC on the left selects how many channels APPEND outputs. Set it to 0 and out comes one pitch. Crank it to ten and uh oh that's a lot of different pitches. The right FUNC scans the selection around the array. At 0 we start at the C occupying channel 1 of the input. Turn it up and we begin at the Eb in channel 2, the following G, etc.\n\nSO: Selecting an array of three pitches will return a triad of some kind. Four pitches comprise a seventh chord. Here's the 14 triads you can get:\n\nCm - EbM - Gm - BbM - Dm - FM    - Am\nCM - Em  - GM - Bm  - DM - F#dim - Adim \n\nUseful: Channel 1 of APPEND's output array will always be the root of these triads, channel 2 the third, et cetera - so it's easy to get roots for a bass, or indeed any subset of chord tones.\n\nAPPEND will wrap the array channel selection around, so the higher settings produce interesting harmonic effects - D7b9, F#dim7, and Am7b5 are all available.\n\nWhat chords are these? The first seven all are derived from a G minor scale. From the A minor to the F# diminished they spell a G major scale. The Am7b5 at the end is a spicy artifact, useful in a ii-V-i cadence in G minor. So, while C (0v) is in the 0th posiion of the pitch array, it's best to think of this tool as producing a variety of G tonalities, particularly if you're fond of a plaigal cadence now and then. Pitches *not appearing* anywhere in the array are the minor second (Ab) and tritone (C#/Db) relative to G.\n\nBut of course you don't have to settle for one key. use the OFFEST knob to transposes the whole output around. So to select chords from a C tonality, turn this knob to -0.585, or 0.415. Et cetera. So automate it and get chords, get modal interchange, get upper structure triads, etc etc etc\n\nml 10/20/24",
+        "width": 3,
+        "screen_colors": 281200098803712,
+        "font_choice": "fonts/RobotoMono-Bold.ttf",
+        "visible_lines": 28,
+        "title_text": "EPHEMEROS V"
+      },
+      "pos": [
+        106,
+        0
+      ]
+    },
+    {
+      "id": 4475017171362301,
+      "plugin": "computerscare",
+      "model": "computerscare-knolypobs",
+      "version": "2.3.11",
+      "params": [
+        {
+          "value": 0.98199999332427979,
+          "id": 0
+        },
+        {
+          "value": 0.24500000476837158,
+          "id": 1
+        },
+        {
+          "value": 0.56699997186660767,
+          "id": 2
+        },
+        {
+          "value": 0.82999998331069946,
+          "id": 3
+        },
+        {
+          "value": 1.1519999504089355,
+          "id": 4
+        },
+        {
+          "value": 1.4149999618530273,
+          "id": 5
+        },
+        {
+          "value": 1.7369999885559082,
+          "id": 6
+        },
+        {
+          "value": 2.0,
+          "id": 7
+        },
+        {
+          "value": 2.3220000267028809,
+          "id": 8
+        },
+        {
+          "value": 2.5850000381469727,
+          "id": 9
+        },
+        {
+          "value": 2.9070000648498535,
+          "id": 10
+        },
+        {
+          "value": 3.1700000762939453,
+          "id": 11
+        },
+        {
+          "value": 3.4920001029968262,
+          "id": 12
+        },
+        {
+          "value": 3.755000114440918,
+          "id": 13
+        },
+        {
+          "value": 0.0,
+          "id": 14
+        },
+        {
+          "value": 0.0,
+          "id": 15
+        },
+        {
+          "value": 0.0,
+          "id": 16
+        },
+        {
+          "value": 0.0,
+          "id": 17
+        },
+        {
+          "value": 0.0,
+          "id": 18
+        },
+        {
+          "value": 0.0,
+          "id": 19
+        },
+        {
+          "value": 0.0,
+          "id": 20
+        },
+        {
+          "value": 0.0,
+          "id": 21
+        },
+        {
+          "value": 0.0,
+          "id": 22
+        },
+        {
+          "value": 0.0,
+          "id": 23
+        },
+        {
+          "value": 0.0,
+          "id": 24
+        },
+        {
+          "value": 0.0,
+          "id": 25
+        },
+        {
+          "value": 0.0,
+          "id": 26
+        },
+        {
+          "value": 0.0,
+          "id": 27
+        },
+        {
+          "value": 0.0,
+          "id": 28
+        },
+        {
+          "value": 0.0,
+          "id": 29
+        },
+        {
+          "value": 0.0,
+          "id": 30
+        },
+        {
+          "value": 0.0,
+          "id": 31
+        },
+        {
+          "value": 14.0,
+          "id": 32
+        },
+        {
+          "value": 1.0,
+          "id": 33
+        },
+        {
+          "value": 0.0,
+          "id": 34
+        }
+      ],
+      "leftModuleId": 6996903682896897,
+      "rightModuleId": 5196355909209921,
+      "data": {
+        "bipolarMainKnobs": false
+      },
+      "pos": [
+        109,
+        0
+      ]
+    },
+    {
+      "id": 2723872261354925,
+      "plugin": "TMT",
+      "model": "Append",
+      "version": "2.2.0",
+      "params": [],
+      "leftModuleId": 7961901054158035,
+      "rightModuleId": 7399881603584051,
+      "pos": [
+        126,
+        0
+      ]
+    },
+    {
+      "id": 2594197691567183,
+      "plugin": "DHE-Modules",
+      "model": "Func",
+      "version": "2.0.3",
+      "params": [
+        {
+          "value": 0.63253164291381836,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 2.0,
+          "id": 2
+        },
+        {
+          "value": 2.0,
+          "id": 3
+        }
+      ],
+      "leftModuleId": 5196355909209921,
+      "rightModuleId": 3223644921613443,
+      "data": {
+        "preset_version": 0
+      },
+      "pos": [
+        116,
+        0
+      ]
+    },
+    {
+      "id": 1822400753840402,
+      "plugin": "DHE-Modules",
+      "model": "Func",
+      "version": "2.0.3",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 2.0,
+          "id": 2
+        },
+        {
+          "value": 2.0,
+          "id": 3
+        }
+      ],
+      "leftModuleId": 3223644921613443,
+      "rightModuleId": 7961901054158035,
+      "data": {
+        "preset_version": 0
+      },
+      "pos": [
+        121,
+        0
+      ]
+    },
+    {
+      "id": 7961901054158035,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 1822400753840402,
+      "rightModuleId": 2723872261354925,
+      "data": {
+        "text": "rotate",
+        "fg": "#29b2ef",
+        "bg": "#000000"
+      },
+      "pos": [
+        124,
+        0
+      ]
+    },
+    {
+      "id": 3223644921613443,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 2594197691567183,
+      "rightModuleId": 1822400753840402,
+      "data": {
+        "text": "width",
+        "fg": "#29b2ef",
+        "bg": "#000000"
+      },
+      "pos": [
+        119,
+        0
+      ]
+    },
+    {
+      "id": 5025034374441648,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-Mult",
+      "version": "2.6.47",
+      "params": [],
+      "leftModuleId": 7399881603584051,
+      "data": {},
+      "pos": [
+        138,
+        0
+      ]
+    },
+    {
+      "id": 5196355909209921,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-Offset",
+      "version": "2.6.47",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.31622999906539917,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 4475017171362301,
+      "rightModuleId": 2594197691567183,
+      "data": {
+        "disableOutputLimit": false,
+        "offset_first": false
+      },
+      "pos": [
+        113,
+        0
+      ]
+    },
+    {
+      "id": 7399881603584051,
+      "plugin": "computerscare",
+      "model": "computerscare-debug",
+      "version": "2.3.11",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 2.0,
+          "id": 4
+        },
+        {
+          "value": 1.0,
+          "id": 5
+        },
+        {
+          "value": 0.0,
+          "id": 6
+        },
+        {
+          "value": 0.0,
+          "id": 7
+        },
+        {
+          "value": 0.0,
+          "id": 8
+        },
+        {
+          "value": 0.0,
+          "id": 9
+        },
+        {
+          "value": 1.0,
+          "id": 10
+        },
+        {
+          "value": 0.0,
+          "id": 11
+        },
+        {
+          "value": 1.0,
+          "id": 12
+        },
+        {
+          "value": 0.0,
+          "id": 13
+        }
+      ],
+      "leftModuleId": 2723872261354925,
+      "rightModuleId": 5025034374441648,
+      "data": {
+        "outputRange": 0,
+        "triggerBlinkers": false,
+        "visualMode": 0,
+        "barMode": 0,
+        "theme": 0,
+        "textOpacity": 1.0,
+        "barsOpacity": 1.0,
+        "textMode": 0,
+        "bipolarColorMode": 0,
+        "lines": [
+          0.98201382160186768,
+          0.24500344693660736,
+          0.56700795888900757,
+          0.83001166582107544,
+          1.1520161628723145,
+          1.4150198698043823,
+          1.7370244264602661,
+          2.000028133392334,
+          2.3220326900482178,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "pos": [
+        132,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 4894338324353530,
+      "outputModuleId": 2723872261354925,
+      "outputId": 0,
+      "inputModuleId": 7399881603584051,
+      "inputId": 0,
+      "color": "#63b546"
+    },
+    {
+      "id": 7775049643167681,
+      "outputModuleId": 2594197691567183,
+      "outputId": 0,
+      "inputModuleId": 2723872261354925,
+      "inputId": 16,
+      "color": "#63b546"
+    },
+    {
+      "id": 1366361826766571,
+      "outputModuleId": 1822400753840402,
+      "outputId": 0,
+      "inputModuleId": 2723872261354925,
+      "inputId": 17,
+      "color": "#63b546"
+    },
+    {
+      "id": 156442882077649,
+      "outputModuleId": 5196355909209921,
+      "outputId": 0,
+      "inputModuleId": 2723872261354925,
+      "inputId": 0,
+      "color": "#63b546"
+    },
+    {
+      "id": 1223837253206280,
+      "outputModuleId": 4475017171362301,
+      "outputId": 0,
+      "inputModuleId": 5196355909209921,
+      "inputId": 2,
+      "color": "#63b546"
+    },
+    {
+      "id": 1996909126363528,
+      "outputModuleId": 2723872261354925,
+      "outputId": 0,
+      "inputModuleId": 5025034374441648,
+      "inputId": 1,
+      "color": "#63b546"
+    }
+  ]
+}
