@@ -1,0 +1,65 @@
+
+		Matt's
+	============================================
+	.--.     .    .--..   .      .    .--.  .--.
+	|   )   / \  :    |  /       |   :    ::    
+	|--'   /___\ |    |-'   ____ |   |    || --.
+	|  \  /     \:    |  \       |   :    ;:   |
+	'   `'       ``--''   `      '---'`--'  `--'
+	============================================
+								
+░░░	
+JUNE 2024
+
+■ 18
+	■ Struggled with live tutorial "recording beats"
+
+■ 17
+	■ watching omri's rack/live video
+		■ https://www.youtube.com/watch?v=kQemd9AovH8
+	■ Ciani's Buchla cookbook in Rack
+		■ https://www.youtube.com/watch?v=SEEZ3InO7B4
+	■ NEXT: Brush up on Live basics
+
+■ 16
+
+	■ List of modules to look at
+		■ Damonitu
+		■ Syncro
+		■ Terminal
+		■ Harp
+		■ Sort
+		■ Stats
+		■ Pressed Duck
+		■ ADD TO THIS
+
+	■ Got LIVE running, decided to use Rack like a plugin
+	
+
+MAY 2024
+
+■ 25
+
+	■ hooked up FLOWER PATCH, watched pitches blooming
+	■ checked out the OUROS oscillator, neat phase/feedback distortion box, but monophonic
+	■ Futzing around with DROPLET more
+	
+DECEMBER 2023
+
+■ 11
+
+	■ PLayed with DROPLETS, looks like a good irregularizer - 2023-12-11 drops.vcv - added SEED structure from 12/08
+	■ Twitched this patch. love that irregularity. 	
+	
+■ 08
+
+	■ Revised template to include Teleport for pitch sets
+	
+	■ Xycloid Lab - Built a neat complex-oscillator semi-synced sample and hold mechanism
+	
+	■ 2023-12-08 fun with seed.vcv - uses SEED polyphonic seeded R(?)NG to make chord voicings. step through harmonies add bass and voila. a lot of slew limiting is involved. real nice patch. TWITCHED IT
+
+■ 07
+
+	■ Established this log
+	■ 2023-12-07 xycloid lab.vcv: S&H of two XYCLOID modules - real complex interactions - 

@@ -1,0 +1,523 @@
+	======================================================
+	| MATT AND BILL'S.....                               |
+	| ______   ___   _____  _   __  _      _____  _____  |
+	| | ___ \ / _ \ /  __ \| | / / | |    |  _  ||  __ \ |
+	| | |_/ // /_\ \| /  \/| |/ /  | |    | | | || |  \/ |
+	| |    / |  _  || |    |    \  | |    | | | || | __  |
+	| | |\ \ | | | || \__/\| |\  \ | |____\ \_/ /| |_\ \ |
+	| \_| \_|\_| |_/ \____/\_| \_/ \_____/ \___/  \____/ |
+	|                                                    |
+	| to log work, create more work, Q&A, etc            |
+	|                                                    |
+	|           "Where the freshest News is at the Top"  |
+	|                                                    |
+	|                                      Est. 2021     |
+	======================================================
+
+
+	░░░░░░░░░▒▒▒▒▒▓▓▓▓██  2022-04-06	██▓▓▓▓▒▒▒▒▒░░░░░░░░░	
+
+■ M:
+	■ yup! i re-arranged my V2 FILES directory
+	■ also, the other day, cut some ~5 minute samples of tracks and put them on the surreptitious soundcloud
+	
+
+	░░░░░░░░░▒▒▒▒▒▓▓▓▓██  2022-04-01	██▓▓▓▓▒▒▒▒▒░░░░░░░░░	
+
+■ M:
+	■ Horsed around with the SUPER ARPEGGIATOR. Can't get any of the "programme" buttons to work, but did discover you can send it LFOs for pitches and it works like a S&H
+
+
+	░░░░░░░░░▒▒▒▒▒▓▓▓▓██  2022-03-24	██▓▓▓▓▒▒▒▒▒░░░░░░░░░	
+	
+■ M:
+	■ opened up some old patches and studied them. struggled with the Nysthi INFINITE MELODY
+	
+
+	░░░░░░░░░▒▒▒▒▒▓▓▓▓██  2022-03-21	██▓▓▓▓▒▒▒▒▒░░░░░░░░░	
+	
+	
+■ M:
+	■ combined a lot of modules i've made already, hacked them together a little, to make </V2/twitched/2022-03-21.vcv>. streaming it, it's good
+ 	
+		
+	░░░░░░░░░▒▒▒▒▒▓▓▓▓██  2022-03-12	██▓▓▓▓▒▒▒▒▒░░░░░░░░░
+	
+
+■ M:
+	■ invented the COLODIGRAPH, a device that samples two milliseconds of filtered noise and plays it back at 1/10,000th speed (give or take) for use as CV. Selection and examples at </V2 FILES/colodigraph/>. This works super well and is cool and I am happy about it
+	■ turned the filtered noise thing from 2022-03-09 into the FUZSWOOPER. Replaced CLOCKED RANDOM GATES with a POLY CHANCES, which does the same thing if you don't need per-channel probability. </V2 FILES/fuzswooper/>
+	■ used both these in <V2 FILES/colodigraph/fun with colodigraph.vcv> and twitched it
+	■ Updated meteomatrice.txt - listed important components of the surreptitious system and their control parameters
+	■ updated a couple of the components in question as well
+	
+
+	░░░░░░░░░▒▒▒▒▒▓▓▓▓██  2022-03-09	██▓▓▓▓▒▒▒▒▒░░░░░░░░░
+
+
+■ M:
+	■ Futzed around with Kautenja modules, created interesting filtered noise device <crickets not really.vcv> which uses CLOCKED RANDOM GATES
+	
+
+	░░░░░░░░░▒▒▒▒▒▓▓▓▓██  2022-02-16	██▓▓▓▓▒▒▒▒▒░░░░░░░░░
+	
+	
+■ M:
+	■ created & streaming </V2/new temp test drive IV.vcv>
+	■ started a text file to start logging potential routing of weather and other CV - time to get programmatic - </météomatrice.txt>
+	
+	
+	░░░░░░░░░▒▒▒▒▒▓▓▓▓██  2022-02-15	██▓▓▓▓▒▒▒▒▒░░░░░░░░░
+	
+	
+■ M:
+	■ made some revisions to template file - added key change mechanism	
+
+
+	░░░░░░░░░▒▒▒▒▒▓▓▓▓██  2022-02-10	██▓▓▓▓▒▒▒▒▒░░░░░░░░░
+
+
+■ M:
+	■ made a couple cool sound effects
+
+
+	░░░░░░░░░▒▒▒▒▒▓▓▓▓██  2022-02-08	██▓▓▓▓▒▒▒▒▒░░░░░░░░░
+
+
+■ M:
+	■ Played around with the template, looking for a sense of what the knobs do etc.;
+	■ added TELEPORTs to the decimal weather device
+	
+
+	░░░░░░░░░▒▒▒▒▒▓▓▓▓██  2022-02-05	██▓▓▓▓▒▒▒▒▒░░░░░░░░░
+
+
+
+■ M:
+	■ decided to use the name RMC (Rational Melody Computer) for the construction formerly known as the HETERODYNAMO
+	■ Made a spreadsheet for the RMC - scanning through ratios from slow to fast - saved RMC-2 with a NAGOL-02 in it
+	■ added three channels of coincidence (A+B, A+C, B+C) to the DEFACTORY. In a sequence of (A*B*C), coincidence of (A+B) occurs C times :)
+	■ saved </v2/former strips/saw to tri.vcvs>, a handy device that converts a sawtooth wave to a triangle using a rectifier, and </v2/former strips/better crossfade.vcvs>, a 2-channel crossfader for 0-10v LFOs that works better than other ones for reasons.
+	■ made myself a New Template Again
+	
+
+	░░░░░░░░░▒▒▒▒▒▓▓▓▓██  2022-02-03	██▓▓▓▓▒▒▒▒▒░░░░░░░░░
+
+
+■ M:
+	■ i let some time pass since i LOGGED and now I'm going to try to document some stuff
+	■ i invented the DEFACTORY. text: "Three PULSE DIVIDERs divide pulses by odd integers: [13, 23], [17, 29], [19,31]. When all three pulses coincide, BOOLEAN outputs a gate that reshuffles the PULSE DIVIsion values and restarts the sequence after a delay"
+	■ there's a spreadsheet about it! I like this mechanism a lot because it divides time into irregular intervals, like steve and tom's parties. find the files in </V2/defactory/> including <defactory explainer.vcv>
+	■ invented also the HETERODYNAMO; " a device that creates *mutually arising rhythm and melody* by taking samples of an LFO (provided, for instance, by the DECIMALATOR) at related (or unrelated) frequencies, creating melodic cycles of varying length and syncopation."
+	■ This iis like the numerator/denominator section of MATH NERD, except applied to rhythm, except the rhythm also creates melodies. made an explainer patch; it's all in <V2/heterodynamo/>
+	■ made a cool thing and saved it </V2/aware RMC.vcv>. will expand later
+
+	░░░░░░░░░▒▒▒▒▒▓▓▓▓██  2022-01-25	██▓▓▓▓▒▒▒▒▒░░░░░░░░░
+	
+	
+■ B:
+	■ Slight mod to /Probs Mbass.vcv - bass module/component expanded to incorporate a small FM algorithm that "enhances" bass timbre. That is all.
+
+	
+	░░░░░░░░░▒▒▒▒▒▓▓▓▓██  2022-01-24  ██▓▓▓▓▒▒▒▒▒░░░░░░░░░
+	
+	
+■ B:
+	■ Thanks to Matt's help, I was able to find a use for my smaller Probs.vcv patch (now Rack Ver 2/Probs Mbass.vcv). Patch takes advantage of the cool Math Nerd module and implement's Matt's custom .csv file of 5 limit factors to "modulate" math nerd. This really makes the patch worth it.
+		■ Was having trouble with the original file when it seemed as though polyphony wasn't working properly through Math Nerd - deleted the module and restarted - worked fine after that. 
+	■ As usual, I've implemented a variety of rhythmic generation via delay (Chronoblob 2) using the L/R timed phasing (L at -23ms, R at +25ms). The whole module hovers around 967ms with a master clock set to 266bpm (subdivisions /4, /6, /8; /32 for bass). Sequential switch allows for main sequence to move around the various subdivisions of the clock. Next steps: look towards some variety in the rhythmic structure of this patch.
+
+
+	░░░░░░░░░▒▒▒▒▒▓▓▓▓██  2022-01-23  ██▓▓▓▓▒▒▒▒▒░░░░░░░░░
+	
+	
+■ M:
+	■ Created the RMC-1 "Heterodynamo" and carefully documented it in <V2/heterodynamo/heterodynamo explainer.vcv>
+	■ Updated <pythvolvoras.vcvs>. Updated Rack's patch template and saved as <Template.vcv>. it's starting to look good
+	
+	
+	░░░░░░░░░▒▒▒▒▒▓▓▓▓██  2022-01-22  ██▓▓▓▓▒▒▒▒▒░░░░░░░░░
+
+
+■ M:
+	■ Saved Is It Different From Before.vcs to the "former strips" directory - a useful tool if ever there was one
+	■ generally worked on the commonalitor - saved a four-voice version <V2/former strips/commonalitor 3 or 4.vcs>
+
+
+	░░░░░░░░░▒▒▒▒▒▓▓▓▓██  2022-01-21  ██▓▓▓▓▒▒▒▒▒░░░░░░░░░
+
+
+■ M:
+	■ Futzed around with creating a nice template with all the recent inventions in it, to use all at once together
+	■ made a video of Bill's PROBS and put it on youtube and didn' t show it to anyone
+	■ worked on <V2/former strips/fun with commonalitor.vcv> - want to have a nice cut and pasteable selection of the commonalitor
+	■ still working on the hetero dynamo as well
+
+	░░░░░░░░░▒▒▒▒▒▓▓▓▓██  2022-01-20  ██▓▓▓▓▒▒▒▒▒░░░░░░░░░
+
+
+■ M:
+	■ Created the Rational Melody Computer, or RMC. It's kind of like the MATH NERD's numerator/denominator section, applied to a pair of LFOs. It makes interesting rhythms and melodies, all at once and together. saved a selection and an explanatory patch at </V2/rational melody computer/>
+
+
+	░░░░░░░░░▒▒▒▒▒▓▓▓▓██  2022-01-18  ██▓▓▓▓▒▒▒▒▒░░░░░░░░░
+
+■ M:
+	■ did i ever have a productive weekend
+	■ reorganized all my files. V1 and V2 are separate now, V2 files sorted into folders.
+	■ invented PYTHVOLVORAS, the JI harmony scanner using PROBABLY NOT(e) MATH NERD. see folder </V2 FILES/pythvolvoras/>. there's a big spreadsheet with all the math for this </spreadsheets/MATH NERD.xlsx>. you can use this to create subsets of the tunings, save as .csv
+	■ revised the old 8-way normalizer strip to a selection called commonalitor.vcss; realized this would make a real interesting control structure when paired with decimal time. streamed <fun with commonalitor.vcv>. MUCH MORE TO FIGURE OUT HERE, it's a complicated tool!!!!
+	■ Decided to extend MATH NERD's numerator/denominator control by calculating how to multiply/divide frequencies by whole integers by adding/subtracting CV. made a spreadsheet about it called "TRUNC FUNC freq cv ratios.xlsx>. implemented this using LFOs and the FUNC module - several FUNC modules. Tough to explain exactly what this accomplishes without looking at it. i think there's a better way to do this that doesn't involve a spreadsheet though again, much more to investigate
+	
+	
+	░░░░░░░░░▒▒▒▒▒▓▓▓▓██  2022-01-11  ██▓▓▓▓▒▒▒▒▒░░░░░░░░░
+	
+	
+■ M:
+	■ tuned control voltages and found some interesting uses for the BLOSSOM module. very promising discoveries. </V2 FILES/blossom dinger.vcv>
+	
+■ B:
+	■ Built a handful of small patches that explore different components of harmonic series through interesting oscillators:
+
+		■ Rack 2/Over Under.vcv - using a modified version of La Monte Young's system, this patch is centered around the Phasor module, which allows for variable harmonic series modulation up to 16 partials. Essentially a varied drone.
+		
+		■ Rack 2/Triad.vcv - A one chord patch that uses fixed voltage triad (1/1 - 5/4 - 3/2 - 2/1) and modulates through each as an existing harmonic. Created my own tremolo using LFO.
+
+		■ Rack 2/Harmonic 2.vcv - a small patch that I used as a way to figure out what the Harmonic Oscillator from DBiz does. Cyles through my hexatonic (1/1, 9/8, 5/4, 4/3, 3/2, 15/8, 2/1) system. Lots of overtone "singing".
+
+	░░░░░░░░░▒▒▒▒▒▓▓▓▓██  2022-01-02  ██▓▓▓▓▒▒▒▒▒░░░░░░░░░
+	
+	
+■ B:
+	■ Modified a patch that started by experimenting with up to 256 overtones. Decided to be inspired by La Monte Young's "Well-Tuned Piano". Simplified and modified the basic harmonic structure of the piece to create a little randomizer patch: 1/1, 9/8, 4/3, 3/2, 7/4 (crucial because it's a septimal/harmonic 7th, which is mostly associated with barbershop harmony). Currently streaming @ 8:50pm
+
+	░░░░░░░░░▒▒▒▒▒▓▓▓▓██  2022-01-01  ██▓▓▓▓▒▒▒▒▒░░░░░░░░░
+	
+	
+■ M:
+	■ back to work turning Strips to Selections
+	■ got sidetracked having <fun with lfos.vcv>
+	
+
+	░░░░░░░░░▒▒▒▒▒▓▓▓▓██  2021-12-31  ██▓▓▓▓▒▒▒▒▒░░░░░░░░░
+	
+	
+■ M:
+	■ Started out porting over strip files from 1.0, wound up making another patch to imitate a songbird </V2 FILES/bird imitation.vcv>	
+	
+
+	░░░░░░░░░▒▒▒▒▒▓▓▓▓██  2021-12-30  ██▓▓▓▓▒▒▒▒▒░░░░░░░░░
+	
+	
+■ M:
+	■ TELEPORT is now available in Rack 2 so I'm figuring out how to break my template patch up into sets of modules connected by thin air. </V2 FILES/beam me up.vcv>
+	■ this turned out good and I'm gonna twitch it
+	■ lotsa clerical work to do this week.  want to develop my template file and also port all the v1 saved strips to v2. this will involve reorganizing many files
+	
+
+	░░░░░░░░░▒▒▒▒▒▓▓▓▓██  2021-12-26  ██▓▓▓▓▒▒▒▒▒░░░░░░░░░
+
+■ B: 
+	■ UPDATE (4:35am): ditched Squonk for Impromptu Seq 16 which works famously. Perfect up/down arpeggiation. Not sure where this patch is going, but thinking about the tides and ocean...
+
+	░░░░░░░░░▒▒▒▒▒▓▓▓▓██  2021-12-25  ██▓▓▓▓▒▒▒▒▒░░░░░░░░░
+
+■ B: 
+	■ making more of a composition from the Pythagorean Calculator drone using some random melody, slew limiting, and a phrase I stole from Final Fantasy. Speaking of that phrase, can't get Squonk to trigger up and down variations of 11 step sequence. Backwards trigger on last (11th) gate, but reverse continues through first step and back to twelfth before retriggering fwd. File still at Rack2/Rack Ver 2/Pythagorean Calculator.vcv
+
+    ░░░░░░░░░▒▒▒▒▒▓▓▓▓██  2021-12-22  ██▓▓▓▓▒▒▒▒▒░░░░░░░░░
+
+■ B: 
+	■ Built a Pythagorean Calculator with basic modules to calculate number of tonalities created by the M's Pythagorean Modulator. Over 800 calculations at Rack2/Pythagorean Calculator 1.csv. 
+	■ Constructed a drone patch using the calculator module. Stacking 3 consecutive 3/2 intervals using shift reg and modulating while creating harmony. Added a melody generator this morning. Patch available at Rack Ver 2/Pythagorean Calculator.vcv
+
+    ░░░░░░░░░▒▒▒▒▒▓▓▓▓██  2021-12-19  ██▓▓▓▓▒▒▒▒▒░░░░░░░░░
+
+■ M & B: 
+	■ Looked through weather system and analyzed M's Weather Underground spreadsheet (weather importer.ods). M wants to tune up the formulas in the spreadsheet to make them more useful and accurate (ie, wind speed), then implement in other patches. Other avenues to explore include tidal variation (localized in most cases) and sun/moon rise and phase. Check https://www.usharbors.com/harbor/maine/north-haven-harbor-me/tides/#monthly-tide-chart for some tidal/sun/moon info.
+	■ hexagrams...how to associate with meaning. Thinking of starting simple with simple harmonic structures based on trigrams and the Primal Array, which creates a cycle of 8 different trigrams. These combine to create a single hexagram. Step one: create coin toss module (3 coins, binary outcome). M says "Bernoulli gate" which is a good idea.
+
+■ B: Patch update - streamed an updated version of <Polyphony 1 copy.vcv>. Included a grid sequencer, quantized by Scalar and hexatonic just system, and a grid sequencer for a little randomization. Swells and beeps. 
+
+■ M:
+	■ created a spreadsheet that turns six elements of the weatherunderground hourly forecast into a 02NAGOL .csv file </spreadsheets/CSV/weather importer.ods> just copy and paste that's it. need to adjust wind speed mapping to 0-50mph
+	■ saved today's somerville weather to </spreadsheets/CSV/2021-12-19.csv>
+	■ loaded thus up and made a patch and twitched it. </V2 FILES/decimal weather.vcv>
+	■ also saved a Selection that's the decimalator and a weather 02NAGOL attached to one TIMEX. should be </V2 FILES/decimal weather.vcvs>
+
+
+    ░░░░░░░░░▒▒▒▒▒▓▓▓▓██  2021-12-18  ██▓▓▓▓▒▒▒▒▒░░░░░░░░░
+	
+	
+■ M:
+	■ Tried to load up yesterday's patch and found it crashed Rack. All the large patches I've made recently do this. Made a forum thread about it: https://community.vcvrack.com/t/2-0-3-wont-load-saved-patches/15620	
+	
+
+    ░░░░░░░░░▒▒▒▒▒▓▓▓▓██  2021-12-16  ██▓▓▓▓▒▒▒▒▒░░░░░░░░░
+
+
+■ M:
+	■ made a real pretty patch in v2 and saved it as </V2 FILES/how square.vcv>. it takes advantage of the multiple inputs of the vcv RANDOM module by subtracting its step and smooth outputs; turns this into pitch info. decimal time and a pulse divider keep time. all that and the usual booty bass
+	■ TWITCH'D IT , figured out some simple visual design in the twitch studio
+
+
+    ░░░░░░░░░▒▒▒▒▒▓▓▓▓██  2021-12-08  ██▓▓▓▓▒▒▒▒▒░░░░░░░░░
+	
+	
+■ M:
+	■ decided I had enough theorizing and just made a nice patch </V2 FILES/wednesday.vcv> - twitched it, got some listeners and hangers-out, some guy was bouncing my signal to his own station, cool beans (un: Devolta)		
+
+	■ found out about this bunch of people called the Golden Shrimp Guild? and they're synth nerds and have a weekend-long festival entirely on Twitch next week. I'm reading Ed "Big Daddy" "Rat Fink" Roth's autobiography right now and these twitch peoiple kind of remind me of his Kustom Kulture hot rod buddies from the 60s - https://www.twitch.tv/team/gsg - https://synthfest.online/lineup/
+	
+	■ about to try something weird and build a whole patch from scratch on the stream and see if anybody shows up
+	
+	■ produced <V2 FILES/thursday.vcv> and twitched it up 
+
+
+    ░░░░░░░░░▒▒▒▒▒▓▓▓▓██  2021-12-07  ██▓▓▓▓▒▒▒▒▒░░░░░░░░░
+
+
+■ M:
+	■ got the bootleg Stoermelder modules for V2; saved pythagocordias harmony generator as a selection
+	■ found that the pythagoccordias bass doesn't work in v2 because the ARRAY hasn't been ported over. Then discovered the ADDR-SEQ has an expander to 16 steps, so I replaced the ARRAY with that. Needs to be tested to make sure it's working right. <PYTHAGOCCORDIAS mit BASS.vcv>
+	■ tested the pythagoccordias system with bass; found it got all fucked up; fixed it. saved the selection </V2 FILES/pythagoccordias MIT BASS.vcvs> as well as patch </V2 FILES/pythagoccordias TEMPLATE.vcv>, which also features the Decimalator for a clock. that's all for tonight, it's all set up, time to get busy tomorrow or whenever
+
+
+    ░░░░░░░░░▒▒▒▒▒▓▓▓▓██  2021-12-06  ██▓▓▓▓▒▒▒▒▒░░░░░░░░░
+	
+	
+■ M:
+	■ attempting to polyphonicize <MacroPerc copy 3 M.vcv> - checking out what exactly the CV input mapping is for macro oscillator's knobs. turns out they all use 0-8V for some reason. will save patch with notes!
+	■ argued with this thing for a long time - problem is, the macro oscillator 2 only has one CV attenuverter per function, and you can't send it a polyphonic signal. So if I'm going to replace Bill's six Macro Oscillators 2 with a single polyphonic one, I need to figure out how to recreate their various CV attenuations with oscillations attenuated before they get to the module, and summed with the base voltage. The problem is that the attenuation curve of the CV attenuverter is NOT LINEAR. WHY NOT.
+	
+	And. The maximum voltage it can understand is 8.02 volts exactly. If you open the attenuverter all the way ("1") and send 8.02V to the Timbre CV, you hear the highest timbre setting the module can produce. But. If you set the attenuator to half open ("0.5") and send it 8.02V, this is equivalent to  having it open all the way and sending it 2V - a quarter the value. it's kind of like......
+			f(x/y) = x/(y^2)
+	
+	which is almost certainly a pretty simple peice of trigonometry or something, I just need to figure out how to spell it out with math VCV rack can understand. It persists, too - opening the attenuverter 1/4 of the way ("0.25") and passing it 8.02V is equivalent to an open-attenuverter input of 0.5V - 1/16 of 8V! (4^2=16)
+	
+	anyway i'm gonna go read a book now
+	
+    ░░░░░░░░░▒▒▒▒▒▓▓▓▓██  2021-12-05  ██▓▓▓▓▒▒▒▒▒░░░░░░░░░
+
+
+■ M:
+	■ Opened <MacroPerc copy 2.vcv and moved a couple modules around and foolishly saved the file. That is shitty and I apologize. Saved as <MacroPerc copy 3 M.vcv> and continued disassembly and analysis
+
+	NOTES:
+	■ i love the very slow LFOs modulating the channel volumes. i like when sounds appear and disappear, it's very elegant. I notice this TriLFO is way slower I think than the Bogaudio LLFO I think? BUT the Seriously Slow LFO will do these same rates at about 13% of the CPU cost (not a typo) so I replaced one TRILFO with three SS LFOs. Copied the frequencies of course
+	■  looked at this thing until I got tired, have some ideas, will hack at it more later
+
+
+■ B:
+	■ Reworked /Ver 2 Patches/MacroPerc copy 3.vcv (need to sync with M the studio machine, which is now connected to SyncThing as Rack3)
+		- Changes mostly to counter missing modules, but some more varied subdivisions taking place on a longer clock period (30min) and seq switch through different clock divisions
+		- Other modulations around timbre also adjusted
+	 	- Streaming this patch on and off via Twitch from 12/3 - 12/5
+	
+	■ L00ked at M's decimalator patch, but need to update with more modules. Scheduling video conf for this day...
+
+    
+    ░░░░░░░░░▒▒▒▒▒▓▓▓▓██  2021-12-04  ██▓▓▓▓▒▒▒▒▒░░░░░░░░░
+	
+	
+■ M:
+	■ Had an idea for a pythagorean rhythm bank using POLYGENE, saved as <patches/V2 FILES/decimal polygene.vcv>	
+	
+	
+	░░░░░░░░░▒▒▒▒▒▓▓▓▓██  2021-12-03  ██▓▓▓▓▒▒▒▒▒░░░░░░░░░
+	
+	
+■ M:
+	■ recreated Decimalator in v1, combined with pythagoccordias, it's called <decimal theorizing.vcv>
+	■ also figured out how to use TELEPORT
+	
+
+    ░░░░░░░░░▒▒▒▒▒▓▓▓▓██  2021-12-02  ██▓▓▓▓▒▒▒▒▒░░░░░░░░░
+	
+	
+■ M:
+	■ invented a bank of 10 sawtooth oscillators at 10:1 ratios, starting at a frequency of 1 day and shrinking to 0.864 seconds (1 day/100,000). THis is a decimal clock you can use for all kinds of stuff. Saved as a "selection" </patches/V2 FILES/decimalator.vcvs>
+	
+	■ generally horsed around with time and triggers. result in same folder <2 decimal 4 u.vcv>. includes basic comparator-based triggers, a weird noise, a couple NYSTHI SLIM SAMPLERs (top one's a gong, bottom one's a clave, no i did not share the samples) plus a nifty tempo disruptor.
+	
+
+    ░░░░░░░░░▒▒▒▒▒▓▓▓▓██  2021-11-30  ██▓▓▓▓▒▒▒▒▒░░░░░░░░░
+
+
+■ M:
+	■ Added PYTHAGO thing to Portamento 2. Hooked up a Roulette LFO crossfaded with a slow LFO - sent other channel of Roulette LFO to key change shade CV -
+
+	■ Totally eliminated the register switch mechanism. Replaced with a single polyphonic contour generator. Four channels of phased LFO added to four channels of noise, then sampled by four different triggers. This way the different sounds rise and fall separately. Would like to tune this up nice.
+
+
+    ░░░░░░░░░▒▒▒▒▒▓▓▓▓██  2021-11-29  ██▓▓▓▓▒▒▒▒▒░░░░░░░░░
+
+
+■ M:
+	■ Horsed around with Portamento 2, saved a "M" version, left notes. Didn't closely investigate the below-listed Quirks but should do so in order to understand what Bill noticed
+	■ Came up with a cool idea for structuring a 24-7 music stream: Matt Lavallee will revive the revolutionary concept of DECIMAL TIME - 1 day = 10 hours of 100 minutes each; 1 minute = 86.4 Imperialist/capitalist/patriarchal seconds https://en.wikipedia.org/wiki/Decimal_time
+	■ 1 decimal second  = 0.864 i/c/p milliseconds. decimal clock tempo = 69.444444 bpm, or 1.57407407 Hz
+	
+	
+    ░░░░░░░░░▒▒▒▒▒▓▓▓▓██  2021-11-27  ██▓▓▓▓▒▒▒▒▒░░░░░░░░░
+
+	■ B: started live stream of Portamento 2.vcv (8:45pm)
+
+    ░░░░░░░░░▒▒▒▒▒▓▓▓▓██  2021-11-26  ██▓▓▓▓▒▒▒▒▒░░░░░░░░░
+
+■ B:
+	■ I ate too much as well, but continued work on Portamento 2.vcv. Trying to lock in a longer, more generative nature to the patch. Discovered that one can not only modulate the CV offset of Scalar, but also modify the octave through negative voltage. With quirks...
+		■ Quirk 1: I'm using a CV Map to automate the motion over 10min between each octave (3 in total). This is the only way I've figured out how to deal with negative voltage using Scalar itself.
+		■ Quirk 2: Using a the CV Map in conjunction with a Fixed Voltage module and sequential switch, the voltage doesn't exactly work as it should (i.e., -1 = -1v, etc.). Here is the mapping for voltage from fixed module to Scalar CV map:
+			■ +3v (fixed) = -2v Scalar
+			■ +4v (fixed) = -1v Scalar
+			■ +5v (fixed) =  0v Scalar    ...weird
+				■ SEE SCREENSHOT IN RACK 2 FOLDER...
+	■ Built a quick hexatonic tuning file /rack2/tuning files/JI Hex 2.scl. Pls use this as main tuning for Portamento 2.vcv
+
+■ M:
+
+	■ i ate a lot of turkey and now I'm going to pythagofy the accordion bass
+
+	■ i succeeded. several different files are in <patches/pythagorean pitches/>. there's...
+
+		■ <PYTHAGOCCORDIAS BASS.vcss>. this is the accordion bass strip, but with pythagorean pitches
+		■ <PTGCRDS template.vcv> - the whole system doing the most boring thing possible. a template if you will
+		■ <PTGCRDS template shrunkem.vcv> same, but with labels off the accordion, and 1 extra lfo
+		
+	■ found Piotr Garbaczonek's Ambient Explorations on Youtube https://www.youtube.com/watch?v=I40kDzHytXw
+	
+	■ composed </patches/make me a schedule.vcv>. presently looking around it for things to modulate over long time scales - see this week's assignment #2, 11/21/21 below
+	
+	
+    ░░░░░░░░░▒▒▒▒▒▓▓▓▓██  2021-11-23  ██▓▓▓▓▒▒▒▒▒░░░░░░░░░
+
+
+■ M:
+
+	■ it's probably possible to square the circle vis a vis JI tuning and matt's two-dimensional harmony system, using the VCV quantizer and some 8FACEs or something. i am going to figure this out
+
+	■ I figured it out. strip and demonstration patch are both available in </patches/pythagorean pitches/> as PYTHAGOCCORDIAS. Works with quirks. You need to add modules if you want more independent channels, and another to each channel if you want polyphony (i think). Havent adapted the accordion bass strip... YET.
+		■ B: this is super excellent. I played with the feedback on the best FM-OP and got some fun results. Did you use a tuning file for Scalar or just make the adjustments manually? I would love to implement this concept on some of my own patches.
+
+
+    ░░░░░░░░░▒▒▒▒▒▓▓▓▓██  2021-11-22  ██▓▓▓▓▒▒▒▒▒░░░░░░░░░
+
+
+■ M: 
+
+	■ created </ARRAY TEST.vcv> right in the root directory of my shared folder. compares CPU usage and other (dis)advantages of two slow oscillators + three array scanners. CPU-cheapest solution: TIMEX + BZ-MAPPER. feature-rich solution: TIMEX + 02NAGOL. Test 02NAGOL arrays are in </spreadsheets/CSV/cpu tester*.csv
+
+	■ made a nifty patch with the vector mixer and a few other tricks, and streamed it. didn't notate it well but should tomorrow. </patches/whole cool patch/press f.vcv 
+
+	■ things to do with this patch: create another SS-220 voicing structure for the square hums; find a more interesting way to control the harmony
+
+	
+■ B: 
+
+	■ streaming SABBBATH.vcv starting at 5:50pm - updated with pythagorean modulator and some basic resonance adjustment.
+
+
+    ░░░░░░░░░▒▒▒▒▒▓▓▓▓██  2021-11-21  ██▓▓▓▓▒▒▒▒▒░░░░░░░░░   
+
+   
+■ M: 
+	■ time to take another bill patch apart. saved as < Seq 1 Updated M.vcv >. Replaced two instances of RANGELFO + OCTAVE with a CV-operated FENCE; added S&H to the pitch signal of both these FM-OPs, and patched #1 to FM #2. Used TAILS to make these polyphonic, and sent each to stereo mixdown.	Horsed around with reverb & delay mix. 
+   
+   
+■ M/B: This week's assignments are like this:
+	■ Figure out what all the Chronoblobs settings do, especially tempo sync functions. Here's some reference materials https://www.alrightdevices.com/product/chronoblob2
+	■ Build a mechanism to automate parameters of some sound or another on a scale of hours/day
+	■ Bill: Set up sync on desktop computer
+	■ Handy reminder: log twitched streamed patches
+
+■ B: 
+	■ streaming Seq 1 Updated.vcv - updated modulator to use fixed voltages of 0.585 and -0.585 for cycle 5 spiral style.
+	■ new patch (portamento 2.vcv) with some slew limiting in two part random harmony. Streamed on 11.21.2021
+   ■ streamed chords chords chords pyth modulator.vcv for 24hrs on 11.20.2021
+
+		
+    ░░░░░░░░░▒▒▒▒▒▓▓▓▓██  2021-11-18  ██▓▓▓▓▒▒▒▒▒░░░░░░░░░
+
+
+	■ B: Downsized Matt's "Pythagorean Modulator" and triggered it at step 10 of Squonk to modulate in Seq 1 Updated.vcv. Works well. It's my fav strip at the moment...
+
+
+    ░░░░░░░░░▒▒▒▒▒▓▓▓▓██  2021-11-17  ██▓▓▓▓▒▒▒▒▒░░░░░░░░░
+	
+	■ B: 
+		■ 4:30am: worked a bit more on SEQ 1 Updated.vcv - - added a FMOP pad with loaded reverb (wetttt), a vector mixer, and some random harmonies to follow modulation. Also added a range LFO to modulate one of the two octave selectors - yields cool results over time.
+	
+    ░░░░░░░░░▒▒▒▒▒▓▓▓▓██  2021-11-16  ██▓▓▓▓▒▒▒▒▒░░░░░░░░░
+
+
+■ MATT: futzed around with surfsup.vcss and the eight way normalizer for a while. not ready for prime time, ready for bedtime
+
+
+■ B:
+
+	■ Wreckage Systems streamed in my classroom for an hour or so, then added to CLUSTERED DREAMS massive "new age/ambient" playlist on YouTube. 
+
+	■ Scoped new JIPizz patch with min Pythagorean modulator. M likes to rearrange my patches and I'm cool with that. 
+
+	■ Still working with SEQ 1.vcv patch - recently discovered the SQUONK sequencer might be the ticket to delayed step triggers.
+
+	■ Can't seem to open any of M's .vcvss files...figured it out - need strip module to load
+
+	■ Played with surfsup.vcvss using a simple analog oscillator and made some wobbles
+
+	■ Continued work on SEQ 1 Updated.vcv. Squonk sequencer works well when used with DGate (Bog) to bypass steps on trigger. 5 step sequence achieved, but I would like to try a better trigger system so that tempo and/or subdivision of beat can be achieved across the board and still retain the original sequence with modulation at the beginning of each seq start. 
+
+
+    ░░░░░░░░░▒▒▒▒▒▓▓▓▓██  2021-11-15  ██▓▓▓▓▒▒▒▒▒░░░░░░░░░
+
+
+■ M:
+
+	■ happened across WRECKAGE SYSTEMS <https://www.youtube.com/watch?v=eIh706ZRmN0>, did some subscribing, checking it out
+
+	■ Found version conflict in log file, presumably resolved. gotta RE-SCAN
+
+	■ edited <JIPizz.vcv> and saved as <bill/patches/JIPizz 13UU.vcv> - notes in the patch (above the reverb) < ---- YESSS
+
+	■ made a really complex oscillator thing and saved as a strip <matt/patches/strips/surfsup.vcvss>
+	
+	
+	
+    ░░░░░░░░░▒▒▒▒▒▓▓▓▓██  2021-11-14  ██▓▓▓▓▒▒▒▒▒░░░░░░░░░
+ 
+■ B:
+
+	■ went to the VCV world of social media and had some good suggestions:
+	</patches/Seq 1 UPDATED.vcvss> - new file name; might try a six step trigger sequencer and input a hold on the last trigger for step 5 of the sequence. Also, suggestion that the Nysthi Programmer can be set to hold a step. Might try that instead of the ADDR SEQ. Special thanks to M again for updating file with pythagorean modulator - a dream come true!
+	
+	■ streamed JIPizz.vcv
+
+
+■ M:
+
+	■ Data link established between Surreptitious Industries Inc. headquarters ("SHQ") and Studio Way ("WAY"). 
+	
+	■ Edited <Seq 1.vcv> to include pythagorean modulator, resulting in </patches/pythagorean pitches/Seq 1 with py modulator.vcv>
+
+	■ QUERY: can BILL see the shortcut <rack prog files shortcut> that's in the </RACK/> folder, and if so what happens when he clicks on it
+	
+	■ Utility STRIPs edited, annotated, otherwise spruced up:
+
+		</strips/LFOSHFMLFO.vcvss> - simple and flexible pattern generator. dumb and effective
+		
+		</strips/is-it-different from before.vcvss> - tell me the news, not the weather
+		
+		</strips/bird control.vcvss> - normalized and rectified ringmod LFOs. somewhat avian
+		
+		</strips/cutupdevice.vcvss> - chop up speech politely
+		
+		</strips/irregulator.vcvss> - make six clocks less regular. a favorite of some people
+		
+		</strips/rotator_workaround.vcvss> - ROTATOR doesn't work right so i fixed it
+		
+		</strips/staythoscope.vcvss> - Dual Oscilloscope Display Offset Compensator (DODOC)
+		
+		</strips/perturbator.vcvss> - perturbation device. helps you perturb. works great
+		
+		</strips/delayed LFO FM.vcvss> - LFO modulated by its past self
