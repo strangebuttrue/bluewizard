@@ -1,0 +1,93 @@
+{
+  "modules": [
+    {
+      "id": 7918891681120467,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-Offset",
+      "version": "2.6.47",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.23622024059295654,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 7724038221474907,
+      "rightModuleId": 960799199565889,
+      "automId": 102,
+      "data": {
+        "disableOutputLimit": false,
+        "offset_first": false
+      },
+      "pos": [
+        73,
+        0
+      ]
+    },
+    {
+      "id": 750558752873228,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-Offset",
+      "version": "2.6.47",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.4233202338218689,
+          "id": 1
+        }
+      ],
+      "rightModuleId": 7724038221474907,
+      "automId": 104,
+      "data": {
+        "disableOutputLimit": false,
+        "offset_first": false
+      },
+      "pos": [
+        68,
+        0
+      ]
+    },
+    {
+      "id": 960799199565889,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 7918891681120467,
+      "data": {
+        "text": "cv -> midi x0.558",
+        "fg": "#ff7dec",
+        "bg": "#000000"
+      },
+      "pos": [
+        76,
+        0
+      ]
+    },
+    {
+      "id": 7724038221474907,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 750558752873228,
+      "rightModuleId": 7918891681120467,
+      "data": {
+        "text": "midi -> cv x1.792",
+        "fg": "#ff7dec",
+        "bg": "#000000"
+      },
+      "pos": [
+        71,
+        0
+      ]
+    }
+  ],
+  "cables": []
+}
