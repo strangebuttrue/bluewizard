@@ -1,0 +1,520 @@
+{
+  "modules": [
+    {
+      "id": 8153042204438283,
+      "plugin": "StochasticTelegraph",
+      "model": "Fermata",
+      "version": "2.0.30",
+      "params": [],
+      "rightModuleId": 6013129434183822,
+      "data": {
+        "text": "AM STEPS\n========\n\nThe concept here is yet another STEPAROUND  but using a pair of ring-modulated sawtooth waves.\n\nThe RM'd sawtooth signal passes to a CMP to make triggers. Triggers pass to a S&H that samples from a XFADE combining the two original sawtooths. The sampled voltage and triggers are interdependent!",
+        "width": 3,
+        "screen_colors": 281200098803712,
+        "font_choice": "fonts/RobotoMono-Bold.ttf",
+        "visible_lines": 28,
+        "title_text": "AM STEPS"
+      },
+      "pos": [
+        98,
+        3
+      ]
+    },
+    {
+      "id": 4372938637447406,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-LLFO",
+      "version": "2.6.47",
+      "params": [
+        {
+          "value": -4.3532905578613281,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        }
+      ],
+      "leftModuleId": 6013129434183822,
+      "rightModuleId": 497709541418391,
+      "data": {
+        "offset_scale": 1.0,
+        "output_sampling": 0.0,
+        "pulse_width": -0.85106378793716431,
+        "smoothing": 0.0,
+        "reset_on_wave_change": false
+      },
+      "pos": [
+        102,
+        3
+      ]
+    },
+    {
+      "id": 6526862631308932,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-Offset",
+      "version": "2.6.47",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.10000000149011612,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 7073710022088425,
+      "rightModuleId": 885236916264614,
+      "data": {
+        "disableOutputLimit": false,
+        "offset_first": false
+      },
+      "pos": [
+        134,
+        3
+      ]
+    },
+    {
+      "id": 2255307158811644,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-LLFO",
+      "version": "2.6.47",
+      "params": [
+        {
+          "value": -2.0313625335693359,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 2.0,
+          "id": 2
+        },
+        {
+          "value": 0.97590351104736328,
+          "id": 3
+        },
+        {
+          "value": 1.0,
+          "id": 4
+        }
+      ],
+      "leftModuleId": 497709541418391,
+      "rightModuleId": 4376170326727998,
+      "data": {
+        "offset_scale": 1.0,
+        "output_sampling": 0.0,
+        "pulse_width": -0.85106378793716431,
+        "smoothing": 0.0,
+        "reset_on_wave_change": false
+      },
+      "pos": [
+        106,
+        3
+      ]
+    },
+    {
+      "id": 3094979585688987,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-Cmp",
+      "version": "2.6.47",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.18734937906265259,
+          "id": 1
+        },
+        {
+          "value": 0.067349418997764587,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        }
+      ],
+      "leftModuleId": 1302598523745654,
+      "rightModuleId": 1757051172490579,
+      "data": {},
+      "pos": [
+        117,
+        3
+      ]
+    },
+    {
+      "id": 4376170326727998,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-LLFO",
+      "version": "2.6.47",
+      "params": [
+        {
+          "value": -2.0313625335693359,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 2.0,
+          "id": 2
+        },
+        {
+          "value": 1.0,
+          "id": 3
+        },
+        {
+          "value": 1.0,
+          "id": 4
+        }
+      ],
+      "leftModuleId": 2255307158811644,
+      "rightModuleId": 6099957428952385,
+      "data": {
+        "offset_scale": 1.0,
+        "output_sampling": 0.0,
+        "pulse_width": -0.85106378793716431,
+        "smoothing": 0.0,
+        "reset_on_wave_change": false
+      },
+      "pos": [
+        109,
+        3
+      ]
+    },
+    {
+      "id": 6189101500691742,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-XFade",
+      "version": "2.6.47",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.5,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        }
+      ],
+      "leftModuleId": 1757051172490579,
+      "rightModuleId": 694830236838935,
+      "data": {},
+      "pos": [
+        126,
+        3
+      ]
+    },
+    {
+      "id": 6013129434183822,
+      "plugin": "CountModula",
+      "model": "LightStrip",
+      "version": "2.6.0",
+      "params": [],
+      "leftModuleId": 8153042204438283,
+      "rightModuleId": 4372938637447406,
+      "data": {
+        "moduleVersion": 1,
+        "color": [
+          0.67699998617172241,
+          0.29700088500976563,
+          0.29600065946578979
+        ],
+        "narrowMode": false,
+        "theme": 5
+      },
+      "pos": [
+        101,
+        3
+      ]
+    },
+    {
+      "id": 885236916264614,
+      "plugin": "CountModula",
+      "model": "LightStrip",
+      "version": "2.6.0",
+      "params": [],
+      "leftModuleId": 6526862631308932,
+      "data": {
+        "moduleVersion": 1,
+        "color": [
+          0.56100034713745117,
+          0.09400031715631485,
+          0.0
+        ],
+        "narrowMode": false,
+        "theme": 5
+      },
+      "pos": [
+        137,
+        3
+      ]
+    },
+    {
+      "id": 1302598523745654,
+      "plugin": "CountModula",
+      "model": "LightStrip",
+      "version": "2.6.0",
+      "params": [],
+      "leftModuleId": 6905240246012618,
+      "rightModuleId": 3094979585688987,
+      "data": {
+        "moduleVersion": 1,
+        "color": [
+          0.60800027847290039,
+          0.0,
+          0.0
+        ],
+        "narrowMode": false,
+        "theme": 5
+      },
+      "pos": [
+        116,
+        3
+      ]
+    },
+    {
+      "id": 6905240246012618,
+      "plugin": "CountModula",
+      "model": "LightStrip",
+      "version": "2.6.0",
+      "params": [],
+      "leftModuleId": 6099957428952385,
+      "rightModuleId": 1302598523745654,
+      "data": {
+        "moduleVersion": 1,
+        "color": [
+          0.67699998617172241,
+          0.29700088500976563,
+          0.29600065946578979
+        ],
+        "narrowMode": false,
+        "theme": 5
+      },
+      "pos": [
+        115,
+        3
+      ]
+    },
+    {
+      "id": 694830236838935,
+      "plugin": "CountModula",
+      "model": "SampleAndHold",
+      "version": "2.6.0",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        }
+      ],
+      "leftModuleId": 6189101500691742,
+      "rightModuleId": 7073710022088425,
+      "data": {
+        "moduleVersion": 3,
+        "theme": 5
+      },
+      "pos": [
+        129,
+        3
+      ]
+    },
+    {
+      "id": 7073710022088425,
+      "plugin": "CountModula",
+      "model": "LightStrip",
+      "version": "2.6.0",
+      "params": [],
+      "leftModuleId": 694830236838935,
+      "rightModuleId": 6526862631308932,
+      "data": {
+        "moduleVersion": 1,
+        "color": [
+          0.60800027847290039,
+          0.0,
+          0.0
+        ],
+        "narrowMode": false,
+        "theme": 5
+      },
+      "pos": [
+        133,
+        3
+      ]
+    },
+    {
+      "id": 497709541418391,
+      "plugin": "CountModula",
+      "model": "LightStrip",
+      "version": "2.6.0",
+      "params": [],
+      "leftModuleId": 4372938637447406,
+      "rightModuleId": 2255307158811644,
+      "data": {
+        "moduleVersion": 1,
+        "color": [
+          0.56100034713745117,
+          0.09400031715631485,
+          0.0
+        ],
+        "narrowMode": false,
+        "theme": 5
+      },
+      "pos": [
+        105,
+        3
+      ]
+    },
+    {
+      "id": 6099957428952385,
+      "plugin": "Fundamental",
+      "model": "VCA-1",
+      "version": "2.6.4",
+      "params": [
+        {
+          "value": 1.0,
+          "id": 0
+        },
+        {
+          "value": 1.0,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 4376170326727998,
+      "rightModuleId": 6905240246012618,
+      "pos": [
+        112,
+        3
+      ]
+    },
+    {
+      "id": 1757051172490579,
+      "plugin": "Fundamental",
+      "model": "VCA-1",
+      "version": "2.6.4",
+      "params": [
+        {
+          "value": 1.0,
+          "id": 0
+        },
+        {
+          "value": 1.0,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 3094979585688987,
+      "rightModuleId": 6189101500691742,
+      "pos": [
+        123,
+        3
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 4914067451580938,
+      "outputModuleId": 6099957428952385,
+      "outputId": 0,
+      "inputModuleId": 3094979585688987,
+      "inputId": 0,
+      "color": "#ff7777"
+    },
+    {
+      "id": 6695631587847402,
+      "outputModuleId": 4372938637447406,
+      "outputId": 0,
+      "inputModuleId": 2255307158811644,
+      "inputId": 0,
+      "color": "#ff7777"
+    },
+    {
+      "id": 8163944665074225,
+      "outputModuleId": 6189101500691742,
+      "outputId": 0,
+      "inputModuleId": 694830236838935,
+      "inputId": 0,
+      "color": "#dd6600"
+    },
+    {
+      "id": 4506628038719992,
+      "outputModuleId": 3094979585688987,
+      "outputId": 0,
+      "inputModuleId": 694830236838935,
+      "inputId": 1,
+      "color": "#ff0000"
+    },
+    {
+      "id": 3771710732320349,
+      "outputModuleId": 2255307158811644,
+      "outputId": 0,
+      "inputModuleId": 6189101500691742,
+      "inputId": 1,
+      "color": "#dd6600"
+    },
+    {
+      "id": 294627981152814,
+      "outputModuleId": 4376170326727998,
+      "outputId": 0,
+      "inputModuleId": 6189101500691742,
+      "inputId": 2,
+      "color": "#dd6600"
+    },
+    {
+      "id": 7275702880153579,
+      "outputModuleId": 3094979585688987,
+      "outputId": 0,
+      "inputModuleId": 1757051172490579,
+      "inputId": 0,
+      "color": "#ff0000"
+    },
+    {
+      "id": 683013263130534,
+      "outputModuleId": 2255307158811644,
+      "outputId": 0,
+      "inputModuleId": 6099957428952385,
+      "inputId": 0,
+      "color": "#dd6600"
+    },
+    {
+      "id": 7594342564060004,
+      "outputModuleId": 4376170326727998,
+      "outputId": 0,
+      "inputModuleId": 6099957428952385,
+      "inputId": 1,
+      "color": "#dd6600"
+    },
+    {
+      "id": 7181265915212277,
+      "outputModuleId": 694830236838935,
+      "outputId": 0,
+      "inputModuleId": 6526862631308932,
+      "inputId": 2,
+      "color": "#dd6600"
+    }
+  ]
+}

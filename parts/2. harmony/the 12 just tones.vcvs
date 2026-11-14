@@ -1,116 +1,57 @@
 {
   "modules": [
     {
-      "id": 2940103303201232,
-      "plugin": "computerscare",
-      "model": "computerscare-debug",
-      "version": "2.1.11",
-      "params": [
-        {
-          "value": 0.0,
-          "id": 0
-        },
-        {
-          "value": 0.0,
-          "id": 1
-        },
-        {
-          "value": 0.0,
-          "id": 2
-        },
-        {
-          "value": 0.0,
-          "id": 3
-        },
-        {
-          "value": 2.0,
-          "id": 4
-        },
-        {
-          "value": 1.0,
-          "id": 5
-        }
-      ],
-      "leftModuleId": 6413915883592902,
-      "automId": 901,
-      "data": {
-        "outputRange": 0,
-        "lines": [
-          0.65999996662139893,
-          0.24500000476837158,
-          0.82999998331069946,
-          0.41499999165534973,
-          0.0,
-          0.58499997854232788,
-          0.17000001668930054,
-          0.75499999523162842,
-          0.34000003337860107,
-          0.92500001192092896,
-          0.50999999046325684,
-          0.094999998807907104,
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ]
-      },
-      "pos": [
-        -22,
-        -1
-      ]
-    },
-    {
-      "id": 6874707302965441,
+      "id": 5386950514690086,
       "plugin": "computerscare",
       "model": "computerscare-knolypobs",
-      "version": "2.1.11",
+      "version": "2.3.11",
       "params": [
         {
-          "value": 0.65999996662139893,
+          "value": 0.075000002980232239,
           "id": 0
+        },
+        {
+          "value": 0.6600000262260437,
+          "id": 1
         },
         {
           "value": 0.24500000476837158,
-          "id": 1
-        },
-        {
-          "value": 0.82999998331069946,
           "id": 2
         },
         {
-          "value": 0.41499999165534973,
+          "value": 0.82999998331069946,
           "id": 3
         },
         {
-          "value": 0.0,
+          "value": 0.41499999165534973,
           "id": 4
         },
         {
-          "value": 0.58499997854232788,
+          "value": 0.0,
           "id": 5
         },
         {
-          "value": 0.17000001668930054,
+          "value": 0.58499997854232788,
           "id": 6
         },
         {
-          "value": 0.75499999523162842,
+          "value": 0.17000000178813934,
           "id": 7
         },
         {
-          "value": 0.34000003337860107,
+          "value": 0.75499999523162842,
           "id": 8
         },
         {
-          "value": 0.92500001192092896,
+          "value": 0.34000000357627869,
           "id": 9
         },
         {
-          "value": 0.50999999046325684,
+          "value": 0.92500001192092896,
           "id": 10
         },
         {
-          "value": 0.094999998807907104,
+          "value": 0.50999999046325684,
           "id": 11
         },
         {
@@ -206,105 +147,60 @@
           "id": 34
         }
       ],
-      "leftModuleId": 2645747885151761,
-      "rightModuleId": 596358751666517,
-      "automId": 831,
+      "leftModuleId": 3399276465270131,
+      "rightModuleId": 5137660459732674,
+      "data": {
+        "bipolarMainKnobs": false
+      },
       "pos": [
-        -37,
+        108,
         -1
       ]
     },
     {
-      "id": 3416022273198442,
+      "id": 3399276465270131,
+      "plugin": "StochasticTelegraph",
+      "model": "Fermata",
+      "version": "2.0.30",
+      "params": [],
+      "rightModuleId": 5386950514690086,
+      "data": {
+        "text": "The 12 Just Tones\n=================\n\nThis device outputs 12 voltages of stacked Pythagorean fifths, from Db around to F#. Be aware of where this puts your comma, and use CV (the module) to transpose around by fifths, if you want it someplace else. Run it into a COERCE for nice quantization.",
+        "width": 3,
+        "screen_colors": 1095216660480,
+        "font_choice": "fonts/RobotoMono-Bold.ttf",
+        "visible_lines": 28,
+        "title_text": "The 12 Just Tones"
+      },
+      "pos": [
+        105,
+        -1
+      ]
+    },
+    {
+      "id": 2651748581265129,
       "plugin": "Bogaudio",
       "model": "Bogaudio-PolyMult",
-      "version": "2.4.45",
+      "version": "2.6.47",
       "params": [
         {
           "value": 12.0,
           "id": 0
         }
       ],
-      "leftModuleId": 7983750643959552,
-      "rightModuleId": 6413915883592902,
-      "automId": 920,
+      "leftModuleId": 5137660459732674,
+      "rightModuleId": 8092529727411730,
       "data": {},
       "pos": [
-        -28,
+        114,
         -1
       ]
     },
     {
-      "id": 2645747885151761,
-      "plugin": "StochasticTelegraph",
-      "model": "Fermata",
-      "version": "2.0.17",
-      "params": [],
-      "rightModuleId": 6874707302965441,
-      "data": {
-        "text": "The 12 Just Tones\n=================\n\nThis device outputs 12 voltages of stacked Pythagorean fifths, from Ab around to C#. Be aware of where this puts your comma, and use FUNC to transpose around by fifths, if you want it someplace else. Run it into a COERCE for nice quantization.\n\nDesigned for use with Ableton, which won't record unquantized pitches, apparently",
-        "width": 3,
-        "screen_colors": 1095216660480,
-        "font_choice": "fonts/RobotoMono-Bold.ttf",
-        "title_text": "The 12 Just Tones"
-      },
-      "pos": [
-        -40,
-        -1
-      ]
-    },
-    {
-      "id": 6413915883592902,
-      "plugin": "ML_modules",
-      "model": "Sum8",
-      "version": "2.0.2",
-      "params": [],
-      "leftModuleId": 3416022273198442,
-      "rightModuleId": 2940103303201232,
-      "pos": [
-        -25,
-        -1
-      ]
-    },
-    {
-      "id": 596358751666517,
-      "plugin": "DHE-Modules",
-      "model": "Func",
-      "version": "2.0.3",
-      "params": [
-        {
-          "value": 0.5,
-          "id": 0
-        },
-        {
-          "value": 0.0,
-          "id": 1
-        },
-        {
-          "value": 3.0,
-          "id": 2
-        },
-        {
-          "value": 2.0,
-          "id": 3
-        }
-      ],
-      "leftModuleId": 6874707302965441,
-      "rightModuleId": 7983750643959552,
-      "automId": 923,
-      "data": {
-        "preset_version": 0
-      },
-      "pos": [
-        -33,
-        -1
-      ]
-    },
-    {
-      "id": 7983750643959552,
+      "id": 5137660459732674,
       "plugin": "dbRackSequencer",
       "model": "CV",
-      "version": "2.4.0",
+      "version": "2.6.3",
       "params": [
         {
           "value": 12.0,
@@ -315,55 +211,157 @@
           "id": 1
         }
       ],
-      "leftModuleId": 596358751666517,
-      "rightModuleId": 3416022273198442,
-      "automId": 921,
+      "leftModuleId": 5386950514690086,
+      "rightModuleId": 2651748581265129,
       "pos": [
-        -30,
+        112,
+        -1
+      ]
+    },
+    {
+      "id": 8092529727411730,
+      "plugin": "ML_modules",
+      "model": "Sum8",
+      "version": "2.0.3",
+      "params": [],
+      "leftModuleId": 2651748581265129,
+      "rightModuleId": 4179751505682043,
+      "pos": [
+        117,
+        -1
+      ]
+    },
+    {
+      "id": 4179751505682043,
+      "plugin": "computerscare",
+      "model": "computerscare-debug",
+      "version": "2.3.11",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 2.0,
+          "id": 4
+        },
+        {
+          "value": 1.0,
+          "id": 5
+        },
+        {
+          "value": 0.0,
+          "id": 6
+        },
+        {
+          "value": 0.0,
+          "id": 7
+        },
+        {
+          "value": 0.0,
+          "id": 8
+        },
+        {
+          "value": 0.0,
+          "id": 9
+        },
+        {
+          "value": 1.0,
+          "id": 10
+        },
+        {
+          "value": 0.0,
+          "id": 11
+        },
+        {
+          "value": 1.0,
+          "id": 12
+        },
+        {
+          "value": 0.0,
+          "id": 13
+        }
+      ],
+      "leftModuleId": 8092529727411730,
+      "data": {
+        "outputRange": 0,
+        "triggerBlinkers": false,
+        "visualMode": 0,
+        "barMode": 0,
+        "theme": 0,
+        "textOpacity": 1.0,
+        "barsOpacity": 1.0,
+        "textMode": 0,
+        "bipolarColorMode": 0,
+        "lines": [
+          0.075000002980232239,
+          0.6600000262260437,
+          0.24500000476837158,
+          0.82999998331069946,
+          0.41499999165534973,
+          0.0,
+          0.58499997854232788,
+          0.17000000178813934,
+          0.75499999523162842,
+          0.34000000357627869,
+          0.92500001192092896,
+          0.50999999046325684,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "pos": [
+        120,
         -1
       ]
     }
   ],
   "cables": [
     {
-      "id": 7136855779080035,
-      "outputModuleId": 6874707302965441,
+      "id": 7205140237636202,
+      "outputModuleId": 5386950514690086,
       "outputId": 0,
-      "inputModuleId": 6413915883592902,
+      "inputModuleId": 8092529727411730,
       "inputId": 0,
       "color": "#63b546"
     },
     {
-      "id": 1599297790959099,
-      "outputModuleId": 7983750643959552,
+      "id": 3712091664079536,
+      "outputModuleId": 5137660459732674,
       "outputId": 0,
-      "inputModuleId": 3416022273198442,
+      "inputModuleId": 2651748581265129,
       "inputId": 1,
       "color": "#63b546"
     },
     {
-      "id": 2086517171644269,
-      "outputModuleId": 3416022273198442,
+      "id": 1938013506420787,
+      "outputModuleId": 2651748581265129,
       "outputId": 3,
-      "inputModuleId": 6413915883592902,
+      "inputModuleId": 8092529727411730,
       "inputId": 7,
       "color": "#63b546"
     },
     {
-      "id": 3348760115038742,
-      "outputModuleId": 6413915883592902,
+      "id": 6033241215482586,
+      "outputModuleId": 8092529727411730,
       "outputId": 0,
-      "inputModuleId": 2940103303201232,
+      "inputModuleId": 4179751505682043,
       "inputId": 0,
       "color": "#63b546"
-    },
-    {
-      "id": 8555427552445427,
-      "outputModuleId": 596358751666517,
-      "outputId": 0,
-      "inputModuleId": 7983750643959552,
-      "inputId": 0,
-      "color": "#b012d4"
     }
   ]
 }
