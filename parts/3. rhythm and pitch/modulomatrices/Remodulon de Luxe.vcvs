@@ -1,0 +1,546 @@
+{
+  "modules": [
+    {
+      "id": 7938469377523612,
+      "plugin": "Fundamental",
+      "model": "CVMix",
+      "version": "2.6.4",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        }
+      ],
+      "leftModuleId": 5694575490455203,
+      "rightModuleId": 6082978920956578,
+      "pos": [
+        108,
+        2
+      ]
+    },
+    {
+      "id": 8072981588496245,
+      "plugin": "Fundamental",
+      "model": "CVMix",
+      "version": "2.6.4",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        }
+      ],
+      "leftModuleId": 6082978920956578,
+      "rightModuleId": 4854258947937049,
+      "pos": [
+        114,
+        2
+      ]
+    },
+    {
+      "id": 52484795897630,
+      "plugin": "VultMysteries",
+      "model": "Feigen",
+      "version": "2.0.17",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 2.0,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        },
+        {
+          "value": 0.0,
+          "id": 5
+        },
+        {
+          "value": 0.5,
+          "id": 6
+        }
+      ],
+      "leftModuleId": 6657037707436166,
+      "rightModuleId": 3815124156163627,
+      "data": {
+        "x1": 0.32689610123634338,
+        "x2": 0.36156657338142395
+      },
+      "pos": [
+        150,
+        2
+      ]
+    },
+    {
+      "id": 798193112043426,
+      "plugin": "Fundamental",
+      "model": "VCA-1",
+      "version": "2.6.4",
+      "params": [
+        {
+          "value": 1.0,
+          "id": 0
+        },
+        {
+          "value": 1.0,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 8873536485976504,
+      "rightModuleId": 2145216558125717,
+      "pos": [
+        137,
+        2
+      ]
+    },
+    {
+      "id": 2145216558125717,
+      "plugin": "LilacModules",
+      "model": "Comparator",
+      "version": "2.0.3",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        }
+      ],
+      "leftModuleId": 798193112043426,
+      "rightModuleId": 4131315575977071,
+      "data": {
+        "tolerance": 0.0
+      },
+      "pos": [
+        140,
+        2
+      ]
+    },
+    {
+      "id": 4131315575977071,
+      "plugin": "Ohmer",
+      "model": "RKD",
+      "version": "2.6.13",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 1.0,
+          "id": 2
+        },
+        {
+          "value": 1.0,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        },
+        {
+          "value": 0.0,
+          "id": 5
+        }
+      ],
+      "leftModuleId": 2145216558125717,
+      "rightModuleId": 6657037707436166,
+      "data": {
+        "visiblePCB": false,
+        "jmprCountingDown": false,
+        "jmprGate": false,
+        "jmprMaxDivRange16": true,
+        "jmprMaxDivRange32": true,
+        "jmprSpread": false,
+        "jmprAutoReset": false,
+        "tableSet": 4
+      },
+      "pos": [
+        143,
+        2
+      ]
+    },
+    {
+      "id": 8873536485976504,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-XFade",
+      "version": "2.6.47",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.5,
+          "id": 1
+        },
+        {
+          "value": 1.0,
+          "id": 2
+        }
+      ],
+      "leftModuleId": 4318405816629772,
+      "rightModuleId": 798193112043426,
+      "data": {},
+      "pos": [
+        134,
+        2
+      ]
+    },
+    {
+      "id": 2631415068536111,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-Mult",
+      "version": "2.6.47",
+      "params": [],
+      "leftModuleId": 4854258947937049,
+      "data": {},
+      "pos": [
+        120,
+        2
+      ]
+    },
+    {
+      "id": 5694575490455203,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-Mult",
+      "version": "2.6.47",
+      "params": [],
+      "leftModuleId": 7429716486073125,
+      "rightModuleId": 7938469377523612,
+      "data": {},
+      "pos": [
+        105,
+        2
+      ]
+    },
+    {
+      "id": 4854258947937049,
+      "plugin": "PdArray",
+      "model": "Ministep",
+      "version": "2.1.1",
+      "params": [],
+      "leftModuleId": 8072981588496245,
+      "rightModuleId": 2631415068536111,
+      "data": {
+        "nSteps": 10,
+        "offsetByHalfStep": false,
+        "stepScaleMode": 1,
+        "outputScaleMode": 0,
+        "currentStep": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "pos": [
+        117,
+        2
+      ]
+    },
+    {
+      "id": 6082978920956578,
+      "plugin": "PdArray",
+      "model": "Ministep",
+      "version": "2.1.1",
+      "params": [],
+      "leftModuleId": 7938469377523612,
+      "rightModuleId": 8072981588496245,
+      "data": {
+        "nSteps": 10,
+        "offsetByHalfStep": false,
+        "stepScaleMode": 1,
+        "outputScaleMode": 0,
+        "currentStep": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "pos": [
+        111,
+        2
+      ]
+    },
+    {
+      "id": 7429716486073125,
+      "plugin": "StochasticTelegraph",
+      "model": "Fermata",
+      "version": "2.0.30",
+      "params": [],
+      "rightModuleId": 5694575490455203,
+      "data": {
+        "text": "REMODULON\n=========\n\nTwo MINISTEPS run off triggers passing through MULT. Set their period lengths independently in the \"MAX\" field if you want. Prime ratios of step length to \"MAX\" evoke intrigue and romance - and if \"MAX\" is prime, every step length is relatively prime. Higher modulo values are more conducive to chaotic perturbation.\n\nStep length is controlled by a CVMIX whose three attenuverters balance:\n\n1. Static voltage, unless you plug something in\n2. Feedback from this MINISTEP\n3. Cross-feedback from other MINISTEP.\n\nSequences grow less periodic with more feedback, and cross-feedback between the oscillators can bring you to some very strange places indeed.\n\nBut wait there's more. We'll also send you an LLFO to drive the thing with, plus a chest of useful tools - from a simple crossfade and lightweight comparator to a highly flexible clock divider and even FEIGEN which does the same thing as REMODULON sort of except different and cooler. Find them in the nearby selection <friends of remodulon.vcvs>.",
+        "width": 3,
+        "screen_colors": 45848490672128,
+        "font_choice": "fonts/RobotoMono-Bold.ttf",
+        "visible_lines": 28,
+        "title_text": "REMODULON"
+      },
+      "pos": [
+        102,
+        2
+      ]
+    },
+    {
+      "id": 4318405816629772,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-LLFO",
+      "version": "2.6.47",
+      "params": [
+        {
+          "value": 2.2905659675598145,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 5.0,
+          "id": 2
+        },
+        {
+          "value": 1.0,
+          "id": 3
+        },
+        {
+          "value": 1.0,
+          "id": 4
+        }
+      ],
+      "leftModuleId": 6852482002269709,
+      "rightModuleId": 8873536485976504,
+      "data": {
+        "offset_scale": 1.0,
+        "output_sampling": 0.0,
+        "pulse_width": -0.85106378793716431,
+        "smoothing": 0.0,
+        "reset_on_wave_change": false
+      },
+      "pos": [
+        131,
+        2
+      ]
+    },
+    {
+      "id": 6657037707436166,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-SampleHold",
+      "version": "2.6.47",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        },
+        {
+          "value": 0.0,
+          "id": 5
+        }
+      ],
+      "leftModuleId": 4131315575977071,
+      "rightModuleId": 52484795897630,
+      "data": {
+        "poly_input": 0,
+        "noise_type": 0,
+        "range_offset": 1.0,
+        "range_scale": 5.0,
+        "smoothing_ms": 0.0
+      },
+      "pos": [
+        147,
+        2
+      ]
+    },
+    {
+      "id": 6852482002269709,
+      "plugin": "StochasticTelegraph",
+      "model": "Fermata",
+      "version": "2.0.30",
+      "params": [],
+      "rightModuleId": 4318405816629772,
+      "data": {
+        "text": "FRIENDS OF REMODULON\n====================\n\nTools I find useful to apply to REMODULON.\n\nLLFO\nMy preferred source of gates. Simple and controllable.\n\nXFADE\nCombine different sequences, on different clocks, in different conceptual gestalts, thesis and counterthesis.\n\nVCA\nRing-modulating two patterns together can produce novel results, more lively than a crossfade but less flexible\n\nCOMPARATOR\nAn information reducer turning complex signals into complex binary rhythms. All outputs useful. A narrow-band \"A=B\" detection can produce rhythms that reward fine-tuning and patience.\n\nRKD\nA clock divider. Paired with a S&H (included) it convolutes cyclic patterns and can reveal hidden recurrences in more complex ones\n\nFEIGEN\nAn honest to goodness model of Edward Lorenz's logistic map equation. \"GROWTH\" is analogous to REMODULON's same-channel feedback control. Outputs from high values are properly formally chaotic. The function it uses has a term in it REMODULON's does not, it bifurcates, look it up, there's a great wikipedia. Run it off the same clock and use the rest of these tools to compare it to a REMODULON, or you know do whatever",
+        "width": 3,
+        "screen_colors": 45848490672128,
+        "font_choice": "fonts/RobotoMono-Bold.ttf",
+        "visible_lines": 28,
+        "title_text": "friends of remodulon"
+      },
+      "pos": [
+        128,
+        2
+      ]
+    },
+    {
+      "id": 3815124156163627,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 52484795897630,
+      "data": {
+        "text": "friends of remodulon",
+        "fg": "#ff7dec",
+        "bg": "#000000"
+      },
+      "pos": [
+        158,
+        2
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 3199385163279117,
+      "outputModuleId": 6082978920956578,
+      "outputId": 0,
+      "inputModuleId": 2631415068536111,
+      "inputId": 0,
+      "color": "#dd6600"
+    },
+    {
+      "id": 3765996663744875,
+      "outputModuleId": 4854258947937049,
+      "outputId": 0,
+      "inputModuleId": 2631415068536111,
+      "inputId": 1,
+      "color": "#ff8b37"
+    },
+    {
+      "id": 5134400596908707,
+      "outputModuleId": 6082978920956578,
+      "outputId": 0,
+      "inputModuleId": 7938469377523612,
+      "inputId": 1,
+      "color": "#ffbb22"
+    },
+    {
+      "id": 5204886474655314,
+      "outputModuleId": 4854258947937049,
+      "outputId": 0,
+      "inputModuleId": 7938469377523612,
+      "inputId": 2,
+      "color": "#ffbb22"
+    },
+    {
+      "id": 4466431740882351,
+      "outputModuleId": 4854258947937049,
+      "outputId": 0,
+      "inputModuleId": 8072981588496245,
+      "inputId": 1,
+      "color": "#ffbb22"
+    },
+    {
+      "id": 5369483065182413,
+      "outputModuleId": 6082978920956578,
+      "outputId": 0,
+      "inputModuleId": 8072981588496245,
+      "inputId": 2,
+      "color": "#ffbb22"
+    },
+    {
+      "id": 4651925934975983,
+      "outputModuleId": 5694575490455203,
+      "outputId": 0,
+      "inputModuleId": 6082978920956578,
+      "inputId": 1,
+      "color": "#ff0000"
+    },
+    {
+      "id": 1837321253916620,
+      "outputModuleId": 7938469377523612,
+      "outputId": 0,
+      "inputModuleId": 6082978920956578,
+      "inputId": 3,
+      "color": "#ffbb22"
+    },
+    {
+      "id": 7607884734676176,
+      "outputModuleId": 5694575490455203,
+      "outputId": 1,
+      "inputModuleId": 4854258947937049,
+      "inputId": 1,
+      "color": "#ff0000"
+    },
+    {
+      "id": 5423142240399712,
+      "outputModuleId": 8072981588496245,
+      "outputId": 0,
+      "inputModuleId": 4854258947937049,
+      "inputId": 3,
+      "color": "#ffbb22"
+    }
+  ]
+}

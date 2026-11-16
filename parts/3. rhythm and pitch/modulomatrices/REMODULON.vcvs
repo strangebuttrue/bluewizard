@@ -1,77 +1,13 @@
 {
   "modules": [
     {
-      "id": 7272795768627218,
-      "plugin": "LilacModules",
-      "model": "Comparator",
-      "version": "2.0.3",
-      "params": [
-        {
-          "value": 0.67469888925552368,
-          "id": 0
-        }
-      ],
-      "leftModuleId": 7579253384057028,
-      "rightModuleId": 2561388488129212,
-      "data": {
-        "tolerance": 0.31600016355514526
-      },
-      "pos": [
-        176,
-        7
-      ]
-    },
-    {
-      "id": 2561388488129212,
-      "plugin": "LilacModules",
-      "model": "Comparator",
-      "version": "2.0.3",
-      "params": [
-        {
-          "value": 0.0,
-          "id": 0
-        }
-      ],
-      "leftModuleId": 7272795768627218,
-      "rightModuleId": 3759264254323433,
-      "data": {
-        "tolerance": 0.2999998927116394
-      },
-      "pos": [
-        179,
-        7
-      ]
-    },
-    {
-      "id": 6220534911411089,
+      "id": 215242116712360,
       "plugin": "Fundamental",
-      "model": "VCA-1",
+      "model": "CVMix",
       "version": "2.6.4",
       "params": [
         {
-          "value": 1.0,
-          "id": 0
-        },
-        {
-          "value": 1.0,
-          "id": 1
-        }
-      ],
-      "leftModuleId": 6879861396734398,
-      "rightModuleId": 7579253384057028,
-      "pos": [
-        170,
-        7
-      ]
-    },
-    {
-      "id": 3759264254323433,
-      "plugin": "CVfunk",
-      "model": "Signals",
-      "version": "2.0.55",
-      "params": [
-        {
-          "value": 0.68756961822509766,
+          "value": 0.0,
           "id": 0
         },
         {
@@ -79,85 +15,105 @@
           "id": 1
         },
         {
-          "value": 1.0,
+          "value": 0.0,
           "id": 2
+        }
+      ],
+      "leftModuleId": 4152099342527454,
+      "rightModuleId": 4330835934364095,
+      "pos": [
+        54,
+        2
+      ]
+    },
+    {
+      "id": 3805146632497701,
+      "plugin": "Fundamental",
+      "model": "CVMix",
+      "version": "2.6.4",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
         },
         {
           "value": 0.0,
-          "id": 3
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
         }
       ],
-      "leftModuleId": 2561388488129212,
-      "data": {
-        "retriggerEnabled": false
-      },
+      "leftModuleId": 4330835934364095,
+      "rightModuleId": 1012125120987526,
       "pos": [
-        182,
-        7
+        60,
+        2
       ]
     },
     {
-      "id": 5673567933527536,
-      "plugin": "StochasticTelegraph",
-      "model": "Fermata",
-      "version": "2.0.30",
-      "params": [],
-      "rightModuleId": 5620206684685207,
-      "data": {
-        "text": "DOUBLE CROSS STEP\n=================\n\nTwo MINISTEPS run off triggers passing through MULT. Set their period lengths independently if you want. Step length is controlled by a CVMIX whose three attenuverters:\n\n1. Static voltage, unless you plug something in\n\n2. Feedback from this MINISTEP\n\n3. Cross-feedback from other MINISTEP\n\nAvailable at the end of the chain are:\n\n- Both MINISTEP outputs\n- Ring-mod product of the MINISTEP outputs\n- Gates from passing each of these through COMPARATORs\n\nadd feedback, add complexity\n \n",
-        "width": 3,
-        "screen_colors": 45848490672128,
-        "font_choice": "fonts/RobotoMono-Bold.ttf",
-        "visible_lines": 28,
-        "title_text": "DOUBLE CROSS STEP"
-      },
-      "pos": [
-        149,
-        7
-      ]
-    },
-    {
-      "id": 5620206684685207,
-      "plugin": "Fundamental",
-      "model": "Mult",
-      "version": "2.6.4",
-      "params": [],
-      "leftModuleId": 5673567933527536,
-      "rightModuleId": 5071860515752859,
-      "pos": [
-        152,
-        7
-      ]
-    },
-    {
-      "id": 6879861396734398,
+      "id": 4152099342527454,
       "plugin": "Bogaudio",
       "model": "Bogaudio-Mult",
       "version": "2.6.47",
       "params": [],
-      "leftModuleId": 8793862457249547,
-      "rightModuleId": 6220534911411089,
+      "leftModuleId": 1657357040086411,
+      "rightModuleId": 215242116712360,
       "data": {},
       "pos": [
-        167,
-        7
+        51,
+        2
       ]
     },
     {
-      "id": 8793862457249547,
+      "id": 8356118953499768,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-Mult",
+      "version": "2.6.47",
+      "params": [],
+      "leftModuleId": 1012125120987526,
+      "data": {},
+      "pos": [
+        66,
+        2
+      ]
+    },
+    {
+      "id": 1657357040086411,
+      "plugin": "StochasticTelegraph",
+      "model": "Fermata",
+      "version": "2.0.30",
+      "params": [],
+      "rightModuleId": 4152099342527454,
+      "data": {
+        "text": "REMODULON\n=========\n\nTwo MINISTEPS run off triggers passing through MULT. Set their period lengths independently in the \"MAX\" field if you want. Prime ratios of step length to \"MAX\" evoke intrigue and romance - and if \"MAX\" is prime, every step length is relatively prime. Higher modulo values are more conducive to chaotic perturbation.\n\nStep length is controlled by a CVMIX whose three attenuverters balance:\n\n1. Static voltage, unless you plug something in\n2. Feedback from this MINISTEP\n3. Cross-feedback from other MINISTEP.\n\nSequences grow less periodic with more feedback, and cross-feedback between the oscillators can bring you to some very strange places indeed.\n\nBut wait there's more. We'll also send you an LLFO to drive the thing with, plus a chest of useful tools - from a simple crossfade and lightweight comparator to a highly flexible clock divider and even FEIGEN which does the same thing as REMODULON sort of except different and cooler. Find them in the nearby selection <friends of remodulon.vcvs>.",
+        "width": 4,
+        "screen_colors": 45848490672128,
+        "font_choice": "fonts/RobotoMono-Bold.ttf",
+        "visible_lines": 28,
+        "title_text": "REMODULON"
+      },
+      "pos": [
+        47,
+        2
+      ]
+    },
+    {
+      "id": 4330835934364095,
       "plugin": "PdArray",
       "model": "Ministep",
       "version": "2.1.1",
       "params": [],
-      "leftModuleId": 4870370542435796,
-      "rightModuleId": 6879861396734398,
+      "leftModuleId": 215242116712360,
+      "rightModuleId": 3805146632497701,
       "data": {
-        "nSteps": 31,
+        "nSteps": 10,
         "offsetByHalfStep": false,
         "stepScaleMode": 1,
         "outputScaleMode": 0,
         "currentStep": [
-          4,
+          0,
           0,
           0,
           0,
@@ -176,98 +132,25 @@
         ]
       },
       "pos": [
-        164,
-        7
+        57,
+        2
       ]
     },
     {
-      "id": 5071860515752859,
-      "plugin": "Fundamental",
-      "model": "CVMix",
-      "version": "2.6.4",
-      "params": [
-        {
-          "value": 0.0,
-          "id": 0
-        },
-        {
-          "value": 0.0,
-          "id": 1
-        },
-        {
-          "value": 0.0,
-          "id": 2
-        }
-      ],
-      "leftModuleId": 5620206684685207,
-      "rightModuleId": 8691921009581890,
-      "pos": [
-        155,
-        7
-      ]
-    },
-    {
-      "id": 7579253384057028,
-      "plugin": "LilacModules",
-      "model": "Comparator",
-      "version": "2.0.3",
-      "params": [
-        {
-          "value": 2.3373496532440186,
-          "id": 0
-        }
-      ],
-      "leftModuleId": 6220534911411089,
-      "rightModuleId": 7272795768627218,
-      "data": {
-        "tolerance": 0.37900033593177795
-      },
-      "pos": [
-        173,
-        7
-      ]
-    },
-    {
-      "id": 4870370542435796,
-      "plugin": "Fundamental",
-      "model": "CVMix",
-      "version": "2.6.4",
-      "params": [
-        {
-          "value": 0.0,
-          "id": 0
-        },
-        {
-          "value": 0.0,
-          "id": 1
-        },
-        {
-          "value": 0.0,
-          "id": 2
-        }
-      ],
-      "leftModuleId": 8691921009581890,
-      "rightModuleId": 8793862457249547,
-      "pos": [
-        161,
-        7
-      ]
-    },
-    {
-      "id": 8691921009581890,
+      "id": 1012125120987526,
       "plugin": "PdArray",
       "model": "Ministep",
       "version": "2.1.1",
       "params": [],
-      "leftModuleId": 5071860515752859,
-      "rightModuleId": 4870370542435796,
+      "leftModuleId": 3805146632497701,
+      "rightModuleId": 8356118953499768,
       "data": {
-        "nSteps": 31,
+        "nSteps": 10,
         "offsetByHalfStep": false,
         "stepScaleMode": 1,
         "outputScaleMode": 0,
         "currentStep": [
-          21,
+          0,
           0,
           0,
           0,
@@ -286,179 +169,91 @@
         ]
       },
       "pos": [
-        158,
-        7
+        63,
+        2
       ]
     }
   ],
   "cables": [
     {
-      "id": 2902310955510161,
-      "outputModuleId": 8691921009581890,
+      "id": 420886155179528,
+      "outputModuleId": 4330835934364095,
       "outputId": 0,
-      "inputModuleId": 6220534911411089,
+      "inputModuleId": 8356118953499768,
       "inputId": 0,
-      "color": "#531b93"
+      "color": "#dd6600"
     },
     {
-      "id": 5661250619707944,
-      "outputModuleId": 8793862457249547,
+      "id": 1620637655441398,
+      "outputModuleId": 1012125120987526,
       "outputId": 0,
-      "inputModuleId": 6220534911411089,
+      "inputModuleId": 8356118953499768,
       "inputId": 1,
-      "color": "#bb88ff"
+      "color": "#ff8b37"
     },
     {
-      "id": 3885683397833778,
-      "outputModuleId": 8691921009581890,
+      "id": 36619454824556,
+      "outputModuleId": 4330835934364095,
       "outputId": 0,
-      "inputModuleId": 6879861396734398,
-      "inputId": 0,
-      "color": "#531b93"
-    },
-    {
-      "id": 2049536808234865,
-      "outputModuleId": 8793862457249547,
-      "outputId": 0,
-      "inputModuleId": 6879861396734398,
+      "inputModuleId": 215242116712360,
       "inputId": 1,
-      "color": "#bb88ff"
+      "color": "#ffbb22"
     },
     {
-      "id": 2547399850722986,
-      "outputModuleId": 6879861396734398,
+      "id": 1151795363408218,
+      "outputModuleId": 1012125120987526,
       "outputId": 0,
-      "inputModuleId": 3759264254323433,
-      "inputId": 0,
-      "color": "#531b93"
-    },
-    {
-      "id": 6726159204808610,
-      "outputModuleId": 7579253384057028,
-      "outputId": 1,
-      "inputModuleId": 3759264254323433,
-      "inputId": 1,
-      "color": "#531b93"
-    },
-    {
-      "id": 84544365732305,
-      "outputModuleId": 6879861396734398,
-      "outputId": 3,
-      "inputModuleId": 3759264254323433,
+      "inputModuleId": 215242116712360,
       "inputId": 2,
-      "color": "#bb88ff"
+      "color": "#ffbb22"
     },
     {
-      "id": 602398915807658,
-      "outputModuleId": 7272795768627218,
-      "outputId": 1,
-      "inputModuleId": 3759264254323433,
-      "inputId": 3,
-      "color": "#bb88ff"
-    },
-    {
-      "id": 2359222890463235,
-      "outputModuleId": 6220534911411089,
+      "id": 6636161517587306,
+      "outputModuleId": 1012125120987526,
       "outputId": 0,
-      "inputModuleId": 3759264254323433,
-      "inputId": 4,
-      "color": "#0096ff"
-    },
-    {
-      "id": 1702140379297327,
-      "outputModuleId": 2561388488129212,
-      "outputId": 1,
-      "inputModuleId": 3759264254323433,
-      "inputId": 5,
-      "color": "#0096ff"
-    },
-    {
-      "id": 1607457936843320,
-      "outputModuleId": 8793862457249547,
-      "outputId": 0,
-      "inputModuleId": 4870370542435796,
+      "inputModuleId": 3805146632497701,
       "inputId": 1,
-      "color": "#bb88ff"
+      "color": "#ffbb22"
     },
     {
-      "id": 2562316453724451,
-      "outputModuleId": 8691921009581890,
+      "id": 4554280679098644,
+      "outputModuleId": 4330835934364095,
       "outputId": 0,
-      "inputModuleId": 4870370542435796,
+      "inputModuleId": 3805146632497701,
       "inputId": 2,
-      "color": "#531b93"
+      "color": "#ffbb22"
     },
     {
-      "id": 2220801773580473,
-      "outputModuleId": 8691921009581890,
+      "id": 7669467627967319,
+      "outputModuleId": 4152099342527454,
       "outputId": 0,
-      "inputModuleId": 5071860515752859,
-      "inputId": 1,
-      "color": "#531b93"
-    },
-    {
-      "id": 8302766066831232,
-      "outputModuleId": 8793862457249547,
-      "outputId": 0,
-      "inputModuleId": 5071860515752859,
-      "inputId": 2,
-      "color": "#bb88ff"
-    },
-    {
-      "id": 8820974455590988,
-      "outputModuleId": 5071860515752859,
-      "outputId": 0,
-      "inputModuleId": 8691921009581890,
-      "inputId": 3,
-      "color": "#531b93"
-    },
-    {
-      "id": 6915803367130776,
-      "outputModuleId": 4870370542435796,
-      "outputId": 0,
-      "inputModuleId": 8793862457249547,
-      "inputId": 3,
-      "color": "#bb88ff"
-    },
-    {
-      "id": 6256282735758756,
-      "outputModuleId": 6879861396734398,
-      "outputId": 0,
-      "inputModuleId": 7579253384057028,
-      "inputId": 1,
-      "color": "#531b93"
-    },
-    {
-      "id": 4752651593440272,
-      "outputModuleId": 6879861396734398,
-      "outputId": 3,
-      "inputModuleId": 7272795768627218,
-      "inputId": 1,
-      "color": "#bb88ff"
-    },
-    {
-      "id": 2072721219698943,
-      "outputModuleId": 6220534911411089,
-      "outputId": 0,
-      "inputModuleId": 2561388488129212,
-      "inputId": 1,
-      "color": "#0096ff"
-    },
-    {
-      "id": 2638268750263038,
-      "outputModuleId": 5620206684685207,
-      "outputId": 0,
-      "inputModuleId": 8691921009581890,
+      "inputModuleId": 4330835934364095,
       "inputId": 1,
       "color": "#ff0000"
     },
     {
-      "id": 3243833483275203,
-      "outputModuleId": 5620206684685207,
+      "id": 7481972401415107,
+      "outputModuleId": 215242116712360,
+      "outputId": 0,
+      "inputModuleId": 4330835934364095,
+      "inputId": 3,
+      "color": "#ffbb22"
+    },
+    {
+      "id": 3960805485727312,
+      "outputModuleId": 4152099342527454,
       "outputId": 1,
-      "inputModuleId": 8793862457249547,
+      "inputModuleId": 1012125120987526,
       "inputId": 1,
       "color": "#ff0000"
+    },
+    {
+      "id": 6747728884410965,
+      "outputModuleId": 3805146632497701,
+      "outputId": 0,
+      "inputModuleId": 1012125120987526,
+      "inputId": 3,
+      "color": "#ffbb22"
     }
   ]
 }

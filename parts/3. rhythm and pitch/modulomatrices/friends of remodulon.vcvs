@@ -1,0 +1,292 @@
+{
+  "modules": [
+    {
+      "id": 52484795897630,
+      "plugin": "VultMysteries",
+      "model": "Feigen",
+      "version": "2.0.17",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 2.0,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        },
+        {
+          "value": 0.0,
+          "id": 5
+        },
+        {
+          "value": 0.5,
+          "id": 6
+        }
+      ],
+      "leftModuleId": 6657037707436166,
+      "rightModuleId": 3815124156163627,
+      "data": {
+        "x1": 0.32689610123634338,
+        "x2": 0.36156657338142395
+      },
+      "pos": [
+        150,
+        2
+      ]
+    },
+    {
+      "id": 798193112043426,
+      "plugin": "Fundamental",
+      "model": "VCA-1",
+      "version": "2.6.4",
+      "params": [
+        {
+          "value": 1.0,
+          "id": 0
+        },
+        {
+          "value": 1.0,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 8873536485976504,
+      "rightModuleId": 2145216558125717,
+      "pos": [
+        137,
+        2
+      ]
+    },
+    {
+      "id": 2145216558125717,
+      "plugin": "LilacModules",
+      "model": "Comparator",
+      "version": "2.0.3",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        }
+      ],
+      "leftModuleId": 798193112043426,
+      "rightModuleId": 4131315575977071,
+      "data": {
+        "tolerance": 0.0
+      },
+      "pos": [
+        140,
+        2
+      ]
+    },
+    {
+      "id": 4131315575977071,
+      "plugin": "Ohmer",
+      "model": "RKD",
+      "version": "2.6.13",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 1.0,
+          "id": 2
+        },
+        {
+          "value": 1.0,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        },
+        {
+          "value": 0.0,
+          "id": 5
+        }
+      ],
+      "leftModuleId": 2145216558125717,
+      "rightModuleId": 6657037707436166,
+      "data": {
+        "visiblePCB": false,
+        "jmprCountingDown": false,
+        "jmprGate": false,
+        "jmprMaxDivRange16": true,
+        "jmprMaxDivRange32": true,
+        "jmprSpread": false,
+        "jmprAutoReset": false,
+        "tableSet": 4
+      },
+      "pos": [
+        143,
+        2
+      ]
+    },
+    {
+      "id": 8873536485976504,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-XFade",
+      "version": "2.6.47",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.5,
+          "id": 1
+        },
+        {
+          "value": 1.0,
+          "id": 2
+        }
+      ],
+      "leftModuleId": 4318405816629772,
+      "rightModuleId": 798193112043426,
+      "data": {},
+      "pos": [
+        134,
+        2
+      ]
+    },
+    {
+      "id": 4318405816629772,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-LLFO",
+      "version": "2.6.47",
+      "params": [
+        {
+          "value": 2.2905659675598145,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 5.0,
+          "id": 2
+        },
+        {
+          "value": 1.0,
+          "id": 3
+        },
+        {
+          "value": 1.0,
+          "id": 4
+        }
+      ],
+      "leftModuleId": 6852482002269709,
+      "rightModuleId": 8873536485976504,
+      "data": {
+        "offset_scale": 1.0,
+        "output_sampling": 0.0,
+        "pulse_width": -0.85106378793716431,
+        "smoothing": 0.0,
+        "reset_on_wave_change": false
+      },
+      "pos": [
+        131,
+        2
+      ]
+    },
+    {
+      "id": 6657037707436166,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-SampleHold",
+      "version": "2.6.47",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        },
+        {
+          "value": 0.0,
+          "id": 5
+        }
+      ],
+      "leftModuleId": 4131315575977071,
+      "rightModuleId": 52484795897630,
+      "data": {
+        "poly_input": 0,
+        "noise_type": 0,
+        "range_offset": 1.0,
+        "range_scale": 5.0,
+        "smoothing_ms": 0.0
+      },
+      "pos": [
+        147,
+        2
+      ]
+    },
+    {
+      "id": 6852482002269709,
+      "plugin": "StochasticTelegraph",
+      "model": "Fermata",
+      "version": "2.0.30",
+      "params": [],
+      "rightModuleId": 4318405816629772,
+      "data": {
+        "text": "FRIENDS OF REMODULON\n====================\n\nTools I find useful to apply to REMODULON.\n\nLLFO\nMy preferred source of gates. Simple and controllable.\n\nXFADE\nCombine different sequences, on different clocks, in different conceptual gestalts, thesis and counterthesis.\n\nVCA\nRing-modulating two patterns together can produce novel results, more lively than a crossfade but less flexible\n\nCOMPARATOR\nAn information reducer turning complex signals into complex binary rhythms. All outputs useful. A narrow-band \"A=B\" detection can produce rhythms that reward fine-tuning and patience.\n\nRKD\nA clock divider. Paired with a S&H (included) it convolutes cyclic patterns and can reveal hidden recurrences in more complex ones\n\nFEIGEN\nAn honest to goodness model of Edward Lorenz's logistic map equation. \"GROWTH\" is analogous to REMODULON's same-channel feedback control. Outputs from high values are properly formally chaotic. The function it uses has a term in it REMODULON's does not, it bifurcates, look it up, there's a great wikipedia. Run it off the same clock and use the rest of these tools to compare it to a REMODULON, or you know do whatever",
+        "width": 3,
+        "screen_colors": 45848490672128,
+        "font_choice": "fonts/RobotoMono-Bold.ttf",
+        "visible_lines": 28,
+        "title_text": "friends of remodulon"
+      },
+      "pos": [
+        128,
+        2
+      ]
+    },
+    {
+      "id": 3815124156163627,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 52484795897630,
+      "data": {
+        "text": "friends of remodulon",
+        "fg": "#ff7dec",
+        "bg": "#000000"
+      },
+      "pos": [
+        158,
+        2
+      ]
+    }
+  ],
+  "cables": []
+}
