@@ -1,0 +1,41 @@
+AMPL MOD SAW STEP
+=================
+The concept here is yet another STEPAROUND  but using a pair of ring-modulated sawtooth waves.
+
+The RM'd sawtooth signal passes to a CMP to make triggers. Triggers pass to a S&H that samples from a XFADE combining the two original sawtooths. The sampled voltage and triggers are interdependent!
+
+This concept survived the 11/2026 reduction of all the STEPAROUNDs to just REMODULON because the ring mod structure gives it some added juice. Saved in the PARTS dept. as <AM steps.vcvs>
+
+
+REMODULON
+=========
+The most recent revision of the STEPAROUND concept - two modulo oscillators with self- and cross-feedback. See the PARTS folder for details.
+
+
+INTEREA CHORUS
+==============
+A couple things are going on in this patch -
+
+INTEREA produces a 4-pitch chord. Its voicing and inversion knobs don't anything in this patch, so it could be replaced by another polyphonic signal source. Use CV to the left to modulate this chord by fifths.
+
+This chord goes to COERCE6, where it's quantized to a JI-5 set by 12 JUST TONES. 12JT is in turn chaotically modulated by FEIGEN. This serves to move the pythagorean comma of the pitch set around - meaning some of the voltages occasionally shift by 0.02V.
+
+This JI-quantized chord is then fed back into COERCE6's second Quantize input, to serve as the pitch array for another input - KNOB 5's array of four voltages separated by 0.7V. Thus, the chord selected by INTEREA is voiced in (approximately) stacked sixths.
+
+a BASIC VCO voices these and sends to an effects bank. A cool trick with COIL happens here: Gently modulating the Spacing parameter creates some phaser-like shimmer. It's INTEREA-sting!!!!!
+
+
+FEIG PITCH ARRAY
+================
+A patch demonstrating two applications of (pseudo-)chaos.
+
+This one's buit around the KNOLY POBS, which puts out an array of 7 pitches at alternating major and minor third intervals - it's actually two different 3:2 sequences separated by a 5:4 ratio and interleaved, or in pitch class terms, [F, A, C, E, G, B, D]. The TOLY POOLS selects two (or more!) adjacent channels of this signal and passes them to the WAVETABLE VCO.
+
+That VCO's wavetable - and the VCF that follows - are modulated by a MINISTEP with a feedback circuit, to make the timbre dance a little. And then hey presto there's reverb.
+
+
+SORTIN' SHIFTER
+===============
+This is a device that uses a SHIFT REGISTER to sample a signal, bundle some number of these samples with another source (static voltage, oscillation, whatever) via MRG8, and sort them, high to low, into interdependent zbut not parallel streams. 
+
+Different kinds of inputs (periodic, chaotic, static) will cause it to behave in all sorts of different ways. The order that cables are plugged into the MRG8 doesn't matter, but how many, and which ones, does. Tap any signal, or group of signals, from the SPLT8 - they'll never be quite identical.

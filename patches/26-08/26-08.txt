@@ -1,0 +1,26 @@
+DOUBLE SWOOP ADDER
+==================
+Two channels of GLEE pass to a (very useful) POLARITY SWITCH. 
+
+Besides being the master pitch signal, through CMP and POLY LOGIC this gates a chord change signal to the SEQUENTIAL SWITCHs above as well as the ADDITATOR output through MIX4.
+
+But what about the harmony? Parallel pitch signals pass through parallel COERCEs. Pitch sets come from SEQUENTIAL SWITCHs scanning four harmonies:
+
+Dm7 - Gm7(9,11) - Cm7(9,11) - Fm7
+
+DISTRIBUTEs focus these harmonies on the middle two; the trigger to draw a new harmony comes from an LLFO gated by the GLEE signal as described above, so we don't change harmonies mid-swell. Then there's reverb.
+
+
+PHO FM BAND HUM
+===============
+Overall what you got here is a little hum made from a complex FM oscillation (PHO set to harmonics 9,12,14,16 - Dream House partials - modulates the PRB oscillator), then put through BAND to pinch out specific frequencies. Notice everything is hooked up to the incoming MIDI pitch, but different oscillators have different octave shifts... 
+
+
+TRIPLASTIGONG
+=============
+Filtered SLAP excites three ELASTIKAs, who go BONGGGGGGG
+
+
+ELASTIK BAND
+============
+Further adventures in tuned  narrow-band noise filtering

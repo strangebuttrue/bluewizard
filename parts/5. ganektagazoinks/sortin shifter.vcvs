@@ -1,16 +1,89 @@
 {
   "modules": [
     {
+      "id": 3843294018355055,
+      "plugin": "StochasticTelegraph",
+      "model": "Fermata",
+      "version": "2.0.30",
+      "params": [],
+      "rightModuleId": 3208280118270841,
+      "data": {
+        "text": "the SORTIN' SHIFTER\n===============\nThis is a device that uses a SHIFT REGISTER to sample a signal, bundle some number of these samples with another source (static voltage, oscillation, whatever) via MRG8, and sort them, high to low, into interdependent but not parallel streams. \n\nDifferent kinds of inputs (periodic, chaotic, static) will cause it to behave in all sorts of different ways. The order that cables are plugged into the MRG8 doesn't matter, but how many, and which ones, does. Tap any signal, or group of signals, from the SPLT8 - they'll never be quite identical.",
+        "width": 3,
+        "screen_colors": 1095216660480,
+        "font_choice": "fonts/RobotoMono-Medium.ttf",
+        "visible_lines": 28,
+        "title_text": "SORTIN' SHIFTER"
+      },
+      "pos": [
+        2,
+        0
+      ]
+    },
+    {
       "id": 3208280118270841,
       "plugin": "Bogaudio",
       "model": "Bogaudio-Mult",
       "version": "2.6.47",
       "params": [],
+      "leftModuleId": 3843294018355055,
       "rightModuleId": 4713061801698911,
       "data": {},
       "pos": [
-        33,
-        3
+        5,
+        0
+      ]
+    },
+    {
+      "id": 1457978750791339,
+      "plugin": "CountModula",
+      "model": "PolyMinMax",
+      "version": "2.6.0",
+      "params": [],
+      "leftModuleId": 2229243646998674,
+      "rightModuleId": 7706398696286593,
+      "data": {
+        "moduleVersion": 2,
+        "theme": 5
+      },
+      "pos": [
+        14,
+        0
+      ]
+    },
+    {
+      "id": 7706398696286593,
+      "plugin": "CountModula",
+      "model": "SampleAndHold",
+      "version": "2.6.0",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        }
+      ],
+      "leftModuleId": 1457978750791339,
+      "rightModuleId": 7317698103246124,
+      "data": {
+        "moduleVersion": 3,
+        "theme": 5
+      },
+      "pos": [
+        18,
+        0
+      ]
+    },
+    {
+      "id": 7317698103246124,
+      "plugin": "GrandeModular",
+      "model": "Split8",
+      "version": "2.8.0",
+      "params": [],
+      "leftModuleId": 7706398696286593,
+      "rightModuleId": 3413075337435765,
+      "pos": [
+        22,
+        0
       ]
     },
     {
@@ -25,21 +98,8 @@
         "channels_merge": -1
       },
       "pos": [
-        40,
-        3
-      ]
-    },
-    {
-      "id": 7317698103246124,
-      "plugin": "GrandeModular",
-      "model": "Split8",
-      "version": "2.8.0",
-      "params": [],
-      "leftModuleId": 7706398696286593,
-      "rightModuleId": 3413075337435765,
-      "pos": [
-        50,
-        3
+        12,
+        0
       ]
     },
     {
@@ -184,47 +244,8 @@
         ]
       },
       "pos": [
-        36,
-        3
-      ]
-    },
-    {
-      "id": 7706398696286593,
-      "plugin": "CountModula",
-      "model": "SampleAndHold",
-      "version": "2.6.0",
-      "params": [
-        {
-          "value": 0.0,
-          "id": 0
-        }
-      ],
-      "leftModuleId": 1457978750791339,
-      "rightModuleId": 7317698103246124,
-      "data": {
-        "moduleVersion": 3,
-        "theme": 5
-      },
-      "pos": [
-        46,
-        3
-      ]
-    },
-    {
-      "id": 1457978750791339,
-      "plugin": "CountModula",
-      "model": "PolyMinMax",
-      "version": "2.6.0",
-      "params": [],
-      "leftModuleId": 2229243646998674,
-      "rightModuleId": 7706398696286593,
-      "data": {
-        "moduleVersion": 2,
-        "theme": 5
-      },
-      "pos": [
-        42,
-        3
+        8,
+        0
       ]
     },
     {
@@ -240,20 +261,12 @@
         "bg": "#000000"
       },
       "pos": [
-        52,
-        3
+        24,
+        0
       ]
     }
   ],
   "cables": [
-    {
-      "id": 1692839169886727,
-      "outputModuleId": 2229243646998674,
-      "outputId": 0,
-      "inputModuleId": 1457978750791339,
-      "inputId": 0,
-      "color": "#dd6600"
-    },
     {
       "id": 6290369846090195,
       "outputModuleId": 1457978750791339,
@@ -261,14 +274,6 @@
       "inputModuleId": 7706398696286593,
       "inputId": 0,
       "color": "#dd6600"
-    },
-    {
-      "id": 7665231152271461,
-      "outputModuleId": 3208280118270841,
-      "outputId": 3,
-      "inputModuleId": 4713061801698911,
-      "inputId": 1,
-      "color": "#ff0000"
     },
     {
       "id": 362030520862223,
@@ -279,11 +284,19 @@
       "color": "#ff0000"
     },
     {
-      "id": 3952761114909275,
-      "outputModuleId": 7706398696286593,
+      "id": 825765686076186,
+      "outputModuleId": 4713061801698911,
       "outputId": 0,
-      "inputModuleId": 7317698103246124,
+      "inputModuleId": 2229243646998674,
       "inputId": 0,
+      "color": "#dd6600"
+    },
+    {
+      "id": 8319830774561213,
+      "outputModuleId": 4713061801698911,
+      "outputId": 1,
+      "inputModuleId": 2229243646998674,
+      "inputId": 1,
       "color": "#dd6600"
     },
     {
@@ -300,30 +313,6 @@
       "outputId": 3,
       "inputModuleId": 2229243646998674,
       "inputId": 3,
-      "color": "#dd6600"
-    },
-    {
-      "id": 8319830774561213,
-      "outputModuleId": 4713061801698911,
-      "outputId": 1,
-      "inputModuleId": 2229243646998674,
-      "inputId": 1,
-      "color": "#dd6600"
-    },
-    {
-      "id": 825765686076186,
-      "outputModuleId": 4713061801698911,
-      "outputId": 0,
-      "inputModuleId": 2229243646998674,
-      "inputId": 0,
-      "color": "#dd6600"
-    },
-    {
-      "id": 988541560616496,
-      "outputModuleId": 3208280118270841,
-      "outputId": 0,
-      "inputModuleId": 4713061801698911,
-      "inputId": 0,
       "color": "#dd6600"
     },
     {
@@ -356,6 +345,38 @@
       "outputId": 7,
       "inputModuleId": 2229243646998674,
       "inputId": 7,
+      "color": "#dd6600"
+    },
+    {
+      "id": 3952761114909275,
+      "outputModuleId": 7706398696286593,
+      "outputId": 0,
+      "inputModuleId": 7317698103246124,
+      "inputId": 0,
+      "color": "#dd6600"
+    },
+    {
+      "id": 988541560616496,
+      "outputModuleId": 3208280118270841,
+      "outputId": 0,
+      "inputModuleId": 4713061801698911,
+      "inputId": 0,
+      "color": "#dd6600"
+    },
+    {
+      "id": 7665231152271461,
+      "outputModuleId": 3208280118270841,
+      "outputId": 3,
+      "inputModuleId": 4713061801698911,
+      "inputId": 1,
+      "color": "#ff0000"
+    },
+    {
+      "id": 1692839169886727,
+      "outputModuleId": 2229243646998674,
+      "outputId": 0,
+      "inputModuleId": 1457978750791339,
+      "inputId": 0,
       "color": "#dd6600"
     }
   ]
