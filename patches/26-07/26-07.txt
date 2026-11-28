@@ -1,0 +1,10 @@
+CRYSTAL BINGER
+==============
+Narrow-band filters again - this time RAIN into BAND. POLYGENE triggers the envelopes. And: there's reverb!
+
+
+SAWSBAND
+========
+Three SAWSs tuned to a minor chord feed three BANDs. From each BAND cometh four filtered oscillations. 
+
+Press the top PUSH and it triggers all three ASSIGNs; lower PUSHs trigger one channel at a time. ASSIGNs trigger DADSRs, so we hear one filter of each BAND at a time. Then there's reverb. IT SOUNDS RAD
